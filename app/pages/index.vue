@@ -9,6 +9,7 @@
       <PurificationSection />
       <ComparisonTable />
       <CertificationsSection />
+      <FaqSection />
       <BlogPreview />
     </main>
     <AppFooter />
