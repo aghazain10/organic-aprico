@@ -1,10 +1,14 @@
 <template>
   <div v-if="post">
     <AppNav :count="cartCount" @open-cart="openCart" />
+    <div class="blog-breadcrumb">
+      <div class="wrap">
+        <NuxtLink to="/blogs/blog">← Back to Blog</NuxtLink>
+      </div>
+    </div>
     <main class="blog-post">
       <article class="wrap">
         <div class="post-header">
-          <NuxtLink to="/blogs/blog" class="back-link">← Back to Blog</NuxtLink>
           <time :datetime="post.dateISO">{{ post.date }}</time>
           <h1>{{ post.title }}</h1>
         </div>
@@ -51,20 +55,25 @@ if (post) {
 
 <style scoped>
 .blog-post {
-  padding: calc(var(--nav-h) + 2rem) 0 var(--section);
+  padding-top: 1rem;
+  padding-bottom: var(--section);
 }
+
+.blog-breadcrumb {
+  padding: .75rem 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.blog-breadcrumb a {
+  color: var(--gold);
+  font-size: .9rem;
+  transition: color .2s;
+}
+.blog-breadcrumb a:hover { color: var(--gold-bright); }
+
 .post-header {
   max-width: 800px;
   margin: 0 auto 2rem;
 }
-.back-link {
-  display: inline-block;
-  color: var(--gold);
-  font-size: .9rem;
-  margin-bottom: 1rem;
-  transition: color .2s;
-}
-.back-link:hover { color: var(--gold-bright); }
 
 .post-header time {
   display: block;
