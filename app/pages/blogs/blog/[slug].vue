@@ -61,6 +61,7 @@ if (post) {
 
 .blog-breadcrumb {
   padding: .75rem 0;
+  margin-top: 76px;
   border-bottom: 1px solid var(--line-soft);
 }
 .blog-breadcrumb a {
