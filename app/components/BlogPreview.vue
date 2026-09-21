@@ -21,16 +21,12 @@
           <NuxtLink :to="`/blogs/blog/${post.slug}`" class="blog-card-link">
             <div class="blog-thumb">
               <img
-                v-if="post.image"
-                :src="post.image"
-                :alt="post.title"
+                :src="post.heroImage"
+                :alt="post.heroAlt"
                 loading="lazy"
                 width="400"
                 height="240"
               >
-              <div v-else class="blog-thumb-placeholder">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" opacity=".3"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-              </div>
             </div>
             <div class="blog-card-body">
               <span class="blog-date">{{ post.date }}</span>
@@ -55,37 +51,9 @@
 </template>
 
 <script setup lang="ts">
-interface BlogPost {
-  slug: string
-  title: string
-  excerpt: string
-  date: string
-  image: string | null
-}
+import { getRecentPosts } from '~/data/blogs'
 
-const posts: BlogPost[] = [
-  {
-    slug: 'what-is-shilajit',
-    title: 'What is Shilajit? Complete Guide',
-    excerpt: 'Everything you need to know about Himalayan shilajit — where it comes from, what it does and how to use it.',
-    date: 'Jan 15, 2026',
-    image: null,
-  },
-  {
-    slug: 'shilajit-benefits-for-men',
-    title: 'Shilajit Benefits for Men',
-    excerpt: 'From testosterone support to muscle recovery, here is what the research says about shilajit for men.',
-    date: 'Feb 3, 2026',
-    image: null,
-  },
-  {
-    slug: 'how-to-take-shilajit-resin',
-    title: 'How to Take Shilajit Resin',
-    excerpt: 'The right way to dissolve, dose and store shilajit resin for maximum benefits.',
-    date: 'Feb 20, 2026',
-    image: null,
-  },
-]
+const posts = getRecentPosts(6)
 
 const track = ref<HTMLElement | null>(null)
 const current = ref(0)
