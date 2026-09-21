@@ -45,7 +45,7 @@ useSeoMeta({
 
 <style scoped>
 .blog-listing {
-  padding: calc(var(--nav-h) + 2rem) 0 var(--section);
+  padding: calc(76px + 2rem) 0 var(--section);
 }
 .blog-listing h1 {
   font-size: clamp(2rem, 3.5vw, 3rem);
