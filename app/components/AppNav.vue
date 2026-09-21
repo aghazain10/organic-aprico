@@ -1,16 +1,16 @@
 <template>
   <header class="nav" :class="{ scrolled }">
     <div class="wrap nav-inner">
-      <a href="#top" class="brand">
+      <a href="/#top" class="brand">
         Organic Aprico
         <span class="brand-sub">Skardu, Gilgit Baltistan</span>
       </a>
       <nav class="nav-links" aria-label="Main">
-        <a href="#about">Shilajit</a>
-        <a href="#products">Products</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#purification">Purification</a>
-        <a href="#difference">Why us</a>
+        <a href="/#about">Shilajit</a>
+        <a href="/#products">Products</a>
+        <a href="/#benefits">Benefits</a>
+        <a href="/#purification">Purification</a>
+        <a href="/#difference">Why us</a>
       </nav>
       <div class="nav-actions">
         <button class="cart-btn" aria-label="Open cart" @click="emit('open-cart')">
@@ -34,11 +34,11 @@
 
     <div class="mobile-menu" :class="{ open: menuOpen }">
       <nav class="mobile-nav" aria-label="Mobile">
-        <a href="#about" @click="close">Shilajit</a>
-        <a href="#products" @click="close">Products</a>
-        <a href="#benefits" @click="close">Benefits</a>
-        <a href="#purification" @click="close">Purification</a>
-        <a href="#difference" @click="close">Why us</a>
+        <a href="/#about" @click="close">Shilajit</a>
+        <a href="/#products" @click="close">Products</a>
+        <a href="/#benefits" @click="close">Benefits</a>
+        <a href="/#purification" @click="close">Purification</a>
+        <a href="/#difference" @click="close">Why us</a>
         <NuxtLink to="/purification" @click="close">Purification Process</NuxtLink>
         <NuxtLink to="/certifications" @click="close">Certifications</NuxtLink>
       </nav>

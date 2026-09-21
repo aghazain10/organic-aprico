@@ -6,8 +6,8 @@
         <h1>Pure Himalayan shilajit from 17,000 feet.</h1>
         <p class="lede">Licensed extractor. Purified in eight stages, lab tested, shipped worldwide.</p>
         <div class="hero-actions">
-          <a href="#products" class="btn btn-gold">Shop shilajit</a>
-          <a href="#purification" class="btn btn-ghost">See how it is purified</a>
+          <a href="/#products" class="btn btn-gold">Shop shilajit</a>
+          <a href="/#purification" class="btn btn-ghost">See how it is purified</a>
         </div>
       </div>
       <div class="hero-visual" aria-hidden="true">

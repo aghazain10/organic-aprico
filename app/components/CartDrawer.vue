@@ -49,7 +49,7 @@
       <a
         v-else
         class="btn btn-gold btn-block"
-        href="#products"
+        href="/#products"
       >
         Browse products
       </a>

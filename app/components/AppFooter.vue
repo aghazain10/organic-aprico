@@ -2,7 +2,7 @@
   <footer class="footer" id="contact">
     <div class="wrap footer-grid">
       <div class="footer-brand">
-        <a href="#top" class="brand">Organic Aprico</a>
+        <a href="/#top" class="brand">Organic Aprico</a>
         <p>Proud of Skardu, Gilgit Baltistan. Pride of Pakistan.</p>
         <form class="newsletter" @submit.prevent="onSubscribe">
           <label for="email">Get 10% off your first order</label>
