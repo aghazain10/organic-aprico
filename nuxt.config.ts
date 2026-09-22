@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
 
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/products.css'],
 
   googleFonts: {
     families: {

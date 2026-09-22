@@ -11,6 +11,7 @@
           :key="product.key"
           :product="product"
           @add="onAdd"
+          :detail-url="detailUrl(product.key)"
         />
       </div>
       <p class="fineprint">Prices in PKR. Money-back guarantee. Worldwide delivery in 10 to 12 business days.</p>

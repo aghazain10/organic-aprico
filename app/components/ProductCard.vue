@@ -76,6 +76,7 @@
       <button type="button" class="btn btn-gold add-btn" @click="onAdd">
         {{ justAdded ? 'Added' : 'Add to cart' }}
       </button>
+      <NuxtLink v-if="detailUrl" :to="detailUrl" class="text-link product-detail-link">View details →</NuxtLink>
       <a
         v-if="product.key === 'wholesale'"
         class="text-link"
@@ -92,7 +93,7 @@
 <script setup lang="ts">
 import { type Product, formatPrice } from '~/data/products'
 
-const props = defineProps<{ product: Product }>()
+const props = defineProps<{ product: Product; detailUrl?: string }>()
 const emit = defineEmits<{ add: [product: string, size: string, qty: number] }>()
 
 const selectedSize = ref(props.product.defaultSize)

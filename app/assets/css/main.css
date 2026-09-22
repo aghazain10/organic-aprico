@@ -237,6 +237,7 @@ body.ready .jar-hero, body.ready .hero-copy > * { opacity: 1; transform: none; }
 .add-btn { width: 100%; }
 .add-btn.added { background: var(--gold-bright); }
 .fineprint { margin-top: 1.4rem; color: var(--stone); font-size: .9rem; }
+.product-detail-link { margin-top: .3rem; }
 
 /* ---------- Benefits ---------- */
 .benefits-grid { display: grid; grid-template-columns: .9fr 1.4fr; gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
