@@ -27,4 +27,14 @@ const emit = defineEmits<{ 'add-to-cart': [product: string, size: string, qty: n
 function onAdd(product: string, size: string, qty: number) {
   emit('add-to-cart', product, size, qty)
 }
+
+const DETAIL_URLS: Record<string, string> = {
+  resin: '/products/shilajit',
+  drops: '/products/shilajit-drops',
+  wholesale: '/products/pure-himalayan-shilajit-resin-wholesale',
+}
+
+function detailUrl(key: string): string | undefined {
+  return DETAIL_URLS[key]
+}
 </script>
