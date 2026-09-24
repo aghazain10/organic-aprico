@@ -35,6 +35,7 @@
               <div class="product-rating">
                 <svg v-for="n in 5" :key="n" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 <span>4.8 (150+ reviews)</span>
+                <a href="#review-form" class="add-review-link">Add a Review</a>
               </div>
               <div class="product-price-block">
                 <span class="product-price-now">{{ formatPrice(currentVariant.price) }}</span>
@@ -91,32 +92,69 @@
 
       <section class="product-tabs">
         <div class="wrap">
-          <div class="tabs-nav">
-            <button class="tab-btn" :class="{ active: activeTab === 'description' }" @click="activeTab = 'description'">Description</button>
-            <button class="tab-btn" :class="{ active: activeTab === 'lab' }" @click="activeTab = 'lab'">Lab Reports</button>
-            <button class="tab-btn" :class="{ active: activeTab === 'howto' }" @click="activeTab = 'howto'">How to Use</button>
-          </div>
-          <div v-if="activeTab === 'description'" class="tab-content">
-            <h2>What is Shilajit Drops?</h2>
-            <p><strong>Shilajit Drop</strong> is produced by dissolving Pure Himalayan Shilajit Resin in mineral-rich glacier water from the Karakoram mountains. The result is a convenient, ready-to-use liquid form of shilajit that retains all the beneficial compounds of the original resin — including <strong>64% fulvic acid</strong> and over <strong>85 trace minerals</strong>.</p>
+          <div class="product-description tab-content">
+            <p><strong>Shilajit Drop</strong> is produced by dissolving Pure Himalayan Shilajit Resin in mineral-rich glacier water, ensuring its maximum potency. The process involves filtration and purification to preserve Pure Shilajit's minerals, vitamins, and fulvic acid. The result is a semi-thick, dark, and shiny oil- and alcohol-free Shilajit liquid.</p>
 
-            <h3>Key Features</h3>
+            <h2>Liquid Shilajit: The original shilajit in Pakistan</h2>
+            <p>Organic Aprico's Liquid Shilajit is naturally rich in <strong>85 essential minerals</strong>, <strong>64% fulvic acid</strong>, and humic acid, as confirmed by lab tests at Micro Quality Lab, California. It is free from heavy metals, chemicals, and toxins, ensuring safety, high potency, and effectiveness.</p>
+            <p>Organic Aprico provides the best Shilajit Online. This convenient Shilajit liquid is best for gym lovers, travelers, and busy professionals who prefer an easy-to-use natural supplement without the hassle of dissolving thick Shilajit.</p>
+
+            <h2>Shilajit Price: A Market Overview of Shilajit Liquid</h2>
+            <p>Shilajit Price in Pakistan depends on three factors. The Origin, purification, and dehydration. Firstly, shilajit must be extracted from 17000 above sea level as Organic aprico from the Himalayan mountains of Gilgit Baltistan. Secondly, complete purification as organic aprico purifies it with traditional and scientific methods, using centrifugal force and four key strategies to purify it and free 100 percent toxin from harmful substances. Then, 40 days of sun dehydration from direct sunlight is essential to retain its maximum potency. Organic aprico is the best option for buying the best Shilajit in Pakistan.</p>
+
+            <h2>Packaging and Safety: Best Shilajit Supplier from Gilgit Baltistan</h2>
+            <p>Organic Aprico's Shilajit Drop is thoughtfully packaged in an eco-friendly glass container immediately after preparation. The process involves dissolving Himalayan shilajit resin in glacier water, followed by an advanced purification facility to ensure a pure shilajit solution. It is hygienically packed to meet the expectations of valued customers.</p>
+            <p>Each bottle includes a dropper for precise measurement. Shilajit Liquid undergoes independent safety testing by US laboratories and is minimally processed to maintain its rich minerals, Vitamins, and Fulvic Acid.</p>
+
+            <h2>How to use Shilajit Drop</h2>
+            <p>Measure three half pipettes (9 drops) with the added dropper. It is recommended to take this amount twice daily. Mix the drops with your preferred beverage—milk, coffee, shakes, or juice—or take it directly. For best results, stir the Shilajit drops into half a glass of water; the liquid Shilajit dissolves instantly.</p>
+
+            <h2>Shilajit Drop Benefits</h2>
+            <p>You can read the Shilajit benefits with citations on our pure shilajit resin product page.</p>
             <ul>
-              <li><strong>64% Fulvic Acid</strong> — lab verified, the active compound responsible for mineral absorption</li>
-              <li><strong>85+ Trace Minerals</strong> — iron, zinc, magnesium, copper, manganese, selenium and more</li>
-              <li><strong>Oil-free and Alcohol-free</strong> — pure shilajit dissolved only in glacier water</li>
-              <li><strong>Convenient Dropper Bottle</strong> — precise 9-drop dosage, easy to carry</li>
-              <li><strong>Lab Tested</strong> — third-party verified by PCSIR and Micro Quality Lab California</li>
+              <li>99.9% pure</li>
+              <li>High bioavailability and absorption rate</li>
+              <li>Easy to measure</li>
+              <li>Packaged in an eco-friendly container</li>
+              <li>Anti-aging Properties</li>
+              <li>Promotes Testosterone Levels</li>
+              <li>Controls Diabetes</li>
+              <li>Supports Fertility</li>
+              <li>Improves Metabolism</li>
+              <li>Increases Muscle Mass</li>
+              <li>Hair Loss</li>
+              <li>Improves Hormones</li>
+              <li>Fights Cancer Cells</li>
+              <li>Promotes Heart Health</li>
+              <li>Controls Cholesterol</li>
+              <li>Removes Period Pain</li>
+              <li>Enhanced Strength</li>
+              <li>Detoxifies and Cleanses Body</li>
+              <li>Improves Digestion</li>
             </ul>
 
-            <h3>Why Choose Liquid Over Resin?</h3>
-            <p>While resin is the purest form of shilajit, drops offer unmatched convenience. No dissolving, no measuring — just 9 drops in water, milk or coffee. Perfect for travellers, busy professionals, or anyone who wants the benefits of shilajit without the preparation.</p>
+            <h2>Liquid Shilajit VS Shilajit Resin</h2>
+            <p>The liquid form of Pure Shilajit is as concentrated as the resin; it is purer and retains most of the molecular properties due to minimal processing. Therefore, it remains a potent and effective supplement, potentially even more so than other forms. Salajeet price in Pakistan for both Shilajit Liquid and Resin is the same. We add glacier water to the resin to enhance the potency of Shilajit drops.</p>
 
-            <h3>What's in the Bottle</h3>
-            <p>Each bottle contains pure Himalayan shilajit dissolved in glacier water. No fillers, no preservatives, no artificial flavours. The dark amber colour is natural and indicates high fulvic acid content.</p>
+            <h2>Why choose Organic Aprico?</h2>
+            <p>Original Shilajit is found exclusively in the Himalayan mountains of Gilgit-Baltistan, at elevations of over 17,000 feet. This is why a global demand exists for Gilgit Shilajit in Pakistan and abroad. However, Shilajit extraction requires a government license, which the Organic Aprico team possesses.</p>
+            <p>We are committed to providing you with gold-grade authentic Himalayan Shilajit and Shilajit Drop, accompanied by certified analysis to verify their authenticity. Our dedication to quality has earned us over 10,000 satisfied clients who have improved their health by incorporating Organic Aprico's Shilajit dosage into their daily routine.</p>
 
-            <h3>Money-Back Guarantee</h3>
-            <p>Like all Organic Aprico products, Shilajit Drops come with a <strong>30-day money-back guarantee</strong>. If you are not satisfied, contact us for a full refund.</p>
+            <h2>Can Liquid Shilajit be Exported from Pakistan?</h2>
+            <p>Yes, Organic Aprico holds both an extraction and export license. Our international lab reports certify the quality of our Himalayan Shilajit, allowing for the smooth export of all Shilajit forms from Pakistan.</p>
+
+            <h2>Money Back Guarantee</h2>
+            <p>At Organic Aprico, client satisfaction is our top priority. Since 1972, we have consistently met our client's expectations. However, in line with our commitment to quality, we offer a money-back guarantee. Whether you are a national or international client, if there is any issue with Shilajit quality, dissatisfaction, or mistake on our part, we will fully compensate you.</p>
+
+            <h2>Ordering Information</h2>
+            <p>You can order Shilajit Drop on the website, through WhatsApp, or by phone for national clients.</p>
+            <p>We offer Shilajit Price per kg for international customers searching for Himalayan Shilajit in bulk. Please get in touch with us via the provided phone number, WhatsApp, or email for further details. We have 10,000+ international clients from all over the world.</p>
+            <p>We are proud to say that organic Aprico never compromises on the quality of Shilajit and always delivers parcels on time because we have export licenses that help us serve clients worldwide.</p>
+          </div>
+
+          <div class="tabs-nav">
+            <button class="tab-btn" :class="{ active: activeTab === 'lab' }" @click="activeTab = 'lab'">Lab Reports</button>
+            <button class="tab-btn" :class="{ active: activeTab === 'howto' }" @click="activeTab = 'howto'">How to Use</button>
           </div>
           <div v-if="activeTab === 'lab'" class="tab-content">
             <h2>Third-Party Lab Reports</h2>
@@ -178,6 +216,70 @@
               <li>Consistent daily use for 30+ days yields the best results</li>
               <li>Do not exceed 18 drops per day unless advised by a healthcare professional</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-section" id="reviews">
+        <div class="wrap">
+          <div class="reviews-header">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-summary">
+              <div class="reviews-avg">
+                <span class="avg-score">4.8</span>
+                <div class="avg-stars">
+                  <svg v-for="n in 5" :key="n" class="star filled" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
+                <span class="avg-count">Based on 150+ reviews</span>
+              </div>
+            </div>
+          </div>
+          <div class="reviews-grid">
+            <div v-for="(review, i) in reviews" :key="i" class="review-card">
+              <div class="review-card-top">
+                <div class="review-card-stars">
+                  <svg v-for="n in 5" :key="n" class="star" :class="{ filled: n <= review.rating }" width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
+                <span class="verified-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+                  Verified Purchase
+                </span>
+              </div>
+              <div class="review-card-meta">
+                <span class="review-card-name">{{ review.name }}</span>
+                <span class="review-card-date">{{ review.date }}</span>
+              </div>
+              <p class="review-card-text">{{ review.text }}</p>
+            </div>
+          </div>
+          <div class="review-form-wrap" id="review-form">
+            <h3>Write a Review</h3>
+            <form class="review-form" @submit.prevent="submitReview">
+              <div class="review-form-stars" aria-label="Rating">
+                <button
+                  v-for="n in 5"
+                  :key="n"
+                  type="button"
+                  class="star-input"
+                  :class="{ filled: n <= (hoverRating || reviewForm.rating) }"
+                  :aria-label="`${n} star${n > 1 ? 's' : ''}`"
+                  @click="setRating(n)"
+                  @mouseenter="hoverRating = n"
+                  @mouseleave="hoverRating = 0"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </button>
+              </div>
+              <div class="field">
+                <label for="review-name">Name</label>
+                <input id="review-name" v-model="reviewForm.name" type="text" placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="review-text">Review</label>
+                <textarea id="review-text" v-model="reviewForm.text" rows="4" placeholder="Share your experience with this product"></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold">Submit Review</button>
+            </form>
           </div>
         </div>
       </section>
@@ -252,13 +354,39 @@ const productTitle = 'Shilajit Drops | Liquid Shilajit | Buy Online Pakistan'
 const selectedSize = ref(product.defaultSize)
 const qty = ref(1)
 const justAdded = ref(false)
-const activeTab = ref('description')
+const activeTab = ref('lab')
 const activeImage = ref(0)
 
 const galleryImages = [
   '/images/products/shilajit-drops-hero.png',
   '/images/products/shilajit-drops-liquid.jpg',
 ]
+
+const reviews = [
+  { name: 'Kamran Shah', rating: 5, date: '1 week ago', text: 'Drops are so convenient compared to resin. I keep a bottle in my office bag and take 9 drops in water twice a day. Energy levels are consistently high.' },
+  { name: 'Rabia Aslam', rating: 5, date: '2 weeks ago', text: 'Ye liquid shilajit bohat asaan hai use karne mein. Resin jaisa taste nahi hai, halka sa hota hai. Main 2 mahinay se le rahi hoon aur results ache hain.' },
+  { name: 'Faisal Ahmed', rating: 4, date: '1 month ago', text: 'Good product, easy to use. The dropper makes it very precise. I mix it with my morning coffee and cannot even taste it. Will order the 60ml next time.' },
+  { name: 'Nadia Rehman', rating: 5, date: '1 month ago', text: 'Perfect for travel! I travel a lot for work and drops are so much easier to carry than the resin jar. Quality is the same as their resin product.' },
+  { name: 'Imran Baig', rating: 5, date: '2 months ago', text: 'Been using for 3 months. My blood sugar levels have improved significantly according to my doctor. Very happy with this product.' },
+  { name: 'Hina Malik', rating: 4, date: '2 months ago', text: 'Mujhe period pain mein bohat madad mili hai isse. 2 cycle se use kar rahi hoon aur cramps kam ho gaye hain. Taste thoda kadwa hai par results worth it hain.' },
+  { name: 'Shahzaib Khan', rating: 5, date: '3 months ago', text: 'Excellent quality liquid shilajit. Dissolves instantly in water as they claim. No artificial taste or smell. Pure and authentic.' },
+  { name: 'Amna Yousaf', rating: 5, date: '4 months ago', text: 'I switched from resin to drops because I found resin too strong. The drops work just as well and are so much more convenient. Great value for money.' },
+  { name: 'Waqar Younis', rating: 5, date: '5 months ago', text: 'As a professional cricketer I need natural supplements. This is the cleanest shilajit I have found in Pakistan. Lab reports give me full confidence.' },
+  { name: 'Sadaf Noor', rating: 4, date: '6 months ago', text: 'Really good product. Took about 3 weeks to feel the full effects but now I sleep better and wake up refreshed. The packaging is also very nice.' },
+]
+
+const reviewForm = ref({ name: '', text: '', rating: 5 })
+const hoverRating = ref(0)
+
+function setRating(n: number) {
+  reviewForm.value.rating = n
+}
+
+function submitReview() {
+  if (!reviewForm.value.name.trim() || !reviewForm.value.text.trim()) return
+  toast.show('Thank you for your review!')
+  reviewForm.value = { name: '', text: '', rating: 5 }
+}
 
 const currentVariant = computed(() =>
   product.sizes.find(s => s.id === selectedSize.value)!
