@@ -15,19 +15,27 @@
         <div class="wrap">
           <div class="product-hero-grid">
             <div class="product-gallery">
-              <div class="product-main-img">
-                <img :src="galleryImages[activeImage]" :alt="productTitle" />
-              </div>
-              <div class="product-thumbs">
-                <button
-                  v-for="(img, i) in galleryImages"
-                  :key="i"
-                  class="product-thumb"
-                  :class="{ active: activeImage === i }"
-                  @click="activeImage = i"
-                >
-                  <img :src="img" :alt="`${productTitle} view ${i + 1}`" />
-                </button>
+              <div class="product-gallery-row">
+                <div class="product-thumbs">
+                  <button
+                    v-for="(img, i) in galleryImages"
+                    :key="i"
+                    class="product-thumb"
+                    :class="{ active: activeImage === i }"
+                    @click="activeImage = i"
+                  >
+                    <img :src="img" :alt="`${productTitle} view ${i + 1}`" />
+                  </button>
+                </div>
+                <div class="product-main-img">
+                  <img :src="galleryImages[activeImage]" :alt="productTitle" />
+                  <button class="gallery-arrow gallery-arrow-left" aria-label="Previous image" @click="prevImage">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                  </button>
+                  <button class="gallery-arrow gallery-arrow-right" aria-label="Next image" @click="nextImage">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                  </button>
+                </div>
               </div>
             </div>
             <div class="product-info">
@@ -160,18 +168,45 @@
             <h2>Third-Party Lab Reports</h2>
             <p>Every batch of Shilajit Drops is tested by independent laboratories. Below are the latest reports.</p>
             <div class="lab-grid">
-              <img src="/images/lab-reports/micro-quality-fulvic-acid.jpg" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
-              <img src="/images/lab-reports/pcsir-heavy-metals.jpg" alt="PCSIR heavy metals analysis" loading="lazy" />
-              <img src="/images/lab-reports/pcsir-microbiological.jpg" alt="PCSIR microbiological test" loading="lazy" />
-              <img src="/images/lab-reports/pcsir-aflatoxin.jpg" alt="PCSIR aflatoxin test" loading="lazy" />
-              <img src="/images/lab-reports/eurofins-fulvic-acid.jpg" alt="Eurofins fulvic acid verification" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.jpg', 'Micro Quality Lab fulvic acid test')">
+                <img src="/images/lab-reports/micro-quality-fulvic-acid.jpg" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals.jpg', 'PCSIR heavy metals analysis')">
+                <img src="/images/lab-reports/pcsir-heavy-metals.jpg" alt="PCSIR heavy metals analysis" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-microbiological.jpg', 'PCSIR microbiological test')">
+                <img src="/images/lab-reports/pcsir-microbiological.jpg" alt="PCSIR microbiological test" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-aflatoxin.jpg', 'PCSIR aflatoxin test')">
+                <img src="/images/lab-reports/pcsir-aflatoxin.jpg" alt="PCSIR aflatoxin test" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/eurofins-fulvic-acid.jpg', 'Eurofins fulvic acid verification')">
+                <img src="/images/lab-reports/eurofins-fulvic-acid.jpg" alt="Eurofins fulvic acid verification" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
             </div>
             <h3>Certifications</h3>
             <div class="cert-grid">
-              <img src="/images/certifications/halal.jpg" alt="Halal certification" loading="lazy" />
-              <img src="/images/certifications/gmp.jpg" alt="GMP certification" loading="lazy" />
-              <img src="/images/certifications/haccp.jpg" alt="HACCP certification" loading="lazy" />
-              <img src="/images/certifications/company-registration.jpg" alt="Company registration" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/halal.jpg', 'Halal certification')">
+                <img src="/images/certifications/halal.jpg" alt="Halal certification" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/gmp.jpg', 'GMP certification')">
+                <img src="/images/certifications/gmp.jpg" alt="GMP certification" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/haccp.jpg', 'HACCP certification')">
+                <img src="/images/certifications/haccp.jpg" alt="HACCP certification" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/company-registration.jpg', 'Company registration')">
+                <img src="/images/certifications/company-registration.jpg" alt="Company registration" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
             </div>
           </div>
           <div v-if="activeTab === 'howto'" class="tab-content">
@@ -339,6 +374,16 @@
     <AppFooter />
     <CartDrawer />
     <AppToast />
+    <Teleport to="body">
+      <div v-if="lightbox.src" class="lightbox-backdrop" @click="closeLightbox">
+        <button type="button" class="lightbox-close" aria-label="Close" @click="closeLightbox">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <div class="lightbox-content" @click.stop>
+          <img :src="lightbox.src" :alt="lightbox.alt" />
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
@@ -356,6 +401,35 @@ const qty = ref(1)
 const justAdded = ref(false)
 const activeTab = ref('lab')
 const activeImage = ref(0)
+
+const lightbox = reactive({ src: '', alt: '' })
+
+function openLightbox(src: string, alt: string) {
+  lightbox.src = src
+  lightbox.alt = alt
+  if (import.meta.client) document.body.classList.add('no-scroll')
+}
+
+function closeLightbox() {
+  lightbox.src = ''
+  lightbox.alt = ''
+  if (import.meta.client) document.body.classList.remove('no-scroll')
+}
+
+if (import.meta.client) {
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === 'Escape' && lightbox.src) closeLightbox()
+  }
+  onMounted(() => document.addEventListener('keydown', onKey))
+  onUnmounted(() => document.removeEventListener('keydown', onKey))
+}
+
+function prevImage() {
+  activeImage.value = (activeImage.value - 1 + galleryImages.length) % galleryImages.length
+}
+function nextImage() {
+  activeImage.value = (activeImage.value + 1) % galleryImages.length
+}
 
 const galleryImages = [
   '/images/products/shilajit-drops-hero.png',
