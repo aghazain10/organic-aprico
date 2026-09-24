@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
 
-  css: ['~/assets/css/main.css', '~/assets/css/products.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/products.css', '~/assets/css/admin.css'],
 
   googleFonts: {
     families: {
@@ -46,6 +46,8 @@ export default defineNuxtConfig({
   routeRules: {
     '/': { prerender: true },
     '/checkout': { ssr: false, robots: 'noindex, nofollow' },
+    '/admin/**': { ssr: false, robots: 'noindex, nofollow' },
+    '/admin': { ssr: false, robots: 'noindex, nofollow' },
   },
 
   nitro: {
