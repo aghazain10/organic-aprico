@@ -1,33 +1,20 @@
 <template>
   <article class="product">
     <div class="product-art">
-      <svg v-if="product.key === 'resin'" viewBox="0 0 300 400" aria-hidden="true">
-        <rect x="88" y="34" width="124" height="46" rx="9" fill="url(#g-gold-h)"/>
-        <rect x="100" y="80" width="100" height="26" fill="url(#g-glass)"/>
-        <path d="M72 108h156a22 22 0 0 1 22 22v206a22 22 0 0 1-22 22H72a22 22 0 0 1-22-22V130a22 22 0 0 1 22-22z" fill="url(#g-resin)"/>
-        <path d="M72 108h156a22 22 0 0 1 22 22v206a22 22 0 0 1-22 22H72a22 22 0 0 1-22-22V130a22 22 0 0 1 22-22z" fill="url(#g-glass)"/>
-        <path d="M66 140c0-14 6-22 18-22h12v220H84c-12 0-18-8-18-22z" fill="#fff" opacity=".07"/>
-        <rect x="50" y="210" width="200" height="72" fill="#0a0805" opacity=".9"/>
-        <rect x="50" y="210" width="200" height="1" fill="#C9A24A" opacity=".8"/>
-        <rect x="50" y="281" width="200" height="1" fill="#C9A24A" opacity=".8"/>
-        <text x="150" y="240" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="600" font-size="17" fill="#E9CD84">Organic Aprico</text>
-        <text x="150" y="262" text-anchor="middle" font-family="Manrope, sans-serif" font-size="9.5" fill="#C9A24A">Pure Himalayan Shilajit</text>
-      </svg>
-      <svg v-else-if="product.key === 'drops'" viewBox="0 0 300 400" aria-hidden="true">
-        <rect x="128" y="22" width="44" height="34" rx="16" fill="#0d0b08" stroke="#3a3224" stroke-width="1"/>
-        <rect x="112" y="54" width="76" height="46" rx="6" fill="url(#g-gold-h)"/>
-        <rect x="130" y="100" width="40" height="18" fill="url(#g-glass)"/>
-        <path d="M96 118h108a18 18 0 0 1 18 18v212a18 18 0 0 1-18 18H96a18 18 0 0 1-18-18V136a18 18 0 0 1 18-18z" fill="url(#g-liquid)"/>
-        <path d="M96 118h108a18 18 0 0 1 18 18v212a18 18 0 0 1-18 18H96a18 18 0 0 1-18-18V136a18 18 0 0 1 18-18z" fill="url(#g-glass)"/>
-        <line x1="150" y1="100" x2="150" y2="320" stroke="#3a3224" stroke-width="3"/>
-        <path d="M150 320c-6 8-6 14 0 20 6-6 6-12 0-20z" fill="#E9CD84" opacity=".9"/>
-        <path d="M90 150c0-12 5-18 14-18h8v190h-8c-9 0-14-6-14-18z" fill="#fff" opacity=".07"/>
-        <rect x="78" y="212" width="144" height="64" fill="#0a0805" opacity=".9"/>
-        <rect x="78" y="212" width="144" height="1" fill="#C9A24A" opacity=".8"/>
-        <rect x="78" y="275" width="144" height="1" fill="#C9A24A" opacity=".8"/>
-        <text x="150" y="240" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="600" font-size="15" fill="#E9CD84">Organic Aprico</text>
-        <text x="150" y="260" text-anchor="middle" font-family="Manrope, sans-serif" font-size="9" fill="#C9A24A">Shilajit Drops</text>
-      </svg>
+      <img
+        v-if="product.key === 'resin'"
+        src="/images/products/shilajit-resin-product.png"
+        alt="Organic Aprico pure Himalayan shilajit resin jar"
+        width="612"
+        height="408"
+      />
+      <img
+        v-else-if="product.key === 'drops'"
+        src="/images/products/shilajit-drops-product.png"
+        alt="Organic Aprico pure Himalayan shilajit drops bottle"
+        width="456"
+        height="547"
+      />
       <svg v-else viewBox="0 0 300 400" aria-hidden="true">
         <ellipse cx="150" cy="330" rx="104" ry="26" fill="url(#g-steel)"/>
         <rect x="46" y="90" width="208" height="240" fill="url(#g-steel)"/>

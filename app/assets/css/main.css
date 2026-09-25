@@ -212,6 +212,7 @@ body.ready .jar-hero, body.ready .hero-copy > * { opacity: 1; transform: none; }
 .product:last-child { border-right: 0; }
 .product-art { padding: 2.5rem 2.5rem 1rem; display: grid; place-items: center; border-bottom: 1px solid var(--line-soft); }
 .product-art svg { width: min(220px, 70%); filter: drop-shadow(0 22px 26px rgba(0,0,0,.55)); }
+.product-art img { width: auto; max-width: min(260px, 100%); height: auto; max-height: 240px; object-fit: contain; filter: drop-shadow(0 18px 22px rgba(0,0,0,.5)); }
 .product-body { padding: 1.8rem 1.8rem 2rem; display: flex; flex-direction: column; gap: 1.1rem; flex: 1; }
 .product-body h3 { font-size: 1.5rem; }
 .product-body p { color: var(--stone); font-size: .97rem; flex: 1; }
