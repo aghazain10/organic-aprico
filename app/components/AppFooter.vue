@@ -36,25 +36,25 @@
         <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp</a>
         <h4>Follow</h4>
         <div class="socials">
-          <a href="#">Instagram</a>
-          <a href="#">Facebook</a>
-          <a href="#">YouTube</a>
-          <a href="#">TikTok</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Pinterest</a>
+          <a href="https://www.instagram.com/organicaprico/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/organicaprico/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.youtube.com/channel/UCcrK0S34MpmCCT5ls-tnO_g" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://www.tiktok.com/@organicaprico" target="_blank" rel="noopener noreferrer">TikTok</a>
+          <a href="https://www.linkedin.com/in/organicaprico" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.pinterest.com/organicapricoskardu/" target="_blank" rel="noopener noreferrer">Pinterest</a>
         </div>
       </div>
       <div class="footer-col">
         <h4>Useful links</h4>
-        <a href="#">About us</a>
-        <a href="#">Track your order</a>
-        <a href="#">Payment methods</a>
-        <a href="#">Organic guaranteed</a>
-        <a href="#">Company registration</a>
-        <a href="#">Shipping policy</a>
-        <a href="#">Refund policy</a>
-        <a href="#">Privacy policy</a>
-        <a href="#">Terms of service</a>
+        <NuxtLink to="/pages/about-us">About us</NuxtLink>
+        <NuxtLink to="/pages/track-your-order">Track your order</NuxtLink>
+        <NuxtLink to="/pages/payment-method">Payment methods</NuxtLink>
+        <NuxtLink to="/pages/organic-guaranteed">Organic guaranteed</NuxtLink>
+        <NuxtLink to="/pages/company-registration">Company registration</NuxtLink>
+        <NuxtLink to="/policies/shipping-policy">Shipping policy</NuxtLink>
+        <NuxtLink to="/policies/refund-policy">Refund policy</NuxtLink>
+        <NuxtLink to="/policies/privacy-policy">Privacy policy</NuxtLink>
+        <NuxtLink to="/policies/terms-of-service">Terms of service</NuxtLink>
       </div>
     </div>
     <div class="wrap footer-bottom">
