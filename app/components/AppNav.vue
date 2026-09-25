@@ -2,8 +2,11 @@
   <header class="nav" :class="{ scrolled }">
     <div class="wrap nav-inner">
       <a href="/#top" class="brand">
-        Organic Aprico
-        <span class="brand-sub">Skardu, Gilgit Baltistan</span>
+        <img src="/images/logo.png" alt="" width="46" height="46" class="brand-logo">
+        <span class="brand-copy">
+          Organic Aprico
+          <span class="brand-sub">Skardu, Gilgit Baltistan</span>
+        </span>
       </a>
       <nav class="nav-links" aria-label="Main">
         <a href="/#about">Shilajit</a>

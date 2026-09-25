@@ -102,8 +102,16 @@ img, svg { display: block; max-width: 100%; }
   border-color: var(--line-soft);
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; height: 76px; }
-.brand { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: 1.3rem; color: var(--cream); display: flex; flex-direction: column; line-height: 1; }
+.brand { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: 1.3rem; color: var(--cream); display: flex; flex-direction: row; align-items: center; gap: .7rem; line-height: 1; }
 .brand:hover { color: var(--cream); }
+.brand-copy { display: flex; flex-direction: column; line-height: 1; }
+.brand-logo {
+  width: 46px; height: 46px; flex: none; padding: 5px; border-radius: 50%;
+  object-fit: contain; background: var(--cream); border: 1px solid var(--line);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .45);
+  transition: transform .3s var(--ease), border-color .3s var(--ease);
+}
+.brand:hover .brand-logo { transform: rotate(-6deg) scale(1.05); border-color: var(--gold); }
 .brand-sub { font-family: var(--sans); font-size: .7rem; color: var(--stone); font-weight: 400; margin-top: .35rem; letter-spacing: .02em; }
 .nav-links { display: flex; gap: 2rem; font-size: .95rem; font-weight: 400; }
 .nav-links a { color: var(--stone); position: relative; padding: .25rem 0; }
