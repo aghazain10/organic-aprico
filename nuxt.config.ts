@@ -46,6 +46,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': { prerender: true },
+    '/collections/**': { redirect: { to: '/products/shilajit', statusCode: 301 } },
     '/checkout': { ssr: false, robots: 'noindex, nofollow' },
     '/admin/**': { ssr: false, robots: 'noindex, nofollow' },
     '/admin': { ssr: false, robots: 'noindex, nofollow' },
