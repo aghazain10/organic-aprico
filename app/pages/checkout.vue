@@ -9,24 +9,15 @@
         <p class="success-id">Order ID: <strong>{{ orderId }}</strong></p>
 
         <div v-if="form.paymentMethod === 'bank_transfer'" class="bank-details">
-          <h2>Bank transfer details</h2>
-          <p>Transfer the exact amount to the account below and share the payment screenshot on WhatsApp.</p>
-          <table class="bank-table">
-            <tr><td>Bank</td><td>{{ bankInfo.bankName }}</td></tr>
-            <tr><td>Account Title</td><td>{{ bankInfo.accountTitle }}</td></tr>
-            <tr><td>Account Number</td><td>{{ bankInfo.accountNumber }}</td></tr>
-            <tr><td>IBAN</td><td>{{ bankInfo.iban }}</td></tr>
-            <tr><td>SWIFT Code</td><td>{{ bankInfo.swiftCode }}</td></tr>
-            <tr><td>Branch</td><td>{{ bankInfo.branch }}</td></tr>
-          </table>
-          <p class="muted small">{{ bankInfo.note }}</p>
+          <h2>Bank transfer</h2>
+          <p>Thank you for your purchase. You will receive our bank details on WhatsApp.</p>
           <a
             class="btn btn-gold btn-block"
             :href="whatsappLink"
             target="_blank"
             rel="noopener"
           >
-            Send payment screenshot on WhatsApp
+            Chat with us on WhatsApp
           </a>
         </div>
 
@@ -169,15 +160,7 @@ const error = ref('')
 const orderPlaced = ref(false)
 const orderId = ref('')
 
-const { data: bankInfo } = await useFetch('/api/checkout/bank-details')
-
-const whatsappMessage = computed(() => {
-  if (!orderPlaced.value) return ''
-  const lines = items.value.map((i) =>
-    `- ${getItemName(i.product)} ${getVariantLabel(i.product, i.size)} x ${i.qty} = ${formatPrice(getVariantPrice(i.product, i.size) * i.qty)}`
-  )
-  return `Hi Organic Aprico, I placed order ${orderId.value}:\n${lines.join('\n')}\nTotal: ${formatPrice(total.value)}\nPayment: ${form.paymentMethod === 'cod' ? 'Cash on Delivery' : 'Bank Transfer (screenshot attached)'}`
-})
+const whatsappMessage = ref('')
 
 const whatsappLink = computed(() => {
   return `https://wa.me/923311116915?text=${encodeURIComponent(whatsappMessage.value)}`
@@ -209,6 +192,11 @@ async function placeOrder() {
         total: total.value,
       },
     })
+
+    const lines = items.value.map((i) =>
+      `- ${getItemName(i.product)} ${getVariantLabel(i.product, i.size)} x ${i.qty} = ${formatPrice(getVariantPrice(i.product, i.size) * i.qty)}`
+    )
+    whatsappMessage.value = `Hi Organic Aprico, I placed order ${result.orderId}:\n${lines.join('\n')}\nTotal: ${formatPrice(total.value)}\nPayment: ${form.paymentMethod === 'cod' ? 'Cash on Delivery' : 'Bank Transfer'}`
 
     orderId.value = result.orderId
     orderPlaced.value = true
