@@ -3,6 +3,20 @@ import { SITE_PAGES } from '../../app/data/pages'
 
 const SITE_URL = 'https://organicaprico.com'
 
+// lastmod = date the page content was last changed (git history)
+const STATIC_LASTMOD: Record<string, string> = {
+  '/': '2026-09-18',
+  '/certifications': '2026-09-11',
+  '/purification': '2026-09-11',
+  '/blogs/blog': '2026-09-21',
+  '/products/shilajit': '2026-10-05',
+  '/products/shilajit-drops': '2026-10-05',
+  '/products/pure-himalayan-shilajit-resin-wholesale': '2026-10-05',
+}
+
+// static info/policy pages all come from app/data/pages.ts
+const PAGES_LASTMOD = '2026-09-25'
+
 const STATIC_PATHS = [
   '/',
   '/certifications',
@@ -29,8 +43,8 @@ function escapeXml(value: string): string {
 
 export default defineEventHandler((event): string => {
   const entries: SitemapEntry[] = [
-    ...STATIC_PATHS.map((path) => ({ loc: `${SITE_URL}${path}` })),
-    ...SITE_PAGES.map((page) => ({ loc: `${SITE_URL}${page.path}` })),
+    ...STATIC_PATHS.map((path) => ({ loc: `${SITE_URL}${path}`, lastmod: STATIC_LASTMOD[path] })),
+    ...SITE_PAGES.map((page) => ({ loc: `${SITE_URL}${page.path}`, lastmod: PAGES_LASTMOD })),
     ...BLOG_POSTS.map((post) => ({
       loc: `${SITE_URL}/blogs/blog/${post.slug}`,
       lastmod: post.dateISO,

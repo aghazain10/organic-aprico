@@ -1,5 +1,12 @@
 User-agent: *
 Allow: /
 Disallow: /checkout
+Disallow: /admin
+Disallow: /cart
+Disallow: /*?variant=
+Disallow: /*?sort_by=
+Disallow: /*?_wpnonce=
+Disallow: /*add_to_wishlist
+Disallow: /*yith-woocompare
 
 Sitemap: https://organicaprico.com/sitemap.xml

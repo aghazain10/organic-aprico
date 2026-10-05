@@ -32,6 +32,7 @@
 
 <script setup lang="ts">
 import { getBlogPost } from '~/data/blogs'
+import { buildBreadcrumbJsonLd } from '~/utils/seo'
 
 const route = useRoute()
 const slug = route.params.slug as string
@@ -49,6 +50,19 @@ if (post) {
     ogType: 'article',
     articlePublishedTime: post.dateISO,
     articleSection: 'Shilajit',
+  })
+
+  useHead({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blogs/blog' },
+          { name: post.title },
+        ])),
+      },
+    ],
   })
 }
 </script>

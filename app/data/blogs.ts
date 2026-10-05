@@ -622,7 +622,7 @@ export const BLOG_POSTS: BlogPost[] = [
     dateISO: '2025-09-25',
     heroImage: '/images/blog/uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan-2025-guide.webp',
     heroAlt: 'UK Wholesale Shilajit',
-    content: `<p>Shilajit is a natural, mineral-rich resin with a high fulvic acid content, valued for supporting overall health. Over the past few years, demand for <a href="https://organicaprico.com/collections/pure-shilajit">pure Himalayan Shilajit</a> has surged globally. In the UK, more customers are searching for authentic, lab-tested Shilajit, making 2025 the perfect time for wholesalers, supplement brands, and retailers to explore imports directly from Pakistan.</p>
+    content: `<p>Shilajit is a natural, mineral-rich resin with a high fulvic acid content, valued for supporting overall health. Over the past few years, demand for <a href="https://organicaprico.com/products/shilajit">pure Himalayan Shilajit</a> has surged globally. In the UK, more customers are searching for authentic, lab-tested Shilajit, making 2025 the perfect time for wholesalers, supplement brands, and retailers to explore imports directly from Pakistan.</p>
 <p>This guide walks you through the key steps to successfully import Shilajit wholesale into the UK.</p>
 <h2>Why Import Shilajit in 2025?</h2>
 <p>The Shilajit market is growing fast, with analysts predicting double-digit growth well into the late 2020s. UK demand is especially strong among health-conscious customers who want premium quality, lab-tested Shilajit resin. For businesses, this means a chance to enter a market that is still developing but already highly profitable.</p>
@@ -1272,7 +1272,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Challenges to Watch Out For</h2>
 <p>Even though the market is full of potential, there are some significant challenges too:</p>
 <h3>1. Quality Control</h3>
-<p>Many products on the market are not pure. Some contain Bacteria,  harmful substances, or even heavy metals. It’s important to choose authentic Shilajit from trusted brands like <a href="https://organicaprico.com/collections/pure-shilajit">Organic Aprico.</a></p>
+<p>Many products on the market are not pure. Some contain Bacteria,  harmful substances, or even heavy metals. It’s important to choose authentic Shilajit from trusted brands like <a href="https://organicaprico.com/products/shilajit">Organic Aprico.</a></p>
 <h3>2. Fake Claims and Scams</h3>
 <p>Some sellers give false promises. They call their Shilajit the best Shilajit without any lab tests or proper purification. They don’t have real processing units. Such practices not only misguide consumers and damage the reputation of genuine brands but also pose serious risks to public health.</p>
 <h3>3. Regulatory Issues</h3>
@@ -1307,7 +1307,7 @@ export const BLOG_POSTS: BlogPost[] = [
     heroImage: '/images/blog/shilajit-wholesale.jpg',
     heroAlt: 'Identify Authentic Himalayan Shilajit',
     content: `<h2><strong>Himalayan Mountains and the Gift of Shilajit</strong></h2>
-<p>The Himalayan Mountains hold many natural wonders, and one of the most powerful is <a href="https://organicaprico.com/collections/pure-shilajit">Shilajit</a>. This dark, sticky resin forms over centuries as plants and minerals break down in the mountains. It is packed with nutrients and is known for boosting energy and overall health.</p>
+<p>The Himalayan Mountains hold many natural wonders, and one of the most powerful is <a href="https://organicaprico.com/products/shilajit">Shilajit</a>. This dark, sticky resin forms over centuries as plants and minerals break down in the mountains. It is packed with nutrients and is known for boosting energy and overall health.</p>
 <p>Shilajit from the Himalayas is pure and rich in essential minerals. The high-altitude environment keeps it free from impurities. Many people use it as a natural supplement for strength and vitality.</p>
 <p>The Himalayas extend into Gilgit-Baltistan in Pakistan. This region is famous for producing top-quality Shilajit, which local communities carefully collect from rocks in remote areas. The purity and strength of Gilgit-Baltistan Shilajit make it highly valued, and people trust it for its powerful health benefits.</p>
 <h3><strong>Origin of Shilajit Rock</strong></h3>
@@ -1371,7 +1371,7 @@ export const BLOG_POSTS: BlogPost[] = [
     heroImage: '/images/blog/purification-unit.png',
     heroAlt: 'Shilajit UK Market',
     content: `<h2>Shilajit UK: Market Analysis</h2>
-<p><a href="https://organicaprico.com/collections/pure-shilajit/products/pure-himalayan-shilajit-resin-wholesale">Shilajit Resin</a> is becoming a popular health supplement in the UK due to its natural properties and potential health benefits. Pure Shilajit is known for its rich mineral content, which supports energy levels, stamina, and overall well-being. As awareness of Shilajit grows, more people in the UK seek high-quality sources to ensure they receive its full benefits.</p>
+<p><a href="https://organicaprico.com/products/pure-himalayan-shilajit-resin-wholesale">Shilajit Resin</a> is becoming a popular health supplement in the UK due to its natural properties and potential health benefits. Pure Shilajit is known for its rich mineral content, which supports energy levels, stamina, and overall well-being. As awareness of Shilajit grows, more people in the UK seek high-quality sources to ensure they receive its full benefits.</p>
 <p>Shilajit primarily comes from India, China, and Pakistan. Research shows that Himalayan Shilajit Resin is the best due to its superior mineral composition and bio-active properties. The high-altitude, unpolluted environment of the Himalayas ensures purity and nutrient richness. According to Khan, M. A., Ali, S., & Ahmad, N. (2020), Himalayan Shilajit undergoes minimal contamination and retains its original bio-active compounds, making it the preferred choice for health-conscious consumers.</p>
 <p>Despite its benefits, not all Himalaya Shilajit in the market are high-quality. Some sellers use heated extraction methods and sell unfiltered or low-altitude Shilajit, which contains harmful toxins. These lower-quality products are often sold at cheaper prices, compromising consumer health. Buyers must be cautious and verify the purity of the product before purchasing.</p>
 <p>The UK market has significant potential for Shilajit due to increasing awareness of natural supplements. Since COVID-19, demand for organic and mineral-rich products has grown as people seek alternatives to synthetic supplements. However, some sellers in the market offer Fake Aatishi Shilajit, which is chemically processed and lacks the natural properties of authentic Himalayan Shilajit.</p>

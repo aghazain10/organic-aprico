@@ -412,6 +412,7 @@
 
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
+import { buildProductJsonLd, buildBreadcrumbJsonLd } from '~/utils/seo'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
@@ -519,26 +520,21 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Product',
+      innerHTML: JSON.stringify(buildProductJsonLd(product, {
+        url: '/products/shilajit',
+        images: galleryImages,
+        skuPrefix: 'OA-SHILAJIT-RESIN',
         name: 'Pure Himalayan Shilajit Resin',
         description: 'Gold-grade Himalayan shilajit resin with 73% fulvic acid. 8-stage purification, lab tested. From 17,000 feet in Gilgit-Baltistan.',
-        image: '/images/products/shilajit-resin-jar-spoon.jpg',
-        brand: { '@type': 'Brand', name: 'Organic Aprico' },
-        offers: product.sizes.map(s => ({
-          '@type': 'Offer',
-          price: s.price,
-          priceCurrency: 'PKR',
-          availability: 'https://schema.org/InStock',
-          url: 'https://organicaprico.com/products/shilajit',
-        })),
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '200',
-        },
-      }),
+      })),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: 'Products', path: '/#products' },
+        { name: 'Pure Himalayan Shilajit Resin' },
+      ])),
     },
   ],
 })

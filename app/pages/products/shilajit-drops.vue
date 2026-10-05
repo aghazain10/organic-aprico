@@ -389,6 +389,7 @@
 
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
+import { buildProductJsonLd, buildBreadcrumbJsonLd } from '~/utils/seo'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
@@ -486,26 +487,21 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Product',
+      innerHTML: JSON.stringify(buildProductJsonLd(product, {
+        url: '/products/shilajit-drops',
+        images: galleryImages,
+        skuPrefix: 'OA-SHILAJIT-DROPS',
         name: 'Shilajit Drops — Liquid Himalayan Shilajit',
         description: 'Liquid shilajit produced by dissolving pure Himalayan shilajit resin in mineral-rich glacier water. 64% fulvic acid, 85+ trace minerals. Oil-free and alcohol-free.',
-        image: '/images/products/shilajit-drops-hero.png',
-        brand: { '@type': 'Brand', name: 'Organic Aprico' },
-        offers: product.sizes.map(s => ({
-          '@type': 'Offer',
-          price: s.price,
-          priceCurrency: 'PKR',
-          availability: 'https://schema.org/InStock',
-          url: 'https://organicaprico.com/products/shilajit-drops',
-        })),
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.8',
-          reviewCount: '150',
-        },
-      }),
+      })),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: 'Products', path: '/#products' },
+        { name: 'Shilajit Drops' },
+      ])),
     },
   ],
 })
