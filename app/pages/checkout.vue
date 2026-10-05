@@ -119,11 +119,15 @@
                 <span>Subtotal</span>
                 <strong>{{ formatPrice(total) }}</strong>
               </div>
+              <div class="summary-row summary-shipping">
+                <span>Shipping{{ shipping ? ' (Pakistan)' : '' }}</span>
+                <strong>{{ formatPrice(shipping) }}</strong>
+              </div>
               <div class="summary-row summary-total">
                 <span>Total</span>
-                <strong>{{ formatPrice(total) }}</strong>
+                <strong>{{ formatPrice(grandTotal) }}</strong>
               </div>
-              <p class="muted small">Shipping will be confirmed after order. Money-back guarantee applies.</p>
+              <p class="muted small">Shipping for orders outside Pakistan is confirmed after order. Money-back guarantee applies.</p>
               <button
                 type="submit"
                 class="btn btn-gold btn-block"
@@ -141,6 +145,8 @@
 </template>
 
 <script setup lang="ts">
+import { shippingFor } from '#shared/utils/shipping'
+
 const { items, total, clear, getItemName, getVariantLabel, getVariantPrice, formatPrice } = useCart()
 
 const form = reactive({
@@ -159,6 +165,9 @@ const loading = ref(false)
 const error = ref('')
 const orderPlaced = ref(false)
 const orderId = ref('')
+
+const shipping = computed(() => shippingFor(form.country))
+const grandTotal = computed(() => total.value + shipping.value)
 
 const whatsappMessage = ref('')
 
@@ -189,14 +198,15 @@ async function placeOrder() {
           qty: i.qty,
           price: getVariantPrice(i.product, i.size),
         })),
-        total: total.value,
+        total: grandTotal.value,
       },
     })
 
     const lines = items.value.map((i) =>
       `- ${getItemName(i.product)} ${getVariantLabel(i.product, i.size)} x ${i.qty} = ${formatPrice(getVariantPrice(i.product, i.size) * i.qty)}`
     )
-    whatsappMessage.value = `Hi Organic Aprico, I placed order ${result.orderId}:\n${lines.join('\n')}\nTotal: ${formatPrice(total.value)}\nPayment: ${form.paymentMethod === 'cod' ? 'Cash on Delivery' : 'Bank Transfer'}`
+    const shippingLine = shipping.value > 0 ? `\nShipping: ${formatPrice(shipping.value)}` : ''
+    whatsappMessage.value = `Hi Organic Aprico, I placed order ${result.orderId}:\n${lines.join('\n')}${shippingLine}\nTotal: ${formatPrice(grandTotal.value)}\nPayment: ${form.paymentMethod === 'cod' ? 'Cash on Delivery' : 'Bank Transfer'}`
 
     orderId.value = result.orderId
     orderPlaced.value = true

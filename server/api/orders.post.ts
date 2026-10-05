@@ -1,4 +1,5 @@
 import { prisma } from '../utils/prisma'
+import { shippingFor } from '#shared/utils/shipping'
 
 interface OrderBody {
   name: string
@@ -11,7 +12,6 @@ interface OrderBody {
   paymentMethod: 'cod' | 'bank_transfer'
   notes?: string
   items: Array<{ product: string; size: string; qty: number; price: number }>
-  total: number
 }
 
 export default defineEventHandler(async (event) => {
@@ -29,6 +29,9 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: 'Invalid payment method' })
   }
 
+  const subtotal = body.items.reduce((sum, item) => sum + item.price * item.qty, 0)
+  const total = subtotal + shippingFor(body.country)
+
   const order = await prisma.order.create({
     data: {
       name: body.name,
@@ -41,7 +44,7 @@ export default defineEventHandler(async (event) => {
       paymentMethod: body.paymentMethod,
       notes: body.notes || null,
       items: body.items,
-      total: body.total,
+      total,
     },
   })
 
