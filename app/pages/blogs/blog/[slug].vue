@@ -10,12 +10,21 @@
       <article class="wrap">
         <div class="post-header">
           <time :datetime="post.dateISO">{{ post.date }}</time>
+          <span v-if="post.updated" class="post-updated">
+            · Last updated <time :datetime="post.updatedISO">{{ post.updated }}</time>
+          </span>
           <h1>{{ post.title }}</h1>
+          <p class="post-byline">By the Organic Aprico production team, Skardu, Gilgit-Baltistan</p>
         </div>
         <div class="post-hero">
           <img :src="post.heroImage" :alt="post.heroAlt" />
         </div>
         <div class="post-content" v-html="post.content" />
+        <aside class="post-cta">
+          <h2>{{ cta.heading }}</h2>
+          <p>{{ cta.copy }}</p>
+          <NuxtLink :to="cta.path" class="btn btn-gold">{{ cta.label }}</NuxtLink>
+        </aside>
         <div class="post-footer">
           <NuxtLink to="/blogs/blog" class="btn btn-outline">← Back to Blog</NuxtLink>
         </div>
@@ -32,7 +41,7 @@
 
 <script setup lang="ts">
 import { getBlogPost } from '~/data/blogs'
-import { buildBreadcrumbJsonLd } from '~/utils/seo'
+import { buildBreadcrumbJsonLd, absoluteUrl } from '~/utils/seo'
 
 const route = useRoute()
 const slug = route.params.slug as string
@@ -40,15 +49,38 @@ const post = getBlogPost(slug)
 
 const { count: cartCount, openDrawer: openCart } = useCart()
 
+// §5.3 internal linking: every post funnels to exactly one money page
+const WHOLESALE_SLUGS = new Set([
+  'uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan',
+  'wholesale-shilajit-in-the-usa-market-growth-benefits-amp-bulk-supplier-guide',
+  'things-to-consider-before-buying-shilajit-for-your-business',
+  'shilajit-resin-in-the-usa-trends-opportunities-and-challenges',
+])
+const isWholesale = slug.includes('wholesale') || WHOLESALE_SLUGS.has(slug)
+const cta = isWholesale
+  ? {
+      heading: 'Source shilajit wholesale from the extractor',
+      copy: 'Bulk Himalayan resin with 73% fulvic acid, full lab reports and private label — direct from our Skardu production facility. MOQ 1 kg from Rs 95,000/kg.',
+      path: '/products/pure-himalayan-shilajit-resin-wholesale',
+      label: 'See wholesale pricing',
+    }
+  : {
+      heading: 'Buy lab-tested Himalayan shilajit',
+      copy: 'Gold-grade resin from 17,000 ft in Skardu — 73% fulvic acid, 8-stage purification, COD across Pakistan and worldwide shipping. From Rs 1,500.',
+      path: '/products/shilajit',
+      label: 'Shop shilajit resin',
+    }
+
 if (post) {
   useSeoMeta({
     title: `${post.title} | Organic Aprico Blog`,
-    description: post.excerpt,
+    description: post.excerpt || post.title,
     ogTitle: post.title,
-    ogDescription: post.excerpt,
+    ogDescription: post.excerpt || post.title,
     ogImage: post.heroImage,
     ogType: 'article',
     articlePublishedTime: post.dateISO,
+    articleModifiedTime: post.updatedISO ?? post.dateISO,
     articleSection: 'Shilajit',
   })
 
@@ -61,6 +93,29 @@ if (post) {
           { name: 'Blog', path: '/blogs/blog' },
           { name: post.title },
         ])),
+      },
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: post.title,
+          description: post.excerpt || post.title,
+          image: absoluteUrl(post.heroImage),
+          datePublished: post.dateISO,
+          dateModified: post.updatedISO ?? post.dateISO,
+          mainEntityOfPage: absoluteUrl(`/blogs/blog/${post.slug}`),
+          author: {
+            '@type': 'Organization',
+            name: 'Organic Aprico Production Team',
+            url: 'https://organicaprico.com',
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: 'Organic Aprico',
+            logo: { '@type': 'ImageObject', url: 'https://organicaprico.com/images/logo.png' },
+          },
+        }),
       },
     ],
   })
@@ -99,6 +154,15 @@ if (post) {
 .post-header h1 {
   font-size: clamp(1.6rem, 3.5vw, 2.6rem);
   line-height: 1.2;
+}
+.post-updated {
+  font-size: .85rem;
+  color: var(--stone);
+}
+.post-byline {
+  margin-top: .6rem;
+  font-size: .9rem;
+  color: var(--gold);
 }
 
 .post-hero {
@@ -183,5 +247,22 @@ if (post) {
   margin: 3rem auto 0;
   padding-top: 2rem;
   border-top: 1px solid var(--line-soft);
+}
+
+.post-cta {
+  max-width: 800px;
+  margin: 2.5rem auto 0;
+  padding: 1.75rem 1.5rem;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  background: rgba(201, 162, 74, .05);
+}
+.post-cta h2 {
+  font-size: 1.35rem;
+  margin-bottom: .5rem;
+}
+.post-cta p {
+  color: var(--stone);
+  margin-bottom: 1.1rem;
 }
 </style>

@@ -111,7 +111,7 @@
         <div class="wrap">
           <div class="product-description tab-content">
             <p><strong>Pure Himalayan Shilajit Wholesale Organic Aprico</strong><br />The World's Most Trusted Source for Bulk &amp; Wholesale Shilajit Resin</p>
-            <p>If you are looking to source pure, authentic Himalayan Shilajit at wholesale prices, Organic Aprico offers a reliable and direct supply. We provide high-potency, lab-tested Shilajit resin sourced from the Himalayan mountains of Gilgit Baltistan and deliver it to customers across the world, especially in the UK, USA, Europe, and the Middle East.</p>
+            <p>If you are looking to source pure, authentic Himalayan Shilajit at wholesale prices, Organic Aprico offers a reliable and direct supply. We provide high-potency, lab-tested Shilajit resin sourced from the Himalayan mountains of Gilgit Baltistan and deliver it to customers across the world, especially in the UK, USA, Europe, and the Middle East. Importers can start with our <NuxtLink to="/blogs/blog/uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan">UK shilajit import guide</NuxtLink>.</p>
             <p>Organic Aprico is not a middleman and not a reseller. We are the true source where you find authentic Shilajit. From the mountains to your hands, we bring you pure and original Shilajit. Through Organic Aprico, we share the power of nature's black gold with the world.</p>
             <p>As the only native extractor, producer, and exporter of Himalayan Shilajit in Pakistan, every gram of resin we supply comes directly from our own extraction operations. The Shilajit is purified in our own facility, tested by international laboratories, and shipped with complete documentation to ensure quality, purity, and authenticity for our global partners.</p>
 
@@ -477,7 +477,7 @@ const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
 
 const product = PRODUCTS.find(p => p.key === 'wholesale')!
-const productTitle = 'Pure Himalayan Shilajit Resin Wholesale | Organic Aprico'
+const productTitle = 'Shilajit Wholesale & Private Label from Pakistan'
 
 const selectedSize = ref(product.sizes[0].id)
 const qty = ref(1)
@@ -583,10 +583,10 @@ function onAdd() {
 }
 
 useSeoMeta({
-  title: 'Pure Himalayan Shilajit Resin Wholesale | Organic Aprico',
-  description: 'The World\'s Most Trusted Source for Bulk & Wholesale Shilajit Resin. Direct from extractor, no middlemen. Lab tested, private label available. From Rs 95,000/kg.',
-  ogTitle: 'Wholesale Himalayan Shilajit Resin | Organic Aprico',
-  ogDescription: 'Bulk shilajit resin for retailers and brands. 73% fulvic acid, 8-stage purification, private label available. From Rs 95,000/kg.',
+  title: 'Shilajit Wholesale & Private Label from Pakistan — From Rs 95,000/kg | Organic Aprico',
+  description: 'Bulk Himalayan shilajit resin direct from our Skardu extractor: MOQ 1kg from Rs 95,000/kg. 73% fulvic acid, 8-stage purification, Eurofins & PCSIR lab reports, private label and full export documentation.',
+  ogTitle: 'Shilajit Wholesale & Private Label from Pakistan',
+  ogDescription: 'Bulk shilajit resin for retailers and brands, direct from our Skardu extractor. 73% fulvic acid, lab reports, private label. From Rs 95,000/kg.',
   ogImage: '/images/products/wholesale-hero.jpg',
   ogType: 'product',
 })

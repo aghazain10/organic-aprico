@@ -2,46 +2,46 @@
   <section class="section" id="benefits">
     <div class="wrap benefits-grid">
       <div class="benefits-intro">
-        <h2>What it does for you</h2>
-        <p>Energy, immunity and clarity. Here is what the research points to.</p>
-        <p class="caption">Shilajit is a supplement, not a medicine.</p>
+        <h2>What&rsquo;s in every jar</h2>
+        <p>Origin, potency and testing you can verify yourself. Here is what we can prove about our shilajit.</p>
+        <p class="caption">Shilajit is a food supplement, not a medicine. It is not intended to diagnose, treat, cure or prevent any disease.</p>
       </div>
       <div class="benefits-list">
         <div class="benefit">
-          <h3>Strength and stamina</h3>
-          <p>Better endurance through improved mitochondrial function.</p>
+          <h3>Extracted above 17,000 ft</h3>
+          <p>Hand-harvested from the rocks of Gilgit-Baltistan, Skardu.</p>
         </div>
         <div class="benefit">
-          <h3>Testosterone and fertility</h3>
-          <p>Supports testosterone, sperm count and hormone balance.</p>
+          <h3>73% fulvic acid</h3>
+          <p>Independently verified by Micro Quality Lab, California.</p>
         </div>
         <div class="benefit">
-          <h3>Muscle growth and recovery</h3>
-          <p>Faster recovery and better performance.</p>
+          <h3>8-stage purification</h3>
+          <p>Triphala soak, RO filtration, ion exchange, UV and ozone. No chemicals.</p>
         </div>
         <div class="benefit">
-          <h3>Anti-ageing</h3>
-          <p>Fulvic acid fights cellular damage.</p>
+          <h3>Sun-dried 40+ days</h3>
+          <p>Slow dehydration in stainless steel under direct sunlight.</p>
         </div>
         <div class="benefit">
-          <h3>Metabolism and digestion</h3>
-          <p>Better nutrient absorption and gut health.</p>
+          <h3>84+ trace minerals</h3>
+          <p>Naturally occurring minerals plus humic acid, as found in the raw resin.</p>
         </div>
         <div class="benefit">
-          <h3>Heart and cholesterol</h3>
-          <p>Helps lower lipids and blood pressure.</p>
+          <h3>Heavy-metal tested</h3>
+          <p>Lead, arsenic, cadmium and mercury checked by PCSIR and Eurofins.</p>
         </div>
         <div class="benefit">
-          <h3>Detoxification</h3>
-          <p>Helps clear toxins and heavy metals.</p>
+          <h3>Batch-coded and traceable</h3>
+          <p>Scan the QR code on your box to open that batch&rsquo;s lab report.</p>
         </div>
         <div class="benefit">
-          <h3>Hair and hormones</h3>
-          <p>Nourishes follicles and steadies mood.</p>
+          <h3>Resin, drops and bulk</h3>
+          <p>Choose raw resin or liquid drops. Wholesale and private label available.</p>
         </div>
         <div class="benefit">
-          <h3>For women</h3>
-          <p>May ease period pain and support bone and skin health.</p>
+          <h3>Licensed extractor</h3>
+          <p>Government extraction and export licences, SECP registered since 1972.</p>
         </div>
       </div>
     </div>

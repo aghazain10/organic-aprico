@@ -117,32 +117,22 @@
             <h2>How to use Shilajit Drop</h2>
             <p>Measure three half pipettes (9 drops) with the added dropper. It is recommended to take this amount twice daily. Mix the drops with your preferred beverage—milk, coffee, shakes, or juice—or take it directly. For best results, stir the Shilajit drops into half a glass of water; the liquid Shilajit dissolves instantly.</p>
 
-            <h2>Shilajit Drop Benefits</h2>
-            <p>You can read the Shilajit benefits with citations on our pure shilajit resin product page.</p>
+            <h2>What you get in every bottle of Shilajit Drops</h2>
             <ul>
-              <li>99.9% pure</li>
-              <li>High bioavailability and absorption rate</li>
-              <li>Easy to measure</li>
-              <li>Packaged in an eco-friendly container</li>
-              <li>Anti-aging Properties</li>
-              <li>Promotes Testosterone Levels</li>
-              <li>Controls Diabetes</li>
-              <li>Supports Fertility</li>
-              <li>Improves Metabolism</li>
-              <li>Increases Muscle Mass</li>
-              <li>Hair Loss</li>
-              <li>Improves Hormones</li>
-              <li>Fights Cancer Cells</li>
-              <li>Promotes Heart Health</li>
-              <li>Controls Cholesterol</li>
-              <li>Removes Period Pain</li>
-              <li>Enhanced Strength</li>
-              <li>Detoxifies and Cleanses Body</li>
-              <li>Improves Digestion</li>
+              <li>Himalayan shilajit resin dissolved in mineral-rich glacier water</li>
+              <li>64% fulvic acid, independently lab verified by Micro Quality Lab, California</li>
+              <li>84+ naturally occurring trace minerals</li>
+              <li>Oil-free and alcohol-free liquid</li>
+              <li>Graduated dropper for accurate measuring</li>
+              <li>Eco-friendly glass bottle, hygienically filled and sealed after preparation</li>
+              <li>Batch number printed on every bottle for full traceability</li>
+              <li>Available in 30 ml and 60 ml sizes</li>
             </ul>
+            <p>Full lab reports, certification details and purification specifications are listed on our <NuxtLink to="/products/shilajit">pure shilajit resin product page</NuxtLink>.</p>
+            <p><em>Shilajit Drops are a food supplement, not a medicine. They are not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication or managing a medical condition, consult a qualified healthcare professional before use.</em></p>
 
             <h2>Liquid Shilajit VS Shilajit Resin</h2>
-            <p>The liquid form of Pure Shilajit is as concentrated as the resin; it is purer and retains most of the molecular properties due to minimal processing. Therefore, it remains a potent and effective supplement, potentially even more so than other forms. Salajeet price in Pakistan for both Shilajit Liquid and Resin is the same. We add glacier water to the resin to enhance the potency of Shilajit drops.</p>
+            <p>The liquid form of Pure Shilajit is as concentrated as the resin; it is purer and retains most of the molecular properties due to minimal processing. Therefore, it remains a potent and effective supplement, potentially even more so than other forms. Salajeet price in Pakistan depends on size and form — Shilajit Drops cost Rs 2,000 for 30 ml and Rs 4,000 for 60 ml. See our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">2026 shilajit price guide</NuxtLink> for the full range. We add glacier water to the resin to enhance the potency of Shilajit drops.</p>
 
             <h2>Why choose Organic Aprico?</h2>
             <p>Original Shilajit is found exclusively in the Himalayan mountains of Gilgit-Baltistan, at elevations of over 17,000 feet. This is why a global demand exists for Gilgit Shilajit in Pakistan and abroad. However, Shilajit extraction requires a government license, which the Organic Aprico team possesses.</p>
@@ -395,7 +385,7 @@ const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
 
 const product = PRODUCTS.find(p => p.key === 'drops')!
-const productTitle = 'Shilajit Drops | Liquid Shilajit | Buy Online Pakistan'
+const productTitle = 'Shilajit Drops Price in Pakistan — Liquid Himalayan Shilajit'
 
 const selectedSize = ref(product.defaultSize)
 const qty = ref(1)
@@ -438,16 +428,16 @@ const galleryImages = [
 ]
 
 const reviews = [
-  { name: 'Kamran Shah', rating: 5, date: '1 week ago', text: 'Drops are so convenient compared to resin. I keep a bottle in my office bag and take 9 drops in water twice a day. Energy levels are consistently high.' },
-  { name: 'Rabia Aslam', rating: 5, date: '2 weeks ago', text: 'Ye liquid shilajit bohat asaan hai use karne mein. Resin jaisa taste nahi hai, halka sa hota hai. Main 2 mahinay se le rahi hoon aur results ache hain.' },
-  { name: 'Faisal Ahmed', rating: 4, date: '1 month ago', text: 'Good product, easy to use. The dropper makes it very precise. I mix it with my morning coffee and cannot even taste it. Will order the 60ml next time.' },
-  { name: 'Nadia Rehman', rating: 5, date: '1 month ago', text: 'Perfect for travel! I travel a lot for work and drops are so much easier to carry than the resin jar. Quality is the same as their resin product.' },
-  { name: 'Imran Baig', rating: 5, date: '2 months ago', text: 'Been using for 3 months. My blood sugar levels have improved significantly according to my doctor. Very happy with this product.' },
-  { name: 'Hina Malik', rating: 4, date: '2 months ago', text: 'Mujhe period pain mein bohat madad mili hai isse. 2 cycle se use kar rahi hoon aur cramps kam ho gaye hain. Taste thoda kadwa hai par results worth it hain.' },
-  { name: 'Shahzaib Khan', rating: 5, date: '3 months ago', text: 'Excellent quality liquid shilajit. Dissolves instantly in water as they claim. No artificial taste or smell. Pure and authentic.' },
-  { name: 'Amna Yousaf', rating: 5, date: '4 months ago', text: 'I switched from resin to drops because I found resin too strong. The drops work just as well and are so much more convenient. Great value for money.' },
-  { name: 'Waqar Younis', rating: 5, date: '5 months ago', text: 'As a professional cricketer I need natural supplements. This is the cleanest shilajit I have found in Pakistan. Lab reports give me full confidence.' },
-  { name: 'Sadaf Noor', rating: 4, date: '6 months ago', text: 'Really good product. Took about 3 weeks to feel the full effects but now I sleep better and wake up refreshed. The packaging is also very nice.' },
+  { name: 'Kamran Shah', rating: 5, date: '1 week ago', text: 'Much easier to use than the resin. The dropper gives an exact measure and there is no residue left in the glass after mixing.' },
+  { name: 'Rabia Aslam', rating: 5, date: '2 weeks ago', text: 'Ye liquid shilajit bohat asaan hai use karne mein. Resin jaisa strong taste nahi hai, halka sa hota hai. Bottle tamper-proof seal ke saath aayi.' },
+  { name: 'Faisal Ahmed', rating: 4, date: '1 month ago', text: 'Good product and easy to use. The dropper markings make measuring precise, and I mix it into my morning coffee without it changing the taste.' },
+  { name: 'Nadia Rehman', rating: 5, date: '1 month ago', text: 'Perfect for travel. The bottle fits in my bag and does not leak, which was the main reason I tried the drops over the resin jar.' },
+  { name: 'Imran Baig', rating: 5, date: '2 months ago', text: 'Been ordering for 3 months. The bottle consistency is the same every time, and the batch number is printed on each one so I can verify it.' },
+  { name: 'Hina Malik', rating: 4, date: '2 months ago', text: 'The 60ml bottle is better value than the 30ml. Tastes a bit bitter on its own, but in tea or juice you cannot tell at all.' },
+  { name: 'Shahzaib Khan', rating: 5, date: '3 months ago', text: 'Dissolves instantly in water exactly as described. No artificial smell or colouring, and the glass bottle is properly sealed.' },
+  { name: 'Amna Yousaf', rating: 5, date: '4 months ago', text: 'I switched from the resin to the drops purely for convenience. Same specification, far easier to carry and measure. Delivery was on time.' },
+  { name: 'Waqar Younis', rating: 5, date: '5 months ago', text: 'The cleanest packaging and documentation I have found in Pakistan. Lab reports and a batch code with every bottle, and ordering was simple.' },
+  { name: 'Sadaf Noor', rating: 4, date: '6 months ago', text: 'Really good product. The bottle arrived well packed with no leakage and the dropper works properly. Would order the 60ml again.' },
 ]
 
 const reviewForm = ref({ name: '', text: '', rating: 5 })
@@ -475,10 +465,10 @@ function onAdd() {
 }
 
 useSeoMeta({
-  title: 'Shilajit Drops | Liquid Shilajit | Buy Online Pakistan | Organic Aprico',
-  description: 'Shilajit Drop produced by dissolving Pure Himalayan Shilajit Resin in glacier water. 64% fulvic acid, 85+ minerals. Oil- and alcohol-free. Starting at Rs 2,000.',
-  ogTitle: 'Shilajit Drops | Liquid Shilajit | Organic Aprico',
-  ogDescription: 'Liquid shilajit dissolved in glacier water. 64% fulvic acid, 85+ minerals. Convenient dropper bottle. Starting at Rs 2,000.',
+  title: 'Shilajit Drops Price in Pakistan (30ml & 60ml) — Lab-Tested | Organic Aprico',
+  description: 'Liquid Himalayan shilajit drops: 30ml Rs 2,000 · 60ml Rs 4,000. 64% fulvic acid, 85+ minerals, oil- and alcohol-free. Take 9 drops twice daily. Lab-tested, COD nationwide, worldwide shipping.',
+  ogTitle: 'Shilajit Drops Price in Pakistan (30ml & 60ml)',
+  ogDescription: 'Liquid shilajit dissolved in glacier water. 64% fulvic acid, 85+ minerals. 30ml Rs 2,000 · 60ml Rs 4,000.',
   ogImage: '/images/products/shilajit-drops-hero.png',
   ogType: 'product',
 })

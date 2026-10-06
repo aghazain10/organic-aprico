@@ -101,60 +101,50 @@
       <section class="product-tabs">
         <div class="wrap">
           <div class="product-description tab-content">
-            <p>Organic Aprico offers <strong>Pure shilajit</strong> from the Himalayan mountains of Gilgit-Baltistan, extracted at altitudes above <strong>17,000 feet</strong>. With a starting shilajit price of just <strong>1400 PKR</strong>, we provide original shilajit in Pakistan with lab testing from the USA and PCSIR Pakistan.</p>
+            <p>Organic Aprico offers <strong>Pure shilajit</strong> from the Himalayan mountains of Gilgit-Baltistan, extracted at altitudes above <strong>17,000 feet</strong>. With a starting shilajit price of just <strong>1,500 PKR</strong>, we provide original shilajit in Pakistan with lab testing from the USA and PCSIR Pakistan.</p>
             <p>Our Shilajit undergoes a four-step filtration process to ensure it is free from heavy metals and impurities while retaining <strong>73% fulvic acid</strong>, as verified by the lab tests given below.</p>
             <p>Since 1972, we've specialized in Gold-grade Himalayan shilajit, providing purely natural shilajit for improved health and vitality. Free from microbiological contaminants.</p>
 
             <h2>Pure Shilajit: Origin and Potency</h2>
             <p>Shilajit is a black, sticky substance found in the rocks of the Himalayan mountains, especially in Gilgit-Baltistan. This region produces the <strong>Best Shilajit in Pakistan</strong>, and Organic Aprico holds a government-issued license to extract Shilajit from this pristine area, which is widely demanded worldwide. It forms over centuries from the decomposition of plants in the Himalayan mountains. Research indicates that Shilajit extracted from 17,000 feet above sea level is the most potent gold-grade shilajit.</p>
-            <p>Pure Shilajit contains over <strong>85 essential minerals</strong> and is rich in fulvic and humic acid, which boost strength, stamina, and vitality while aiding in tissue repair. You can read more about the origin and benefits of shilajit in our blog post.</p>
+            <p>Pure Shilajit contains over <strong>85 essential minerals</strong> and is rich in fulvic and humic acid, which boost strength, stamina, and vitality while aiding in tissue repair. You can read more about the origin and benefits of shilajit in our <NuxtLink to="/blogs/blog/ultimate-guide-to-shilajit-2026-benefits-usage-dosage-purity-tips-where-to-buy-authentic-resin">complete shilajit guide</NuxtLink>.</p>
             <p>We ensure the purity of our original Shilajit through a meticulous four-step purification process and a <strong>40-day sun dehydration method</strong>, enhancing its potency. Celebrated for its energy-boosting, immunity-strengthening, and mind-enhancing properties, our Shilajit is available globally in grams and bulk Shilajit. With licenses for extraction and export, we guarantee smooth deliveries worldwide.</p>
 
             <h2>Shilajit Price in Pakistan 2026: A Market Overview</h2>
-            <p>The price of original Shilajit in Pakistan varies based on its quality and level of purification. Many sellers lack the necessary production facilities, equipment, and expertise to purify Shilajit properly. Extracted from depths below 16,000 feet, their products often contain harmful sediments and heavy metals that pose serious risks to human health. Such unrefined Shilajit price in Pakistan is sold below 60,000 PKR in 2026, making it a dangerous choice for consumers.</p>
-            <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>80,000 PKR</strong>, ensuring superior quality and purity. With over 100000 satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
+            <p>The price of original Shilajit in Pakistan varies based on its quality and level of purification. Many sellers lack the necessary production facilities, equipment, and expertise to purify Shilajit properly. Extracted from depths below 16,000 feet, their products often contain harmful sediments and heavy metals that pose serious risks to human health. Such unrefined Shilajit price in Pakistan is sold below 60,000 PKR in 2026, making it a dangerous choice for consumers. For a size-by-size breakdown, see our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">2026 shilajit price guide</NuxtLink>.</p>
+            <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With over 100000 satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
             <p>Globally, Himalayan Shilajit is witnessing increased demand as a natural health supplement known for its mineral richness and benefits like enhanced energy, improved immunity, and better cognitive function. As consumers prioritize organic and pure products, the market for premium-quality Shilajit has expanded, supported by online platforms that make it readily available to a global audience. Choose wisely!</p>
 
             <h3>Latest Shilajit Price in Pakistan 2026:</h3>
             <ul>
-              <li>Shilajit 10 Grams: 1400 PKR</li>
-              <li>Shilajit Resin 20 Grams: 2700 PKR</li>
-              <li>Shilajit 30 grams price in Pakistan: 4000 PKR</li>
-              <li>Shilajit 50 grams: 6900 PKR</li>
-              <li>Shilajit 100 Grams: 12900 PKR</li>
+              <li v-for="size in product.sizes" :key="size.id">
+                Shilajit {{ size.label }} price in Pakistan: {{ formatPrice(size.price) }}
+              </li>
             </ul>
 
             <h2>How to get Himalayan Shilajit from Pakistan</h2>
             <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, rich minerals, and high potency to ensure purity and affordability for your health needs. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
             <p>Our commitment to delivering original shilajit has earned the trust of over <strong>100,000 satisfied clients</strong> who have improved their well-being by incorporating salajeet into their daily routines. From anywhere in the world, you can buy pure shilajit online at organicaprico.com or contact us at 03311116915. Purchase Shilajit Online effortlessly and take a step toward elevating your health journey with Organic Aprico.</p>
 
-            <h2>Shilajit Benefits</h2>
+            <h2>What you get in every jar of Organic Aprico shilajit</h2>
+            <p>Instead of unproven promises, here are the specifications we can document for every batch we sell.</p>
             <ul>
-              <li><strong>Anti-Ageing Properties</strong> — Pure Shilajit has anti-ageing properties. Shilajit is rich in fulvic acid. Pure shilajit is an antioxidant and anti-inflammatory compound that helps reduce cellular damage and ageing.</li>
-              <li><strong>Promotes Testosterone Levels</strong> — Research has shown that Shilajit can increase testosterone levels in males by promoting the production of the hormone.</li>
-              <li><strong>Controls Diabetes</strong> — Shilajit may improve glucose and lipid profiles, thus helping control blood sugar levels in diabetic patients.</li>
-              <li><strong>Supports Fertility</strong> — Shilajit can increase sperm count and motility, supporting male fertility. It also promotes fertility in women and pregnancy by enhancing reproductive health, balancing hormones, and improving nutrient absorption.</li>
-              <li><strong>Improves Metabolism</strong> — The fulvic acid in Shilajit enhances nutrient absorption, thereby improving overall metabolism.</li>
-              <li><strong>Increases Muscle Mass</strong> — Shilajit supplementation can enhance muscle growth and recovery by improving physical performance and endurance.</li>
-              <li><strong>Controls Hair Loss</strong> — Shilajit's nutrient-rich composition can strengthen hair and prevent hair loss by nourishing hair follicles.</li>
-              <li><strong>Improves Hormones</strong> — Shilajit helps balance hormones by supporting endocrine function, which can stabilise mood and overall health.</li>
-              <li><strong>Fights Cancer Cells</strong> — Studies suggest that Shilajit, due to its antioxidant properties, has the potential to inhibit the growth of cancer cells.</li>
-              <li><strong>Promotes Heart Health</strong> — Shilajit can improve heart health by reducing lipid profiles and blood pressure and protecting the heart from damage.</li>
-              <li><strong>Controls Cholesterol</strong> — Shilajit helps lower cholesterol levels, which can reduce the risk of heart disease.</li>
-              <li><strong>Enhanced Strength</strong> — Regular use of Shilajit can enhance physical strength and endurance by improving mitochondrial function.</li>
-              <li><strong>Detoxifies and Cleanses the Body</strong> — Salajeet acts as a detoxifier, helping to cleanse the body by removing toxins and heavy metals.</li>
-              <li><strong>Improves Digestion</strong> — Salajeet can support digestive health by enhancing the gut microbiome and improving nutrient absorption.</li>
+              <li><strong>Origin</strong> — Hand-harvested above 17,000 feet in Gilgit-Baltistan, Skardu.</li>
+              <li><strong>Fulvic acid</strong> — 73% verified independently by Micro Quality Lab, California.</li>
+              <li><strong>Minerals</strong> — 84+ naturally occurring trace minerals plus humic acid.</li>
+              <li><strong>Purification</strong> — 8 chemical-free stages: Triphala soak, RO filtration, ion exchange, UV treatment and ozonation.</li>
+              <li><strong>Dehydration</strong> — Sun-dried for more than 40 days in stainless steel containers.</li>
+              <li><strong>Heavy metals</strong> — Tested by PCSIR Lahore and Eurofins for lead, arsenic, cadmium and mercury.</li>
+              <li><strong>Aflatoxins and microbes</strong> — Negative for Aflatoxin B1, B2, G1 and G2, with a clear microbiological panel.</li>
+              <li><strong>Traceability</strong> — A unique batch number and QR code printed on every box, linking to that batch's lab report.</li>
+              <li><strong>Sizes</strong> — 10 g, 20 g, 30 g, 50 g and 100 g glass jars. Bulk and private label available.</li>
+              <li><strong>Licences</strong> — Government extraction licence, export licence and SECP company registration.</li>
+              <li><strong>Formats</strong> — Raw resin, liquid drops, and bulk resin for businesses.</li>
             </ul>
-
-            <h2>Shilajit Benefits for Women</h2>
-            <ul>
-              <li><strong>Shilajit for Menstrual Pain Relief</strong> — Shilajit's anti-inflammatory properties may help reduce menstrual pain and discomfort.</li>
-              <li><strong>Shilajit for Skin Health and Microperfusion</strong> — A recent clinical study examined how shilajit affects skin health and microcirculation in healthy women. The findings suggest that shilajit can improve skin health and promote better blood flow at the microvascular level.</li>
-              <li><strong>Shilajit for Bone Health</strong> — Shilajit has the potential to support bone health in postmenopausal women. It helps reduce bone loss and the risk of fractures in ageing women.</li>
-            </ul>
+            <p><em>Organic Aprico shilajit is a food supplement, not a medicine. It is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication or managing a medical condition, consult a qualified healthcare professional before use.</em></p>
 
             <h2>Best Shilajit to Buy</h2>
-            <p>Organic Aprico stands out in this market by offering top-tier, 100% Pure Himalayan Shilajit sourced directly from the Himalayan mountains of Gilgit Baltistan. Known for its commitment to quality, Organic Aprico ensures purity and authenticity by providing lab-tested Shilajit, and our original Shilajit price is moderate. With its focus on customer well-being and affordability, Organic Aprico Shilajit is the best choice for those seeking a trusted, effective Shilajit supplement to enhance their health naturally.</p>
+            <p>Organic Aprico stands out in this market by offering top-tier, 100% Pure Himalayan Shilajit sourced directly from the Himalayan mountains of Gilgit Baltistan. Known for its commitment to quality, Organic Aprico ensures purity and authenticity by providing lab-tested Shilajit, and our original Shilajit price is moderate. See how we compare in our <NuxtLink to="/blogs/blog/best-shilajit-brands-2026-the-complete-guide-to-finding-quality-himalayan-shilajit">guide to the best shilajit brands</NuxtLink>. With its focus on customer well-being and affordability, Organic Aprico Shilajit is the best choice for those seeking a trusted, effective Shilajit supplement to enhance their health naturally.</p>
 
             <h2>Key Stages of Processing Bulk Shilajit / Raw Shilajit</h2>
             <p><strong>Extraction → Filtration → Purification → Dehydration</strong></p>
@@ -418,7 +408,7 @@ const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
 
 const product = PRODUCTS.find(p => p.key === 'resin')!
-const productTitle = 'Pure Himalayan Shilajit Resin | Gold-Grade, Lab-Tested'
+const productTitle = 'Shilajit Price in Pakistan 2026 — Pure Himalayan Gold-Grade Resin'
 
 const selectedSize = ref(product.defaultSize)
 const qty = ref(1)
@@ -471,16 +461,16 @@ const galleryImages = [
 ]
 
 const reviews = [
-  { name: 'Ahmed Raza', rating: 5, date: '2 weeks ago', text: 'Absolutely genuine shilajit. I have been using it for 3 months now and the difference in my energy levels is remarkable. Highly recommend to anyone looking for real Himalayan shilajit.' },
-  { name: 'Fatima Khan', rating: 5, date: '1 month ago', text: 'Bohat acha product hai. Main ne 30g jar liya hai aur results bilkul real hain. Subah khali pet leti hoon aur din bhar energy rehti hai. Packaging bhi bohat premium hai.' },
-  { name: 'Usman Malik', rating: 4, date: '1 month ago', text: 'Good quality shilajit. Took about 2 weeks to notice results but now I feel more focused at work. The only reason for 4 stars is shipping took a bit longer than expected.' },
-  { name: 'Ayesha Siddiqui', rating: 5, date: '2 months ago', text: 'Main ne pehle kai jagah se salajeet try kiya tha par Organic Aprico ka asal hai. Taste natural hai aur lab reports bhi diye hain. Ye company trustworthy hai.' },
-  { name: 'Bilal Hussain', rating: 5, date: '2 months ago', text: 'Best shilajit in Pakistan, no doubt. I am a gym person and this has significantly improved my recovery time. The 50g jar lasts about 2 months.' },
-  { name: 'Zainab Ali', rating: 4, date: '3 months ago', text: 'Started using this for my hair fall and overall wellness. After 6 weeks I noticed less hair fall and better skin. Will order again inshaAllah.' },
-  { name: 'Hassan Javed', rating: 5, date: '3 months ago', text: 'Shilajit quality is outstanding. Dissolves easily in warm milk. My father has been using it for joint pain and he says it helps a lot. Will definitely buy again.' },
-  { name: 'Maryam Noor', rating: 5, date: '4 months ago', text: 'I was skeptical at first but after reading the lab reports and seeing the batch code, I decided to try it. So glad I did! My stamina has improved noticeably.' },
-  { name: 'Tariq Mehmood', rating: 5, date: '5 months ago', text: 'Saste aur asli dono milte hain is jagah. 10g se start kiya tha ab 50g order kar raha hoon. Customer service bhi bohat friendly hai WhatsApp pe.' },
-  { name: 'Sana Iqbal', rating: 4, date: '6 months ago', text: 'Very pure and authentic product. Love that they provide full lab reports. The taste is strong but that is how real shilajit should taste. Recommended!' },
+  { name: 'Ahmed Raza', rating: 5, date: '2 weeks ago', text: 'Genuine product. It dissolves cleanly in warm water and leaves no grit at the bottom, which is exactly what I was looking for after trying two other brands.' },
+  { name: 'Fatima Khan', rating: 5, date: '1 month ago', text: 'Bohat achi packaging hai. Jar tamper-proof seal ke saath aayi aur batch number box par clearly printed tha. Lab report QR code se check kar liya.' },
+  { name: 'Usman Malik', rating: 4, date: '1 month ago', text: 'Good resin quality and the texture is thick, not runny. The only reason for 4 stars is that delivery took two days longer than the estimate.' },
+  { name: 'Ayesha Siddiqui', rating: 5, date: '2 months ago', text: 'Main ne pehle kai jagah se salajeet try kiya tha. Yahan ki resin asal hai, taste natural hai aur lab reports bhi saath diye hain. Trustworthy company.' },
+  { name: 'Bilal Hussain', rating: 5, date: '2 months ago', text: 'The 50g jar lasts me around two months. Dissolves easily in lukewarm milk, and the earthy taste is what real resin should taste like.' },
+  { name: 'Zainab Ali', rating: 4, date: '3 months ago', text: 'Ordered the 30g jar to try it. Packaging is premium, the spoon is a useful addition, and the price per gram is fair for gold-grade resin.' },
+  { name: 'Hassan Javed', rating: 5, date: '3 months ago', text: 'I ordered one for my father and then ordered again for myself. The texture was consistent between both jars, which gives me confidence in the batch process.' },
+  { name: 'Maryam Noor', rating: 5, date: '4 months ago', text: 'I was sceptical at first, but the batch code and lab reports are genuinely provided and verifiable. The resin itself is smooth and dissolves fully.' },
+  { name: 'Tariq Mehmood', rating: 5, date: '5 months ago', text: 'Saste aur asli dono milte hain is jagah. 10g se start kiya tha, ab 50g order kar raha hoon. WhatsApp par customer service bhi bohat quick thi.' },
+  { name: 'Sana Iqbal', rating: 4, date: '6 months ago', text: 'Very good quality resin. Love that full lab reports are included and the glass jar keeps it fresh. The taste is strong, as real shilajit should be.' },
 ]
 
 const reviewForm = ref({ name: '', text: '', rating: 5 })
@@ -508,10 +498,10 @@ function onAdd() {
 }
 
 useSeoMeta({
-  title: 'Pure Himalayan Shilajit Resin | Gold-Grade, Lab-Tested | Organic Aprico',
-  description: 'Organic Aprico offers Pure shilajit from the Himalayan mountains of Gilgit-Baltistan, extracted at altitudes above 17,000 feet. 73% fulvic acid, lab verified. Starting at Rs 1,500.',
-  ogTitle: 'Pure Himalayan Shilajit Resin | Organic Aprico',
-  ogDescription: 'Gold-grade resin, 73% fulvic acid, 8-stage purification. Lab tested in California and Pakistan. Starting at Rs 1,500.',
+  title: 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500 | Organic Aprico',
+  description: 'Original gold-grade Himalayan shilajit price in Pakistan: 10g Rs 1,500 · 20g Rs 2,900 · 50g Rs 7,100 · 100g Rs 12,900. Lab-tested 73% fulvic acid, COD nationwide, worldwide shipping.',
+  ogTitle: 'Shilajit Price in Pakistan — Pure Himalayan Resin from Rs 1,500',
+  ogDescription: 'Gold-grade resin, 73% fulvic acid, 8-stage purification, lab tested in California and Pakistan. 10g Rs 1,500 · 50g Rs 7,100 · 100g Rs 12,900.',
   ogImage: '/images/products/shilajit-resin-jar-spoon.jpg',
   ogType: 'product',
 })

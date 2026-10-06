@@ -51,11 +51,11 @@ function toggle(i: number) {
 const faqs = [
   {
     q: 'What is Shilajit?',
-    a: 'Shilajit is a natural, tar-like resin that forms over centuries from the decomposition of plant matter in the Himalayan mountains. It is rich in fulvic acid, minerals, and other bioactive compounds, and has been used in traditional Ayurvedic medicine for thousands of years to support overall health and vitality.',
+    a: 'Shilajit is a natural, tar-like resin that forms over centuries from the decomposition of plant matter in the Himalayan mountains. It is rich in fulvic acid, minerals and other bioactive compounds, and has been used in traditional Ayurvedic practice for centuries.',
   },
   {
-    q: 'What are the benefits of Organic Aprico Shilajit?',
-    a: 'Organic Aprico Shilajit may help boost energy levels, support immune function, enhance cognitive performance, promote healthy aging, and aid in nutrient absorption due to its high fulvic acid content. It is also known for its potential to support testosterone levels, improve stamina, and contribute to overall wellness.',
+    q: 'What makes Organic Aprico shilajit different?',
+    a: 'We extract, purify and test our own shilajit rather than reselling it. Every batch is hand-harvested above 17,000 feet in Gilgit-Baltistan, put through an 8-stage chemical-free purification, sun-dried for 40+ days, and independently tested for fulvic acid content and heavy metals. The batch number on your box links to that batch&rsquo;s lab report.',
   },
   {
     q: 'How should I take Shilajit?',
@@ -63,19 +63,19 @@ const faqs = [
   },
   {
     q: 'Is Organic Aprico Shilajit safe and pure?',
-    a: 'Yes, our Shilajit is sourced from high-altitude Himalayan regions and undergoes rigorous third-party testing for purity, heavy metals, and contaminants. It is 100% organic, free from additives, and certified for quality. However, pregnant or nursing women, children, and those with medical conditions should consult a doctor before use.',
+    a: 'Yes. Our shilajit is sourced from high-altitude Himalayan regions and undergoes rigorous third-party testing for purity, heavy metals and contaminants. It is free from additives and certified for quality. Pregnant or nursing women, children, and anyone with a medical condition should consult a doctor before use.',
   },
   {
     q: 'Where does Organic Aprico source its Shilajit from?',
     a: 'Organic Aprico Shilajit is ethically sourced from pristine, high-elevation areas in the Himalayas. We work directly with sustainable harvesters to ensure the highest quality and purity while preserving the environment.',
   },
   {
-    q: 'How long does it take to see results from Shilajit?',
-    a: 'Results can vary based on individual health, dosage, and consistency. Many users report increased energy and vitality within 1–2 weeks, while other benefits like improved stamina or cognitive support may take 4–6 weeks of regular use.',
+    q: 'What testing does your shilajit undergo?',
+    a: 'Every batch is tested by PCSIR Lahore and independently by Micro Quality Lab in California and Eurofins. Reports cover fulvic acid percentage, heavy metals (lead, mercury, arsenic, cadmium), aflatoxins and a full microbiological panel. You can view the reports on our certifications page.',
   },
   {
-    q: 'Can Shilajit help with altitude sickness?',
-    a: 'Traditionally, Shilajit has been used by Himalayan communities to combat altitude sickness due to its adaptogenic properties and ability to enhance oxygen utilization. While anecdotal evidence supports this, scientific studies are limited — consult a healthcare provider for personalised advice.',
+    q: 'Is shilajit right for me?',
+    a: 'Shilajit is a food supplement, not a medicine, and it is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication or managing a medical condition, speak to a qualified healthcare professional before use. Keep out of reach of children.',
   },
   {
     q: 'What is the shelf life of Organic Aprico Shilajit?',

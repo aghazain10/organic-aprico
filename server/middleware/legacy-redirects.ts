@@ -70,11 +70,26 @@ const EXACT_REDIRECTS: Record<string, string> = {
   '/recent-viewed-products': HOME,
   '/customer_authentication/redirect': HOME,
 
+  // --- Renamed blog slugs (2025 -> evergreen, SEO plan §5.4) ---
+  '/blogs/blog/exposing-shilajit-uk-scam-alert-how-to-spot-fake-himalayan-resin-in-2025':
+    '/blogs/blog/exposing-shilajit-uk-scam-alert-how-to-spot-fake-himalayan-resin',
+  '/blogs/blog/uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan-2025-guide':
+    '/blogs/blog/uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan',
+  '/blogs/blog/where-to-source-authentic-shilajit-in-pakistan-a-buyer-s-guide-2025':
+    '/blogs/blog/where-to-source-authentic-shilajit-in-pakistan-a-buyers-guide',
+  '/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know-2025-guide':
+    '/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know',
+
+  // --- Retired health-claim posts (SEO plan §5.4 / compliance) ---
+  '/blogs/blog/best-shilajit-for-testosterone-a-complete-guide-to-boosting-male-hormones-naturally':
+    SHILAJIT,
+  '/blogs/blog/shilajit-for-women-beauty-hormonal-balance-and-wellness-benefits':
+    SHILAJIT,
+
   // --- Deleted blog posts (removed as duplicates/out of scope) ---
   '/blogs/blog/is-your-shilajit-safe-the-truth-about-heavy-metals-and-lab-testing':
     '/blogs/blog/is-your-shilajit-safe-the-truth-about-heavy-metals-lab-testing-and-authentic-source-to-buy-shilajit',
-  '/blogs/blog/shilajit-for-women-5-key-benefits-of-shilajit':
-    '/blogs/blog/shilajit-for-women-beauty-hormonal-balance-and-wellness-benefits',
+  '/blogs/blog/shilajit-for-women-5-key-benefits-of-shilajit': SHILAJIT,
   '/blogs/blog/himalayan-shilajit-vs-shilajit-fulvic-aprico': BLOG_INDEX,
   '/blogs/blog/top-5-dry-fruits-to-boost-your-immunity-for-summer': HOME,
   '/blogs/blog/best-home-remedy-to-improve-weak-eyesight': HOME,
