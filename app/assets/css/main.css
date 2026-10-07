@@ -388,7 +388,7 @@ body.ready .jar-hero, body.ready .hero-copy > * { opacity: 1; transform: none; }
 
 /* ---------- Footer ---------- */
 .footer { border-top: 1px solid var(--line); padding: clamp(64px, 8vw, 110px) 0 0; background: var(--ink); }
-.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr .8fr .7fr; gap: clamp(2rem, 4vw, 4rem); }
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr .9fr .8fr; gap: clamp(1.5rem, 3vw, 3rem); }
 .footer-brand p { color: var(--stone); margin: 1.2rem 0 2rem; max-width: 40ch; }
 .footer-col { display: flex; flex-direction: column; gap: .55rem; font-size: .96rem; }
 .footer-col h4 { font-family: var(--sans); font-weight: 500; font-size: .95rem; color: var(--gold); margin-bottom: .3rem; }

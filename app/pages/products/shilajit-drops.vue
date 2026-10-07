@@ -24,11 +24,11 @@
                     :class="{ active: activeImage === i }"
                     @click="activeImage = i"
                   >
-                    <img :src="img" :alt="`${productTitle} view ${i + 1}`" />
+                    <img :src="img" :alt="galleryAlts[i] ?? productTitle" />
                   </button>
                 </div>
                 <div class="product-main-img">
-                  <img :src="galleryImages[activeImage]" :alt="productTitle" />
+                  <img :src="galleryImages[activeImage]" :alt="galleryAlts[activeImage] ?? productTitle" />
                   <button class="gallery-arrow gallery-arrow-left" aria-label="Previous image" @click="prevImage">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                   </button>
@@ -146,7 +146,7 @@
 
             <h2>Ordering Information</h2>
             <p>You can order Shilajit Drop on the website, through WhatsApp, or by phone for national clients.</p>
-            <p>We offer Shilajit Price per kg for international customers searching for Himalayan Shilajit in bulk. Please get in touch with us via the provided phone number, WhatsApp, or email for further details. We have 10,000+ international clients from all over the world.</p>
+            <p>We offer Shilajit Price per kg for international customers searching for Himalayan Shilajit in bulk. Please get in touch with us via the provided phone number, WhatsApp, or email for further details. We have over 10,000 customers worldwide.</p>
             <p>We are proud to say that organic Aprico never compromises on the quality of Shilajit and always delivers parcels on time because we have export licenses that help us serve clients worldwide.</p>
           </div>
 
@@ -425,6 +425,11 @@ function nextImage() {
 const galleryImages = [
   '/images/products/shilajit-drops-hero.png',
   '/images/products/shilajit-drops-liquid.jpg',
+]
+
+const galleryAlts = [
+  'Organic Aprico Shilajit Drops bottle',
+  'Shilajit Drops liquid in the dropper bottle',
 ]
 
 const reviews = [

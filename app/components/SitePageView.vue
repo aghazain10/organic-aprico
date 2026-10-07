@@ -16,8 +16,21 @@
 
 <script setup lang="ts">
 import type { SitePage } from '~/data/pages'
+import { buildBreadcrumbJsonLd } from '~/utils/seo'
 
-defineProps<{ page: SitePage }>()
+const props = defineProps<{ page: SitePage }>()
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: props.page.title },
+      ])),
+    },
+  ],
+})
 </script>
 
 <style scoped>

@@ -165,6 +165,8 @@
 </template>
 
 <script setup lang="ts">
+import { buildBreadcrumbJsonLd } from '~/utils/seo'
+
 const { count: cartCount, openDrawer: openCart } = useCart()
 
 const lightbox = reactive({ src: '', alt: '' })
@@ -293,6 +295,18 @@ const summary = [
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E9CD84" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>',
   },
 ]
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: 'Certifications & Lab Reports' },
+      ])),
+    },
+  ],
+})
 
 useSeoMeta({
   title: 'Certifications & Lab Reports | Organic Aprico',

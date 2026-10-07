@@ -32,11 +32,6 @@
     </main>
     <AppFooter />
   </div>
-  <div v-else class="wrap" style="padding-top:160px;text-align:center;">
-    <h1>Post not found</h1>
-    <p class="muted">The blog post you are looking for does not exist.</p>
-    <NuxtLink to="/blogs/blog" class="btn btn-gold" style="margin-top:1rem;">Back to Blog</NuxtLink>
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -71,55 +66,59 @@ const cta = isWholesale
       label: 'Shop shilajit resin',
     }
 
-if (post) {
-  useSeoMeta({
-    title: `${post.title} | Organic Aprico Blog`,
-    description: post.excerpt || post.title,
-    ogTitle: post.title,
-    ogDescription: post.excerpt || post.title,
-    ogImage: post.heroImage,
-    ogType: 'article',
-    articlePublishedTime: post.dateISO,
-    articleModifiedTime: post.updatedISO ?? post.dateISO,
-    articleSection: 'Shilajit',
-  })
-
-  useHead({
-    script: [
-      {
-        type: 'application/ld+json',
-        innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
-          { name: 'Home', path: '/' },
-          { name: 'Blog', path: '/blogs/blog' },
-          { name: post.title },
-        ])),
-      },
-      {
-        type: 'application/ld+json',
-        innerHTML: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'Article',
-          headline: post.title,
-          description: post.excerpt || post.title,
-          image: absoluteUrl(post.heroImage),
-          datePublished: post.dateISO,
-          dateModified: post.updatedISO ?? post.dateISO,
-          mainEntityOfPage: absoluteUrl(`/blogs/blog/${post.slug}`),
-          author: {
-            '@type': 'Organization',
-            name: 'Organic Aprico Production Team',
-            url: 'https://organicaprico.com',
-          },
-          publisher: {
-            '@type': 'Organization',
-            name: 'Organic Aprico',
-            logo: { '@type': 'ImageObject', url: 'https://organicaprico.com/images/logo.png' },
-          },
-        }),
-      },
-    ],
-  })
+// An unknown slug must return a real 404 status, not a 200 with "not found" copy
+// (soft 404s get indexed and waste crawl budget).
+if (!post) {
+  throw createError({ statusCode: 404, statusMessage: 'Post not found', fatal: true })
 }
+
+useSeoMeta({
+  title: `${post.title} | Organic Aprico Blog`,
+  description: post.excerpt || post.title,
+  ogTitle: post.title,
+  ogDescription: post.excerpt || post.title,
+  ogImage: post.heroImage,
+  ogType: 'article',
+  articlePublishedTime: post.dateISO,
+  articleModifiedTime: post.updatedISO ?? post.dateISO,
+  articleSection: 'Shilajit',
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: 'Blog', path: '/blogs/blog' },
+        { name: post.title },
+      ])),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: post.title,
+        description: post.excerpt || post.title,
+        image: absoluteUrl(post.heroImage),
+        datePublished: post.dateISO,
+        dateModified: post.updatedISO ?? post.dateISO,
+        mainEntityOfPage: absoluteUrl(`/blogs/blog/${post.slug}`),
+        author: {
+          '@type': 'Organization',
+          name: 'Organic Aprico Production Team',
+          url: 'https://organicaprico.com',
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Organic Aprico',
+          logo: { '@type': 'ImageObject', url: 'https://organicaprico.com/images/logo.png' },
+        },
+      }),
+    },
+  ],
+})
 </script>
 
 <style scoped>

@@ -52,6 +52,20 @@
 </template>
 
 <script setup lang="ts">
+import { buildBreadcrumbJsonLd } from '~/utils/seo'
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: '8-Stage Purification Process' },
+      ])),
+    },
+  ],
+})
+
 const { count: cartCount, openDrawer: openCart } = useCart()
 
 const steps = [

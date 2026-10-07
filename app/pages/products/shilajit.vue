@@ -24,11 +24,11 @@
                     :class="{ active: activeImage === i }"
                     @click="activeImage = i"
                   >
-                    <img :src="img" :alt="`${productTitle} view ${i + 1}`" />
+                    <img :src="img" :alt="galleryAlts[i] ?? productTitle" />
                   </button>
                 </div>
                 <div class="product-main-img">
-                  <img :src="galleryImages[activeImage]" :alt="productTitle" />
+                  <img :src="galleryImages[activeImage]" :alt="galleryAlts[activeImage] ?? productTitle" />
                   <button class="gallery-arrow gallery-arrow-left" aria-label="Previous image" @click="prevImage">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                   </button>
@@ -112,7 +112,7 @@
 
             <h2>Shilajit Price in Pakistan 2026: A Market Overview</h2>
             <p>The price of original Shilajit in Pakistan varies based on its quality and level of purification. Many sellers lack the necessary production facilities, equipment, and expertise to purify Shilajit properly. Extracted from depths below 16,000 feet, their products often contain harmful sediments and heavy metals that pose serious risks to human health. Such unrefined Shilajit price in Pakistan is sold below 60,000 PKR in 2026, making it a dangerous choice for consumers. For a size-by-size breakdown, see our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">2026 shilajit price guide</NuxtLink>.</p>
-            <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With over 100000 satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
+            <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With over 10,000 satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
             <p>Globally, Himalayan Shilajit is witnessing increased demand as a natural health supplement known for its mineral richness and benefits like enhanced energy, improved immunity, and better cognitive function. As consumers prioritize organic and pure products, the market for premium-quality Shilajit has expanded, supported by online platforms that make it readily available to a global audience. Choose wisely!</p>
 
             <h3>Latest Shilajit Price in Pakistan 2026:</h3>
@@ -123,8 +123,8 @@
             </ul>
 
             <h2>How to get Himalayan Shilajit from Pakistan</h2>
-            <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, rich minerals, and high potency to ensure purity and affordability for your health needs. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
-            <p>Our commitment to delivering original shilajit has earned the trust of over <strong>100,000 satisfied clients</strong> who have improved their well-being by incorporating salajeet into their daily routines. From anywhere in the world, you can buy pure shilajit online at organicaprico.com or contact us at 03311116915. Purchase Shilajit Online effortlessly and take a step toward elevating your health journey with Organic Aprico.</p>
+            <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, 73% fulvic acid and full third-party lab testing, at an affordable price. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
+            <p>Our commitment to delivering original shilajit has earned the trust of over <strong>10,000 customers worldwide</strong>. From anywhere in the world, you can buy pure shilajit online at organicaprico.com or contact us at 03311116915. Ordering shilajit online takes a couple of minutes, and every order ships with its batch number and lab report reference.</p>
 
             <h2>What you get in every jar of Organic Aprico shilajit</h2>
             <p>Instead of unproven promises, here are the specifications we can document for every batch we sell.</p>
@@ -144,7 +144,7 @@
             <p><em>Organic Aprico shilajit is a food supplement, not a medicine. It is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication or managing a medical condition, consult a qualified healthcare professional before use.</em></p>
 
             <h2>Best Shilajit to Buy</h2>
-            <p>Organic Aprico stands out in this market by offering top-tier, 100% Pure Himalayan Shilajit sourced directly from the Himalayan mountains of Gilgit Baltistan. Known for its commitment to quality, Organic Aprico ensures purity and authenticity by providing lab-tested Shilajit, and our original Shilajit price is moderate. See how we compare in our <NuxtLink to="/blogs/blog/best-shilajit-brands-2026-the-complete-guide-to-finding-quality-himalayan-shilajit">guide to the best shilajit brands</NuxtLink>. With its focus on customer well-being and affordability, Organic Aprico Shilajit is the best choice for those seeking a trusted, effective Shilajit supplement to enhance their health naturally.</p>
+            <p>Organic Aprico stands out in this market by offering top-tier, 100% Pure Himalayan Shilajit sourced directly from the Himalayan mountains of Gilgit Baltistan. Known for its commitment to quality, Organic Aprico ensures purity and authenticity by providing lab-tested Shilajit, and our original Shilajit price is moderate. See how we compare in our <NuxtLink to="/blogs/blog/best-shilajit-brands-2026-the-complete-guide-to-finding-quality-himalayan-shilajit">guide to the best shilajit brands</NuxtLink>. With its focus on verifiable quality and affordability, Organic Aprico shilajit suits buyers who want a lab-tested supplier with documented fulvic acid content, batch traceability and worldwide shipping.</p>
 
             <h2>Key Stages of Processing Bulk Shilajit / Raw Shilajit</h2>
             <p><strong>Extraction → Filtration → Purification → Dehydration</strong></p>
@@ -458,6 +458,21 @@ const galleryImages = [
   '/images/products/shilajit-resin-why-choose.jpg',
   '/images/products/shilajit-resin-side-benefits.jpg',
   '/images/products/shilajit-resin-packaging.jpg',
+]
+
+const galleryAlts = [
+  'Organic Aprico Shilajit Resin jar with measuring spoon',
+  'Pure Himalayan Shilajit Resin in the glass jar',
+  'Shilajit Resin box, front panel',
+  'Shilajit Resin box and glass jar together',
+  'Shilajit Resin box, back panel',
+  'Shilajit Resin box, product summary panel',
+  'Shilajit Resin purity comparison',
+  'Shilajit Resin features panel',
+  'Shilajit Resin how to use guide',
+  'Shilajit Resin why choose panel',
+  'Shilajit Resin packaging side panel',
+  'Shilajit Resin packaging and jar',
 ]
 
 const reviews = [

@@ -24,11 +24,11 @@
                     :class="{ active: activeImage === i }"
                     @click="activeImage = i"
                   >
-                    <img :src="img" :alt="`${productTitle} view ${i + 1}`" />
+                    <img :src="img" :alt="galleryAlts[i] ?? productTitle" />
                   </button>
                 </div>
                 <div class="product-main-img">
-                  <img :src="galleryImages[activeImage]" :alt="productTitle" />
+                  <img :src="galleryImages[activeImage]" :alt="galleryAlts[activeImage] ?? productTitle" />
                   <button class="gallery-arrow gallery-arrow-left" aria-label="Previous image" @click="prevImage">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                   </button>
@@ -316,8 +316,8 @@
 
             <h2>Global Recognition and Certifications</h2>
             <p>Organic Aprico proudly holds internationally recognized certifications, including HACCP, GMP, ISO 9001, ISO 22000, and Halal certification. These certifications reflect our strong commitment to quality, safety, hygiene, and world-class production standards.</p>
-            <p>With a legacy that traces back to 1972, Organic Aprico has built a reputation of trust and reliability in the natural wellness industry. Today, the brand serves more than 1 million satisfied customers and supplies premium Shilajit to over 20 international brands across the world.</p>
-            <p><strong>ORGANIC APRICO IS THE BEST SHILAJIT BRAND IN THE WORLD.</strong></p>
+            <p>With a legacy that traces back to 1972, Organic Aprico has built a reputation of trust and reliability in the natural wellness industry. Today the brand serves over 10,000 customers and supplies premium shilajit to more than 10 international brands across the world.</p>
+            <p><strong>Organic Aprico is an extraction and export licence holder registered in Pakistan.</strong></p>
             <p>For complete transparency, full lab reports, certification documents, and company registration papers are provided to all wholesale and export clients.</p>
           </div>
 
@@ -519,6 +519,12 @@ const galleryImages = [
   '/images/products/wholesale-hero.jpg',
   '/images/products/wholesale-packing-1.jpg',
   '/images/products/wholesale-packing-2.jpg',
+]
+
+const galleryAlts = [
+  'Organic Aprico wholesale shilajit resin',
+  'Wholesale shilajit resin packing',
+  'Wholesale shilajit resin packing, second view',
 ]
 
 const reviews = [

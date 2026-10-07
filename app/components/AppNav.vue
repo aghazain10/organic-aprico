@@ -9,9 +9,32 @@
         </span>
       </a>
       <nav class="nav-links" aria-label="Main">
+        <div class="nav-dropdown">
+          <NuxtLink to="/products/shilajit" class="nav-dropdown-trigger">
+            Shop
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </NuxtLink>
+          <div class="nav-dropdown-menu">
+            <NuxtLink to="/products/shilajit">
+              <strong>Shilajit Resin</strong>
+              <span>Gold-grade resin from Rs 1,500</span>
+            </NuxtLink>
+            <NuxtLink to="/products/shilajit-drops">
+              <strong>Shilajit Drops</strong>
+              <span>Liquid drops, 30ml &amp; 60ml</span>
+            </NuxtLink>
+            <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">
+              <strong>Wholesale &amp; Private Label</strong>
+              <span>Bulk resin from Rs 95,000/kg</span>
+            </NuxtLink>
+            <NuxtLink to="/blogs/blog">
+              <strong>Shilajit Guides</strong>
+              <span>Buying, purity and price guides</span>
+            </NuxtLink>
+          </div>
+        </div>
         <a href="/#about">Shilajit</a>
-        <a href="/#products">Products</a>
-        <a href="/#benefits">Benefits</a>
+        <a href="/#benefits">What's inside</a>
         <a href="/#purification">Purification</a>
         <a href="/#difference">Why us</a>
       </nav>
@@ -37,9 +60,12 @@
 
     <div class="mobile-menu" :class="{ open: menuOpen }">
       <nav class="mobile-nav" aria-label="Mobile">
+        <NuxtLink to="/products/shilajit" @click="close">Shilajit Resin</NuxtLink>
+        <NuxtLink to="/products/shilajit-drops" @click="close">Shilajit Drops</NuxtLink>
+        <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale" @click="close">Wholesale &amp; Private Label</NuxtLink>
+        <NuxtLink to="/blogs/blog" @click="close">Shilajit Guides</NuxtLink>
         <a href="/#about" @click="close">Shilajit</a>
-        <a href="/#products" @click="close">Products</a>
-        <a href="/#benefits" @click="close">Benefits</a>
+        <a href="/#benefits" @click="close">What's inside</a>
         <a href="/#purification" @click="close">Purification</a>
         <a href="/#difference" @click="close">Why us</a>
         <NuxtLink to="/purification" @click="close">Purification Process</NuxtLink>
@@ -80,6 +106,55 @@ watch(menuOpen, (open) => {
 </script>
 
 <style scoped>
+/* Shop dropdown: links stay in the DOM on every page so products and the blog
+   are crawlable from the whole site, not just the homepage. */
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+}
+.nav-dropdown-trigger:hover { color: var(--cream); }
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + .9rem);
+  left: -.9rem;
+  min-width: 17rem;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  background: rgba(9, 8, 5, .97);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, .45);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+  transition: opacity .2s var(--ease), transform .2s var(--ease), visibility .2s;
+}
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.nav-dropdown-menu a {
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+  padding: .6rem .8rem;
+}
+.nav-dropdown-menu a:hover { background: rgba(201, 162, 74, .07); }
+.nav-dropdown-menu strong {
+  font-weight: 500;
+  color: var(--cream);
+}
+.nav-dropdown-menu span {
+  font-size: .82rem;
+  color: var(--stone);
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
@@ -123,7 +198,8 @@ watch(menuOpen, (open) => {
     transition: max-height .35s var(--ease);
   }
   .mobile-menu.open {
-    max-height: 400px;
+    max-height: 640px;
+    overflow-y: auto;
   }
   .mobile-nav {
     display: flex;

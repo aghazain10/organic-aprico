@@ -24,6 +24,16 @@
         </form>
       </div>
       <div class="footer-col">
+        <h4>Shop shilajit</h4>
+        <NuxtLink to="/products/shilajit">Shilajit Resin</NuxtLink>
+        <NuxtLink to="/products/shilajit-drops">Shilajit Drops</NuxtLink>
+        <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">Wholesale &amp; Private Label</NuxtLink>
+        <h4>Learn</h4>
+        <NuxtLink to="/blogs/blog">Shilajit Guides</NuxtLink>
+        <NuxtLink to="/certifications">Certifications &amp; Lab Reports</NuxtLink>
+        <NuxtLink to="/purification">Purification Process</NuxtLink>
+      </div>
+      <div class="footer-col">
         <h4>Visit us</h4>
         <address>
           <strong>Lahore Organic Village</strong><br>Main Blvd, DHA Phase 1, Lahore
@@ -52,7 +62,7 @@
         <NuxtLink to="/pages/about-us">About us</NuxtLink>
         <NuxtLink to="/pages/track-your-order">Track your order</NuxtLink>
         <NuxtLink to="/pages/payment-method">Payment methods</NuxtLink>
-        <NuxtLink to="/pages/organic-guaranteed">Organic guaranteed</NuxtLink>
+        <NuxtLink to="/pages/organic-guaranteed">Purity guarantee</NuxtLink>
         <NuxtLink to="/pages/company-registration">Company registration</NuxtLink>
         <NuxtLink to="/policies/shipping-policy">Shipping policy</NuxtLink>
         <NuxtLink to="/policies/refund-policy">Refund policy</NuxtLink>
@@ -62,7 +72,7 @@
     </div>
     <div class="wrap footer-bottom">
       <span>&copy; {{ year }} Organic Aprico. All rights reserved.</span>
-      <span>We accept Visa, Mastercard, PayPal and Shop Pay.</span>
+      <span>Cash on delivery across Pakistan, or pay by bank transfer, JazzCash, EasyPaisa or card.</span>
     </div>
   </footer>
 </template>
