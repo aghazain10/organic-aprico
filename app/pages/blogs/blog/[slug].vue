@@ -14,7 +14,12 @@
             · Last updated <time :datetime="post.updatedISO">{{ post.updated }}</time>
           </span>
           <h1>{{ post.title }}</h1>
-          <p class="post-byline">By the Organic Aprico production team, Skardu, Gilgit-Baltistan</p>
+          <p class="post-byline">By <strong>Nawaz Ali</strong>, Skardu, Gilgit-Baltistan</p>
+          <p class="post-author-bio">
+            Nawaz Ali is from Skardu, Gilgit-Baltistan. He has studied shilajit personally for more
+            than ten years, and his family has been in the shilajit business since 1972.
+            <NuxtLink to="/pages/about-us">More about Organic Aprico</NuxtLink>
+          </p>
         </div>
         <div class="post-hero">
           <img :src="post.heroImage" :alt="post.heroAlt" />
@@ -36,7 +41,17 @@
 
 <script setup lang="ts">
 import { getBlogPost } from '~/data/blogs'
-import { buildBreadcrumbJsonLd, absoluteUrl } from '~/utils/seo'
+import { buildBreadcrumbJsonLd, absoluteUrl, SITE_URL } from '~/utils/seo'
+
+const AUTHOR = {
+  '@type': 'Person',
+  name: 'Nawaz Ali',
+  url: absoluteUrl('/pages/about-us'),
+  description:
+    'Nawaz Ali is from Skardu, Gilgit-Baltistan. He has studied shilajit personally for more than ten years, and his family has been in the shilajit business since 1972.',
+  knowsAbout: ['Shilajit', 'Himalayan shilajit purification'],
+  worksFor: { '@id': `${SITE_URL}/#organization` },
+}
 
 const route = useRoute()
 const slug = route.params.slug as string
@@ -105,11 +120,7 @@ useHead({
         datePublished: post.dateISO,
         dateModified: post.updatedISO ?? post.dateISO,
         mainEntityOfPage: absoluteUrl(`/blogs/blog/${post.slug}`),
-        author: {
-          '@type': 'Organization',
-          name: 'Organic Aprico Production Team',
-          url: 'https://organicaprico.com',
-        },
+        author: AUTHOR,
         publisher: {
           '@type': 'Organization',
           name: 'Organic Aprico',
@@ -163,6 +174,16 @@ useHead({
   font-size: .9rem;
   color: var(--gold);
 }
+.post-author-bio {
+  margin-top: .5rem;
+  font-size: .88rem;
+  line-height: 1.6;
+  color: var(--stone);
+}
+.post-author-bio a {
+  color: var(--gold);
+}
+.post-author-bio a:hover { color: var(--gold-bright); }
 
 .post-hero {
   max-width: 900px;

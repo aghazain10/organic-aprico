@@ -144,9 +144,11 @@ function resolve(path: string): string | null {
   if (is(path, '/customer_authentication')) return HOME
   if (is(path, '/recent-viewed-products')) return HOME
 
-  // Legacy Shopify pages and policies that no longer exist
-  if (is(path, '/pages')) return HOME
-  if (is(path, '/policies')) return HOME
+  // Legacy Shopify pages and policies are handled by EXACT_REDIRECTS above.
+  // Anything else under these prefixes no longer exists, so we deliberately
+  // fall through to a real 404 instead of redirecting every unknown URL to the
+  // homepage — blanket redirects to / are treated as soft 404s and waste crawl
+  // budget (SEO plan §4.1). The [slug] templates raise the 404 for us.
 
   // Old Shopify blog channel
   if (is(path, '/blogs/news')) return BLOG_INDEX

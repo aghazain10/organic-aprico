@@ -31,15 +31,53 @@
 
 <script setup lang="ts">
 import { BLOG_POSTS } from '~/data/blogs'
+import { buildBreadcrumbJsonLd, absoluteUrl, SITE_URL } from '~/utils/seo'
 
 const posts = BLOG_POSTS
 const { count: cartCount, openDrawer: openCart } = useCart()
+
+// JSON-LD titles are rendered as plain text, so decode the entities used in the data.
+const plain = (value: string) => value.replace(/&amp;/g, '&')
 
 useSeoMeta({
   title: 'Blog | Organic Aprico – Himalayan Shilajit Insights',
   description: 'Read the latest articles on Himalayan Shilajit benefits, purity testing, dosage guides, and wellness tips from Organic Aprico.',
   ogTitle: 'Blog | Organic Aprico',
   ogDescription: 'Insights on Himalayan Shilajit, health, and wellness from Organic Aprico.',
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: 'Blog' },
+      ])),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Blog',
+        '@id': absoluteUrl('/blogs/blog#blog'),
+        url: absoluteUrl('/blogs/blog'),
+        name: 'Organic Aprico Blog',
+        description:
+          'Articles on Himalayan shilajit purity, lab testing, dosage and sourcing, written by Nawaz Ali and the Organic Aprico production team in Skardu.',
+        publisher: { '@id': `${SITE_URL}/#organization` },
+        blogPost: posts.map((post) => ({
+          '@type': 'BlogPosting',
+          headline: plain(post.title),
+          url: absoluteUrl(`/blogs/blog/${post.slug}`),
+          datePublished: post.dateISO,
+          dateModified: post.updatedISO ?? post.dateISO,
+          image: absoluteUrl(post.heroImage),
+          author: { '@type': 'Person', name: 'Nawaz Ali', url: absoluteUrl('/pages/about-us') },
+        })),
+      }),
+    },
+  ],
 })
 </script>
 

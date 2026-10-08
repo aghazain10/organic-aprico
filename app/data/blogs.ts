@@ -18,6 +18,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Choosing the best Shilajit comes down to one simple question. Do you really know what you are taking and where it comes from? Organic Aprico gives a clear and honest answer with open production, verified lab testing, and full traceability. It is the only native extractor and exporter of Himalayan Shilajit, offering 73 percent fulvic acid gold grade quality.',
     date: 'March 27, 2026',
     dateISO: '2026-03-27',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/best-shilajit-brands-hero.png',
     heroAlt: 'Best Shilajit Brands 2026',
     content: `
@@ -136,6 +138,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'The safest way to enjoy the benefits of Shilajit is to choose a trusted, lab-tested, and high-altitude source. Organic Aprico, sourced from the Himalayan mountains of Skardu, Gilgit-Baltistan, is a reliable choice. Their Shilajit is purified using advanced techniques, lab-tested for heavy metals and fulvic acid, and certified for safety and quality',
     date: 'March 20, 2026',
     dateISO: '2026-03-20',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/is-shilajit-safe-hero.png',
     heroAlt: 'Is Your Shilajit Safe',
     content: `
@@ -248,6 +252,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Welcome to the ultimate guide to shilajit 2026, your complete resource for understanding Shilajit in 2026, including its science-backed benefits, proper usage, correct dosage, safety precautions, and how to safely Buy Shilajit Online.',
     date: 'March 6, 2026',
     dateISO: '2026-03-06',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/ultimate-guide-to-shilajit-2026-benefits-usage-dosage-purity-tips-where-to-buy-authentic-resin.webp',
     heroAlt: 'Ultimate Guide to Shilajit',
     content: `<p>Welcome to the ultimate guide to shilajit 2026, your complete resource for understanding Shilajit in 2026, including its science-backed benefits, proper usage, correct dosage, safety precautions, and how to safely Buy Shilajit Online.</p>
@@ -297,9 +303,11 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'best-shilajit-in-norway-2026-discover-pure-himalayan-energy-with-organic-aprico',
     title: 'Best Shilajit in Norway 2026: Discover Pure Himalayan Energy with Organic Aprico',
-    excerpt: '',
+    excerpt: 'How Norwegian buyers can read a Himalayan shilajit label, compare fulvic acid and third-party lab reports, and order from our Skardu facility.',
     date: 'February 24, 2026',
     dateISO: '2026-02-24',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/best-shilajit-in-norway-2026-discover-pure-himalayan-energy-with-organic-aprico.webp',
     heroAlt: 'Best Shilajit in Norway',
     content: `<p>For centuries, people have sought natural supplements to add to their daily routine, and shilajit stands out for its long history of traditional use. In 2026, more Norwegians are buying pure Himalayan shilajit, and this guide explains what to check before you do. But what makes it so special, and where can you find the best Shilajit in Norway? Let’s explore the answer with Organic Aprico, a trusted name in pure Shilajit Resin.</p>
@@ -374,6 +382,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Explore Shilajit price in Pakistan 2026. Learn what affects the cost of pure Himalayan Shilajit, how to identify real resin, and where to buy authentic Shilajit.',
     date: 'October 9, 2025',
     dateISO: '2025-10-09',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/what-affects-the-cost-of-pure-himalayan-shilajit-guide-for-uk-usa.webp',
     heroAlt: 'Cost of Pure Himalayan Shilajit',
     content: `
@@ -435,8 +445,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Find how to avoid fake Shilajit scams in the UK. Learn signs of fake Himalayan resin, simple home tests, and where to buy authentic, lab-tested Shilajit.',
     date: 'October 5, 2025',
     dateISO: '2025-10-05',
-    updated: 'October 6, 2026',
-    updatedISO: '2026-10-06',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/is-shilajit-safe-hero.png',
     heroAlt: 'Shilajit UK Scam Alert',
     content: `
@@ -495,11 +505,11 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan',
     title: 'UK Wholesale Shilajit: Importing Organic Himalayan Resin from Pakistan (2026 Guide)',
-    excerpt: '',
+    excerpt: 'How to import Organic Aprico Himalayan shilajit resin into the UK: HS codes, VAT and customs, MOQ, lead times and the documentation bulk buyers need.',
     date: 'September 25, 2025',
     dateISO: '2025-09-25',
-    updated: 'October 6, 2026',
-    updatedISO: '2026-10-06',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan-2025-guide.webp',
     heroAlt: 'UK Wholesale Shilajit',
     content: `<p>Shilajit is a natural, mineral-rich resin with a high fulvic acid content, valued for its fulvic acid content and mineral richness. Over the past few years, demand for <a href="https://organicaprico.com/products/shilajit">pure Himalayan Shilajit</a> has surged globally. In the UK, more customers are searching for authentic, lab-tested Shilajit, making 2026 the perfect time for wholesalers, supplement brands, and retailers to explore imports directly from Pakistan.</p>
@@ -600,8 +610,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Discover where to buy authentic Himalayan Shilajit in Pakistan in 2026. Learn how to spot fake shilajit, key features of pure Shilajit, and why Organic Aprico is the most trusted source for genuine Shilajit.',
     date: 'September 23, 2025',
     dateISO: '2025-09-23',
-    updated: 'October 6, 2026',
-    updatedISO: '2026-10-06',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/where-to-source-authentic-shilajit-in-pakistan-a-buyer-s-guide-2025.webp',
     heroAlt: 'Authentic Shilajit in Pakistan',
     content: `<p>Shilajit, famously known as the “destroyer of weakness,” has been used in traditional practice for centuries. Today it is no longer a hidden secret from the mountains. People in Pakistan and across the world are buying Himalayan shilajit as part of their daily routine, and demand keeps growing every year.</p>
@@ -642,6 +652,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'The rising demand for Shilajit USA shows how quickly this natural supplement is becoming a trusted choice for buyers. Choosing lab-tested Shilajit bulk from authentic Himalayan sources ensures safety, potency, and customer confidence.',
     date: 'September 15, 2025',
     dateISO: '2025-09-15',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/wholesale-shilajit-in-the-usa-market-growth-benefits-amp-bulk-supplier-guide.webp',
     heroAlt: 'Wholesale Shilajit in the USA',
     content: `
@@ -700,6 +712,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Discover high-quality organic, lab-tested Shilajit from trusted producers—your guide to safe, potent Shilajit in Germany with Organic Aprico.',
     date: 'August 20, 2025',
     dateISO: '2025-08-20',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/organic-lab-tested-shilajit-germany-from-trusted-producer-organic-aprico.webp',
     heroAlt: 'Lab-Tested Shilajit Germany',
     content: `
@@ -770,6 +784,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'If you’ve been searching for Shilajit near me or want to know the best Shilajit to buy, remember that authenticity matters more than price. Always choose authentic Shilajit with lab test (PCSIR) in Pakistan from trusted sellers like Organic Aprico.',
     date: 'July 25, 2025',
     dateISO: '2025-07-25',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/where-to-buy-shilajit-online-in-pakistan-trusted-sources.webp',
     heroAlt: 'Buy Shilajit Online Pakistan',
     content: `<p>Shilajit, also written as Salajeet, has rapidly gained popularity in Pakistan as a natural food supplement. Its mineral richness, high fulvic acid content and published lab testing have made it a popular choice for both men and women.</p>
@@ -823,6 +839,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Shilajit Powder offers lower potency while providing convenience, but resin delivers higher potency. If you’re ready to add a lab-tested natural supplement to your routine, choose Himalayan Shilajit Resin from trusted suppliers, and make sure you buy Shilajit resin that’s lab tested and 100% pure.',
     date: 'July 10, 2025',
     dateISO: '2025-07-10',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/shilajit-resin-vs-powder-uk-which-is-better-for-buyers.webp',
     heroAlt: 'Shilajit Resin vs Powder',
     content: `
@@ -876,8 +894,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Shilajit is a popular natural supplement, but with rising demand, the market is filled with both fake and Authentic Shilajit. Understanding the Shilajit Pakistan price, comparing sources, and checking for quality can help you make a wise investment in your health',
     date: 'June 20, 2025',
     dateISO: '2025-06-20',
-    updated: 'October 6, 2026',
-    updatedISO: '2026-10-06',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/shilajit-prices-in-pakistan-what-you-need-to-know-2025-guide.webp',
     heroAlt: 'Shilajit Prices in Pakistan',
     content: `
@@ -1013,6 +1031,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Shilajit USA & UK market is booming. Find the best Shilajit to buy, explore Shilajit resin benefits, and source only pure Himalayan Shilajit for your business.',
     date: 'June 5, 2025',
     dateISO: '2025-06-05',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/business-hero.jpg',
     heroAlt: 'Buying Shilajit for Business',
     content: `<p>The demand for Shilajit is rapidly growing across the globe. If you're entering the health and wellness market or adding to your existing supplement line, understanding how to source <a href="https://organicaprico.com/products/pure-himalayan-shilajit-resin-wholesale">pure Shilajit in bulk</a> is essential. With increasing interest in Shilajit in the UK, businesses have a big opportunity—but only if they source products wisely.** This guide will help you understand everything you need to consider before investing in Shilajit for your business, from sourcing and types to regulations and pricing.</p>
@@ -1119,9 +1139,11 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'shilajit-resin-in-the-usa-trends-opportunities-and-challenges',
     title: 'Shilajit Resin in the USA: Trends, Opportunities, and Challenges',
-    excerpt: '',
+    excerpt: 'Where US demand for Himalayan shilajit resin is heading, what American buyers check first, and the sourcing and compliance issues bulk suppliers face.',
     date: 'May 15, 2025',
     dateISO: '2025-05-15',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/shilajit-wholesale.jpg',
     heroAlt: 'Shilajit Resin in the USA',
     content: `<p>In recent years, shilajit resin has become a popular natural supplement in the United States. Rich in fulvic acid and trace minerals, this black, thick substance is gaining attention from fitness lovers, wellness enthusiasts, and those looking for natural remedies. But what exactly is Shilajit, and why is it becoming so famous?</p>
@@ -1188,6 +1210,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'The Himalayan Mountains hold many natural wonders, and one of the most powerful is Shilajit. This dark, sticky resin forms over centuries as plants and minerals break down in the mountains. It is packed with nutrients and is rich in fulvic acid and trace minerals.',
     date: 'March 15, 2025',
     dateISO: '2025-03-15',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/shilajit-wholesale.jpg',
     heroAlt: 'Identify Authentic Himalayan Shilajit',
     content: `<h2><strong>Himalayan Mountains and the Gift of Shilajit</strong></h2>
@@ -1252,6 +1276,8 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Shilajit is available in various forms, such as resin and liquid drops. It is sold through health stores and online platforms, making it accessible across the UK. Experts advise checking for certifications and lab reports to ensure purity. Organic Aprico is one of the brands ensuring Best Shilajit to buy in the UK with strict quality standards and a reliable supply chain.',
     date: 'February 20, 2025',
     dateISO: '2025-02-20',
+    updated: 'October 8, 2026',
+    updatedISO: '2026-10-08',
     heroImage: '/images/blog/purification-unit.png',
     heroAlt: 'Shilajit UK Market',
     content: `<h2>Shilajit UK: Market Analysis</h2>
