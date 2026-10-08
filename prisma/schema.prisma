@@ -8,7 +8,11 @@ datasource db {
 }
 
 model Order {
-  id            String   @id @default(cuid())
+  // Numeric, human-readable order number. MySQL AUTO_INCREMENT must be seeded
+  // to 10001 (see prisma/setup.sql) so the first order on a fresh database is
+  // 10001 and continues 10002, 10003 … The 10000 orders placed on the previous
+  // stores keep their own numbering and are not imported here.
+  id            Int      @id @default(autoincrement())
   name          String
   email         String
   phone         String

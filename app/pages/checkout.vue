@@ -164,7 +164,7 @@ const form = reactive({
 const loading = ref(false)
 const error = ref('')
 const orderPlaced = ref(false)
-const orderId = ref('')
+const orderId = ref<number | null>(null)
 
 const shipping = computed(() => shippingFor(form.country))
 const grandTotal = computed(() => total.value + shipping.value)
@@ -180,7 +180,7 @@ async function placeOrder() {
   error.value = ''
 
   try {
-    const result = await $fetch<{ success: boolean; orderId: string }>('/api/orders', {
+    const result = await $fetch<{ success: boolean; orderId: number }>('/api/orders', {
       method: 'POST',
       body: {
         name: form.name,

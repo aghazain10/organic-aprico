@@ -23,7 +23,8 @@ export interface OrderItem {
 }
 
 export interface AdminOrder {
-  id: string
+  /** Numeric order number (auto-increment, starting at 10001). */
+  id: number
   name: string
   email: string
   phone: string

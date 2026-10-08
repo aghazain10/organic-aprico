@@ -18,8 +18,10 @@ export default defineEventHandler(async (event) => {
       { name: { contains: search } },
       { email: { contains: search } },
       { phone: { contains: search } },
-      { id: { contains: search } },
     ]
+    // Order ids are numeric, so they are matched by exact number rather than
+    // the substring search used for the text columns.
+    if (/^\d+$/.test(search)) where.OR.push({ id: Number(search) })
   }
 
   const [orders, total] = await Promise.all([

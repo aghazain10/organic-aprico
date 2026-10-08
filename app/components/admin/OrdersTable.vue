@@ -23,7 +23,7 @@
           class="admin-row"
           @click="goTo(order.id)"
         >
-          <td class="admin-order-id-cell" :title="order.id">{{ shortId(order.id) }}</td>
+          <td class="admin-order-id-cell" :title="String(order.id)">{{ order.id }}</td>
           <td>
             <span class="cell-strong">{{ order.name }}</span>
             <span class="cell-sub">{{ order.email }}</span>
@@ -50,17 +50,13 @@ const props = defineProps<{
 
 const router = useRouter()
 
-function shortId(id: string): string {
-  return id.length > 10 ? `${id.slice(0, 10)}…` : id
-}
-
 function formatDate(value: string | Date): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return String(value)
   return date.toLocaleDateString('en-PK', { day: 'numeric', month: 'short', year: 'numeric' })
 }
 
-function goTo(id: string) {
+function goTo(id: number) {
   router.push(`/admin/orders/${id}`)
 }
 </script>
