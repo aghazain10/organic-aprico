@@ -613,13 +613,15 @@
 .wholesale-table tr:last-child td { border-bottom: none; }
 .wholesale-table .highlight { color: var(--gold-bright); font-weight: 600; }
 
-/* FAQ accordion */
-.faq-list { margin: 1.5rem 0; }
-.faq-item {
+/* FAQ accordion — boxed style, wholesale product page only.
+   These selectors are scoped to .product-page so they cannot leak into the
+   homepage FAQ section, which styles itself with its own scoped rules. */
+.product-page .faq-list { margin: 1.5rem 0; }
+.product-page .faq-item {
   border: 1px solid var(--line);
   margin-bottom: .5rem;
 }
-.faq-q {
+.product-page .faq-q {
   width: 100%;
   display: flex;
   align-items: center;
@@ -634,20 +636,20 @@
   font-family: inherit;
   text-align: left;
 }
-.faq-q:hover { color: var(--gold-bright); }
-.faq-q .faq-arrow {
+.product-page .faq-q:hover { color: var(--gold-bright); }
+.product-page .faq-q .faq-arrow {
   transition: transform .2s var(--ease);
   color: var(--stone);
 }
-.faq-item.open .faq-arrow { transform: rotate(180deg); }
-.faq-a {
+.product-page .faq-item.open .faq-arrow { transform: rotate(180deg); }
+.product-page .faq-a {
   padding: 0 1.2rem 1rem;
   color: var(--stone);
   font-size: .98rem;
   line-height: 1.65;
   display: none;
 }
-.faq-item.open .faq-a { display: block; }
+.product-page .faq-item.open .faq-a { display: block; }
 
 /* Product page responsive */
 @media (max-width: 820px) {
