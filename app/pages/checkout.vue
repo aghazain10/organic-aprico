@@ -24,7 +24,7 @@
         <div v-else class="cod-note">
           <h2>Cash on delivery</h2>
           <p>Pay when your order arrives. Please keep the exact amount ready.</p>
-          <p class="muted small">Delivery in 10 to 12 business days. You will receive tracking info via email and WhatsApp.</p>
+          <p class="muted small">Delivery in 3 to 5 working days. You will receive tracking info via email and WhatsApp.</p>
         </div>
 
         <NuxtLink to="/" class="btn btn-ghost btn-block" style="margin-top: 1rem">
@@ -123,6 +123,10 @@
                 <span>Shipping{{ shipping ? ' (Pakistan)' : '' }}</span>
                 <strong>{{ formatPrice(shipping) }}</strong>
               </div>
+              <div class="summary-row summary-delivery">
+                <span>Delivery</span>
+                <strong>{{ deliveryEstimate }}</strong>
+              </div>
               <div class="summary-row summary-total">
                 <span>Total</span>
                 <strong>{{ formatPrice(grandTotal) }}</strong>
@@ -145,7 +149,7 @@
 </template>
 
 <script setup lang="ts">
-import { shippingFor } from '#shared/utils/shipping'
+import { deliveryEstimateFor, shippingFor } from '#shared/utils/shipping'
 
 const { items, total, clear, getItemName, getVariantLabel, getVariantPrice, formatPrice } = useCart()
 
@@ -167,6 +171,7 @@ const orderPlaced = ref(false)
 const orderId = ref<number | null>(null)
 
 const shipping = computed(() => shippingFor(form.country))
+const deliveryEstimate = computed(() => deliveryEstimateFor(form.country))
 const grandTotal = computed(() => total.value + shipping.value)
 
 const whatsappMessage = ref('')

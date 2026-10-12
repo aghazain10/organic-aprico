@@ -14,7 +14,7 @@
           :detail-url="detailUrl(product.key)"
         />
       </div>
-      <p class="fineprint">Prices in PKR. Money-back guarantee. Worldwide delivery in 10 to 12 business days.</p>
+      <p class="fineprint">Prices in PKR. Money-back guarantee. Delivery in 3 to 5 working days in Pakistan, 10 to 14 days worldwide.</p>
     </div>
   </section>
 </template>

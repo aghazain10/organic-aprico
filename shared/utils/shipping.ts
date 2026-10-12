@@ -8,3 +8,7 @@ export function isPakistan(country: string): boolean {
 export function shippingFor(country: string): number {
   return isPakistan(country) ? PAKISTAN_SHIPPING_FEE : 0
 }
+
+export function deliveryEstimateFor(country: string): string {
+  return isPakistan(country) ? '3 to 5 working days' : '10 to 14 days'
+}
