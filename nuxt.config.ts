@@ -30,6 +30,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'Organic Aprico | Pure Himalayan Shilajit from Skardu',
       meta: [
+        { name: 'google-site-verification', content: 'CR8PQCtknuk47Lm1W0hwZnJvEpi5WvSRiZMAAkQLpBk' },
         { name: 'description', content: 'Licensed extractor of gold-grade Himalayan shilajit from Skardu, Gilgit Baltistan. 73% fulvic acid, 8-stage purification, lab tested in California and Lahore.' },
         { property: 'og:site_name', content: 'Organic Aprico' },
         { property: 'og:type', content: 'website' },
