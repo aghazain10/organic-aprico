@@ -2,7 +2,16 @@
   <header class="nav" :class="{ scrolled }">
     <div class="wrap nav-inner">
       <a href="/#top" class="brand">
-        <img src="/images/logo.png" alt="" width="46" height="46" class="brand-logo">
+        <img
+          src="/images/logo-96.png"
+          srcset="/images/logo-96.png 96w, /images/logo-192.png 192w"
+          sizes="46px"
+          alt=""
+          width="46"
+          height="46"
+          class="brand-logo"
+          fetchpriority="high"
+        >
         <span class="brand-copy">
           Organic Aprico
           <span class="brand-sub">Skardu, Gilgit Baltistan</span>
@@ -58,7 +67,7 @@
       </div>
     </div>
 
-    <div class="mobile-menu" :class="{ open: menuOpen }">
+    <div class="mobile-menu" :class="{ open: menuOpen }" :inert="!menuOpen">
       <nav class="mobile-nav" aria-label="Mobile">
         <NuxtLink to="/products/shilajit" @click="close">Shilajit Resin</NuxtLink>
         <NuxtLink to="/products/shilajit-drops" @click="close">Shilajit Drops</NuxtLink>

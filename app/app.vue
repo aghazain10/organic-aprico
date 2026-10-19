@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const { open } = useCart()
+const { open, hydrate } = useCart()
 
 watch(open, (isOpen) => {
   if (import.meta.server) return
@@ -13,11 +13,6 @@ watch(open, (isOpen) => {
 })
 
 onMounted(() => {
-  requestAnimationFrame(() => {
-    document.body.classList.add('ready')
-  })
-  setTimeout(() => {
-    document.body.classList.add('ready')
-  }, 1200)
+  hydrate()
 })
 </script>

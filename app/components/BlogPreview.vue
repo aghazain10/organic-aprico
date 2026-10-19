@@ -58,18 +58,14 @@ const posts = getRecentPosts(6)
 const track = ref<HTMLElement | null>(null)
 const current = ref(0)
 
-function getPerView() {
-  if (import.meta.server) return 3
-  return window.innerWidth <= 820 ? 1 : 3
-}
+// Starts at the server value (3) so hydration matches; the real viewport is
+// only read after mount.
+const perView = ref(3)
 
-const totalDots = computed(() => {
-  const perView = getPerView()
-  return Math.max(1, posts.length - perView + 1)
-})
+const totalDots = computed(() => Math.max(1, posts.length - perView.value + 1))
 
 const canPrev = computed(() => current.value > 0)
-const canNext = computed(() => current.value < posts.length - getPerView())
+const canNext = computed(() => current.value < posts.length - perView.value)
 
 function prev() {
   if (canPrev.value) current.value--
@@ -87,7 +83,17 @@ watch(current, (val) => {
   track.value.scrollTo({ left: val * (card.offsetWidth + gap), behavior: 'smooth' })
 })
 
+function syncPerView() {
+  perView.value = window.innerWidth <= 820 ? 1 : 3
+  if (current.value > posts.length - perView.value) {
+    current.value = Math.max(0, posts.length - perView.value)
+  }
+}
+
 onMounted(() => {
+  syncPerView()
+  window.addEventListener('resize', syncPerView)
+
   if (!track.value) return
   let startX = 0
   let scrolling = false
@@ -106,6 +112,10 @@ onMounted(() => {
       else prev()
     }
   }, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', syncPerView)
 })
 </script>
 

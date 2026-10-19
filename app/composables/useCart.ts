@@ -28,9 +28,22 @@ function loadCart(): CartItem[] {
   }
 }
 
+// The cart must render empty during SSR and hydration: localStorage is only
+// available in the browser, and reading it while the state is initialised
+// makes the client render differ from the server HTML (hydration mismatch).
+// hydrate() runs after hydration and pulls the saved cart in.
+let didHydrate = false
+
 export function useCart() {
-  const items = useState<CartItem[]>('cart', () => loadCart())
+  const items = useState<CartItem[]>('cart', () => [])
   const open = useState('cart-open', () => false)
+
+  function hydrate() {
+    if (didHydrate || import.meta.server) return
+    didHydrate = true
+    const saved = loadCart()
+    if (saved.length && !items.value.length) items.value = saved
+  }
 
   const count = computed(() => items.value.reduce((sum, i) => sum + i.qty, 0))
 
@@ -99,6 +112,7 @@ export function useCart() {
     open,
     count,
     total,
+    hydrate,
     add,
     updateQty,
     remove,

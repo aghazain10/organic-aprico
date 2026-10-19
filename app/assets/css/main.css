@@ -1,3 +1,24 @@
+/* ---------- Font ----------
+   Manrope is self-hosted from a stable path (not a hashed build asset) so the
+   document head can preload it and start the download before the CSS has even
+   been parsed. One variable file (wght 200–800) covers every weight we use. */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/manrope-latin-ext.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/manrope-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* ---------- Tokens ---------- */
 :root {
   --black: #070604;
@@ -148,19 +169,32 @@ img, svg { display: block; max-width: 100%; }
 
 .hero-visual { position: relative; display: grid; place-items: center; min-height: 420px; }
 .hero-visual .sun { max-width: 90vw; }
+/* Hero entrance: pure CSS animations, started by the stylesheet itself.
+   (These used to be transitions unlocked by a body.ready class added from JS,
+   which kept the LCP element invisible until hydration finished.) */
+@keyframes heroSunIn {
+  from { transform: scale(.6); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes heroJarIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes heroRiseIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
 .sun {
   position: absolute; width: 130%; aspect-ratio: 1; border-radius: 50%;
   background: radial-gradient(circle, rgba(233,205,132,.42) 0%, rgba(201,162,74,.16) 32%, rgba(201,162,74,0) 68%);
-  transform: scale(.6); opacity: 0;
-  transition: transform 1.6s var(--ease), opacity 1.6s var(--ease);
+  animation: heroSunIn 1.6s var(--ease) both;
 }
-.jar-hero { width: min(360px, 78%); position: relative; filter: drop-shadow(0 30px 40px rgba(0,0,0,.6)); opacity: 0; transform: translateY(18px); transition: opacity 1s var(--ease) .2s, transform 1s var(--ease) .2s; }
-.hero-copy > * { opacity: 0; transform: translateY(14px); transition: opacity .9s var(--ease), transform .9s var(--ease); }
-.hero-copy > *:nth-child(2) { transition-delay: .08s; }
-.hero-copy > *:nth-child(3) { transition-delay: .16s; }
-.hero-copy > *:nth-child(4) { transition-delay: .24s; }
-body.ready .sun { transform: scale(1); opacity: 1; }
-body.ready .jar-hero, body.ready .hero-copy > * { opacity: 1; transform: none; }
+.jar-hero { width: min(360px, 78%); position: relative; filter: drop-shadow(0 30px 40px rgba(0,0,0,.6)); animation: heroJarIn 1s var(--ease) .2s both; }
+.hero-copy > * { animation: heroRiseIn .9s var(--ease) both; }
+.hero-copy > *:nth-child(2) { animation-delay: .08s; }
+.hero-copy > *:nth-child(3) { animation-delay: .16s; }
+.hero-copy > *:nth-child(4) { animation-delay: .24s; }
 
 .spec-row {
   margin: clamp(48px, 7vw, 96px) 0 0;
@@ -694,6 +728,11 @@ body.no-scroll { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  *, *::before, *::after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    transition-delay: 0s !important;
+    animation-delay: 0s !important;
+  }
   .sun, .jar-hero, .hero-copy > * { opacity: 1; transform: none; }
 }

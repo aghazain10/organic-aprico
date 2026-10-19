@@ -10,6 +10,7 @@
     :class="{ open }"
     aria-label="Shopping cart"
     :aria-hidden="!open"
+    :inert="!open"
   >
     <div class="drawer-head">
       <h2>Your cart</h2>

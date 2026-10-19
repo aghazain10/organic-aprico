@@ -21,7 +21,6 @@
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@nuxtjs/google-fonts": "^3.2.0",
     "prisma": "^6.18.0",
     "typescript": "^5.8.3"
   }

@@ -3,7 +3,16 @@
     <div class="wrap footer-grid">
       <div class="footer-brand">
         <a href="/#top" class="brand">
-          <img src="/images/logo.png" alt="" width="46" height="46" class="brand-logo">
+          <img
+          src="/images/logo-96.png"
+          srcset="/images/logo-96.png 96w, /images/logo-192.png 192w"
+          sizes="46px"
+          alt=""
+          width="46"
+          height="46"
+          class="brand-logo"
+          loading="lazy"
+        >
           <span class="brand-copy">Organic Aprico</span>
         </a>
         <p>Proud of Skardu, Gilgit Baltistan. Pride of Pakistan.</p>

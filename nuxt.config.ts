@@ -5,23 +5,12 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
 
   modules: [
-    '@nuxtjs/google-fonts',
     '@pinia/nuxt',
     'pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt',
   ],
 
   css: ['~/assets/css/main.css', '~/assets/css/products.css', '~/assets/css/admin.css'],
-
-  googleFonts: {
-    families: {
-      Manrope: [400, 500, 600, 700],
-    },
-    display: 'swap',
-    preload: true,
-    prefetch: true,
-    preconnect: true,
-  },
 
   app: {
     head: {
@@ -39,6 +28,9 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
       link: [
+        // Start the critical font download immediately instead of waiting for
+        // the render-blocking stylesheet to arrive and point at it.
+        { rel: 'preload', as: 'font', type: 'font/woff2', href: '/fonts/manrope-latin.woff2', crossorigin: 'anonymous' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       ],
@@ -143,6 +135,13 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': { prerender: true },
+    // Static assets: long TTL so repeat visits skip the download entirely.
+    // Rename an image when you replace it — the URL never changes, so the
+    // browser will not pick up a rewritten file otherwise.
+    '/images/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/fonts/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/favicon.ico': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/apple-touch-icon.png': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
     // /collections/** is handled by server/middleware/legacy-redirects.ts
     // (301 plain, 308 when a query string has to be preserved)
     '/checkout': { ssr: false, robots: 'noindex, nofollow', headers: { 'x-robots-tag': 'noindex, nofollow' } },
