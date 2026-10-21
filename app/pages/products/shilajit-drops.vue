@@ -5,7 +5,7 @@
       <div class="wrap">
         <NuxtLink to="/">Home</NuxtLink>
         <span class="sep">/</span>
-        <NuxtLink to="/#products">Products</NuxtLink>
+        <NuxtLink to="/products">Products</NuxtLink>
         <span class="sep">/</span>
         <span class="current">Shilajit Drops</span>
       </div>
@@ -40,11 +40,10 @@
             </div>
             <div class="product-info">
               <h1>{{ productTitle }}</h1>
-              <div class="product-rating">
-                <svg v-for="n in 5" :key="n" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                <span>4.8 (150+ reviews)</span>
-                <a href="#review-form" class="add-review-link">Add a Review</a>
-              </div>
+              <a class="product-rating google-badge" href="https://maps.app.goo.gl/PPcqPsNFQVmvtFU27" target="_blank" rel="noopener" aria-label="Organic Aprico on Google: 4.8 out of 5 from 40 Google reviews">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span><strong>4.8/5</strong> from 40 Google reviews</span>
+              </a>
               <div class="product-price-block">
                 <span class="product-price-now">{{ formatPrice(currentVariant.price) }}</span>
                 <span v-if="currentVariant.was" class="product-price-was">{{ formatPrice(currentVariant.was) }}</span>
@@ -82,7 +81,7 @@
               <div class="product-trust">
                 <div class="trust-badge">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                  Money-back guarantee
+                  3-day returns
                 </div>
                 <div class="trust-badge">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
@@ -141,8 +140,8 @@
             <h2>Can Liquid Shilajit be Exported from Pakistan?</h2>
             <p>Yes, Organic Aprico holds both an extraction and export license. Our international lab reports certify the quality of our Himalayan Shilajit, allowing for the smooth export of all Shilajit forms from Pakistan.</p>
 
-            <h2>Money Back Guarantee</h2>
-            <p>At Organic Aprico, client satisfaction is our top priority. Since 1972, we have consistently met our client's expectations. However, in line with our commitment to quality, we offer a money-back guarantee. Whether you are a national or international client, if there is any issue with Shilajit quality, dissatisfaction, or mistake on our part, we will fully compensate you.</p>
+            <h2>Returns and exchanges</h2>
+            <p>At Organic Aprico, client satisfaction is our top priority. Since 1972, we have consistently met our client's expectations. If there is any issue with your bottle of Shilajit Drops, or a mistake on our part, contact us within <strong>3 days of delivery</strong> for an exchange or return — for national and international clients alike. See our refund policy for the conditions.</p>
 
             <h2>Ordering Information</h2>
             <p>You can order Shilajit Drop on the website, through WhatsApp, or by phone for national clients.</p>
@@ -245,67 +244,24 @@
         </div>
       </section>
 
-      <section class="reviews-section" id="reviews">
+      <section class="reviews-section" id="google-reviews">
         <div class="wrap">
           <div class="reviews-header">
-            <h2>Customer Reviews</h2>
+            <h2>Rated on Google</h2>
             <div class="reviews-summary">
               <div class="reviews-avg">
                 <span class="avg-score">4.8</span>
                 <div class="avg-stars">
                   <svg v-for="n in 5" :key="n" class="star filled" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 </div>
-                <span class="avg-count">Based on 150+ reviews</span>
+                <span class="avg-count">From 40 Google reviews</span>
               </div>
             </div>
           </div>
-          <div class="reviews-grid">
-            <div v-for="(review, i) in reviews" :key="i" class="review-card">
-              <div class="review-card-top">
-                <div class="review-card-stars">
-                  <svg v-for="n in 5" :key="n" class="star" :class="{ filled: n <= review.rating }" width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                </div>
-                <span class="verified-badge">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
-                  Verified Purchase
-                </span>
-              </div>
-              <div class="review-card-meta">
-                <span class="review-card-name">{{ review.name }}</span>
-                <span class="review-card-date">{{ review.date }}</span>
-              </div>
-              <p class="review-card-text">{{ review.text }}</p>
-            </div>
-          </div>
-          <div class="review-form-wrap" id="review-form">
-            <h3>Write a Review</h3>
-            <form class="review-form" @submit.prevent="submitReview">
-              <div class="review-form-stars" aria-label="Rating">
-                <button
-                  v-for="n in 5"
-                  :key="n"
-                  type="button"
-                  class="star-input"
-                  :class="{ filled: n <= (hoverRating || reviewForm.rating) }"
-                  :aria-label="`${n} star${n > 1 ? 's' : ''}`"
-                  @click="setRating(n)"
-                  @mouseenter="hoverRating = n"
-                  @mouseleave="hoverRating = 0"
-                >
-                  <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                </button>
-              </div>
-              <div class="field">
-                <label for="review-name">Name</label>
-                <input id="review-name" v-model="reviewForm.name" type="text" placeholder="Your name" />
-              </div>
-              <div class="field">
-                <label for="review-text">Review</label>
-                <textarea id="review-text" v-model="reviewForm.text" rows="4" placeholder="Share your experience with this product"></textarea>
-              </div>
-              <button type="submit" class="btn btn-gold">Submit Review</button>
-            </form>
-          </div>
+          <p class="reviews-note">
+            We do not publish customer reviews on this site. Our rating comes straight from our Google Business Profile:
+            <a href="https://maps.app.goo.gl/PPcqPsNFQVmvtFU27" target="_blank" rel="noopener" class="add-review-link">View our 4.8/5 rating from 40 Google reviews</a>
+          </p>
         </div>
       </section>
 
@@ -316,8 +272,8 @@
               <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div class="guarantee-text">
-              <h2>30-Day Money-Back Guarantee</h2>
-              <p>Try Shilajit Drops risk-free. If you're not satisfied within 30 days, contact us for a full refund — no questions asked.</p>
+              <h2>3-Day Return / Exchange Window</h2>
+              <p>If your bottle of Shilajit Drops does not match the quality you ordered, contact us within 3 days of delivery for an exchange or return. Every return is inspected on arrival. Full terms are in our refund policy.</p>
             </div>
           </div>
         </div>
@@ -432,32 +388,6 @@ const galleryAlts = [
   'Shilajit Drops liquid in the dropper bottle',
 ]
 
-const reviews = [
-  { name: 'Kamran Shah', rating: 5, date: '1 week ago', text: 'Much easier to use than the resin. The dropper gives an exact measure and there is no residue left in the glass after mixing.' },
-  { name: 'Rabia Aslam', rating: 5, date: '2 weeks ago', text: 'Ye liquid shilajit bohat asaan hai use karne mein. Resin jaisa strong taste nahi hai, halka sa hota hai. Bottle tamper-proof seal ke saath aayi.' },
-  { name: 'Faisal Ahmed', rating: 4, date: '1 month ago', text: 'Good product and easy to use. The dropper markings make measuring precise, and I mix it into my morning coffee without it changing the taste.' },
-  { name: 'Nadia Rehman', rating: 5, date: '1 month ago', text: 'Perfect for travel. The bottle fits in my bag and does not leak, which was the main reason I tried the drops over the resin jar.' },
-  { name: 'Imran Baig', rating: 5, date: '2 months ago', text: 'Been ordering for 3 months. The bottle consistency is the same every time, and the batch number is printed on each one so I can verify it.' },
-  { name: 'Hina Malik', rating: 4, date: '2 months ago', text: 'The 60ml bottle is better value than the 30ml. Tastes a bit bitter on its own, but in tea or juice you cannot tell at all.' },
-  { name: 'Shahzaib Khan', rating: 5, date: '3 months ago', text: 'Dissolves instantly in water exactly as described. No artificial smell or colouring, and the glass bottle is properly sealed.' },
-  { name: 'Amna Yousaf', rating: 5, date: '4 months ago', text: 'I switched from the resin to the drops purely for convenience. Same specification, far easier to carry and measure. Delivery was on time.' },
-  { name: 'Waqar Younis', rating: 5, date: '5 months ago', text: 'The cleanest packaging and documentation I have found in Pakistan. Lab reports and a batch code with every bottle, and ordering was simple.' },
-  { name: 'Sadaf Noor', rating: 4, date: '6 months ago', text: 'Really good product. The bottle arrived well packed with no leakage and the dropper works properly. Would order the 60ml again.' },
-]
-
-const reviewForm = ref({ name: '', text: '', rating: 5 })
-const hoverRating = ref(0)
-
-function setRating(n: number) {
-  reviewForm.value.rating = n
-}
-
-function submitReview() {
-  if (!reviewForm.value.name.trim() || !reviewForm.value.text.trim()) return
-  toast.show('Thank you for your review!')
-  reviewForm.value = { name: '', text: '', rating: 5 }
-}
-
 const currentVariant = computed(() =>
   product.sizes.find(s => s.id === selectedSize.value)!
 )
@@ -494,7 +424,7 @@ useHead({
       type: 'application/ld+json',
       innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
         { name: 'Home', path: '/' },
-        { name: 'Products', path: '/#products' },
+        { name: 'Products', path: '/products' },
         { name: 'Shilajit Drops' },
       ])),
     },

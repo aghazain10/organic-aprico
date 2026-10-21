@@ -39,7 +39,7 @@ export const SITE_PAGES: SitePage[] = [
   {
     path: '/pages/organic-guaranteed',
     title: 'Purity Guarantee',
-    description: 'What Organic Aprico guarantees on every jar of Himalayan shilajit: 8-stage purification, independent lab testing, a traceable batch code and a 30-day money-back guarantee.',
+    description: 'What Organic Aprico guarantees on every jar of Himalayan shilajit: 8-stage purification, independent lab testing, a traceable batch code and a 3-day return window.',
     content: `<p>Shilajit is only worth buying if you can verify what is in it. Here is exactly what Organic Aprico guarantees on every jar, bottle and bulk order we ship.</p>
 <h3>1. Sourced from the Himalayas</h3>
 <p>Our shilajit comes from high-altitude rock seams in Gilgit Baltistan, above 17,000 feet. We collect it ourselves and work directly with local collectors, so the origin of every batch is known.</p>
@@ -48,11 +48,11 @@ export const SITE_PAGES: SitePage[] = [
 <h3>3. Independently tested</h3>
 <p>Every batch is tested for fulvic acid content, heavy metals (lead, mercury, arsenic, cadmium), microbiological safety and aflatoxins. Reports come from independent laboratories in Lahore (PCSIR) and California (Micro Quality Lab), with fulvic acid content also verified by Eurofins. You can <a href="/certifications">download the lab reports</a> and compare them with your own jar.</p>
 <h3>4. Traceable batch code</h3>
-<p>Each jar carries a batch code and packaging date, and a QR code that points to the lab report for that batch. If a code cannot be matched to a report, we do not ship the batch.</p>
+<p>Each jar carries a batch code and packaging date. Every box is batch-coded — request the lab report for your batch by WhatsApp or email. If a code cannot be matched to a report, we do not ship the batch.</p>
 <h3>5. Certified manufacturing</h3>
 <p>Production runs under ISO 9001, GMP, HACCP and Halal certification, and Organic Aprico holds a licence for local and international trade in mineral exports. See <a href="/pages/company-registration">company registration</a> and <a href="/certifications">certifications</a> for the registration numbers and certificates.</p>
-<h3>6. 30-day money-back guarantee</h3>
-<p>If a jar does not meet the quality you ordered — wrong size, damaged on arrival, or a batch code that does not match your report — contact us within 30 days of delivery for a full refund or replacement. See our <a href="/policies/refund-policy">refund policy</a> for the conditions.</p>
+<h3>6. 3-day return / exchange window</h3>
+<p>If a jar does not meet the quality you ordered — wrong size, damaged on arrival, or a batch code that does not match your report — contact us within 3 days of delivery for an exchange or return. Every return is inspected on arrival. See our <a href="/policies/refund-policy">refund policy</a> for the conditions.</p>
 <p><em>Organic Aprico shilajit is a food supplement. It is not a medicine and is not intended to diagnose, treat, cure or prevent any disease.</em></p>`,
   },
   {

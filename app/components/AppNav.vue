@@ -24,6 +24,10 @@
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
           </NuxtLink>
           <div class="nav-dropdown-menu">
+            <NuxtLink to="/products">
+              <strong>All Products</strong>
+              <span>Resin, drops and wholesale prices</span>
+            </NuxtLink>
             <NuxtLink to="/products/shilajit">
               <strong>Shilajit Resin</strong>
               <span>Gold-grade resin from Rs 1,500</span>
@@ -40,12 +44,22 @@
               <strong>Shilajit Guides</strong>
               <span>Buying, purity and price guides</span>
             </NuxtLink>
+            <NuxtLink to="/contact">
+              <strong>Contact</strong>
+              <span>Phone, WhatsApp, email &amp; Lahore hours</span>
+            </NuxtLink>
+            <NuxtLink to="/locations/lahore">
+              <strong>Lahore Shop</strong>
+              <span>DHA Main Blvd, open 11 AM&ndash;12 AM</span>
+            </NuxtLink>
           </div>
         </div>
         <a href="/#about">Shilajit</a>
         <a href="/#benefits">What's inside</a>
         <a href="/#purification">Purification</a>
         <a href="/#difference">Why us</a>
+        <NuxtLink to="/locations/lahore" class="nav-lahore">Lahore</NuxtLink>
+        <NuxtLink to="/contact">Contact</NuxtLink>
       </nav>
       <div class="nav-actions">
         <button class="cart-btn" aria-label="Open cart" @click="emit('open-cart')">
@@ -79,6 +93,8 @@
         <a href="/#difference" @click="close">Why us</a>
         <NuxtLink to="/purification" @click="close">Purification Process</NuxtLink>
         <NuxtLink to="/certifications" @click="close">Certifications</NuxtLink>
+        <NuxtLink to="/contact" @click="close">Contact</NuxtLink>
+        <NuxtLink to="/locations/lahore" @click="close">Lahore Shop</NuxtLink>
       </nav>
     </div>
   </header>
@@ -168,6 +184,11 @@ watch(menuOpen, (open) => {
   display: flex;
   align-items: center;
   gap: .5rem;
+}
+
+@media (max-width: 1100px) {
+  .nav-links { gap: 1.25rem; font-size: .9rem; }
+  .nav-lahore { display: none; }
 }
 
 .menu-btn {

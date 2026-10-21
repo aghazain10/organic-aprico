@@ -5,7 +5,7 @@
       <div class="wrap">
         <NuxtLink to="/">Home</NuxtLink>
         <span class="sep">/</span>
-        <NuxtLink to="/#products">Products</NuxtLink>
+        <NuxtLink to="/products">Products</NuxtLink>
         <span class="sep">/</span>
         <span class="current">Shilajit Resin</span>
       </div>
@@ -40,16 +40,30 @@
             </div>
             <div class="product-info">
               <h1>{{ productTitle }}</h1>
-              <div class="product-rating">
-                <svg v-for="n in 5" :key="n" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                <span>4.9 (200+ reviews)</span>
-                <a href="#review-form" class="add-review-link">Add a Review</a>
-              </div>
+              <a class="product-rating google-badge" href="https://maps.app.goo.gl/PPcqPsNFQVmvtFU27" target="_blank" rel="noopener" aria-label="Organic Aprico on Google: 4.8 out of 5 from 40 Google reviews">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span><strong>4.8/5</strong> from 40 Google reviews</span>
+              </a>
               <div class="product-price-block">
                 <span class="product-price-now">{{ formatPrice(currentVariant.price) }}</span>
                 <span v-if="currentVariant.was" class="product-price-was">{{ formatPrice(currentVariant.was) }}</span>
               </div>
+              <p class="product-unit-price">
+                {{ formatPrice(pricePerGram) }} per gram &middot; about {{ servingsCount }} servings per jar
+                (0.7 g serving)
+              </p>
               <p class="product-short-desc">Pure Himalayan shilajit resin from the mountains of Gilgit-Baltistan. 73% fulvic acid, lab verified from PCSIR and Micro Quality Lab California. 8-stage purification, sun-dried 40+ days.</p>
+
+              <ul class="product-facts">
+                <li><strong>73% fulvic acid</strong> &mdash; Micro Quality Lab, California</li>
+                <li><strong>PCSIR heavy metals: non-detect</strong></li>
+                <li><strong>In stock</strong> &mdash; dispatched within 24 hours</li>
+                <li><strong>Cash on delivery</strong> in Pakistan</li>
+                <li><strong>Delivery</strong> 3&ndash;5 working days in Pakistan, 10&ndash;14 days worldwide</li>
+              </ul>
+              <NuxtLink to="/certifications" class="product-lab-cta">
+                View lab report for batch OA-2025-0307 &rarr;
+              </NuxtLink>
 
               <div class="variant-selector">
                 <span class="variant-label">Weight</span>
@@ -82,7 +96,7 @@
               <div class="product-trust">
                 <div class="trust-badge">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                  Money-back guarantee
+                  3-day returns
                 </div>
                 <div class="trust-badge">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
@@ -95,6 +109,46 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="buy-section">
+        <div class="wrap">
+          <h2>Buy Shilajit Online in Pakistan (COD &amp; Delivery)</h2>
+          <p>Ordering takes a couple of minutes. Pick your size above, choose <strong>cash on delivery</strong> or pay in advance by bank transfer, JazzCash, EasyPaisa or card, and we dispatch from Skardu within 24 hours. Delivery inside Pakistan runs 3 to 5 working days by TCS; international orders ship in 10 to 14 days with customs papers and the batch lab report included.</p>
+          <ul class="buy-list">
+            <li><strong>Cash on delivery</strong> available in all major cities of Pakistan.</li>
+            <li><strong>Dispatch in 24 hours</strong> &mdash; every parcel carries its batch code and matching lab report reference.</li>
+            <li><strong>Pick up in Lahore</strong> if you prefer &mdash; our outlet is in Lahore Organic Village, D.H.A. Main Blvd. See <NuxtLink to="/locations/lahore">our Lahore shop</NuxtLink>.</li>
+            <li><strong>3-day returns</strong> &mdash; if the jar does not match the quality you ordered, contact us within 3 days of delivery. Full terms in our <NuxtLink to="/policies/refund-policy">refund policy</NuxtLink>.</li>
+            <li><strong>Questions before you order?</strong> WhatsApp <a href="https://wa.me/923311116915" target="_blank" rel="noopener">+92 331 1116915</a> or email <a href="mailto:organicapricoskardu@gmail.com">organicapricoskardu@gmail.com</a>.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="price-section" id="price-table">
+        <div class="wrap">
+          <h2>Shilajit Price per Gram</h2>
+          <p>Every jar below is the same 73% fulvic acid, 8-stage purified gold-grade resin &mdash; the price changes only with the jar size. The serving size on our label is 0.7 g.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Price per gram</th>
+                <th>Approx. servings (0.7 g)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="row in priceRows" :key="row.id">
+                <td>{{ row.label }}</td>
+                <td class="price-cell">{{ formatPrice(row.price) }}</td>
+                <td>{{ formatPrice(row.perGram) }} / g</td>
+                <td>{{ row.servings }}</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="price-note">Need more than 100 g? Bulk resin is available from 1 kg at Rs 95,000 &mdash; see <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label</NuxtLink>. For a size-by-size breakdown of the market, read our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">shilajit price guide</NuxtLink>.</p>
         </div>
       </section>
 
@@ -121,6 +175,7 @@
                 Shilajit {{ size.label }} price in Pakistan: {{ formatPrice(size.price) }}
               </li>
             </ul>
+            <p>The full price-per-gram table is in the <a href="#price-table">Shilajit Price per Gram</a> table above.</p>
 
             <h2>How to get Himalayan Shilajit from Pakistan</h2>
             <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, 73% fulvic acid and full third-party lab testing, at an affordable price. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
@@ -136,7 +191,7 @@
               <li><strong>Dehydration</strong> — Sun-dried for more than 40 days in stainless steel containers.</li>
               <li><strong>Heavy metals</strong> — Tested by PCSIR Lahore and Eurofins for lead, arsenic, cadmium and mercury.</li>
               <li><strong>Aflatoxins and microbes</strong> — Negative for Aflatoxin B1, B2, G1 and G2, with a clear microbiological panel.</li>
-              <li><strong>Traceability</strong> — A unique batch number and QR code printed on every box, linking to that batch's lab report.</li>
+              <li><strong>Traceability</strong> — Every box carries a batch code. Request the lab report for your batch by WhatsApp or email.</li>
               <li><strong>Sizes</strong> — 10 g, 20 g, 30 g, 50 g and 100 g glass jars. Bulk and private label available.</li>
               <li><strong>Licences</strong> — Government extraction licence, export licence and SECP company registration.</li>
               <li><strong>Formats</strong> — Raw resin, liquid drops, and bulk resin for businesses.</li>
@@ -181,11 +236,18 @@
             <h2>Salajeet and Its Quality Assurance by Organic Aprico</h2>
             <p>Organic Aprico Shilajit undergoes rigorous testing at Micro Quality Lab, California, confirming 73 per cent of fulvic acid content and the absence of heavy metals, chemicals, or toxins. We also hold a Certificate of Incorporation and a certification from the Pakistan Council of Scientific &amp; Industrial Research Laboratories Complex in Lahore, confirming the absence of Aflatoxin B1, B2, G1, and G2. We provide certification for both national and international clients, ensuring trust and confidence in our product.</p>
 
-            <h2>How to use Himalayan Shilajit</h2>
-            <p>Organic Aprico Shilajit can be included in your daily routine. Due to its high purity, only a minimal amount is needed. Dissolve a pea-sized portion (approximately 700 mg) of Shilajit in lukewarm water, milk, herbal tea, or coffee to enjoy its numerous health benefits.</p>
+            <h2>How to Take Shilajit Resin</h2>
+            <p>Organic Aprico Shilajit can be included in your daily routine. Due to its high purity, only a minimal amount is needed. The label serving size is <strong>0.7 g</strong> (about a pea-sized portion). If you are new to shilajit, start with <strong>300&ndash;500 mg</strong> and build up to a full 0.7 g serving. Dissolve it in lukewarm water, milk, herbal tea, or coffee.</p>
+            <ul>
+              <li><strong>Start low:</strong> 300&ndash;500 mg once a day for the first week, then increase to the full 0.7 g serving.</li>
+              <li><strong>Best time:</strong> morning on an empty stomach, or before exercise.</li>
+              <li><strong>Use lukewarm liquid</strong> only &mdash; boiling water can degrade fulvic acid.</li>
+              <li><strong>Store</strong> in a cool, dry place away from direct sunlight. Shelf life is 24 months from the packaging date.</li>
+            </ul>
+            <p>Full dosing, timing and timing-mistake details are in our <NuxtLink to="/blogs/blog/how-to-take-shilajit-resin-dosage-timing-and-common-mistakes">how to take shilajit guide</NuxtLink>.</p>
 
-            <h2>Money Back Guarantee</h2>
-            <p>At Organic Aprico, client satisfaction is our top priority. Since 1972, we have consistently met our clients' expectations. However, in line with our commitment to quality, we provide the Best Shilajit in Pakistan and offer a money-back guarantee too. Whether you are a national or international client, if there is any issue, dissatisfaction, or mistake on our part, we will fully compensate you.</p>
+            <h2>Returns and exchanges</h2>
+            <p>At Organic Aprico, client satisfaction is our top priority. Since 1972, we have consistently met our clients' expectations. If you receive a jar with any issue, dissatisfaction, or a mistake on our part, contact us within <strong>3 days of delivery</strong> for an exchange or return — for national and international clients alike. See our <NuxtLink to="/policies/refund-policy">refund policy</NuxtLink> for the conditions.</p>
 
             <p><strong>Ingredients:</strong> Shilajit Resin</p>
           </div>
@@ -195,8 +257,50 @@
             <button class="tab-btn" :class="{ active: activeTab === 'howto' }" @click="activeTab = 'howto'">How to Use</button>
           </div>
           <div v-if="activeTab === 'lab'" class="tab-content">
-            <h2>Third-Party Lab Reports</h2>
-            <p>Every batch of Organic Aprico shilajit is tested by independent laboratories. Below are the latest reports for our shilajit resin.</p>
+            <h2>Lab Reports &amp; Batch Traceability</h2>
+            <p>Every batch of Organic Aprico shilajit is tested by independent laboratories. Below are the latest reports for our shilajit resin, and the batch code printed on every jar.</p>
+            <table class="price-table batch-table">
+              <thead>
+                <tr>
+                  <th>Batch code</th>
+                  <th>Laboratory</th>
+                  <th>Test</th>
+                  <th>Result</th>
+                  <th>Report</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>Micro Quality Lab, California</td>
+                  <td>Fulvic acid content</td>
+                  <td>73%</td>
+                  <td><a href="/certifications">View result</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>PCSIR, Lahore</td>
+                  <td>Heavy metals (lead, arsenic, cadmium, mercury)</td>
+                  <td>Non-detect</td>
+                  <td><a href="/certifications">View result</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>PCSIR, Lahore</td>
+                  <td>Aflatoxin B1, B2, G1, G2</td>
+                  <td>Negative</td>
+                  <td><a href="/certifications">View result</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>Eurofins</td>
+                  <td>Total humic extract</td>
+                  <td>73.3% (71.8% fulvic acid)</td>
+                  <td><a href="/certifications">View result</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="price-note">Your jar carries its own batch code &mdash; send it to us on WhatsApp or email and we will send the matching lab report for that batch. All current results are published as text on our <NuxtLink to="/certifications">lab reports &amp; certifications page</NuxtLink>.</p>
             <div class="lab-grid">
               <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.jpg', 'Micro Quality Lab fulvic acid test')">
                 <img src="/images/lab-reports/micro-quality-fulvic-acid.jpg" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
@@ -268,67 +372,41 @@
         </div>
       </section>
 
-      <section class="reviews-section" id="reviews">
+      <section class="faq-section" id="faqs">
+        <div class="wrap">
+          <h2>FAQs</h2>
+          <div class="faq-list">
+            <div v-for="(faq, i) in faqs" :key="i" class="faq-item" :class="{ open: openFaq === i }">
+              <button class="faq-q" :aria-expanded="openFaq === i" @click="openFaq = openFaq === i ? null : i">
+                <span>{{ faq.q }}</span>
+                <svg class="faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              <div class="faq-a">
+                <p v-for="(p, j) in answerParts(faq.a)" :key="j" :class="{ 'faq-a-p': answerParts(faq.a).length > 1 }">{{ p }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-section" id="google-reviews">
         <div class="wrap">
           <div class="reviews-header">
-            <h2>Customer Reviews</h2>
+            <h2>Rated on Google</h2>
             <div class="reviews-summary">
               <div class="reviews-avg">
-                <span class="avg-score">4.9</span>
+                <span class="avg-score">4.8</span>
                 <div class="avg-stars">
                   <svg v-for="n in 5" :key="n" class="star filled" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 </div>
-                <span class="avg-count">Based on 200+ reviews</span>
+                <span class="avg-count">From 40 Google reviews</span>
               </div>
             </div>
           </div>
-          <div class="reviews-grid">
-            <div v-for="(review, i) in reviews" :key="i" class="review-card">
-              <div class="review-card-top">
-                <div class="review-card-stars">
-                  <svg v-for="n in 5" :key="n" class="star" :class="{ filled: n <= review.rating }" width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                </div>
-                <span class="verified-badge">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
-                  Verified Purchase
-                </span>
-              </div>
-              <div class="review-card-meta">
-                <span class="review-card-name">{{ review.name }}</span>
-                <span class="review-card-date">{{ review.date }}</span>
-              </div>
-              <p class="review-card-text">{{ review.text }}</p>
-            </div>
-          </div>
-          <div class="review-form-wrap" id="review-form">
-            <h3>Write a Review</h3>
-            <form class="review-form" @submit.prevent="submitReview">
-              <div class="review-form-stars" aria-label="Rating">
-                <button
-                  v-for="n in 5"
-                  :key="n"
-                  type="button"
-                  class="star-input"
-                  :class="{ filled: n <= (hoverRating || reviewForm.rating) }"
-                  :aria-label="`${n} star${n > 1 ? 's' : ''}`"
-                  @click="setRating(n)"
-                  @mouseenter="hoverRating = n"
-                  @mouseleave="hoverRating = 0"
-                >
-                  <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                </button>
-              </div>
-              <div class="field">
-                <label for="review-name">Name</label>
-                <input id="review-name" v-model="reviewForm.name" type="text" placeholder="Your name" />
-              </div>
-              <div class="field">
-                <label for="review-text">Review</label>
-                <textarea id="review-text" v-model="reviewForm.text" rows="4" placeholder="Share your experience with this product"></textarea>
-              </div>
-              <button type="submit" class="btn btn-gold">Submit Review</button>
-            </form>
-          </div>
+          <p class="reviews-note">
+            We do not publish customer reviews on this site. Our rating comes straight from our Google Business Profile:
+            <a href="https://maps.app.goo.gl/PPcqPsNFQVmvtFU27" target="_blank" rel="noopener" class="add-review-link">View our 4.8/5 rating from 40 Google reviews</a>
+          </p>
         </div>
       </section>
 
@@ -339,8 +417,8 @@
               <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div class="guarantee-text">
-              <h2>30-Day Money-Back Guarantee</h2>
-              <p>If you're not completely satisfied with the quality of our shilajit, contact us within 30 days for a full refund. No questions asked. We stand behind every jar we produce.</p>
+              <h2>3-Day Return / Exchange Window</h2>
+              <p>If your jar does not match the quality you ordered, contact us within 3 days of delivery for an exchange or return. Every return is inspected on arrival. Full terms are in our <NuxtLink to="/policies/refund-policy">refund policy</NuxtLink>.</p>
             </div>
           </div>
         </div>
@@ -402,19 +480,48 @@
 
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
-import { buildProductJsonLd, buildBreadcrumbJsonLd } from '~/utils/seo'
+import { buildProductJsonLd, buildBreadcrumbJsonLd, buildFaqJsonLd } from '~/utils/seo'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
 
 const product = PRODUCTS.find(p => p.key === 'resin')!
-const productTitle = 'Shilajit Price in Pakistan 2026 — Pure Himalayan Gold-Grade Resin'
+const productTitle = 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin'
 
 const selectedSize = ref(product.defaultSize)
 const qty = ref(1)
 const justAdded = ref(false)
 const activeTab = ref('lab')
 const activeImage = ref(0)
+const openFaq = ref<number | null>(0)
+
+const GRAMS: Record<string, number> = { '10g': 10, '20g': 20, '30g': 30, '50g': 50, '100g': 100 }
+const SERVING_G = 0.7
+
+const priceRows = computed(() => product.sizes.map((size) => {
+  const grams = GRAMS[size.id] ?? 0
+  return {
+    id: size.id,
+    label: size.label,
+    price: size.price,
+    perGram: Math.round(size.price / grams),
+    servings: Math.floor(grams / SERVING_G),
+  }
+}))
+
+const currentVariant = computed(() =>
+  product.sizes.find(s => s.id === selectedSize.value)!
+)
+
+const pricePerGram = computed(() => {
+  const row = priceRows.value.find(r => r.id === selectedSize.value)
+  return row ? row.perGram : 0
+})
+
+const servingsCount = computed(() => {
+  const row = priceRows.value.find(r => r.id === selectedSize.value)
+  return row ? row.servings : 0
+})
 
 const lightbox = reactive({ src: '', alt: '' })
 
@@ -475,36 +582,6 @@ const galleryAlts = [
   'Shilajit Resin packaging and jar',
 ]
 
-const reviews = [
-  { name: 'Ahmed Raza', rating: 5, date: '2 weeks ago', text: 'Genuine product. It dissolves cleanly in warm water and leaves no grit at the bottom, which is exactly what I was looking for after trying two other brands.' },
-  { name: 'Fatima Khan', rating: 5, date: '1 month ago', text: 'Bohat achi packaging hai. Jar tamper-proof seal ke saath aayi aur batch number box par clearly printed tha. Lab report QR code se check kar liya.' },
-  { name: 'Usman Malik', rating: 4, date: '1 month ago', text: 'Good resin quality and the texture is thick, not runny. The only reason for 4 stars is that delivery took two days longer than the estimate.' },
-  { name: 'Ayesha Siddiqui', rating: 5, date: '2 months ago', text: 'Main ne pehle kai jagah se salajeet try kiya tha. Yahan ki resin asal hai, taste natural hai aur lab reports bhi saath diye hain. Trustworthy company.' },
-  { name: 'Bilal Hussain', rating: 5, date: '2 months ago', text: 'The 50g jar lasts me around two months. Dissolves easily in lukewarm milk, and the earthy taste is what real resin should taste like.' },
-  { name: 'Zainab Ali', rating: 4, date: '3 months ago', text: 'Ordered the 30g jar to try it. Packaging is premium, the spoon is a useful addition, and the price per gram is fair for gold-grade resin.' },
-  { name: 'Hassan Javed', rating: 5, date: '3 months ago', text: 'I ordered one for my father and then ordered again for myself. The texture was consistent between both jars, which gives me confidence in the batch process.' },
-  { name: 'Maryam Noor', rating: 5, date: '4 months ago', text: 'I was sceptical at first, but the batch code and lab reports are genuinely provided and verifiable. The resin itself is smooth and dissolves fully.' },
-  { name: 'Tariq Mehmood', rating: 5, date: '5 months ago', text: 'Saste aur asli dono milte hain is jagah. 10g se start kiya tha, ab 50g order kar raha hoon. WhatsApp par customer service bhi bohat quick thi.' },
-  { name: 'Sana Iqbal', rating: 4, date: '6 months ago', text: 'Very good quality resin. Love that full lab reports are included and the glass jar keeps it fresh. The taste is strong, as real shilajit should be.' },
-]
-
-const reviewForm = ref({ name: '', text: '', rating: 5 })
-const hoverRating = ref(0)
-
-function setRating(n: number) {
-  reviewForm.value.rating = n
-}
-
-function submitReview() {
-  if (!reviewForm.value.name.trim() || !reviewForm.value.text.trim()) return
-  toast.show('Thank you for your review!')
-  reviewForm.value = { name: '', text: '', rating: 5 }
-}
-
-const currentVariant = computed(() =>
-  product.sizes.find(s => s.id === selectedSize.value)!
-)
-
 function onAdd() {
   addToCart('resin', selectedSize.value, qty.value)
   justAdded.value = true
@@ -512,10 +589,45 @@ function onAdd() {
   setTimeout(() => { justAdded.value = false }, 1400)
 }
 
+function answerParts(answer: string | string[]): string[] {
+  return Array.isArray(answer) ? answer : [answer]
+}
+
+const faqs = [
+  {
+    q: 'What is the current shilajit price in Pakistan?',
+    a: 'Gold-grade resin starts at Rs 1,500 for 10 g and goes up to Rs 12,900 for 100 g. That works out to Rs 150/g at 10 g and Rs 129/g at 100 g. Bulk orders start at 1 kg for Rs 95,000. Every price is listed in the price-per-gram table above.',
+  },
+  {
+    q: 'How do I know the shilajit is pure and not adulterated?',
+    a: 'Each jar carries a batch code, and the matching third-party lab report is available on request — 73% fulvic acid from Micro Quality Lab, California, heavy metals tested at PCSIR Lahore, and a Eurofins total humic extract result. Read the current results on our lab reports and certifications page.',
+  },
+  {
+    q: 'How much shilajit should I take per day?',
+    a: 'The label serving size is 0.7 g. If you are new to shilajit, start with 300–500 mg once a day for the first week, then move up to the full 0.7 g serving. Dissolve it in lukewarm water, milk or herbal tea.',
+  },
+  {
+    q: 'Do you offer cash on delivery in Pakistan?',
+    a: 'Yes. Cash on delivery is available in all major cities of Pakistan, with delivery in 3 to 5 working days by TCS. You can also pay in advance by bank transfer, JazzCash, EasyPaisa or card, and collect from our Lahore outlet if you prefer.',
+  },
+  {
+    q: 'What is the return policy?',
+    a: 'You have 3 days from delivery to request a return or exchange if the jar does not match the quality you ordered. Every return is inspected on arrival. The full conditions are in our refund policy.',
+  },
+  {
+    q: 'Do you ship shilajit outside Pakistan?',
+    a: 'Yes. International orders ship in 10 to 14 days with customs papers, the batch lab report and export documentation included. We ship to the UK, USA, EU, Middle East, Australia and Canada.',
+  },
+  {
+    q: 'Can I buy bulk or private-label shilajit for my business?',
+    a: 'Yes. Wholesale resin starts at 1 kg for Rs 95,000, with 5 kg at Rs 475,000 and 10 kg+ on request. Private label and custom packaging are available — see the wholesale and private label page.',
+  },
+]
+
 useSeoMeta({
-  title: 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500 | Organic Aprico',
-  description: 'Original gold-grade Himalayan shilajit price in Pakistan: 10g Rs 1,500 · 20g Rs 2,900 · 50g Rs 7,100 · 100g Rs 12,900. Lab-tested 73% fulvic acid, COD nationwide, worldwide shipping.',
-  ogTitle: 'Shilajit Price in Pakistan — Pure Himalayan Resin from Rs 1,500',
+  title: 'Shilajit Price in Pakistan 2026 | Pure Himalayan Resin',
+  description: 'Buy pure Himalayan shilajit resin from Skardu. 73% fulvic acid (Micro Quality Lab), PCSIR heavy-metal tested, 10g from Rs 1,500. COD in Pakistan.',
+  ogTitle: 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500',
   ogDescription: 'Gold-grade resin, 73% fulvic acid, 8-stage purification, lab tested in California and Pakistan. 10g Rs 1,500 · 50g Rs 7,100 · 100g Rs 12,900.',
   ogImage: '/images/products/shilajit-resin-jar-spoon.jpg',
   ogType: 'product',
@@ -531,13 +643,33 @@ useHead({
         skuPrefix: 'OA-SHILAJIT-RESIN',
         name: 'Pure Himalayan Shilajit Resin',
         description: 'Gold-grade Himalayan shilajit resin with 73% fulvic acid. 8-stage purification, lab tested. From 17,000 feet in Gilgit-Baltistan.',
+        category: 'Dietary Supplement > Herbal Supplement',
+        additionalProperties: [
+          { name: 'Fulvic acid', value: '73%' },
+          { name: 'Source altitude', value: 'Above 17,000 ft' },
+          { name: 'Purification', value: '8-stage' },
+          { name: 'Batch', value: 'OA-2025-0307' },
+          { name: 'Serving size', value: '0.7 g' },
+        ],
+        returnWindowDays: 3,
+        shippingDetails: {
+          shippingRate: 250,
+          handlingTime: { minValue: 0, maxValue: 1 },
+          transitTime: { minValue: 3, maxValue: 5 },
+          shippingDestination: { '@type': 'PostalAddress', addressCountry: 'PK' },
+        },
+        sellerId: 'https://organicaprico.com/#organization',
       })),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildFaqJsonLd(faqs)),
     },
     {
       type: 'application/ld+json',
       innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
         { name: 'Home', path: '/' },
-        { name: 'Products', path: '/#products' },
+        { name: 'Products', path: '/products' },
         { name: 'Pure Himalayan Shilajit Resin' },
       ])),
     },

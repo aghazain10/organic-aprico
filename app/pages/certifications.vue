@@ -5,8 +5,9 @@
       <section class="cert-hero">
         <div class="wrap">
           <NuxtLink to="/" class="back-link">&larr; Back to home</NuxtLink>
-          <h1>Certifications &amp; Lab Reports</h1>
+          <h1>Lab Reports &amp; Certifications</h1>
           <p class="lede">Every batch is tested by independent labs and certified to international standards. Full transparency, no exceptions.</p>
+          <p class="cert-meta">Last updated: <time datetime="2026-10-21">21 October 2026</time> &middot; Current batch code: <strong>OA-2025-0307</strong></p>
           <div class="hero-actions">
             <a
               href="/images/gmp-haccp-halal-certificates.pdf"
@@ -25,6 +26,73 @@
               Download Lab Reports (PDF)
             </a>
           </div>
+        </div>
+      </section>
+
+      <!-- Text results table -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Test results in text</h2>
+            <p>Every number below is readable without opening an image, so you can check it quickly. The same results are published as scan images further down this page.</p>
+          </div>
+          <div class="table-scroll">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th scope="col">Batch</th>
+                  <th scope="col">Laboratory</th>
+                  <th scope="col">Test</th>
+                  <th scope="col">Result</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Report</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>Micro Quality Lab, California</td>
+                  <td>Fulvic acid content</td>
+                  <td class="result">73% fulvic acid</td>
+                  <td>September 2025</td>
+                  <td><a href="/images/lab-reports/micro-quality-fulvic-acid.jpg" target="_blank" rel="noopener">View report</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>Eurofins Food Testing UK Ltd</td>
+                  <td>Fulvic acid / total humic extract</td>
+                  <td class="result">71.8% fulvic acid, 73.3% total humic extract</td>
+                  <td>September 2025</td>
+                  <td><a href="/images/lab-reports/eurofins-fulvic-acid.jpg" target="_blank" rel="noopener">View report</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>PCSIR, Lahore</td>
+                  <td>Heavy metals: lead, cadmium, arsenic, mercury</td>
+                  <td class="result">Non-detect</td>
+                  <td>September 2025</td>
+                  <td><a href="/images/lab-reports/pcsir-heavy-metals.jpg" target="_blank" rel="noopener">View report</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>PCSIR, Lahore</td>
+                  <td>Microbiological panel</td>
+                  <td class="result">Within safe limits</td>
+                  <td>September 2025</td>
+                  <td><a href="/images/lab-reports/pcsir-microbiological.jpg" target="_blank" rel="noopener">View report</a></td>
+                </tr>
+                <tr>
+                  <td>OA-2025-0307</td>
+                  <td>PCSIR, Lahore</td>
+                  <td>Aflatoxin B1, B2, G1, G2</td>
+                  <td class="result">Not detected</td>
+                  <td>September 2025</td>
+                  <td><a href="/images/lab-reports/pcsir-aflatoxin.jpg" target="_blank" rel="noopener">View report</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="cert-meta">Every jar carries its own batch code. Send us the code on the box and we will send the matching report for that batch &mdash; <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp +92 331 1116915</a> or <a href="mailto:organicapricoskardu@gmail.com">organicapricoskardu@gmail.com</a>.</p>
         </div>
       </section>
 
@@ -141,7 +209,8 @@
           <h2>Convinced by the proof?</h2>
           <p>Lab tested. Certified. Guaranteed.</p>
           <div class="cert-cta-actions">
-            <NuxtLink to="/#products" class="btn btn-gold">Shop shilajit</NuxtLink>
+            <NuxtLink to="/products" class="btn btn-gold">Shop shilajit</NuxtLink>
+            <NuxtLink to="/products/shilajit" class="btn btn-ghost">See the resin product page</NuxtLink>
             <NuxtLink to="/purification" class="btn btn-ghost">See our purification process</NuxtLink>
           </div>
         </div>
@@ -198,7 +267,7 @@ const certifications = [
     alt: 'GMP certificate of Organic Aprico',
     description: 'Good Manufacturing Practice certification ensures every stage of production — from raw material handling to final packaging — meets strict quality and safety standards.',
     details: [
-      'ISO-based manufacturing standards',
+      'Documented manufacturing quality standards',
       'Documented quality control procedures',
       'Regular internal and external audits',
       'Full traceability of every batch',
@@ -232,12 +301,12 @@ const certifications = [
 
 const labReports = [
   {
-    name: 'Fulvic Acid Content',
+    name: 'Fulvic Acid &amp; Humic Extract',
     lab: 'Eurofins',
     image: '/images/lab-reports/eurofins-fulvic-acid.jpg',
-    alt: 'Eurofins lab report showing 73% fulvic acid',
-    description: 'Independent verification of fulvic acid concentration — the primary active compound in shilajit that drives its health benefits.',
-    result: '73% fulvic acid',
+    alt: 'Eurofins lab report showing 71.8% fulvic acid and 73.3% total humic extract',
+    description: 'Independent verification of fulvic acid and humic extract concentration — the primary active compounds in shilajit that drive its health benefits.',
+    result: '71.8% fulvic acid, 73.3% total humic extract',
   },
   {
     name: 'Fulvic Acid — California',
@@ -291,7 +360,7 @@ const summary = [
   },
   {
     title: 'Certified standards',
-    desc: 'ISO, GMP, HACCP and Halal — internationally recognized.',
+    desc: 'GMP, HACCP and Halal — with batch lab reports from three independent labs.',
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E9CD84" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>',
   },
 ]
@@ -302,17 +371,17 @@ useHead({
       type: 'application/ld+json',
       innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
         { name: 'Home', path: '/' },
-        { name: 'Certifications & Lab Reports' },
+        { name: 'Lab Reports & Certifications' },
       ])),
     },
   ],
 })
 
 useSeoMeta({
-  title: 'Certifications & Lab Reports | Organic Aprico',
-  description: 'View GMP, HACCP and Halal certifications plus independent lab reports from Micro Quality Lab California, PCSIR Lahore and Eurofins. 73% fulvic acid verified.',
-  ogTitle: 'Certifications & Lab Reports — Organic Aprico',
-  ogDescription: 'GMP, HACCP, Halal certified. Lab tested by Micro Quality Lab, PCSIR and Eurofins. 73% fulvic acid, zero heavy metals.',
+  title: 'Lab Reports & Certifications | Organic Aprico',
+  description: 'PCSIR heavy metals, Eurofins fulvic acid, Micro Quality Lab results in text, plus GMP, HACCP and Halal certifications. Batch OA-2025-0307, updated October 2026.',
+  ogTitle: 'Lab Reports & Certifications — Organic Aprico',
+  ogDescription: 'GMP, HACCP, Halal certified. Lab tested by Micro Quality Lab, PCSIR and Eurofins. Batch OA-2025-0307 results published in text and as scans.',
 })
 </script>
 
@@ -335,6 +404,35 @@ useSeoMeta({
 }
 .lede { color: var(--stone); font-size: 1.1rem; max-width: 54ch; margin-bottom: 2rem; }
 .hero-actions { display: flex; gap: .85rem; flex-wrap: wrap; }
+.cert-meta { color: var(--stone); font-size: .92rem; margin-bottom: 1.5rem; }
+.cert-meta strong { color: var(--cream); }
+.cert-meta a { color: var(--gold-bright); }
+
+.table-scroll { overflow-x: auto; }
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+  min-width: 46rem;
+}
+.results-table th,
+.results-table td {
+  padding: .8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line-soft);
+  font-size: .93rem;
+  vertical-align: top;
+}
+.results-table th {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--stone);
+  white-space: nowrap;
+}
+.results-table td { color: var(--cream); }
+.results-table tr:last-child td { border-bottom: none; }
+.results-table .result { color: var(--gold-bright); font-weight: 600; }
+.results-table a { color: var(--gold-bright); }
 
 .cert-hero-image {
   border: 1px solid var(--line);

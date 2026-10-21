@@ -131,7 +131,7 @@
                 <span>Total</span>
                 <strong>{{ formatPrice(grandTotal) }}</strong>
               </div>
-              <p class="muted small">Shipping for orders outside Pakistan is confirmed after order. Money-back guarantee applies.</p>
+              <p class="muted small">Shipping for orders outside Pakistan is confirmed after order. 3-day return window applies.</p>
               <button
                 type="submit"
                 class="btn btn-gold btn-block"

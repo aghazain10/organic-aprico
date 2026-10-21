@@ -6,6 +6,9 @@ const LIVE_PAGES = new Set([
   '/certifications',
   '/purification',
   '/blogs/blog',
+  '/contact',
+  '/locations/lahore',
+  '/products',
   ...SITE_PAGES.map((page) => page.path),
   ...BLOG_POSTS.map((post) => `/blogs/blog/${post.slug}`),
 ])
@@ -44,12 +47,12 @@ const EXACT_REDIRECTS: Record<string, string> = {
   // --- Shopify pages still indexed — SEO plan §4.1 ---
   '/pages/faq': HOME,
   '/pages/lab-reports': '/certifications',
-  '/pages/our-locations': '/pages/about-us',
+  '/pages/our-locations': '/locations/lahore',
   '/pages/who-is-behind-organic-aprico': '/pages/about-us',
   '/pages/our-mission': '/pages/about-us',
   '/pages/our-goals': '/pages/about-us',
   '/pages/our-vision': '/pages/about-us',
-  '/pages/contact-us': HOME,
+  '/pages/contact-us': '/contact',
   '/pages/certifications': '/certifications',
   '/pages/data-sharing-opt-out': '/policies/privacy-policy',
   '/pages/delivery-information': '/policies/shipping-policy',
@@ -65,6 +68,9 @@ const EXACT_REDIRECTS: Record<string, string> = {
   // --- Shopify system paths — SEO plan §4.1 ---
   '/cart': HOME,
   '/search': HOME,
+  // Legacy 404s caught in the crawl — SEO plan §5.4
+  '/policies/contact-information': '/contact',
+  '/easy-exchange-and-return': '/policies/refund-policy',
   '/wpm': HOME,
   '/v1/produce': HOME,
   '/recent-viewed-products': HOME,

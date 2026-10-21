@@ -34,6 +34,7 @@
       </div>
       <div class="footer-col">
         <h4>Shop shilajit</h4>
+        <NuxtLink to="/products">All Products &amp; Prices</NuxtLink>
         <NuxtLink to="/products/shilajit">Shilajit Resin</NuxtLink>
         <NuxtLink to="/products/shilajit-drops">Shilajit Drops</NuxtLink>
         <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">Wholesale &amp; Private Label</NuxtLink>
@@ -45,7 +46,9 @@
       <div class="footer-col">
         <h4>Visit us</h4>
         <address>
-          <strong>Lahore Organic Village</strong><br>Main Blvd, DHA Phase 1, Lahore
+          <strong>Organic Aprico</strong><br>
+          Lahore Organic Village, D.H.A. Main Blvd, near Adil Hospital, DHA Phase 1, Lahore<br>
+          <NuxtLink to="/locations/lahore">Shop open 11 AM&ndash;12 AM &rarr;</NuxtLink>
         </address>
         <address>
           <strong>Lasu House of Production</strong><br>Skardu, Gilgit Baltistan
@@ -56,6 +59,7 @@
         <a href="tel:+923311116915">+92 331 111 6915</a>
         <a href="mailto:organicapricoskardu@gmail.com">organicapricoskardu@gmail.com</a>
         <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp</a>
+        <NuxtLink to="/contact">Contact page</NuxtLink>
         <h4>Follow</h4>
         <div class="socials">
           <a href="https://www.instagram.com/organicaprico/" target="_blank" rel="noopener noreferrer">Instagram</a>

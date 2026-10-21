@@ -9,9 +9,12 @@ const STATIC_LASTMOD: Record<string, string> = {
   '/certifications': '2026-09-11',
   '/purification': '2026-09-11',
   '/blogs/blog': '2026-09-21',
-  '/products/shilajit': '2026-10-05',
-  '/products/shilajit-drops': '2026-10-05',
-  '/products/pure-himalayan-shilajit-resin-wholesale': '2026-10-05',
+  '/products': '2026-10-21',
+  '/products/shilajit': '2026-10-21',
+  '/products/shilajit-drops': '2026-10-21',
+  '/products/pure-himalayan-shilajit-resin-wholesale': '2026-10-21',
+  '/contact': '2026-10-21',
+  '/locations/lahore': '2026-10-21',
 }
 
 // static info/policy pages all come from app/data/pages.ts
@@ -22,9 +25,12 @@ const STATIC_PATHS = [
   '/certifications',
   '/purification',
   '/blogs/blog',
+  '/products',
   '/products/shilajit',
   '/products/shilajit-drops',
   '/products/pure-himalayan-shilajit-resin-wholesale',
+  '/contact',
+  '/locations/lahore',
 ]
 
 interface SitemapEntry {
@@ -47,7 +53,7 @@ export default defineEventHandler((event): string => {
     ...SITE_PAGES.map((page) => ({ loc: `${SITE_URL}${page.path}`, lastmod: PAGES_LASTMOD })),
     ...BLOG_POSTS.map((post) => ({
       loc: `${SITE_URL}/blogs/blog/${post.slug}`,
-      lastmod: post.dateISO,
+      lastmod: post.updatedISO ?? post.dateISO,
     })),
   ]
 

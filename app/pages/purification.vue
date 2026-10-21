@@ -39,7 +39,7 @@
           <h2>Ready to try it?</h2>
           <p>Pure Himalayan shilajit, purified the right way.</p>
           <div class="purify-cta-actions">
-            <NuxtLink to="/#products" class="btn btn-gold">Shop shilajit</NuxtLink>
+            <NuxtLink to="/products" class="btn btn-gold">Shop shilajit</NuxtLink>
             <NuxtLink to="/certifications" class="btn btn-ghost">See certifications</NuxtLink>
           </div>
         </div>
@@ -152,7 +152,7 @@ const steps = [
     detail: 'Each jar and pouch receives a unique batch code that links to its full production history — extraction date, purification logs, lab reports, and expiry. This code is your guarantee of authenticity and allows us to trace any product back to the exact mountain it came from.',
     facts: [
       { label: 'Traceability', value: 'Full — extraction to export' },
-      { label: 'Label includes', value: 'Batch code, date, lab report QR' },
+      { label: 'Label includes', value: 'Batch code, base and packaging date' },
       { label: 'Expiry', value: '24 months from packaging' },
     ],
     svg: `<svg viewBox="0 0 400 280" fill="none"><rect x="130" y="80" width="140" height="120" rx="6" fill="#1c1409" stroke="#C9A24A" stroke-width="1"/><rect x="150" y="100" width="100" height="12" rx="2" fill="#0a0805" opacity=".8"/><rect x="150" y="100" width="100" height="1" fill="#C9A24A" opacity=".6"/><text x="200" y="110" text-anchor="middle" font-family="monospace" font-size="8" fill="#E9CD84">OAPR-2026-0847</text><rect x="170" y="130" width="60" height="60" rx="2" fill="#0a0805" stroke="#C9A24A" stroke-width=".5"/><rect x="178" y="138" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="186" y="138" width="4" height="4" fill="#C9A24A" opacity=".5"/><rect x="194" y="138" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="178" y="146" width="4" height="4" fill="#C9A24A" opacity=".4"/><rect x="186" y="146" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="194" y="146" width="4" height="4" fill="#C9A24A" opacity=".5"/><rect x="202" y="146" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="178" y="154" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="186" y="154" width="4" height="4" fill="#C9A24A" opacity=".5"/><rect x="194" y="154" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="202" y="154" width="4" height="4" fill="#C9A24A" opacity=".4"/><rect x="178" y="162" width="4" height="4" fill="#C9A24A" opacity=".5"/><rect x="186" y="162" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="194" y="162" width="4" height="4" fill="#C9A24A" opacity=".4"/><rect x="202" y="162" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="210" y="162" width="4" height="4" fill="#C9A24A" opacity=".5"/><rect x="178" y="170" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="186" y="170" width="4" height="4" fill="#C9A24A" opacity=".4"/><rect x="194" y="170" width="4" height="4" fill="#C9A24A" opacity=".3"/><rect x="202" y="170" width="4" height="4" fill="#C9A24A" opacity=".5"/><text x="200" y="220" text-anchor="middle" font-family="Manrope" font-size="10" fill="#9A9080">Full traceability</text></svg>`,

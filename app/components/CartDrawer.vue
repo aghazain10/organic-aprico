@@ -38,7 +38,7 @@
         <span>Subtotal</span>
         <strong>{{ formatPrice(total) }}</strong>
       </div>
-      <p class="muted small">Shipping is calculated at checkout. Money-back guarantee applies.</p>
+      <p class="muted small">Shipping is calculated at checkout. 3-day return window applies.</p>
       <NuxtLink
         v-if="items.length"
         class="btn btn-gold btn-block"

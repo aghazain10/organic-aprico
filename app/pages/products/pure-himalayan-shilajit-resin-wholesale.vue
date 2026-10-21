@@ -5,7 +5,7 @@
       <div class="wrap">
         <NuxtLink to="/">Home</NuxtLink>
         <span class="sep">/</span>
-        <NuxtLink to="/#products">Products</NuxtLink>
+        <NuxtLink to="/products">Products</NuxtLink>
         <span class="sep">/</span>
         <span class="current">Wholesale Shilajit Resin</span>
       </div>
@@ -40,16 +40,25 @@
             </div>
             <div class="product-info">
               <h1>{{ productTitle }}</h1>
-              <div class="product-rating">
-                <svg v-for="n in 5" :key="n" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                <span>5.0 (Wholesale partners)</span>
-                <a href="#review-form" class="add-review-link">Add a Review</a>
-              </div>
+              <a class="product-rating google-badge" href="https://maps.app.goo.gl/PPcqPsNFQVmvtFU27" target="_blank" rel="noopener" aria-label="Organic Aprico on Google: 4.8 out of 5 from 40 Google reviews">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span><strong>4.8/5</strong> from 40 Google reviews</span>
+              </a>
               <div class="product-price-block">
                 <span class="product-price-now">{{ formatPrice(currentVariant.price) }}</span>
                 <span v-if="currentVariant.was" class="product-price-was">{{ formatPrice(currentVariant.was) }}</span>
               </div>
+              <p class="product-unit-price">MOQ 1 kg &middot; Rs 95,000/kg &middot; 5 kg Rs 475,000 &middot; 10 kg+ on request</p>
               <p class="product-short-desc">The World's Most Trusted Source for Bulk &amp; Wholesale Shilajit Resin. Direct from extractor, no middlemen. Lab tested, private label available.</p>
+
+              <ul class="product-facts">
+                <li><strong>MOQ 1 kg</strong> &mdash; 1 kg Rs 95,000, 5 kg Rs 475,000, 10 kg+ on request</li>
+                <li><strong>73% fulvic acid</strong> &mdash; Gold Grade, Micro Quality Lab, California</li>
+                <li><strong>Lead time</strong> &mdash; dispatched within 24 hours of confirmation, 10&ndash;14 working days to the UK, EU and USA</li>
+                <li><strong>Private label</strong> &mdash; your brand, our resin, export packaging</li>
+                <li><strong>Export documents</strong> &mdash; customs declaration, health certificate, lab reports and certificates included</li>
+                <li><strong>Samples</strong> &mdash; request a sample with full lab reports before your first order</li>
+              </ul>
 
               <div class="variant-selector">
                 <span class="variant-label">Order Size</span>
@@ -84,7 +93,16 @@
                   rel="noopener"
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                  Contact for Quote via WhatsApp
+                  Request a Quote via WhatsApp
+                </a>
+                <a
+                  class="whatsapp-cta whatsapp-cta-secondary"
+                  href="https://wa.me/923311116915?text=Hi%20Organic%20Aprico%2C%20I%20would%20like%20to%20request%20a%20wholesale%20sample%20of%20shilajit%20resin."
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  Request a Sample
                 </a>
               </div>
 
@@ -103,6 +121,60 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="price-section" id="wholesale-pricing">
+        <div class="wrap">
+          <h2>Wholesale Shilajit Pricing 2026</h2>
+          <p>Gold-grade resin direct from our Skardu extraction and purification facility. Minimum order is 1 kg, and every tier includes the batch lab report, export documents and certificates.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Quantity</th>
+                <th>Price (PKR)</th>
+                <th>Price per kg</th>
+                <th>Price (USD)</th>
+                <th>Lead time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 kg (MOQ)</td>
+                <td class="price-cell">95,000</td>
+                <td>95,000 / kg</td>
+                <td>$305</td>
+                <td>10&ndash;14 working days</td>
+              </tr>
+              <tr>
+                <td>5 kg</td>
+                <td class="price-cell">475,000</td>
+                <td>95,000 / kg</td>
+                <td>On request</td>
+                <td>10&ndash;14 working days</td>
+              </tr>
+              <tr>
+                <td>10 kg+</td>
+                <td>On request</td>
+                <td>Volume quote</td>
+                <td>On request</td>
+                <td>10&ndash;14 working days</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="price-note">Prices are ex-factory Pakistan. Contact the wholesale team for tailored quotes in USD, GBP or EUR, and for private-label packaging options.</p>
+          <ul class="buy-list">
+            <li><strong>MOQ:</strong> 1 kg per order. We mix grade batches only within the same specification.</li>
+            <li><strong>Sample policy:</strong> request a sample before your first bulk order &mdash; it ships with the full lab report and certification set.</li>
+            <li><strong>Lead time:</strong> dispatched within 24 hours of order confirmation; 10&ndash;14 working days to the UK, EU, USA and Middle East by air freight.</li>
+            <li><strong>Private label:</strong> your brand on our resin &mdash; gold-foiled rigid box sets, cylindrical packaging or fully custom print.</li>
+            <li><strong>Export documents:</strong> customs declaration, health certificate, lab reports, Halal, GMP and HACCP certificates, and company registration papers.</li>
+            <li><strong>Payment:</strong> bank transfer, Payoneer, Wise or Western Union, in advance once the order is confirmed.</li>
+          </ul>
+          <div class="product-actions wholesale-cta-row">
+            <a class="whatsapp-cta" href="https://wa.me/923311116915?text=Hi%20Organic%20Aprico%2C%20I%20would%20like%20a%20wholesale%20quote%20for%20shilajit%20resin." target="_blank" rel="noopener">Request a Quote</a>
+            <a class="whatsapp-cta whatsapp-cta-secondary" href="https://wa.me/923311116915?text=Hi%20Organic%20Aprico%2C%20I%20would%20like%20to%20request%20a%20wholesale%20sample%20of%20shilajit%20resin." target="_blank" rel="noopener">Request a Sample</a>
           </div>
         </div>
       </section>
@@ -136,7 +208,7 @@
 
             <h3>Transparency and Traceability</h3>
             <p>Each batch of Shilajit is assigned a unique batch number to ensure authenticity and complete traceability. This batch number is clearly imprinted on every jar, allowing customers to track the origin and quality of the product.</p>
-            <p>Every Organic Aprico Shilajit product has a printed Batch Number and QR Code directly on the packaging Box so you can verify exactly what is inside before you consume it. Simply scan the QR Code on your packaging to instantly access the full lab report, purification details, and verification certificate linked to your specific batch.</p>
+            <p>Every box is batch-coded. Request the lab report for your batch by WhatsApp or email.</p>
 
             <h3>Pakistan's Exclusive Ultra Filtration and Purification Plant</h3>
             <p>Organic Aprico operates Pakistan's only dedicated Shilajit ultra-filtration and purification plant, giving us complete control over quality, consistency, and supply. Our Shilajit undergoes an advanced 8-step ultra-filtration, sun-drying, and purification process. The resin is purified without the use of chemicals, relying instead on modern techniques such as UV treatment and ozonation to remove impurities while protecting its natural composition.</p>
@@ -153,20 +225,19 @@
           <div class="tabs-nav">
             <button class="tab-btn" :class="{ active: activeTab === 'pricing' }" @click="activeTab = 'pricing'">Wholesale Pricing</button>
             <button class="tab-btn" :class="{ active: activeTab === 'quality' }" @click="activeTab = 'quality'">Quality &amp; Certifications</button>
-            <button class="tab-btn" :class="{ active: activeTab === 'faq' }" @click="activeTab = 'faq'">FAQ</button>
           </div>
 
           <div v-if="activeTab === 'pricing'" class="tab-content">
-            <h2>Wholesale Shilajit Pricing 2026</h2>
-            <table class="wholesale-table">
-              <thead><tr><th>Quantity</th><th>PKR</th><th>USD</th></tr></thead>
-              <tbody>
-                <tr><td>1 kg</td><td class="highlight">95,000 PKR</td><td>$305</td></tr>
-                <tr><td>10 kg</td><td>On Request</td><td>On Request</td></tr>
-                <tr><td>100 kg</td><td>On Request</td><td>On Request</td></tr>
-              </tbody>
-            </table>
-            <p>Contact our dedicated wholesale team for tailored quotes in USD, GBP, or EUR.</p>
+            <h2>MOQ, Lead Time, Samples and Export Documents</h2>
+            <ul>
+              <li><strong>MOQ:</strong> 1 kg per order. We mix grade batches only within the same specification.</li>
+              <li><strong>Sample policy:</strong> request a sample before your first bulk order &mdash; it ships with the full lab report and certification set.</li>
+              <li><strong>Lead time:</strong> dispatched within 24 hours of order confirmation; 10&ndash;14 working days to the UK, EU, USA and Middle East by air freight.</li>
+              <li><strong>Private label:</strong> your brand on our resin &mdash; gold-foiled rigid box sets, cylindrical packaging or fully custom print.</li>
+              <li><strong>Export documents:</strong> customs declaration, health certificate, lab reports, Halal, GMP and HACCP certificates, and company registration papers.</li>
+              <li><strong>Payment:</strong> bank transfer, Payoneer, Wise or Western Union, in advance once the order is confirmed.</li>
+            </ul>
+            <p>The tier table &mdash; 1 kg Rs 95,000, 5 kg Rs 475,000, 10 kg+ on request &mdash; is in the <a href="#wholesale-pricing">wholesale pricing section above</a>. Contact our dedicated wholesale team for tailored quotes in USD, GBP, or EUR.</p>
 
             <div style="margin-top: 2rem;">
               <img src="/images/products/wholesale-pricing.png" alt="Wholesale pricing overview" style="max-width: 100%; border: 1px solid var(--line);" loading="lazy" />
@@ -177,6 +248,7 @@
             <h2>Quality &amp; Certifications</h2>
 
             <h3>Eurofins Lab Analysis Summary</h3>
+
             <table class="wholesale-table">
               <thead><tr><th>Category</th><th>Component</th><th>Result</th><th>Unit</th></tr></thead>
               <tbody>
@@ -321,83 +393,43 @@
             <p>For complete transparency, full lab reports, certification documents, and company registration papers are provided to all wholesale and export clients.</p>
           </div>
 
-          <div v-if="activeTab === 'faq'" class="tab-content">
-            <h2>Wholesale Shilajit FAQ</h2>
+        </div>
+      </section>
 
-            <div class="faq-list">
-              <div v-for="(faq, i) in faqs" :key="i" class="faq-item" :class="{ open: openFaq === i }">
-                <button class="faq-q" @click="openFaq = openFaq === i ? null : i">
-                  <span>{{ faq.q }}</span>
-                  <svg class="faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-                </button>
-                <div class="faq-a">{{ faq.a }}</div>
-              </div>
+      <section class="faq-section" id="wholesale-faq">
+        <div class="wrap">
+          <h2>Wholesale Shilajit FAQ</h2>
+          <p class="price-note">The questions buyers ask most before their first bulk order. If yours is not here, WhatsApp us and we will answer directly.</p>
+          <div class="faq-list">
+            <div v-for="(faq, i) in faqs" :key="i" class="faq-item" :class="{ open: openFaq === i }">
+              <button class="faq-q" :aria-expanded="openFaq === i" @click="openFaq = openFaq === i ? null : i">
+                <span>{{ faq.q }}</span>
+                <svg class="faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              <div class="faq-a">{{ faq.a }}</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="reviews-section" id="reviews">
+      <section class="reviews-section" id="google-reviews">
         <div class="wrap">
           <div class="reviews-header">
-            <h2>Customer Reviews</h2>
+            <h2>Rated on Google</h2>
             <div class="reviews-summary">
               <div class="reviews-avg">
-                <span class="avg-score">5.0</span>
+                <span class="avg-score">4.8</span>
                 <div class="avg-stars">
                   <svg v-for="n in 5" :key="n" class="star filled" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 </div>
-                <span class="avg-count">Based on 50+ reviews</span>
+                <span class="avg-count">From 40 Google reviews</span>
               </div>
             </div>
           </div>
-          <div class="reviews-grid">
-            <div v-for="(review, i) in reviews" :key="i" class="review-card">
-              <div class="review-card-top">
-                <div class="review-card-stars">
-                  <svg v-for="n in 5" :key="n" class="star" :class="{ filled: n <= review.rating }" width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                </div>
-                <span class="verified-badge">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
-                  Verified Purchase
-                </span>
-              </div>
-              <div class="review-card-meta">
-                <span class="review-card-name">{{ review.name }}</span>
-                <span class="review-card-date">{{ review.date }}</span>
-              </div>
-              <p class="review-card-text">{{ review.text }}</p>
-            </div>
-          </div>
-          <div class="review-form-wrap" id="review-form">
-            <h3>Write a Review</h3>
-            <form class="review-form" @submit.prevent="submitReview">
-              <div class="review-form-stars" aria-label="Rating">
-                <button
-                  v-for="n in 5"
-                  :key="n"
-                  type="button"
-                  class="star-input"
-                  :class="{ filled: n <= (hoverRating || reviewForm.rating) }"
-                  :aria-label="`${n} star${n > 1 ? 's' : ''}`"
-                  @click="setRating(n)"
-                  @mouseenter="hoverRating = n"
-                  @mouseleave="hoverRating = 0"
-                >
-                  <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                </button>
-              </div>
-              <div class="field">
-                <label for="review-name">Name</label>
-                <input id="review-name" v-model="reviewForm.name" type="text" placeholder="Your name" />
-              </div>
-              <div class="field">
-                <label for="review-text">Review</label>
-                <textarea id="review-text" v-model="reviewForm.text" rows="4" placeholder="Share your experience with this product"></textarea>
-              </div>
-              <button type="submit" class="btn btn-gold">Submit Review</button>
-            </form>
-          </div>
+          <p class="reviews-note">
+            We do not publish customer reviews on this site. Our rating comes straight from our Google Business Profile:
+            <a href="https://maps.app.goo.gl/PPcqPsNFQVmvtFU27" target="_blank" rel="noopener" class="add-review-link">View our 4.8/5 rating from 40 Google reviews</a>
+          </p>
         </div>
       </section>
 
@@ -409,7 +441,7 @@
             </div>
             <div class="guarantee-text">
               <h2>Quality Guarantee for Wholesale Partners</h2>
-              <p>Every wholesale order comes with full lab reports and a quality guarantee. If any batch fails to meet our published specifications, we will replace it at no cost. Your reputation is our reputation.</p>
+              <p>Every wholesale order comes with full lab reports and a quality guarantee. If any batch fails to meet our published specifications, we will replace it at no cost. Please report any discrepancy within <strong>3 days of delivery</strong> so it can be traced to the batch. Your reputation is our reputation.</p>
             </div>
           </div>
         </div>
@@ -471,7 +503,7 @@
 
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
-import { buildProductJsonLd, buildBreadcrumbJsonLd } from '~/utils/seo'
+import { buildProductJsonLd, buildBreadcrumbJsonLd, buildFaqJsonLd } from '~/utils/seo'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
@@ -527,32 +559,6 @@ const galleryAlts = [
   'Wholesale shilajit resin packing, second view',
 ]
 
-const reviews = [
-  { name: 'James Walker', rating: 5, date: '2 weeks ago', text: 'We have been sourcing wholesale shilajit from Organic Aprico for our UK store for over a year. Consistent quality, excellent documentation, and reliable shipping. Our customers love the product.' },
-  { name: 'Saud Al-Rashid', rating: 5, date: '1 month ago', text: 'Ordered 10kg for our distribution business in Dubai. Product quality exceeded expectations. Full lab reports provided with every shipment. Will definitely order again.' },
-  { name: 'David Chen', rating: 5, date: '1 month ago', text: 'As a supplement brand owner in the US, finding a reliable shilajit supplier was challenging until we found Organic Aprico. Their private label service is excellent and the product tests perfectly every time.' },
-  { name: 'Ahmed Al-Farsi', rating: 4, date: '2 months ago', text: 'Very professional operation. We ordered 5kg for our wellness center in Bahrain. The batch traceability system with QR codes is a great touch. Shipping took slightly longer than expected but product was perfect.' },
-  { name: 'Sarah Johnson', rating: 5, date: '3 months ago', text: 'We tested samples from 5 different suppliers before choosing Organic Aprico. Their fulvic acid content was consistently the highest at 73%. Lab reports from Eurofins and PCSIR gave us complete confidence.' },
-  { name: 'Muhammad Farooq', rating: 5, date: '3 months ago', text: 'Hum Pakistan mein retail kar rahe hain Organic Aprico ka shilajit. Customers bohat khush hain quality se. Wholesale price bhi reasonable hai aur delivery time consistent hai.' },
-  { name: 'Michael Brown', rating: 5, date: '4 months ago', text: 'We have been retailing Organic Aprico shilajit in Australia for 18 months. Zero complaints, excellent margins, and their customer support team is always responsive. Highly recommend for wholesale buyers.' },
-  { name: 'Fatima Zahra', rating: 4, date: '5 months ago', text: 'We ordered private label packaging for our European market. The quality of both the product and packaging was excellent. Minor delay in production but communication was clear throughout.' },
-  { name: 'Robert Taylor', rating: 5, date: '5 months ago', text: 'Outstanding wholesale supplier. The documentation package (CoA, export certificates, lab reports) makes customs clearance seamless. We have placed 8 orders so far and every one has been perfect.' },
-  { name: 'Omar Hassan', rating: 5, date: '6 months ago', text: 'Best wholesale shilajit in the market. We compared with Indian and Nepalese suppliers and Organic Aprico is far superior in quality and consistency. Their 8-step purification process is real, not just marketing.' },
-]
-
-const reviewForm = ref({ name: '', text: '', rating: 5 })
-const hoverRating = ref(0)
-
-function setRating(n: number) {
-  reviewForm.value.rating = n
-}
-
-function submitReview() {
-  if (!reviewForm.value.name.trim() || !reviewForm.value.text.trim()) return
-  toast.show('Thank you for your review!')
-  reviewForm.value = { name: '', text: '', rating: 5 }
-}
-
 const currentVariant = computed(() =>
   product.sizes.find(s => s.id === selectedSize.value)!
 )
@@ -565,7 +571,8 @@ const faqs = [
   { q: 'Why should I source Shilajit wholesale from Organic Aprico?', a: 'We are the producer and the authentic source of purified Shilajit, not a reseller. We extract Shilajit directly from the Himalayan mountains, purify it in our own dedicated facility, and export it straight to global clients. This ensures better pricing, consistent quality, full traceability, and complete documentation without any middlemen.' },
   { q: 'Can I request a sample before placing a wholesale order?', a: 'Yes, we encourage all new wholesale and export partners to request a sample before placing a full order. You can contact our wholesale team to arrange the sample, which comes with full lab reports and certification documents.' },
   { q: 'Does Organic Aprico offer private label and custom packaging?', a: 'Yes, Organic Aprico provides full private label solutions, allowing you to sell our premium Shilajit under your own brand. We offer a wide range of export-quality packaging.' },
-  { q: 'What is the minimum order quantity for wholesale?', a: 'Our wholesale pricing starts from 1 kilogram. For larger orders, from 1 kilogram up to 1000 kilograms, or for custom quantities, please contact our export team.' },
+  { q: 'What is the minimum order quantity for wholesale?', a: 'Our wholesale pricing starts from 1 kilogram. 1 kg is Rs 95,000 and 5 kg is Rs 475,000; 10 kg and above is quoted on request, as are custom quantities.' },
+  { q: 'What is the lead time on a wholesale order?', a: 'Confirmed and paid orders are dispatched within 24 hours. Air freight delivery takes 10 to 14 working days to the UK, EU, USA and Middle East, with customs and health certificates included.' },
   { q: 'Do you ship wholesale Shilajit to the UK?', a: 'Yes. Organic Aprico ships Shilajit directly to the UK from our facility in Pakistan. After order confirmation, delivery to the UK usually takes 10 to 14 working days.' },
   { q: 'Do you ship to the USA and other countries?', a: 'Yes. We ship to the USA, Europe, the Middle East, Australia, Canada, and many other countries worldwide.' },
   { q: 'Who handles customs and export documentation?', a: 'Organic Aprico manages the entire export documentation process. We prepare all required documents, including customs declarations, export certificates, health certificates, lab reports, and international certifications.' },
@@ -589,10 +596,10 @@ function onAdd() {
 }
 
 useSeoMeta({
-  title: 'Shilajit Wholesale & Private Label from Pakistan — From Rs 95,000/kg | Organic Aprico',
-  description: 'Bulk Himalayan shilajit resin direct from our Skardu extractor: MOQ 1kg from Rs 95,000/kg. 73% fulvic acid, 8-stage purification, Eurofins & PCSIR lab reports, private label and full export documentation.',
-  ogTitle: 'Shilajit Wholesale & Private Label from Pakistan',
-  ogDescription: 'Bulk shilajit resin for retailers and brands, direct from our Skardu extractor. 73% fulvic acid, lab reports, private label. From Rs 95,000/kg.',
+  title: 'Shilajit Wholesale Pakistan 2026 — MOQ 1kg, Rs 95,000',
+  description: 'Bulk Himalayan shilajit direct from our Skardu extractor. MOQ 1kg, 73% fulvic acid, PCSIR/Eurofins reports, private label and export documents.',
+  ogTitle: 'Shilajit Wholesale Pakistan 2026 — MOQ 1kg, Rs 95,000',
+  ogDescription: 'Bulk shilajit resin for retailers and brands, direct from our Skardu extractor. MOQ 1 kg at Rs 95,000, 73% fulvic acid, lab reports, private label, export documents.',
   ogImage: '/images/products/wholesale-hero.jpg',
   ogType: 'product',
 })
@@ -607,13 +614,28 @@ useHead({
         skuPrefix: 'OA-SHILAJIT-WHOLESALE',
         name: 'Pure Himalayan Shilajit Resin — Wholesale',
         description: 'Wholesale pure Himalayan shilajit resin for retailers and brands. 73% fulvic acid, 8-stage purification, lab tested. Direct from extractor in Gilgit-Baltistan.',
+        category: 'Dietary Supplement > Herbal Supplement',
+        additionalProperties: [
+          { name: 'Minimum order quantity', value: '1 kg' },
+          { name: 'Fulvic acid', value: '73%' },
+          { name: 'Lead time', value: '10-14 working days' },
+          { name: 'Private label', value: 'Available' },
+          { name: 'Source altitude', value: 'Above 17,000 ft' },
+          { name: 'Purification', value: '8-stage' },
+        ],
+        returnWindowDays: 3,
+        sellerId: 'https://organicaprico.com/#organization',
       })),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(buildFaqJsonLd(faqs)),
     },
     {
       type: 'application/ld+json',
       innerHTML: JSON.stringify(buildBreadcrumbJsonLd([
         { name: 'Home', path: '/' },
-        { name: 'Products', path: '/#products' },
+        { name: 'Products', path: '/products' },
         { name: 'Shilajit Wholesale & Private Label' },
       ])),
     },

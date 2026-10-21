@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: "What if I'm not satisfied with the product?",
-    a: 'Organic Aprico offers a 30-day money-back guarantee. If you are not completely satisfied, contact our customer support for a full refund — no questions asked.',
+    a: 'Organic Aprico offers a 3-day return/exchange window. If a jar does not match the quality you ordered, contact us within 3 days of delivery for an exchange or return — see our refund policy for the conditions.',
   },
 ]
 </script>

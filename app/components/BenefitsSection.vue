@@ -33,7 +33,7 @@
         </div>
         <div class="benefit">
           <h3>Batch-coded and traceable</h3>
-          <p>Scan the QR code on your box to open that batch&rsquo;s lab report.</p>
+          <p>Every box is batch-coded. Request the lab report for your batch by WhatsApp or email.</p>
         </div>
         <div class="benefit">
           <h3>Resin, drops and bulk</h3>

@@ -112,18 +112,6 @@ type Seal = { name: string; desc: string; long: string; image: string }
 
 const seals: Seal[] = [
   {
-    name: 'ISO 9001',
-    desc: 'Quality management',
-    long: 'ISO 9001 quality management certification covering consistent product quality, documented processes and continuous improvement across every batch we produce.',
-    image: '',
-  },
-  {
-    name: 'ISO 22000',
-    desc: 'Food safety management',
-    long: 'ISO 22000 food safety management certification covering hazard control from raw material sourcing through extraction, testing, packing and distribution.',
-    image: '',
-  },
-  {
     name: 'GMP',
     desc: 'Good manufacturing practice',
     long: 'Good Manufacturing Practice certification ensures every stage of production — from raw material handling to final packaging — meets strict quality and safety standards.',

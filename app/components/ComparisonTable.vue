@@ -28,7 +28,7 @@
         <span>Made in Gilgit Baltistan</span>
         <span>Organic and pure</span>
         <span>No fillers or toxins</span>
-        <span>Money back guaranteed</span>
+        <span>3-day returns</span>
         <span>Fast international shipping</span>
       </div>
     </div>
@@ -43,7 +43,7 @@ const rows = [
   { label: 'Purification', us: '8 stages, 40 days sun-dried, no chemicals.', them: 'Boiling or none.' },
   { label: 'Testing', us: 'PCSIR, Eurofins, Micro Quality Lab. ISO, GMP, HACCP, Halal.', them: 'No reports.' },
   { label: 'Traceability', us: 'Batch number on every pack.', them: 'None.' },
-  { label: 'Guarantee', us: 'Money back, worldwide.', them: 'Rarely.' },
+  { label: 'Guarantee', us: '3-day returns, worldwide.', them: 'Rarely.' },
   { label: 'Shipping', us: '3 to 5 working days in Pakistan, 10 to 14 days worldwide, customs papers included.', them: 'Customs holds.' },
 ]
 </script>
