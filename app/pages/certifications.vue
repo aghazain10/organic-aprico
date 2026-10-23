@@ -25,6 +25,22 @@
             >
               Download Lab Reports (PDF)
             </a>
+            <a
+              href="/images/ISO-9001.pdf"
+              class="btn btn-ghost"
+              target="_blank"
+              rel="noopener"
+            >
+              ISO 9001 (PDF)
+            </a>
+            <a
+              href="/images/ISO-22000.pdf"
+              class="btn btn-ghost"
+              target="_blank"
+              rel="noopener"
+            >
+              ISO 22000 (PDF)
+            </a>
           </div>
         </div>
       </section>
@@ -123,7 +139,7 @@
         <div class="wrap">
           <div class="section-head">
             <h2>International Certifications</h2>
-            <p>GMP, HACCP and Halal certified — meeting the highest standards of manufacturing, food safety and religious compliance.</p>
+            <p>ISO 9001, ISO 22000, GMP, HACCP and Halal certified — meeting the highest standards of quality management, food safety and religious compliance.</p>
           </div>
           <div class="cert-grid">
             <div v-for="cert in certifications" :key="cert.name" class="cert-card">
@@ -145,6 +161,15 @@
                 <ul class="cert-details">
                   <li v-for="detail in cert.details" :key="detail">{{ detail }}</li>
                 </ul>
+                <a
+                  v-if="cert.pdf"
+                  :href="cert.pdf"
+                  class="cert-pdf"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Download certificate (PDF)
+                </a>
               </div>
             </div>
           </div>
@@ -262,6 +287,32 @@ if (import.meta.client) {
 
 const certifications = [
   {
+    name: 'ISO 9001:2015 Certification',
+    image: '/images/certifications/iso-9001.jpg',
+    pdf: '/images/ISO-9001.pdf',
+    alt: 'ISO 9001:2015 quality management certificate of Organic Aprico',
+    description: 'ISO 9001:2015 certification confirms that our quality management system meets internationally recognised standards for consistent, reliable production and continuous improvement.',
+    details: [
+      'Internationally recognised quality management standard',
+      'Documented processes and quality controls',
+      'Consistent product quality and traceability',
+      'Independently audited and certified',
+    ],
+  },
+  {
+    name: 'ISO 22000:2018 Certification',
+    image: '/images/certifications/iso-22000.jpg',
+    pdf: '/images/ISO-22000.pdf',
+    alt: 'ISO 22000:2018 food safety management certificate of Organic Aprico',
+    description: 'ISO 22000:2018 certification verifies that our food safety management system controls hazards at every stage, from raw material sourcing to final packaging.',
+    details: [
+      'Internationally recognised food safety management standard',
+      'Hazard analysis and preventive controls',
+      'Safe handling, processing and packaging',
+      'Independently audited and certified',
+    ],
+  },
+  {
     name: 'GMP Certification',
     image: '/images/certifications/gmp.jpg',
     alt: 'GMP certificate of Organic Aprico',
@@ -360,7 +411,7 @@ const summary = [
   },
   {
     title: 'Certified standards',
-    desc: 'GMP, HACCP and Halal — with batch lab reports from three independent labs.',
+    desc: 'ISO 9001, ISO 22000, GMP, HACCP and Halal — with batch lab reports from three independent labs.',
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E9CD84" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>',
   },
 ]
@@ -379,9 +430,9 @@ useHead({
 
 useSeoMeta({
   title: 'Lab Reports & Certifications | Organic Aprico',
-  description: 'PCSIR heavy metals, Eurofins fulvic acid, Micro Quality Lab results in text, plus GMP, HACCP and Halal certifications. Batch OA-2025-0307, updated October 2026.',
+  description: 'PCSIR heavy metals, Eurofins fulvic acid, Micro Quality Lab results in text, plus ISO 9001, ISO 22000, GMP, HACCP and Halal certifications. Batch OA-2025-0307, updated October 2026.',
   ogTitle: 'Lab Reports & Certifications — Organic Aprico',
-  ogDescription: 'GMP, HACCP, Halal certified. Lab tested by Micro Quality Lab, PCSIR and Eurofins. Batch OA-2025-0307 results published in text and as scans.',
+  ogDescription: 'ISO 9001, ISO 22000, GMP, HACCP, Halal certified. Lab tested by Micro Quality Lab, PCSIR and Eurofins. Batch OA-2025-0307 results published in text and as scans.',
 })
 </script>
 
@@ -509,6 +560,14 @@ useSeoMeta({
   background: var(--gold);
   transform: rotate(45deg);
 }
+
+.cert-pdf {
+  color: var(--gold-bright);
+  font-size: .95rem;
+  font-weight: 500;
+  width: fit-content;
+}
+.cert-pdf:hover { text-decoration: underline; }
 
 .lab-grid {
   display: grid;

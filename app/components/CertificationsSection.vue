@@ -3,7 +3,7 @@
     <div class="wrap">
       <div class="section-head">
         <h2>Backed by tradition, certified by labs</h2>
-        <p>Every batch is tested by independent labs for fulvic acid, heavy metals and aflatoxins.</p>
+        <p>Every batch is tested by independent labs for fulvic acid, heavy metals and aflatoxins, and produced under ISO, GMP, HACCP and Halal standards.</p>
       </div>
       <ul class="seals">
         <li v-for="seal in seals" :key="seal.name" class="seal">
@@ -51,7 +51,7 @@
             <div class="cert-modal-actions">
               <a
                 v-if="active.image"
-                href="/images/gmp-haccp-halal-certificates.pdf"
+                :href="active.pdf || '/images/gmp-haccp-halal-certificates.pdf'"
                 class="btn btn-ghost"
                 target="_blank"
                 rel="noopener"
@@ -108,9 +108,23 @@
 </template>
 
 <script setup lang="ts">
-type Seal = { name: string; desc: string; long: string; image: string }
+type Seal = { name: string; desc: string; long: string; image: string; pdf?: string }
 
 const seals: Seal[] = [
+  {
+    name: 'ISO 9001',
+    desc: 'Quality management system',
+    long: 'ISO 9001:2015 certification confirms that our quality management system meets internationally recognised standards for consistent, reliable production and continuous improvement.',
+    image: '/images/certifications/iso-9001.jpg',
+    pdf: '/images/ISO-9001.pdf',
+  },
+  {
+    name: 'ISO 22000',
+    desc: 'Food safety management',
+    long: 'ISO 22000:2018 certification verifies that our food safety management system controls hazards at every stage, from raw material sourcing to final packaging.',
+    image: '/images/certifications/iso-22000.jpg',
+    pdf: '/images/ISO-22000.pdf',
+  },
   {
     name: 'GMP',
     desc: 'Good manufacturing practice',

@@ -325,6 +325,14 @@
             </div>
             <h3>Certifications</h3>
             <div class="cert-grid">
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-9001.jpg', 'ISO 9001 certification')">
+                <img src="/images/certifications/iso-9001.jpg" alt="ISO 9001 certification" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-22000.jpg', 'ISO 22000 certification')">
+                <img src="/images/certifications/iso-22000.jpg" alt="ISO 22000 certification" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
               <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/halal.jpg', 'Halal certification')">
                 <img src="/images/certifications/halal.jpg" alt="Halal certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>

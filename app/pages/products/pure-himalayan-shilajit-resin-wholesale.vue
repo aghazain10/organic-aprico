@@ -332,9 +332,16 @@
               </div>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem;">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem;">
               <img src="/images/products/wholesale-best-brand.png" alt="Best shilajit brand" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
-              <img src="/images/products/wholesale-iso.png" alt="ISO certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-9001.jpg', 'ISO 9001 certification')">
+                <img src="/images/certifications/iso-9001.jpg" alt="ISO 9001 certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-22000.jpg', 'ISO 22000 certification')">
+                <img src="/images/certifications/iso-22000.jpg" alt="ISO 22000 certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+              </div>
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 1rem;">
               <img src="/images/products/wholesale-eurofins.png" alt="Eurofins certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
