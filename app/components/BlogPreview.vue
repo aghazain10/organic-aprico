@@ -46,6 +46,9 @@
           :class="{ active: i === current }"
         />
       </div>
+      <div class="blog-all">
+        <NuxtLink to="/blogs/blog" class="btn btn-ghost">View all posts &rarr;</NuxtLink>
+      </div>
     </div>
   </section>
 </template>
@@ -233,6 +236,12 @@ onUnmounted(() => {
   transition: background-color .2s var(--ease);
 }
 .blog-dot.active { background: var(--gold); }
+
+.blog-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
 
 @media (max-width: 820px) {
   .blog-card {

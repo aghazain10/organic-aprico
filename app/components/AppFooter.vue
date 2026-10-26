@@ -39,7 +39,7 @@
         <NuxtLink to="/products/shilajit-drops">Shilajit Drops</NuxtLink>
         <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">Wholesale &amp; Private Label</NuxtLink>
         <h4>Learn</h4>
-        <NuxtLink to="/blogs/blog">Shilajit Guides</NuxtLink>
+        <NuxtLink to="/blogs/blog">Blog</NuxtLink>
         <NuxtLink to="/certifications">Certifications &amp; Lab Reports</NuxtLink>
         <NuxtLink to="/purification">Purification Process</NuxtLink>
       </div>

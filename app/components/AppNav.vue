@@ -58,6 +58,7 @@
         <a href="/#benefits">What's inside</a>
         <a href="/#purification">Purification</a>
         <a href="/#difference">Why us</a>
+        <NuxtLink to="/blogs/blog">Blog</NuxtLink>
         <NuxtLink to="/locations/lahore" class="nav-lahore">Lahore</NuxtLink>
         <NuxtLink to="/contact">Contact</NuxtLink>
       </nav>
@@ -86,7 +87,7 @@
         <NuxtLink to="/products/shilajit" @click="close">Shilajit Resin</NuxtLink>
         <NuxtLink to="/products/shilajit-drops" @click="close">Shilajit Drops</NuxtLink>
         <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale" @click="close">Wholesale &amp; Private Label</NuxtLink>
-        <NuxtLink to="/blogs/blog" @click="close">Shilajit Guides</NuxtLink>
+        <NuxtLink to="/blogs/blog" @click="close">Blog</NuxtLink>
         <a href="/#about" @click="close">Shilajit</a>
         <a href="/#benefits" @click="close">What's inside</a>
         <a href="/#purification" @click="close">Purification</a>
@@ -186,7 +187,7 @@ watch(menuOpen, (open) => {
   gap: .5rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .nav-links { gap: 1.25rem; font-size: .9rem; }
   .nav-lahore { display: none; }
 }
@@ -207,7 +208,7 @@ watch(menuOpen, (open) => {
   display: none;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 1000px) {
   .nav-links { display: none; }
   .menu-btn { display: inline-flex; }
   .cart-label { display: none; }
