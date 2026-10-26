@@ -301,15 +301,6 @@ address { font-style: normal; color: var(--cream); line-height: 1.55; margin-bot
 address strong { font-weight: 500; }
 address .muted { font-size: .9rem; }
 .socials { display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
-.newsletter label { display: block; color: var(--cream); margin-bottom: .8rem; font-size: .98rem; }
-.newsletter-row { display: flex; gap: .5rem; max-width: 460px; }
-.newsletter input {
-  flex: 1; min-width: 0; padding: .9rem 1rem; font: inherit; color: var(--cream);
-  background: var(--black); border: 1px solid var(--line); border-radius: 2px;
-}
-.newsletter input::placeholder { color: var(--stone); }
-.newsletter input:focus { outline: none; border-color: var(--gold); }
-.form-note { margin-top: .6rem; color: var(--gold-bright); font-size: .9rem; min-height: 1.4em; }
 .footer-bottom {
   margin-top: clamp(48px, 6vw, 80px); padding: 1.4rem 0 1.6rem;
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem;

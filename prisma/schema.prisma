@@ -31,9 +31,3 @@ model Order {
   @@index([status])
   @@index([createdAt])
 }
-
-model Subscriber {
-  id        String   @id @default(cuid())
-  email     String   @unique
-  createdAt DateTime @default(now())
-}

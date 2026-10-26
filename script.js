@@ -293,15 +293,6 @@
     stages[0].classList.add('active');
   }
 
-  /* ---------- Newsletter ---------- */
-  var form = $('#newsletter');
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var note = $('#newsletterNote');
-    note.textContent = 'Thanks. Your 10% code is on its way to ' + $('#email').value + '.';
-    form.reset();
-  });
-
   /* ---------- Misc ---------- */
   $('#year').textContent = new Date().getFullYear();
 

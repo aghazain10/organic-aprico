@@ -16,21 +16,6 @@
           <span class="brand-copy">Organic Aprico</span>
         </a>
         <p>Proud of Skardu, Gilgit Baltistan. Pride of Pakistan.</p>
-        <form class="newsletter" @submit.prevent="onSubscribe">
-          <label for="email">Get 10% off your first order</label>
-          <div class="newsletter-row">
-            <input
-              id="email"
-              v-model="email"
-              type="email"
-              name="email"
-              placeholder="Your email address"
-              required
-            >
-            <button type="submit" class="btn btn-gold">Subscribe</button>
-          </div>
-          <p class="form-note" aria-live="polite">{{ note }}</p>
-        </form>
       </div>
       <div class="footer-col">
         <h4>Shop shilajit</h4>
@@ -91,21 +76,5 @@
 </template>
 
 <script setup lang="ts">
-const email = ref('')
-const note = ref('')
 const year = new Date().getFullYear()
-
-async function onSubscribe() {
-  if (!email.value) return
-  try {
-    await $fetch('/api/newsletter', {
-      method: 'POST',
-      body: { email: email.value },
-    })
-    note.value = `Thanks. Your 10% code is on its way to ${email.value}.`
-    email.value = ''
-  } catch {
-    note.value = 'Something went wrong. Please try again.'
-  }
-}
 </script>
