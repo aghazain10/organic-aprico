@@ -10,7 +10,7 @@ const STATIC_LASTMOD: Record<string, string> = {
   '/purification': '2026-09-11',
   '/blogs/blog': '2026-09-21',
   '/products': '2026-10-21',
-  '/products/shilajit': '2026-10-21',
+  '/products/shilajit': '2026-10-26',
   '/products/shilajit-drops': '2026-10-21',
   '/products/pure-himalayan-shilajit-resin-wholesale': '2026-10-21',
   '/contact': '2026-10-21',

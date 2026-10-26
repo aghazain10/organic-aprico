@@ -130,9 +130,10 @@ function resolve(path: string): string | null {
   const exact = EXACT_REDIRECTS[path]
   if (exact) return exact
 
-  // Removed products / collections from the old Shopify store
+  // Removed products go to the resin page; old collections go to the product
+  // hub so buyers still see resin, drops and wholesale.
   if (is(path, '/products')) return SHILAJIT
-  if (is(path, '/collections')) return SHILAJIT
+  if (is(path, '/collections')) return '/products'
 
   // WordPress / WooCommerce era
   if (is(path, '/product')) return SHILAJIT

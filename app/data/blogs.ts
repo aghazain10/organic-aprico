@@ -1,7 +1,15 @@
 export interface BlogPost {
   slug: string
   title: string
+  /**
+   * Search-result title. Falls back to `${title} | Organic Aprico Blog` when
+   * omitted. Use this when the full title plus the blog suffix would be
+   * truncated in Google (roughly 60 characters).
+   */
+  seoTitle?: string
   excerpt: string
+  /** Search-result description. Falls back to the excerpt when omitted. */
+  seoDescription?: string
   date: string
   dateISO: string
   updated?: string
@@ -54,10 +62,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'How to compare shilajit brands in Pakistan on evidence rather than packaging: lab reports, fulvic acid, heavy metals, batch traceability, price per gram and sourcing.',
     date: 'March 27, 2026',
     dateISO: '2026-03-27',
-    updated: 'October 21, 2026',
-    updatedISO: '2026-10-21',
+    updated: 'October 26, 2026',
+    updatedISO: '2026-10-26',
     heroImage: '/images/blog/best-shilajit-brands-hero.png',
     heroAlt: 'Best Shilajit Brands in Pakistan 2026',
+    seoTitle: 'Best Shilajit Brands in Pakistan 2026 (Lab-Tested)',
+    seoDescription: 'Compare shilajit brands in Pakistan on lab reports, fulvic acid %, heavy-metal tests, batch traceability and price per gram — plus red flags to avoid.',
     content: `
 <p>Shilajit has become very popular in recent years, and there is a good reason for it. This natural resin forms slowly over centuries in the Himalayan mountains. Today it is sold worldwide as a food supplement and taken as part of everyday wellness routines.</p>
 <p>But as its popularity grows, the market is now full of many brands. Each one makes big promises, but not all products are of good quality.</p>
@@ -169,7 +179,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>How to Choose the Right Shilajit Brand for You</h2>
 <p><strong>For the highest quality and purity</strong> Choose a brand that publishes its numbers. Organic Aprico's resin is 73 percent fulvic acid with results published as text on our <a href="/certifications">lab reports page</a>, 8-stage purification, and direct sourcing from above 17,000 ft.</p>
 <p><strong>For bulk buying or export</strong> Organic Aprico offers MOQ 1 kg from Rs 95,000 with private labeling, export documents and a 10&ndash;14 working day lead time &mdash; see the <a href="/products/pure-himalayan-shilajit-resin-wholesale">wholesale and private label page</a>.</p>
-<p><strong>For current retail prices</strong> The live price per gram for every jar size is on the <a href="/products/shilajit">shilajit resin product page</a>.</p>
+<p><strong>For current retail prices</strong> The live <a href="/products/shilajit">shilajit price in Pakistan</a> for every jar size is on the resin product page.</p>
 <h2>How to Use Shilajit for Best Results</h2>
 <p><strong>Dosage</strong> Take a small amount, around 500 to 750 mg. Mix it in warm water or milk. Take it on an empty stomach for better absorption. Morning is the best time.</p>
 <p><strong>Consistency</strong> Use it daily. You will see better results after four to eight weeks.</p>
@@ -661,10 +671,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Discover where to buy authentic Himalayan Shilajit in Pakistan in 2026. Learn how to spot fake shilajit, key features of pure Shilajit, and why Organic Aprico is the most trusted source for genuine Shilajit.',
     date: 'September 23, 2025',
     dateISO: '2025-09-23',
-    updated: 'October 8, 2026',
-    updatedISO: '2026-10-08',
+    updated: 'October 26, 2026',
+    updatedISO: '2026-10-26',
     heroImage: '/images/blog/where-to-source-authentic-shilajit-in-pakistan-a-buyer-s-guide-2025.webp',
     heroAlt: 'Authentic Shilajit in Pakistan',
+    seoTitle: 'Where to Source Authentic Shilajit in Pakistan (2026)',
+    seoDescription: 'How to source authentic Himalayan shilajit in Pakistan in 2026: spot fake resin, check lab tests, compare price per gram and verify your supplier.',
     content: `<p>Shilajit, famously known as the “destroyer of weakness,” has been used in traditional practice for centuries. Today it is no longer a hidden secret from the mountains. People in Pakistan and across the world are buying Himalayan shilajit as part of their daily routine, and demand keeps growing every year.</p>
 <p>But here’s the catch: where there’s high demand, there’s also a flood of fake and low-quality products. Many buyers end up paying for Shilajit that looks real but fails to deliver the benefits. That’s why knowing how to spot authentic Shilajit is more important than ever.</p>
 <p>Whether you are shopping locally in Pakistan or ordering from abroad, this 2026 guide will walk you through the right place to find genuine Himalayan Shilajit and help you avoid misleading claims.</p>
@@ -692,6 +704,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Sun-Dried for Potency:</strong> After purification, the Shilajit resin is sun-dried for over 40 days to maintain purity, safety, and effectiveness.</p>
 <p><strong>Transparency:</strong> Each production cycle is assigned a unique batch number, clearly mentioned on the product to ensure authenticity and traceability. Their purification plant is also open to customers, reflecting their commitment to honesty and unmatched transparency.</p>
 <p><strong>Product Range: </strong>Organic Aprico offers Shilajit resin in 10g, 20g, 30g, and 50g jars, as well as liquid drops and bulk wholesale quantities (500g to 100kg).</p>
+<p>You can check the <a href="/products/shilajit">live shilajit price in Pakistan</a> for every jar size, compare it with the <a href="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">price-per-gram guide</a>, or go straight to the <a href="/products/pure-himalayan-shilajit-resin-wholesale">wholesale resin page</a> for 1 kg and above.</p>
 <p><strong>Global Reach: </strong>Organic Aprico supplies Shilajit worldwide and is officially available on eBay UK, making Pakistani Himalayan Shilajit accessible to international customers. Nationally and internationally, Organic Aprico Shilajit is trusted by 10+ international brands and over 10,000 satisfied customers worldwide.</p>
 <h3>Conclusion</h3>
 <p>Shilajit is truly a gift from the mountains, but only when sourced in its purest form. With rising demand in 2026, the market is filled with fake and low-quality products that can harm more than heal. That’s why it is essential to choose carefully. By understanding the key features of authentic Shilajit, such as its origin, form, lab testing, taste, packaging, and mineral richness, you can make a safe and beneficial choice.</p>
@@ -835,12 +848,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'If you’ve been searching for Shilajit near me or want to know the best Shilajit to buy, remember that authenticity matters more than price. Always choose authentic Shilajit with lab test (PCSIR) in Pakistan from trusted sellers like Organic Aprico.',
     date: 'July 25, 2025',
     dateISO: '2025-07-25',
-    updated: 'October 8, 2026',
-    updatedISO: '2026-10-08',
+    updated: 'October 26, 2026',
+    updatedISO: '2026-10-26',
     heroImage: '/images/blog/where-to-buy-shilajit-online-in-pakistan-trusted-sources.webp',
     heroAlt: 'Buy Shilajit Online Pakistan',
     content: `<p>Shilajit, also written as Salajeet, has rapidly gained popularity in Pakistan as a natural food supplement. Its mineral richness, high fulvic acid content and published lab testing have made it a popular choice for both men and women.</p>
-<p>But with popularity comes risk. The market is now flooded with fake and low-quality products. Suppose you want to buy <a href="https://organicaprico.com/products/shilajit">Shilajit online in Pakistan</a> without falling victim to counterfeit supplements.</p>
+<p>But with popularity comes risk. The market is now flooded with fake and low-quality products. Suppose you want to buy <a href="/products/shilajit">shilajit online in Pakistan</a> without falling victim to counterfeit supplements.</p>
 <p>In that case, you need to know how to spot authenticity and choose only trusted Shilajit sellers in Pakistan.</p>
 <p>This guide will show you exactly where to buy authentic Himalayan Shilajit and how to ensure it’s lab-tested, purely natural, and safe for consumption.</p>
 <h2>Why You Must Be Careful When Buying Shilajit Online</h2>
@@ -880,7 +893,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Final Thoughts:  Where to Buy Real Himalayan Shilajit</h2>
 <p>If you’ve been searching for Shilajit near me or want to know the best Shilajit to buy, remember that authenticity matters more than price. Always choose authentic Shilajit with lab test (PCSIR) in Pakistan from trusted sellers like Organic Aprico.</p>
 <p>With its direct Himalayan sourcing, gold-grade quality, and unmatched transparency, Organic Aprico offers purely natural Shilajit that your body deserves.</p>
-<p>Buy today: Pakistan’s purest Salajeet, rich in minerals and trusted worldwide.</p>
+<p>Buy today: <a href="/products/shilajit">Pakistan’s purest Salajeet</a>, rich in minerals and trusted worldwide. Compare the <a href="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">shilajit price per gram</a> before you order.</p>
 <p>**</p>
 <p>**</p>`,
   },
@@ -945,10 +958,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'What Himalayan shilajit actually costs per gram in Pakistan in 2026: retail prices from 10 g to 100 g, wholesale rates per kg, and how to tell gold-grade resin from cheap filler.',
     date: 'June 20, 2025',
     dateISO: '2025-06-20',
-    updated: 'October 21, 2026',
-    updatedISO: '2026-10-21',
+    updated: 'October 26, 2026',
+    updatedISO: '2026-10-26',
     heroImage: '/images/blog/shilajit-prices-in-pakistan-what-you-need-to-know-2025-guide.webp',
     heroAlt: 'Shilajit price per gram in Pakistan 2026',
+    seoTitle: 'Shilajit Price per Gram in Pakistan 2026 (10g–1kg, PKR)',
+    seoDescription: '2026 shilajit prices in Pakistan: 10g Rs 1,500, 50g Rs 7,100, 100g Rs 12,900. See price per gram, wholesale rates and how to spot fake resin.',
     content: `
 <p>Shilajit has become one of the most talked-about natural supplements in Pakistan. Known for its rich mineral and fulvic acid content, it has deep roots in traditional practice. But as its popularity grows, so does the confusion about pricing and authenticity..</p>
 <p>In this blog, we’ll guide you through the cost of Shilajit in Pakistan, how to spot genuine Shilajit Resin, and where to get the best Shilajit to buy in 2026.</p>
@@ -966,7 +981,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <tr><td>100 g</td><td>Rs 12,900</td><td>Rs 129 / g</td><td>~142</td></tr>
 </tbody>
 </table>
-<p><strong>Buying guide:</strong> for the current shilajit price in Pakistan, jars and delivery, see the <a href="/products/shilajit">shilajit resin product page</a> — it has the live prices, the per-gram table and cash on delivery. Bulk buyers should look at <a href="/products/pure-himalayan-shilajit-resin-wholesale">wholesale pricing from Rs 95,000/kg</a>, and you can check the <a href="/certifications">lab reports behind these numbers</a>. If you are new to shilajit, our <a href="/blogs/blog/how-to-take-shilajit-resin-dosage-timing-and-common-mistakes">how to take shilajit guide</a> explains the 0.7 g serving and the price-per-gram maths.</p>
+<p><strong>Buying guide:</strong> for the current shilajit price in Pakistan, jars and delivery, see the <a href="/products/shilajit">live shilajit price in Pakistan</a> on our resin product page — it has the per-gram table, size-by-size prices and cash on delivery. Bulk buyers should look at <a href="/products/pure-himalayan-shilajit-resin-wholesale">wholesale pricing from Rs 95,000/kg</a>, and you can check the <a href="/certifications">lab reports behind these numbers</a>. If you are new to shilajit, our <a href="/blogs/blog/how-to-take-shilajit-resin-dosage-timing-and-common-mistakes">how to take shilajit guide</a> explains the 0.7 g serving and the price-per-gram maths.</p>
 <h2>What Is Shilajit and Why Is It Valuable?</h2>
 <p>Himalaya Shilajit is a natural substance found in the high mountains like the Himalayas, especially in the Gilgit-Baltistan region of Pakistan. Himalayan Shilajit is considered the Best shilajit in the world, formed over centuries from plant matter and minerals compressed by rocks. This black, sticky resin is packed with fulvic acid, Humic Substances, minerals, and antioxidants, giving it a distinctive composition.</p>
 <p>Due to its rare formation and rich benefits, purely natural Shilajit is considered highly valuable and top-rated Shilajit.</p>

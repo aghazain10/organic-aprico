@@ -88,10 +88,10 @@ if (!post) {
 }
 
 useSeoMeta({
-  title: `${post.title} | Organic Aprico Blog`,
-  description: post.excerpt || post.title,
-  ogTitle: post.title,
-  ogDescription: post.excerpt || post.title,
+  title: post.seoTitle ?? `${post.title} | Organic Aprico Blog`,
+  description: post.seoDescription ?? post.excerpt ?? post.title,
+  ogTitle: post.seoTitle ?? post.title,
+  ogDescription: post.seoDescription ?? post.excerpt ?? post.title,
   ogImage: post.heroImage,
   ogType: 'article',
   articlePublishedTime: post.dateISO,
