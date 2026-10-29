@@ -83,8 +83,11 @@ const EXACT_REDIRECTS: Record<string, string> = {
     '/blogs/blog/uk-wholesale-shilajit-importing-organic-himalayan-resin-from-pakistan',
   '/blogs/blog/where-to-source-authentic-shilajit-in-pakistan-a-buyer-s-guide-2025':
     '/blogs/blog/where-to-source-authentic-shilajit-in-pakistan-a-buyers-guide',
+  // Price guide consolidated into the product page: the blog kept winning
+  // "shilajit price in pakistan" while the product page stayed on page 2.
   '/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know-2025-guide':
-    '/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know',
+    SHILAJIT,
+  '/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know': SHILAJIT,
 
   // --- Retired health-claim posts (SEO plan §5.4 / compliance) ---
   '/blogs/blog/best-shilajit-for-testosterone-a-complete-guide-to-boosting-male-hormones-naturally':

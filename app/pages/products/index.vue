@@ -87,7 +87,7 @@
               </tbody>
             </table>
           </div>
-          <p class="hub-note">10 kg+ volume pricing is on request. See the <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label page</NuxtLink> for MOQ, lead time and export documents, or our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">shilajit price guide</NuxtLink> for the market context.</p>
+          <p class="hub-note">10 kg+ volume pricing is on request. See the <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label page</NuxtLink> for MOQ, lead time and export documents, or our <NuxtLink to="/products/shilajit#price-table">shilajit price guide</NuxtLink> for the market context.</p>
         </div>
       </section>
 

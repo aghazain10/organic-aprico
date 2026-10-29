@@ -148,7 +148,7 @@
               </tr>
             </tbody>
           </table>
-          <p class="price-note">Need more than 100 g? Bulk resin is available from 1 kg at Rs 95,000 &mdash; see <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label</NuxtLink>. For a size-by-size breakdown of the market, read our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">shilajit price per gram guide</NuxtLink>.</p>
+          <p class="price-note">Need more than 100 g? Bulk resin is available from 1 kg at Rs 95,000 &mdash; see <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label</NuxtLink>. The per-gram column above shows the effective rate for every jar size.</p>
         </div>
       </section>
 
@@ -165,7 +165,7 @@
             <p>We ensure the purity of our original Shilajit through a meticulous 8-stage purification process and a <strong>40-day sun dehydration method</strong>, enhancing its potency. Celebrated for its energy-boosting, immunity-strengthening, and mind-enhancing properties, our Shilajit is available globally in grams and bulk Shilajit. With licenses for extraction and export, we guarantee smooth deliveries worldwide.</p>
 
             <h2>Shilajit Price in Pakistan 2026: A Market Overview</h2>
-            <p>The price of original Shilajit in Pakistan varies based on its quality and level of purification. Many sellers lack the necessary production facilities, equipment, and expertise to purify Shilajit properly. Extracted from depths below 16,000 feet, their products often contain harmful sediments and heavy metals that pose serious risks to human health. Such unrefined Shilajit price in Pakistan is sold below 60,000 PKR in 2026, making it a dangerous choice for consumers. For a size-by-size breakdown, see our <NuxtLink to="/blogs/blog/shilajit-prices-in-pakistan-what-you-need-to-know">2026 shilajit price-per-gram guide</NuxtLink>.</p>
+            <p>The price of original Shilajit in Pakistan varies based on its quality and level of purification. Many sellers lack the necessary production facilities, equipment, and expertise to purify Shilajit properly. Extracted from depths below 16,000 feet, their products often contain harmful sediments and heavy metals that pose serious risks to human health. Such unrefined Shilajit price in Pakistan is sold below 60,000 PKR in 2026, making it a dangerous choice for consumers. For a size-by-size breakdown, see the <a href="#price-table">price-per-gram table above</a>.</p>
             <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With over 10,000 satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
             <p>Globally, Himalayan Shilajit is witnessing increased demand as a natural health supplement known for its mineral richness and benefits like enhanced energy, improved immunity, and better cognitive function. As consumers prioritize organic and pure products, the market for premium-quality Shilajit has expanded, supported by online platforms that make it readily available to a global audience. Choose wisely!</p>
 
