@@ -3,20 +3,20 @@
     <div class="admin-page-head">
       <div>
         <h1>Dashboard</h1>
-        <p class="muted small">Store overview at a glance.</p>
+        <p class="admin-page-sub">Store overview at a glance.</p>
       </div>
       <NuxtLink to="/admin/orders" class="btn btn-ghost">View all orders</NuxtLink>
     </div>
 
     <div v-if="stats" class="admin-stats">
-      <AdminStatCard label="Total orders" :value="String(stats.totalOrders)" />
-      <AdminStatCard label="Pending" :value="String(stats.pendingOrders)" hint="Needs attention" />
-      <AdminStatCard label="Revenue" :value="formatPrice(stats.totalRevenue)" hint="Excl. cancelled" />
-      <AdminStatCard label="This week" :value="String(stats.ordersThisWeek)" hint="Last 7 days" />
+      <AdminStatCard label="Total orders" :value="String(stats.totalOrders)" icon="orders" />
+      <AdminStatCard label="Pending" :value="String(stats.pendingOrders)" hint="Needs attention" icon="clock" />
+      <AdminStatCard label="Revenue" :value="formatPrice(stats.totalRevenue)" hint="Excl. cancelled" icon="payment" />
+      <AdminStatCard label="This week" :value="String(stats.ordersThisWeek)" hint="Last 7 days" icon="calendar" />
     </div>
 
-    <section class="admin-card">
-      <div class="admin-card-head">
+    <section class="admin-card admin-list-card">
+      <div class="admin-card-head admin-list-head">
         <h2>Recent orders</h2>
         <NuxtLink to="/admin/orders" class="text-link">See all</NuxtLink>
       </div>

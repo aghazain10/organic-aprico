@@ -2,92 +2,170 @@
   <div v-if="order">
     <div class="admin-page-head">
       <div>
-        <NuxtLink to="/admin/orders" class="admin-back">&larr; Orders</NuxtLink>
-        <h1>Order <span class="admin-order-id">{{ order.id }}</span></h1>
-        <p class="muted small">Placed {{ formatDate(order.createdAt) }}</p>
+        <NuxtLink to="/admin/orders" class="admin-back">
+          <AdminIcon name="arrow-left" :size="16" />
+          Orders
+        </NuxtLink>
+        <h1>Order #{{ order.id }}</h1>
+        <p class="admin-page-sub">
+          {{ formatDate(order.createdAt) }} · {{ paymentLabel }} · {{ itemCount }} {{ itemCount === 1 ? 'item' : 'items' }}
+        </p>
       </div>
-      <div class="admin-status-control">
-        <AdminStatusBadge :status="order.status" />
-        <select
-          v-model="newStatus"
-          class="admin-status-select"
-          aria-label="Change order status"
-          :disabled="updating"
-        >
-          <option v-for="s in ORDER_STATUSES" :key="s" :value="s">
-            {{ ORDER_STATUS_LABELS[s] }}
-          </option>
-        </select>
-        <button
-          type="button"
-          class="btn btn-gold"
-          :disabled="updating || newStatus === order.status"
-          @click="saveStatus"
-        >
-          {{ updating ? 'Saving…' : 'Update status' }}
-        </button>
-      </div>
+      <AdminStatusBadge :status="order.status" />
     </div>
 
-    <div class="admin-detail-grid">
-      <section class="admin-card">
-        <div class="admin-card-head"><h2>Customer</h2></div>
-        <dl class="admin-dl">
-          <div><dt>Name</dt><dd>{{ order.name }}</dd></div>
-          <div><dt>Email</dt><dd><a :href="`mailto:${order.email}`">{{ order.email }}</a></dd></div>
-          <div><dt>Phone</dt><dd><a :href="`tel:${order.phone}`">{{ order.phone }}</a></dd></div>
-          <div><dt>Payment</dt><dd>{{ order.paymentMethod === 'bank_transfer' ? 'Bank transfer' : 'Cash on delivery' }}</dd></div>
-        </dl>
+    <div class="admin-order-grid">
+      <section class="admin-card admin-status-card">
+        <div class="admin-card-head">
+          <div>
+            <h2>Update status</h2>
+            <p class="admin-card-sub">Set the current status of this order.</p>
+          </div>
+        </div>
+        <div class="admin-status-control">
+          <select
+            v-model="newStatus"
+            class="admin-status-select"
+            aria-label="Change order status"
+            :disabled="updating"
+          >
+            <option v-for="s in ORDER_STATUSES" :key="s" :value="s">
+              {{ ORDER_STATUS_LABELS[s] }}
+            </option>
+          </select>
+          <button
+            type="button"
+            class="btn btn-primary"
+            :disabled="updating || newStatus === order.status"
+            @click="saveStatus"
+          >
+            {{ updating ? 'Saving…' : 'Update status' }}
+          </button>
+        </div>
       </section>
 
-      <section class="admin-card">
-        <div class="admin-card-head"><h2>Shipping</h2></div>
-        <dl class="admin-dl">
-          <div><dt>Address</dt><dd>{{ order.address }}</dd></div>
-          <div><dt>City</dt><dd>{{ order.city }}</dd></div>
-          <div><dt>Country</dt><dd>{{ order.country }}</dd></div>
-          <div v-if="order.postalCode"><dt>Postal code</dt><dd>{{ order.postalCode }}</dd></div>
-          <div v-if="order.notes"><dt>Notes</dt><dd>{{ order.notes }}</dd></div>
-        </dl>
-      </section>
-    </div>
+      <div class="admin-order-main">
+        <section class="admin-card admin-items-card">
+          <div class="admin-card-head">
+            <h2>Items</h2>
+            <span class="admin-count">{{ itemCount }} {{ itemCount === 1 ? 'item' : 'items' }}</span>
+          </div>
+          <ul class="order-items">
+            <li v-for="(item, i) in orderItems" :key="i" class="order-item">
+              <span class="order-item-thumb" aria-hidden="true">
+                <AdminIcon name="package" :size="20" />
+              </span>
+              <div class="order-item-info">
+                <span class="order-item-name">{{ productName(item.product) }}</span>
+                <span class="order-item-meta">
+                  {{ item.size }} · Qty {{ item.qty }} · {{ formatPrice(item.price) }} each
+                </span>
+              </div>
+              <span class="order-item-total">{{ formatPrice(item.price * item.qty) }}</span>
+            </li>
+          </ul>
+          <dl class="admin-totals">
+            <div>
+              <dt>Subtotal</dt>
+              <dd>{{ formatPrice(subtotal) }}</dd>
+            </div>
+            <div class="admin-totals-total">
+              <dt>Total</dt>
+              <dd>{{ formatPrice(order.total) }}</dd>
+            </div>
+          </dl>
+        </section>
 
-    <section class="admin-card">
-      <div class="admin-card-head"><h2>Items</h2></div>
-      <div class="admin-table-wrap">
-        <table class="admin-table">
-          <thead>
-            <tr>
-              <th>Product</th>
-              <th>Size</th>
-              <th class="num">Qty</th>
-              <th class="num">Unit price</th>
-              <th class="num">Subtotal</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(item, i) in orderItems" :key="i">
-              <td>{{ productName(item.product) }}</td>
-              <td>{{ item.size }}</td>
-              <td class="num">{{ item.qty }}</td>
-              <td class="num">{{ formatPrice(item.price) }}</td>
-              <td class="num">{{ formatPrice(item.price * item.qty) }}</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="4">Total</td>
-              <td class="num admin-total">{{ formatPrice(order.total) }}</td>
-            </tr>
-          </tfoot>
-        </table>
+        <section class="admin-card admin-payment-card">
+          <div class="admin-card-head">
+            <h2>Payment</h2>
+          </div>
+          <dl class="admin-dl">
+            <div>
+              <dt>Method</dt>
+              <dd>{{ paymentLabel }}</dd>
+            </div>
+            <div>
+              <dt>Amount</dt>
+              <dd>{{ formatPrice(order.total) }}</dd>
+            </div>
+          </dl>
+        </section>
       </div>
-    </section>
+
+      <div class="admin-order-side">
+        <section class="admin-card admin-customer-card">
+          <div class="admin-card-head">
+            <h2>Customer</h2>
+          </div>
+          <div class="admin-customer">
+            <span class="admin-avatar" aria-hidden="true">{{ initials }}</span>
+            <div class="admin-customer-copy">
+              <strong>{{ order.name }}</strong>
+              <span>{{ order.city }}, {{ order.country }}</span>
+            </div>
+          </div>
+          <ul class="admin-contact">
+            <li>
+              <a :href="`mailto:${order.email}`">
+                <AdminIcon name="mail" :size="17" />
+                <span>{{ order.email }}</span>
+              </a>
+            </li>
+            <li>
+              <a :href="`tel:${order.phone}`">
+                <AdminIcon name="phone" :size="17" />
+                <span>{{ order.phone }}</span>
+              </a>
+            </li>
+          </ul>
+          <div class="admin-address">
+            <span class="admin-label">Shipping address</span>
+            <address>
+              <template v-if="order.address">{{ order.address }}<br></template>
+              {{ order.city }}<template v-if="order.postalCode">, {{ order.postalCode }}</template><br>
+              {{ order.country }}
+            </address>
+          </div>
+        </section>
+
+        <section class="admin-card admin-meta-card">
+          <div class="admin-card-head">
+            <h2>Order details</h2>
+          </div>
+          <dl class="admin-dl">
+            <div>
+              <dt>Order number</dt>
+              <dd>#{{ order.id }}</dd>
+            </div>
+            <div>
+              <dt>Placed</dt>
+              <dd>{{ formatDate(order.createdAt) }}</dd>
+            </div>
+            <div>
+              <dt>Items</dt>
+              <dd>{{ itemCount }}</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section v-if="order.notes" class="admin-card admin-notes-card">
+          <div class="admin-card-head">
+            <h2>Notes</h2>
+          </div>
+          <p class="admin-note">{{ order.notes }}</p>
+        </section>
+      </div>
+    </div>
   </div>
 
   <div v-else-if="error" class="admin-card admin-empty">
     <p>{{ error.data?.statusMessage || 'Order not found.' }}</p>
     <NuxtLink to="/admin/orders" class="btn btn-ghost">Back to orders</NuxtLink>
+  </div>
+
+  <div v-else class="admin-card admin-empty">
+    <p>Loading order…</p>
   </div>
 </template>
 
@@ -116,6 +194,22 @@ const updating = ref(false)
 const orderItems = computed<OrderItem[]>(() => {
   const items = order.value?.items
   return Array.isArray(items) ? (items as OrderItem[]) : []
+})
+
+const itemCount = computed(() => orderItems.value.reduce((sum, item) => sum + item.qty, 0))
+
+const subtotal = computed(() =>
+  orderItems.value.reduce((sum, item) => sum + item.price * item.qty, 0),
+)
+
+const paymentLabel = computed(() =>
+  order.value?.paymentMethod === 'bank_transfer' ? 'Bank transfer' : 'Cash on delivery',
+)
+
+const initials = computed(() => {
+  const parts = order.value?.name.trim().split(/\s+/).filter(Boolean) ?? []
+  if (!parts.length) return '?'
+  return (parts[0][0] + (parts[1]?.[0] ?? '')).toUpperCase()
 })
 
 function productName(key: string): string {

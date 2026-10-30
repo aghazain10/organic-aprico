@@ -3,35 +3,40 @@
     <div class="admin-page-head">
       <div>
         <h1>Orders</h1>
-        <p class="muted small">{{ total }} order{{ total === 1 ? '' : 's' }} total</p>
+        <p class="admin-page-sub">{{ total }} order{{ total === 1 ? '' : 's' }} total</p>
       </div>
     </div>
 
     <div class="admin-toolbar">
-      <div class="admin-filters" role="tablist" aria-label="Filter by status">
-        <button
-          v-for="opt in statusOptions"
-          :key="opt.value"
-          type="button"
-          class="admin-filter"
-          :class="{ active: status === opt.value }"
-          role="tab"
-          :aria-selected="status === opt.value"
-          @click="setStatus(opt.value)"
-        >
-          {{ opt.label }}
-        </button>
+      <div class="admin-filters-scroll">
+        <div class="admin-filters" role="tablist" aria-label="Filter by status">
+          <button
+            v-for="opt in statusOptions"
+            :key="opt.value"
+            type="button"
+            class="admin-filter"
+            :class="{ active: status === opt.value }"
+            role="tab"
+            :aria-selected="status === opt.value"
+            @click="setStatus(opt.value)"
+          >
+            {{ opt.label }}
+          </button>
+        </div>
       </div>
-      <input
-        v-model="searchInput"
-        type="search"
-        class="admin-search"
-        placeholder="Search name, email, phone or order ID"
-        aria-label="Search orders"
-      >
+      <div class="admin-search-wrap">
+        <AdminIcon name="search" :size="18" />
+        <input
+          v-model="searchInput"
+          type="search"
+          class="admin-search"
+          placeholder="Search name, email, phone or order ID"
+          aria-label="Search orders"
+        >
+      </div>
     </div>
 
-    <section class="admin-card">
+    <section class="admin-card admin-list-card">
       <AdminOrdersTable :orders="orders" :loading="pending" />
       <AdminPagination
         v-if="pageCount > 1"

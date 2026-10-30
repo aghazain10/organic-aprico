@@ -1,8 +1,16 @@
 <template>
   <div class="admin-login">
     <form class="admin-login-card" @submit.prevent="submit">
-      <h1>Admin login</h1>
-      <p class="muted small">Organic Aprico control panel</p>
+      <div class="admin-login-brand">
+        <span class="admin-brand-mark" aria-hidden="true">OA</span>
+        <span class="admin-brand-copy">
+          Organic Aprico
+          <small>Admin</small>
+        </span>
+      </div>
+
+      <h1>Welcome back</h1>
+      <p>Sign in to manage your orders.</p>
 
       <div class="field">
         <label for="admin-password">Password</label>
@@ -18,7 +26,7 @@
 
       <p v-if="error" class="admin-login-error">{{ error }}</p>
 
-      <button type="submit" class="btn btn-gold btn-block" :disabled="loading">
+      <button type="submit" class="btn btn-primary btn-block" :disabled="loading">
         {{ loading ? 'Signing in…' : 'Sign in' }}
       </button>
     </form>
