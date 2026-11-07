@@ -148,7 +148,7 @@
               </tr>
             </tbody>
           </table>
-          <p class="price-note">Need more than 100 g? Bulk resin is available from 1 kg at Rs 95,000 &mdash; see <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label</NuxtLink>. The per-gram column above shows the effective rate for every jar size.</p>
+          <p class="price-note">Need more than 100 g? The <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">1 kg shilajit price in Pakistan</NuxtLink> is Rs 95,000, with 5 kg at Rs 475,000 and 10 kg+ on request. The per-gram column above shows the effective rate for every jar size.</p>
         </div>
       </section>
 
@@ -161,7 +161,7 @@
 
             <h2>Pure Shilajit: Origin and Potency</h2>
             <p>Shilajit is a black, sticky substance found in the rocks of the Himalayan mountains, especially in Gilgit-Baltistan. This region produces the <strong>Best Shilajit in Pakistan</strong>, and Organic Aprico holds a government-issued license to extract Shilajit from this pristine area, which is widely demanded worldwide. It forms over centuries from the decomposition of plants in the Himalayan mountains. Research indicates that Shilajit extracted from 17,000 feet above sea level is the most potent gold-grade shilajit.</p>
-            <p>Pure Shilajit contains over <strong>85 essential minerals</strong> and is rich in fulvic and humic acid, which boost strength, stamina, and vitality while aiding in tissue repair. You can read more about the origin and benefits of shilajit in our <NuxtLink to="/blogs/blog/ultimate-guide-to-shilajit-2026-benefits-usage-dosage-purity-tips-where-to-buy-authentic-resin">complete shilajit guide</NuxtLink>.</p>
+            <p>Pure Shilajit contains <strong>84+ trace minerals</strong> and is rich in fulvic and humic acid, which support strength, stamina and tissue repair. You can read more about the origin and benefits of shilajit in our <NuxtLink to="/blogs/blog/ultimate-guide-to-shilajit-2026-benefits-usage-dosage-purity-tips-where-to-buy-authentic-resin">complete shilajit guide</NuxtLink>.</p>
             <p>We ensure the purity of our original Shilajit through a meticulous 8-stage purification process and a <strong>40-day sun dehydration method</strong>, enhancing its potency. Celebrated for its energy-boosting, immunity-strengthening, and mind-enhancing properties, our Shilajit is available globally in grams and bulk Shilajit. With licenses for extraction and export, we guarantee smooth deliveries worldwide.</p>
 
             <h2>Shilajit Price in Pakistan 2026: A Market Overview</h2>
@@ -169,13 +169,18 @@
             <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With over 10,000 satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
             <p>Globally, Himalayan Shilajit is witnessing increased demand as a natural health supplement known for its mineral richness and benefits like enhanced energy, improved immunity, and better cognitive function. As consumers prioritize organic and pure products, the market for premium-quality Shilajit has expanded, supported by online platforms that make it readily available to a global audience. Choose wisely!</p>
 
-            <h3>Latest Shilajit Price in Pakistan 2026:</h3>
+            <h3>Shilajit Price in Pakistan by Size (10 g to 100 g)</h3>
             <ul>
               <li v-for="size in product.sizes" :key="size.id">
                 Shilajit {{ size.label }} price in Pakistan: {{ formatPrice(size.price) }}
               </li>
             </ul>
             <p>The full price-per-gram table is in the <a href="#price-table">Shilajit Price per Gram</a> table above.</p>
+
+            <h2>Original Shilajit Price in Pakistan: What You Are Paying For</h2>
+            <p>"Original" in the Pakistani market usually means resin that has been cleaned and lab tested, not raw sand-heavy lumps sold by weight. The price gap is real: material that still holds sediment and moisture sells for a fraction of purified gold-grade resin, which is why two jars of the same weight can differ by thousands of rupees.</p>
+            <p>We publish the per-gram rate openly — Rs 150/g at 10 g down to Rs 129/g at 100 g — and every jar carries the batch code that matches the Micro Quality Lab and PCSIR results on our <NuxtLink to="/certifications">lab reports and certifications page</NuxtLink>. If a seller cannot show a fulvic acid figure, a heavy-metals result and a batch code, the low price is the only thing you can verify.</p>
+            <p>If you are comparing the Himalayan shilajit price in Pakistan against imported jars, remember that shipping and duties sit on top of the overseas retail price. The per-gram rate is the only fair comparison — our <NuxtLink to="/blogs/blog/best-shilajit-brands-2026-the-complete-guide-to-finding-quality-himalayan-shilajit">best shilajit brands guide</NuxtLink> lays that comparison out side by side.</p>
 
             <h2>How to get Himalayan Shilajit from Pakistan</h2>
             <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, 73% fulvic acid and full third-party lab testing, at an affordable price. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
@@ -194,21 +199,12 @@
               <li><strong>Traceability</strong> — Every box carries a batch code. Request the lab report for your batch by WhatsApp or email.</li>
               <li><strong>Sizes</strong> — 10 g, 20 g, 30 g, 50 g and 100 g glass jars. Bulk and private label available.</li>
               <li><strong>Licences</strong> — Government extraction licence, export licence and SECP company registration.</li>
-              <li><strong>Formats</strong> — Raw resin, liquid drops, and bulk resin for businesses.</li>
+              <li><strong>Formats</strong> — Raw resin, <NuxtLink to="/products/shilajit-drops">liquid shilajit drops</NuxtLink>, and bulk resin for businesses.</li>
             </ul>
             <p><em>Organic Aprico shilajit is a food supplement, not a medicine. It is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication or managing a medical condition, consult a qualified healthcare professional before use.</em></p>
 
             <h2>Best Shilajit to Buy</h2>
             <p>Organic Aprico stands out in this market by offering top-tier, 100% Pure Himalayan Shilajit sourced directly from the Himalayan mountains of Gilgit Baltistan. Known for its commitment to quality, Organic Aprico ensures purity and authenticity by providing lab-tested Shilajit, and our original Shilajit price is moderate. See how we compare in our <NuxtLink to="/blogs/blog/best-shilajit-brands-2026-the-complete-guide-to-finding-quality-himalayan-shilajit">guide to the best shilajit brands</NuxtLink>. With its focus on verifiable quality and affordability, Organic Aprico shilajit suits buyers who want a lab-tested supplier with documented fulvic acid content, batch traceability and worldwide shipping.</p>
-
-            <h2>Key Stages of Processing Bulk Shilajit / Raw Shilajit</h2>
-            <p><strong>Extraction → Filtration → Purification → Dehydration</strong></p>
-            <ul>
-              <li><strong>Extraction:</strong> We source organic Shilajit from the pristine Himalayan mountains of Gilgit Baltistan at an altitude of over 17,000 feet. This environment yields Gold-Grade Shilajit, rich in fulvic acid and 84 essential minerals.</li>
-              <li><strong>Filtration:</strong> Using mineral-rich glacier water, we filter the Shilajit to remove sand particles, impurities, and sediments. This potent liquid undergoes repeated filtration over several weeks to ensure purity.</li>
-              <li><strong>Purification:</strong> Employing both traditional and scientific methods, we remove heavy metals, lead, arsenic, bacteria, and fungus while preserving Shilajit's enzymatic and mineral properties for maximum potency.</li>
-              <li><strong>Dehydration:</strong> Shilajit is placed in stainless steel containers and exposed to direct sunlight, retaining natural minerals, high levels of fulvic acid, and maximum potency.</li>
-            </ul>
 
             <h2>Our Export-Grade Production Process (8-Stage)</h2>
             <p>At our state-of-the-art facilities in Skardu and Lahore, every batch of Shilajit undergoes a meticulous 8-Stage Ultra-Filtration and Purification Process before it is cleared for export.</p>
@@ -494,7 +490,7 @@ const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
 
 const product = PRODUCTS.find(p => p.key === 'resin')!
-const productTitle = 'Shilajit Price in Pakistan 2026 — Buy Pure Himalayan Resin'
+const productTitle = 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500'
 
 const selectedSize = ref(product.defaultSize)
 const qty = ref(1)
@@ -611,6 +607,18 @@ const faqs = [
     a: 'Each jar carries a batch code, and the matching third-party lab report is available on request — 73% fulvic acid from Micro Quality Lab, California, heavy metals tested at PCSIR Lahore, and a Eurofins total humic extract result. Read the current results on our lab reports and certifications page.',
   },
   {
+    q: 'Is this original shilajit or an adulterated product?',
+    a: 'It is purified, single-origin resin from Gilgit-Baltistan, not a blended or reconstituted powder. Three things let you check: the batch code on the jar, the 73% fulvic acid result from Micro Quality Lab California, and the PCSIR heavy-metals panel showing lead, arsenic, cadmium and mercury as non-detect. Ask for the report for your exact batch before or after ordering.',
+  },
+  {
+    q: 'What is the difference between the 10 g and 100 g jars?',
+    a: 'The resin is identical — same 73% fulvic acid, same 8-stage purification. Only the jar size and the per-gram rate change: Rs 150/g at 10 g, Rs 145/g at 20 g, Rs 133/g at 30 g, Rs 142/g at 50 g and Rs 129/g at 100 g. The 100 g jar is the cheapest per gram and gives about 142 servings at the 0.7 g label serving.',
+  },
+  {
+    q: 'How much does 1 kg of shilajit cost in Pakistan?',
+    a: 'Bulk resin starts at Rs 95,000 per kg, with 5 kg at Rs 475,000 and 10 kg+ quoted per order. That is Rs 95/g — below the retail per-gram rate on every jar size — and it ships with the batch lab reports and export documents. See the wholesale and private label page for MOQ and lead time.',
+  },
+  {
     q: 'How much shilajit should I take per day?',
     a: 'The label serving size is 0.7 g. If you are new to shilajit, start with 300–500 mg once a day for the first week, then move up to the full 0.7 g serving. Dissolve it in lukewarm water, milk or herbal tea.',
   },
@@ -656,6 +664,7 @@ useHead({
           { name: 'Fulvic acid', value: '73%' },
           { name: 'Source altitude', value: 'Above 17,000 ft' },
           { name: 'Purification', value: '8-stage' },
+          { name: 'Trace minerals', value: '84+' },
           { name: 'Batch', value: 'OA-2025-0307' },
           { name: 'Serving size', value: '0.7 g' },
         ],

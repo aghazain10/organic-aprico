@@ -87,7 +87,7 @@
               </tbody>
             </table>
           </div>
-          <p class="hub-note">10 kg+ volume pricing is on request. See the <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label page</NuxtLink> for MOQ, lead time and export documents, or our <NuxtLink to="/products/shilajit#price-table">shilajit price guide</NuxtLink> for the market context.</p>
+          <p class="hub-note">10 kg+ volume pricing is on request. See the <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale &amp; private label page</NuxtLink> for MOQ, lead time and export documents, or the <NuxtLink to="/products/shilajit#price-table">shilajit price in Pakistan</NuxtLink> guide for the market context.</p>
         </div>
       </section>
 
@@ -180,7 +180,7 @@ const priceRows = [
 ]
 
 useSeoMeta({
-  title: 'Shilajit Products & Prices in Pakistan 2026 | Organic Aprico',
+  title: 'Shilajit Products: Resin, Drops & Wholesale | Organic Aprico',
   description: 'Shilajit resin from Rs 1,500, drops from Rs 2,000 and wholesale from Rs 95,000/kg. 73% fulvic acid, 8-stage purification, batch lab reports, COD in Pakistan.',
   ogTitle: 'Shilajit Products & Prices in Pakistan 2026 — Organic Aprico',
   ogDescription: 'Resin, drops and wholesale. 73% fulvic acid, lab reports with every batch, cash on delivery in Pakistan.',
