@@ -22,3 +22,6 @@ logs
 .env
 .env.*
 !.env.example
+
+# SEO strategy docs: kept on disk, not published in the repo
+SEO-*.md
