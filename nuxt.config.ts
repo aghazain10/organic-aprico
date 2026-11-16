@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: 'https://www.googletagmanager.com/gtm.js?id=GTM-5BNQN9JS',
+          src: 'https://www.googletagmanager.com/gtm.js?id=GTM-TN23RTLK',
           async: true,
         },
         {
