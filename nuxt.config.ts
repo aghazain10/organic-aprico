@@ -36,6 +36,13 @@ export default defineNuxtConfig({
       ],
       script: [
         {
+          src: 'https://www.googletagmanager.com/gtm.js?id=GTM-5BNQN9JS',
+          async: true,
+        },
+        {
+          innerHTML: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());",
+        },
+        {
           type: 'application/ld+json',
           // A single Organization node (with one PostalAddress — `address` is not a
           // list) plus one LocalBusiness per physical outlet, tied back to the
