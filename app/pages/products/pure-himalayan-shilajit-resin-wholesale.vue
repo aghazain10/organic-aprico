@@ -511,6 +511,7 @@
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
 import { buildProductJsonLd, buildBreadcrumbJsonLd, buildFaqJsonLd } from '~/utils/seo'
+import { trackViewItem } from '~/utils/analytics'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
@@ -524,6 +525,8 @@ const justAdded = ref(false)
 const activeTab = ref('pricing')
 const activeImage = ref(0)
 const openFaq = ref<number | null>(null)
+
+onMounted(() => trackViewItem('wholesale', selectedSize.value))
 
 function prevImage() {
   activeImage.value = (activeImage.value - 1 + galleryImages.length) % galleryImages.length

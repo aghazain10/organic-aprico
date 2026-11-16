@@ -1,5 +1,6 @@
 import { PRODUCTS, formatPrice } from '~/data/products'
 import type { Product, ProductVariant } from '~/data/products'
+import { trackAddToCart, trackRemoveFromCart, trackViewCart } from '~/utils/analytics'
 
 export interface CartItem {
   product: string
@@ -45,6 +46,10 @@ export function useCart() {
     if (saved.length && !items.value.length) items.value = saved
   }
 
+  function linesFrom(lines: CartItem[]) {
+    return lines.map(({ product, size, qty }) => ({ product, size, qty }))
+  }
+
   const count = computed(() => items.value.reduce((sum, i) => sum + i.qty, 0))
 
   const total = computed(() =>
@@ -69,6 +74,7 @@ export function useCart() {
       items.value.push({ product: productKey, size: sizeId, qty })
     }
     persist()
+    trackAddToCart(productKey, sizeId, qty)
   }
 
   function updateQty(index: number, delta: number) {
@@ -78,6 +84,8 @@ export function useCart() {
   }
 
   function remove(index: number) {
+    const item = items.value[index]
+    if (item) trackRemoveFromCart(item.product, item.size, item.qty)
     items.value.splice(index, 1)
     persist()
   }
@@ -89,6 +97,7 @@ export function useCart() {
 
   function openDrawer() {
     open.value = true
+    if (items.value.length) trackViewCart(linesFrom(items.value))
   }
 
   function closeDrawer() {

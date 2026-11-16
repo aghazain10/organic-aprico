@@ -21,8 +21,15 @@
 </template>
 
 <script setup lang="ts">
+import { PRODUCTS } from '~/data/products'
+import { trackViewItemList } from '~/utils/analytics'
+
 const { count: cartCount, add: addToCart, openDrawer: openCart, getItemName, getVariantLabel, getVariantPrice, formatPrice } = useCart()
 const toast = useToast()
+
+onMounted(() => {
+  trackViewItemList('homepage_products', PRODUCTS.map(p => ({ product: p.key, size: p.defaultSize, qty: 1 })))
+})
 
 function onAddToCart(product: string, size: string, qty: number) {
   addToCart(product, size, qty)

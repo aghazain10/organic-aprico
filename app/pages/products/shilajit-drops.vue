@@ -344,6 +344,7 @@
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
 import { buildProductJsonLd, buildBreadcrumbJsonLd } from '~/utils/seo'
+import { trackViewItem } from '~/utils/analytics'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
@@ -356,6 +357,8 @@ const qty = ref(1)
 const justAdded = ref(false)
 const activeTab = ref('lab')
 const activeImage = ref(0)
+
+onMounted(() => trackViewItem('drops', selectedSize.value))
 
 const lightbox = reactive({ src: '', alt: '' })
 

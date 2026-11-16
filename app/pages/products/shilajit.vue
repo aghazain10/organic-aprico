@@ -485,6 +485,7 @@
 <script setup lang="ts">
 import { PRODUCTS, formatPrice } from '~/data/products'
 import { buildProductJsonLd, buildBreadcrumbJsonLd, buildFaqJsonLd } from '~/utils/seo'
+import { trackViewItem } from '~/utils/analytics'
 
 const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
@@ -498,6 +499,8 @@ const justAdded = ref(false)
 const activeTab = ref('lab')
 const activeImage = ref(0)
 const openFaq = ref<number | null>(0)
+
+onMounted(() => trackViewItem('resin', selectedSize.value))
 
 const GRAMS: Record<string, number> = { '10g': 10, '20g': 20, '30g': 30, '50g': 50, '100g': 100 }
 const SERVING_G = 0.7

@@ -76,7 +76,7 @@
       <button type="button" class="btn btn-gold add-btn" @click="onAdd">
         {{ justAdded ? 'Added' : 'Add to cart' }}
       </button>
-      <NuxtLink v-if="detailUrl" :to="detailUrl" class="text-link product-detail-link">View details →</NuxtLink>
+      <NuxtLink v-if="detailUrl" :to="detailUrl" class="text-link product-detail-link" @click="onDetailClick">View details →</NuxtLink>
       <a
         v-if="product.key === 'wholesale'"
         class="text-link"
@@ -92,6 +92,7 @@
 
 <script setup lang="ts">
 import { type Product, formatPrice } from '~/data/products'
+import { trackSelectItem } from '~/utils/analytics'
 
 const props = defineProps<{ product: Product; detailUrl?: string }>()
 const emit = defineEmits<{ add: [product: string, size: string, qty: number] }>()
@@ -111,6 +112,10 @@ function onKeydown(e: KeyboardEvent, sizeId: string) {
   const idx = sizes.findIndex((s) => s.id === sizeId)
   const next = (idx + (e.key === 'ArrowRight' ? 1 : -1) + sizes.length) % sizes.length
   selectedSize.value = sizes[next].id
+}
+
+function onDetailClick() {
+  trackSelectItem('homepage_products', props.product.key, selectedSize.value)
 }
 
 function onAdd() {

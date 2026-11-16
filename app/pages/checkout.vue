@@ -150,6 +150,7 @@
 
 <script setup lang="ts">
 import { deliveryEstimateFor, shippingFor } from '#shared/utils/shipping'
+import { trackBeginCheckout, trackPurchase } from '~/utils/analytics'
 
 const { items, total, clear, getItemName, getVariantLabel, getVariantPrice, formatPrice } = useCart()
 
@@ -163,6 +164,11 @@ const form = reactive({
   postalCode: '',
   paymentMethod: 'cod' as 'cod' | 'bank_transfer',
   notes: '',
+})
+
+onMounted(() => {
+  if (!items.value.length) return
+  trackBeginCheckout(items.value, shipping.value, form.paymentMethod)
 })
 
 const loading = ref(false)
@@ -213,6 +219,7 @@ async function placeOrder() {
     const shippingLine = shipping.value > 0 ? `\nShipping: ${formatPrice(shipping.value)}` : ''
     whatsappMessage.value = `Hi Organic Aprico, I placed order ${result.orderId}:\n${lines.join('\n')}${shippingLine}\nTotal: ${formatPrice(grandTotal.value)}\nPayment: ${form.paymentMethod === 'cod' ? 'Cash on Delivery' : 'Bank Transfer'}`
 
+    trackPurchase(result.orderId, items.value, grandTotal.value, shipping.value, form.paymentMethod)
     orderId.value = result.orderId
     orderPlaced.value = true
     clear()

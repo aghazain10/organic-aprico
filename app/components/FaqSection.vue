@@ -42,10 +42,13 @@
 </template>
 
 <script setup lang="ts">
+import { trackFaqToggle } from '~/utils/analytics'
+
 const openIndex = ref<number | null>(null)
 
 function toggle(i: number) {
   openIndex.value = openIndex.value === i ? null : i
+  trackFaqToggle(faqs[i].q)
 }
 
 const faqs = [
