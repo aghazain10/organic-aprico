@@ -491,7 +491,10 @@ const { count: cartCount, add: addToCart, openDrawer: openCart } = useCart()
 const toast = useToast()
 
 const product = PRODUCTS.find(p => p.key === 'resin')!
-const productTitle = 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500'
+// H1 leads with "Shilajit Resin" — the category this money page must own — while
+// keeping the price head term. The <title> in useSeoMeta mirrors the intent but
+// stays under 60 chars so it isn't truncated in the SERP.
+const productTitle = 'Shilajit Resin Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500'
 
 const selectedSize = ref(product.defaultSize)
 const qty = ref(1)
@@ -644,10 +647,10 @@ const faqs = [
 ]
 
 useSeoMeta({
-  title: 'Shilajit Price in Pakistan 2026 | Buy Pure Himalayan Resin',
-  description: 'Buy pure Himalayan shilajit resin from Skardu. 73% fulvic acid (Micro Quality Lab), PCSIR heavy-metal tested, 10g from Rs 1,500. COD in Pakistan.',
-  ogTitle: 'Shilajit Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500',
-  ogDescription: 'Gold-grade resin, 73% fulvic acid, 8-stage purification, lab tested in California and Pakistan. 10g Rs 1,500 · 50g Rs 7,100 · 100g Rs 12,900.',
+  title: 'Shilajit Resin Price in Pakistan 2026 | Buy Pure Himalayan',
+  description: 'Shilajit resin price in Pakistan from Rs 1,500 (10 g) to Rs 12,900 (100 g). Pure Himalayan resin, 73% fulvic acid, PCSIR heavy-metal tested. COD, 3–5 days.',
+  ogTitle: 'Shilajit Resin Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500',
+  ogDescription: 'Gold-grade Himalayan shilajit resin, 73% fulvic acid, 8-stage purification, lab tested. 10g Rs 1,500 · 50g Rs 7,100 · 100g Rs 12,900.',
   ogImage: '/images/products/shilajit-resin-jar-spoon.jpg',
   ogType: 'product',
 })
