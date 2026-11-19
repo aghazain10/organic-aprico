@@ -49,6 +49,12 @@ export interface ProductSchemaOptions {
   }
   /** @id of the seller Organization node, e.g. 'https://organicaprico.com/#organization'. */
   sellerId?: string
+  /**
+   * Average rating visible on the page (the Google Business Profile badge).
+   * Only pass this when the same numbers are rendered on the page — Google
+   * rejects markup that does not match visible content.
+   */
+  aggregateRating?: { ratingValue: number; reviewCount: number }
 }
 
 function quantitativeValue(duration: ShippingDuration) {
@@ -146,6 +152,17 @@ export function buildProductJsonLd(product: Product, options: ProductSchemaOptio
         }
       : {}),
     itemCondition: 'https://schema.org/NewCondition',
+    ...(options.aggregateRating
+      ? {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: options.aggregateRating.ratingValue,
+            reviewCount: options.aggregateRating.reviewCount,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
     offers,
   }
 }

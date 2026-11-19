@@ -240,7 +240,7 @@
             <p>The tier table &mdash; 1 kg Rs 95,000, 5 kg Rs 475,000, 10 kg+ on request &mdash; is in the <a href="#wholesale-pricing">wholesale pricing section above</a>. Contact our dedicated wholesale team for tailored quotes in USD, GBP, or EUR.</p>
 
             <div style="margin-top: 2rem;">
-              <img src="/images/products/wholesale-pricing.png" alt="Wholesale pricing overview" style="max-width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <img src="/images/products/wholesale-pricing.webp" alt="Wholesale pricing overview" style="max-width: 100%; border: 1px solid var(--line);" loading="lazy" />
             </div>
           </div>
 
@@ -290,28 +290,28 @@
             </table>
 
             <div class="cert-grid" style="margin: 1.5rem 0;">
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/halal.jpg', 'Halal certification')">
-                <img src="/images/certifications/halal.jpg" alt="Halal certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/halal.webp', 'Halal certification')">
+                <img src="/images/certifications/halal.webp" alt="Halal certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/gmp.jpg', 'GMP certification')">
-                <img src="/images/certifications/gmp.jpg" alt="GMP certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/gmp.webp', 'GMP certification')">
+                <img src="/images/certifications/gmp.webp" alt="GMP certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/haccp.jpg', 'HACCP certification')">
-                <img src="/images/certifications/haccp.jpg" alt="HACCP certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/haccp.webp', 'HACCP certification')">
+                <img src="/images/certifications/haccp.webp" alt="HACCP certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/company-registration.jpg', 'Company registration')">
-                <img src="/images/certifications/company-registration.jpg" alt="Company registration" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/company-registration.webp', 'Company registration')">
+                <img src="/images/certifications/company-registration.webp" alt="Company registration" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
             </div>
 
             <h3>Lab Reports</h3>
             <div class="lab-grid">
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.jpg', 'Micro Quality Lab fulvic acid test')">
-                <img src="/images/lab-reports/micro-quality-fulvic-acid.jpg" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.webp', 'Micro Quality Lab fulvic acid test')">
+                <img src="/images/lab-reports/micro-quality-fulvic-acid.webp" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
               <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals.jpg', 'PCSIR heavy metals analysis')">
@@ -326,27 +326,27 @@
                 <img src="/images/lab-reports/pcsir-aflatoxin.jpg" alt="PCSIR aflatoxin test" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/eurofins-fulvic-acid.jpg', 'Eurofins fulvic acid verification')">
-                <img src="/images/lab-reports/eurofins-fulvic-acid.jpg" alt="Eurofins fulvic acid verification" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/eurofins-fulvic-acid.webp', 'Eurofins fulvic acid verification')">
+                <img src="/images/lab-reports/eurofins-fulvic-acid.webp" alt="Eurofins fulvic acid verification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
             </div>
 
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem;">
-              <img src="/images/products/wholesale-best-brand.png" alt="Best shilajit brand" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-9001.jpg', 'ISO 9001 certification')">
-                <img src="/images/certifications/iso-9001.jpg" alt="ISO 9001 certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <img src="/images/products/wholesale-best-brand.webp" alt="Best shilajit brand" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-9001.webp', 'ISO 9001 certification')">
+                <img src="/images/certifications/iso-9001.webp" alt="ISO 9001 certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-22000.jpg', 'ISO 22000 certification')">
-                <img src="/images/certifications/iso-22000.jpg" alt="ISO 22000 certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-22000.webp', 'ISO 22000 certification')">
+                <img src="/images/certifications/iso-22000.webp" alt="ISO 22000 certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 1rem;">
               <img src="/images/products/wholesale-eurofins.png" alt="Eurofins certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
               <img src="/images/products/wholesale-pcsir-micro.png" alt="PCSIR microbiological" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
-              <img src="/images/products/wholesale-pcsir-heavy.png" alt="PCSIR heavy metals" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <img src="/images/products/wholesale-pcsir-heavy.webp" alt="PCSIR heavy metals" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
             </div>
 
             <h3>Purification Plant</h3>
@@ -390,7 +390,7 @@
 
             <h3>Purification Process Visual</h3>
             <div style="margin-top: 1.5rem;">
-              <img src="/images/products/wholesale-purification.png" alt="Shilajit purification process" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <img src="/images/products/wholesale-purification.webp" alt="Shilajit purification process" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
             </div>
 
             <h2>Global Recognition and Certifications</h2>
@@ -460,7 +460,7 @@
           <div class="related-grid">
             <NuxtLink to="/products/shilajit" class="related-card">
               <div class="related-card-img">
-                <img src="/images/products/shilajit-resin-hero.jpg" alt="Shilajit Resin" loading="lazy" />
+                <img src="/images/products/shilajit-resin-hero.webp" alt="Shilajit Resin" loading="lazy" />
               </div>
               <div class="related-card-body">
                 <h3>Shilajit Resin</h3>
@@ -470,7 +470,7 @@
             </NuxtLink>
             <NuxtLink to="/products/shilajit-drops" class="related-card">
               <div class="related-card-img">
-                <img src="/images/products/shilajit-drops-hero.png" alt="Shilajit Drops" loading="lazy" />
+                <img src="/images/products/shilajit-drops-hero.webp" alt="Shilajit Drops" loading="lazy" />
               </div>
               <div class="related-card-body">
                 <h3>Shilajit Drops</h3>
@@ -480,7 +480,7 @@
             </NuxtLink>
             <NuxtLink to="/certifications" class="related-card">
               <div class="related-card-img">
-                <img src="/images/certifications/halal.jpg" alt="Certifications" loading="lazy" />
+                <img src="/images/certifications/halal.webp" alt="Certifications" loading="lazy" />
               </div>
               <div class="related-card-body">
                 <h3>Our Certifications</h3>
@@ -622,6 +622,8 @@ useHead({
         url: '/products/pure-himalayan-shilajit-resin-wholesale',
         images: galleryImages,
         skuPrefix: 'OA-SHILAJIT-WHOLESALE',
+        // Matches the "4.8/5 from 40 Google reviews" badge rendered on this page.
+        aggregateRating: { ratingValue: 4.8, reviewCount: 40 },
         name: 'Pure Himalayan Shilajit Resin — Wholesale',
         description: 'Wholesale pure Himalayan shilajit resin for retailers and brands. 73% fulvic acid, 8-stage purification, lab tested. Direct from extractor in Gilgit-Baltistan.',
         category: 'Dietary Supplement > Herbal Supplement',

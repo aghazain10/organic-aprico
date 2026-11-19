@@ -77,14 +77,14 @@ const products = [
     title: 'Shilajit Resin',
     copy: 'Gold-grade Himalayan resin, 73% fulvic acid, lab tested. From Rs 1,500.',
     price: 'From Rs 1,500',
-    image: '/images/products/shilajit-resin-jar-spoon.jpg',
+    image: '/images/products/shilajit-resin-jar-spoon.webp',
   },
   {
     path: '/products/shilajit-drops',
     title: 'Shilajit Drops',
     copy: 'Liquid shilajit dissolved in glacier water. 9 drops twice a day.',
     price: 'From Rs 2,000',
-    image: '/images/products/shilajit-drops-hero.png',
+    image: '/images/products/shilajit-drops-hero.webp',
   },
   {
     path: '/products/pure-himalayan-shilajit-resin-wholesale',

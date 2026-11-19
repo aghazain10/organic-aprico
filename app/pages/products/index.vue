@@ -122,7 +122,7 @@ const products = [
   {
     href: '/products/shilajit',
     name: 'Shilajit Resin',
-    image: '/images/products/shilajit-resin-hero.jpg',
+    image: '/images/products/shilajit-resin-hero.webp',
     imageAlt: 'Organic Aprico gold-grade Himalayan shilajit resin jar',
     priceFrom: 'From Rs 1,500 (10 g) — Rs 12,900 (100 g)',
     bestFor: 'Best value per gram, and the format most buyers start with',
@@ -138,7 +138,7 @@ const products = [
   {
     href: '/products/shilajit-drops',
     name: 'Shilajit Drops',
-    image: '/images/products/shilajit-drops-hero.png',
+    image: '/images/products/shilajit-drops-hero.webp',
     imageAlt: 'Organic Aprico shilajit drops bottle',
     priceFrom: 'From Rs 2,000 (30 ml) — Rs 4,000 (60 ml)',
     bestFor: 'Anyone who wants the easiest daily routine, with no spoon or dissolving',
@@ -184,7 +184,7 @@ useSeoMeta({
   description: 'Shilajit resin from Rs 1,500, drops from Rs 2,000 and wholesale from Rs 95,000/kg. 73% fulvic acid, 8-stage purification, batch lab reports, COD in Pakistan.',
   ogTitle: 'Shilajit Products & Prices in Pakistan 2026 — Organic Aprico',
   ogDescription: 'Resin, drops and wholesale. 73% fulvic acid, lab reports with every batch, cash on delivery in Pakistan.',
-  ogImage: '/images/products/shilajit-resin-hero.jpg',
+  ogImage: '/images/products/shilajit-resin-hero.webp',
 })
 
 useHead({

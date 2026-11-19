@@ -146,6 +146,15 @@
                 <td>{{ formatPrice(row.perGram) }} / g</td>
                 <td>{{ row.servings }}</td>
               </tr>
+              <!-- Bulk row: answers "1 kg shilajit price in Pakistan" (a page-1
+                   query with zero clicks) directly in the table Google pulls
+                   snippets from, and links to the page that owns supplier intent. -->
+              <tr class="price-bulk">
+                <td><NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">1 kg (bulk)</NuxtLink></td>
+                <td class="price-cell">Rs 95,000</td>
+                <td>Rs 95 / g</td>
+                <td>1,428</td>
+              </tr>
             </tbody>
           </table>
           <p class="price-note">Need more than 100 g? The <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">1 kg shilajit price in Pakistan</NuxtLink> is Rs 95,000, with 5 kg at Rs 475,000 and 10 kg+ on request. The per-gram column above shows the effective rate for every jar size.</p>
@@ -298,8 +307,8 @@
             </table>
             <p class="price-note">Your jar carries its own batch code &mdash; send it to us on WhatsApp or email and we will send the matching lab report for that batch. All current results are published as text on our <NuxtLink to="/certifications">lab reports &amp; certifications page</NuxtLink>.</p>
             <div class="lab-grid">
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.jpg', 'Micro Quality Lab fulvic acid test')">
-                <img src="/images/lab-reports/micro-quality-fulvic-acid.jpg" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.webp', 'Micro Quality Lab fulvic acid test')">
+                <img src="/images/lab-reports/micro-quality-fulvic-acid.webp" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
               <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals.jpg', 'PCSIR heavy metals analysis')">
@@ -314,35 +323,35 @@
                 <img src="/images/lab-reports/pcsir-aflatoxin.jpg" alt="PCSIR aflatoxin test" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/eurofins-fulvic-acid.jpg', 'Eurofins fulvic acid verification')">
-                <img src="/images/lab-reports/eurofins-fulvic-acid.jpg" alt="Eurofins fulvic acid verification" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/eurofins-fulvic-acid.webp', 'Eurofins fulvic acid verification')">
+                <img src="/images/lab-reports/eurofins-fulvic-acid.webp" alt="Eurofins fulvic acid verification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
             </div>
             <h3>Certifications</h3>
             <div class="cert-grid">
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-9001.jpg', 'ISO 9001 certification')">
-                <img src="/images/certifications/iso-9001.jpg" alt="ISO 9001 certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-9001.webp', 'ISO 9001 certification')">
+                <img src="/images/certifications/iso-9001.webp" alt="ISO 9001 certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-22000.jpg', 'ISO 22000 certification')">
-                <img src="/images/certifications/iso-22000.jpg" alt="ISO 22000 certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/iso-22000.webp', 'ISO 22000 certification')">
+                <img src="/images/certifications/iso-22000.webp" alt="ISO 22000 certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/halal.jpg', 'Halal certification')">
-                <img src="/images/certifications/halal.jpg" alt="Halal certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/halal.webp', 'Halal certification')">
+                <img src="/images/certifications/halal.webp" alt="Halal certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/gmp.jpg', 'GMP certification')">
-                <img src="/images/certifications/gmp.jpg" alt="GMP certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/gmp.webp', 'GMP certification')">
+                <img src="/images/certifications/gmp.webp" alt="GMP certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/haccp.jpg', 'HACCP certification')">
-                <img src="/images/certifications/haccp.jpg" alt="HACCP certification" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/haccp.webp', 'HACCP certification')">
+                <img src="/images/certifications/haccp.webp" alt="HACCP certification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/company-registration.jpg', 'Company registration')">
-                <img src="/images/certifications/company-registration.jpg" alt="Company registration" loading="lazy" />
+              <div class="cert-img-item clickable" @click="openLightbox('/images/certifications/company-registration.webp', 'Company registration')">
+                <img src="/images/certifications/company-registration.webp" alt="Company registration" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
             </div>
@@ -434,7 +443,7 @@
           <div class="related-grid">
             <NuxtLink to="/products/shilajit-drops" class="related-card">
               <div class="related-card-img">
-                <img src="/images/products/shilajit-drops-hero.png" alt="Shilajit Drops" loading="lazy" />
+                <img src="/images/products/shilajit-drops-hero.webp" alt="Shilajit Drops" loading="lazy" />
               </div>
               <div class="related-card-body">
                 <h3>Shilajit Drops</h3>
@@ -454,7 +463,7 @@
             </NuxtLink>
             <NuxtLink to="/certifications" class="related-card">
               <div class="related-card-img">
-                <img src="/images/certifications/halal.jpg" alt="Certifications" loading="lazy" />
+                <img src="/images/certifications/halal.webp" alt="Certifications" loading="lazy" />
               </div>
               <div class="related-card-body">
                 <h3>Our Certifications</h3>
@@ -563,18 +572,18 @@ function nextImage() {
 }
 
 const galleryImages = [
-  '/images/products/shilajit-resin-jar-spoon.jpg',
-  '/images/products/shilajit-resin-jar-pure.jpg',
-  '/images/products/shilajit-resin-box-front.jpg',
-  '/images/products/shilajit-resin-box-jar.jpg',
-  '/images/products/shilajit-resin-box-back.jpg',
+  '/images/products/shilajit-resin-jar-spoon.webp',
+  '/images/products/shilajit-resin-jar-pure.webp',
+  '/images/products/shilajit-resin-box-front.webp',
+  '/images/products/shilajit-resin-box-jar.webp',
+  '/images/products/shilajit-resin-box-back.webp',
   '/images/products/shilajit-resin-box-summary.jpg',
-  '/images/products/shilajit-resin-purity-comparison.jpg',
-  '/images/products/shilajit-resin-features.jpg',
-  '/images/products/shilajit-resin-how-to-use.jpg',
-  '/images/products/shilajit-resin-why-choose.jpg',
-  '/images/products/shilajit-resin-side-benefits.jpg',
-  '/images/products/shilajit-resin-packaging.jpg',
+  '/images/products/shilajit-resin-purity-comparison.webp',
+  '/images/products/shilajit-resin-features.webp',
+  '/images/products/shilajit-resin-how-to-use.webp',
+  '/images/products/shilajit-resin-why-choose.webp',
+  '/images/products/shilajit-resin-side-benefits.webp',
+  '/images/products/shilajit-resin-packaging.webp',
 ]
 
 const galleryAlts = [
@@ -621,8 +630,8 @@ const faqs = [
     a: 'The resin is identical — same 73% fulvic acid, same 8-stage purification. Only the jar size and the per-gram rate change: Rs 150/g at 10 g, Rs 145/g at 20 g, Rs 133/g at 30 g, Rs 142/g at 50 g and Rs 129/g at 100 g. The 100 g jar is the cheapest per gram and gives about 142 servings at the 0.7 g label serving.',
   },
   {
-    q: 'How much does 1 kg of shilajit cost in Pakistan?',
-    a: 'Bulk resin starts at Rs 95,000 per kg, with 5 kg at Rs 475,000 and 10 kg+ quoted per order. That is Rs 95/g — below the retail per-gram rate on every jar size — and it ships with the batch lab reports and export documents. See the wholesale and private label page for MOQ and lead time.',
+    q: 'What is the 1 kg shilajit price in Pakistan?',
+    a: 'Bulk resin starts at Rs 95,000 per kg — that is Rs 95/g, below the retail rate on every jar size above — with 5 kg at Rs 475,000 and 10 kg+ quoted per order. It ships with the batch lab reports and export documents. See the wholesale and private label page for MOQ and lead time.',
   },
   {
     q: 'How much shilajit should I take per day?',
@@ -651,7 +660,7 @@ useSeoMeta({
   description: 'Shilajit resin price in Pakistan from Rs 1,500 (10 g) to Rs 12,900 (100 g). Pure Himalayan resin, 73% fulvic acid, PCSIR heavy-metal tested. COD, 3–5 days.',
   ogTitle: 'Shilajit Resin Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500',
   ogDescription: 'Gold-grade Himalayan shilajit resin, 73% fulvic acid, 8-stage purification, lab tested. 10g Rs 1,500 · 50g Rs 7,100 · 100g Rs 12,900.',
-  ogImage: '/images/products/shilajit-resin-jar-spoon.jpg',
+  ogImage: '/images/products/shilajit-resin-jar-spoon.webp',
   ogType: 'product',
 })
 
@@ -663,6 +672,9 @@ useHead({
         url: '/products/shilajit',
         images: galleryImages,
         skuPrefix: 'OA-SHILAJIT-RESIN',
+        // Matches the "4.8/5 from 40 Google reviews" badge rendered above the
+        // fold and in the Rated-on-Google section of this page.
+        aggregateRating: { ratingValue: 4.8, reviewCount: 40 },
         name: 'Pure Himalayan Shilajit Resin',
         description: 'Gold-grade Himalayan shilajit resin with 73% fulvic acid. 8-stage purification, lab tested. From 17,000 feet in Gilgit-Baltistan.',
         category: 'Dietary Supplement > Herbal Supplement',

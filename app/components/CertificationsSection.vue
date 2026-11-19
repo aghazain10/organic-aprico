@@ -115,33 +115,33 @@ const seals: Seal[] = [
     name: 'ISO 9001',
     desc: 'Quality management system',
     long: 'ISO 9001:2015 certification confirms that our quality management system meets internationally recognised standards for consistent, reliable production and continuous improvement.',
-    image: '/images/certifications/iso-9001.jpg',
+    image: '/images/certifications/iso-9001.webp',
     pdf: '/images/ISO-9001.pdf',
   },
   {
     name: 'ISO 22000',
     desc: 'Food safety management',
     long: 'ISO 22000:2018 certification verifies that our food safety management system controls hazards at every stage, from raw material sourcing to final packaging.',
-    image: '/images/certifications/iso-22000.jpg',
+    image: '/images/certifications/iso-22000.webp',
     pdf: '/images/ISO-22000.pdf',
   },
   {
     name: 'GMP',
     desc: 'Good manufacturing practice',
     long: 'Good Manufacturing Practice certification ensures every stage of production — from raw material handling to final packaging — meets strict quality and safety standards.',
-    image: '/images/certifications/gmp.jpg',
+    image: '/images/certifications/gmp.webp',
   },
   {
     name: 'HACCP',
     desc: 'Hazard analysis and control',
     long: 'Hazard Analysis and Critical Control Points certification identifies and controls potential food safety hazards at every stage of the production process.',
-    image: '/images/certifications/haccp.jpg',
+    image: '/images/certifications/haccp.webp',
   },
   {
     name: 'Halal',
     desc: 'Halal certified',
     long: 'Halal certified by a recognized authority, confirming the product complies with Islamic dietary laws and is permissible for consumption.',
-    image: '/images/certifications/halal.jpg',
+    image: '/images/certifications/halal.webp',
   },
 ]
 
@@ -152,7 +152,7 @@ const labs: Lab[] = [
     name: 'Micro Quality Lab',
     location: 'California, USA',
     long: 'US-based independent laboratory that verifies the fulvic acid concentration of our shilajit. Their analysis confirmed a 73% fulvic acid content, the primary active compound behind shilajit\'s benefits.',
-    images: ['/images/lab-reports/micro-quality-fulvic-acid.jpg'],
+    images: ['/images/lab-reports/micro-quality-fulvic-acid.webp'],
   },
   {
     name: 'PCSIR Laboratories Complex',
@@ -168,13 +168,13 @@ const labs: Lab[] = [
     name: 'Eurofins',
     location: 'International verification',
     long: 'Globally recognised testing group providing third-party verification of our fulvic acid levels, giving international buyers an independent confirmation of product purity and potency.',
-    images: ['/images/lab-reports/eurofins-fulvic-acid.jpg'],
+    images: ['/images/lab-reports/eurofins-fulvic-acid.webp'],
   },
   {
     name: 'Government licensed',
     location: 'Extraction and export',
     long: 'Organic Aprico is licensed and registered for the extraction and export of Himalayan shilajit, with company registration documents available for full transparency.',
-    images: ['/images/certifications/company-registration.jpg'],
+    images: ['/images/certifications/company-registration.webp'],
   },
 ]
 

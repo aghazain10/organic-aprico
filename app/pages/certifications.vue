@@ -71,7 +71,7 @@
                   <td>Fulvic acid content</td>
                   <td class="result">73% fulvic acid</td>
                   <td>September 2025</td>
-                  <td><a href="/images/lab-reports/micro-quality-fulvic-acid.jpg" target="_blank" rel="noopener">View report</a></td>
+                  <td><a href="/images/lab-reports/micro-quality-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
                 </tr>
                 <tr>
                   <td>OA-2025-0307</td>
@@ -79,7 +79,7 @@
                   <td>Fulvic acid / total humic extract</td>
                   <td class="result">71.8% fulvic acid, 73.3% total humic extract</td>
                   <td>September 2025</td>
-                  <td><a href="/images/lab-reports/eurofins-fulvic-acid.jpg" target="_blank" rel="noopener">View report</a></td>
+                  <td><a href="/images/lab-reports/eurofins-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
                 </tr>
                 <tr>
                   <td>OA-2025-0307</td>
@@ -119,9 +119,9 @@
             <h2>Company Registration</h2>
             <p>Licensed and registered for extraction and export of Himalayan shilajit.</p>
           </div>
-          <div class="cert-hero-image clickable" @click="openLightbox('/images/certifications/company-registration.jpg', 'Organic Aprico company registration certificates')">
+          <div class="cert-hero-image clickable" @click="openLightbox('/images/certifications/company-registration.webp', 'Organic Aprico company registration certificates')">
             <img
-              src="/images/certifications/company-registration.jpg"
+              src="/images/certifications/company-registration.webp"
               alt="Organic Aprico company registration certificates from Pakistan and UK"
               loading="lazy"
               width="900"
@@ -288,7 +288,7 @@ if (import.meta.client) {
 const certifications = [
   {
     name: 'ISO 9001:2015 Certification',
-    image: '/images/certifications/iso-9001.jpg',
+    image: '/images/certifications/iso-9001.webp',
     pdf: '/images/ISO-9001.pdf',
     alt: 'ISO 9001:2015 quality management certificate of Organic Aprico',
     description: 'ISO 9001:2015 certification confirms that our quality management system meets internationally recognised standards for consistent, reliable production and continuous improvement.',
@@ -301,7 +301,7 @@ const certifications = [
   },
   {
     name: 'ISO 22000:2018 Certification',
-    image: '/images/certifications/iso-22000.jpg',
+    image: '/images/certifications/iso-22000.webp',
     pdf: '/images/ISO-22000.pdf',
     alt: 'ISO 22000:2018 food safety management certificate of Organic Aprico',
     description: 'ISO 22000:2018 certification verifies that our food safety management system controls hazards at every stage, from raw material sourcing to final packaging.',
@@ -314,7 +314,7 @@ const certifications = [
   },
   {
     name: 'GMP Certification',
-    image: '/images/certifications/gmp.jpg',
+    image: '/images/certifications/gmp.webp',
     alt: 'GMP certificate of Organic Aprico',
     description: 'Good Manufacturing Practice certification ensures every stage of production — from raw material handling to final packaging — meets strict quality and safety standards.',
     details: [
@@ -326,7 +326,7 @@ const certifications = [
   },
   {
     name: 'HACCP Certification',
-    image: '/images/certifications/haccp.jpg',
+    image: '/images/certifications/haccp.webp',
     alt: 'HACCP certificate of Organic Aprico',
     description: 'Hazard Analysis and Critical Control Points certification identifies and controls potential food safety hazards at every stage of the production process.',
     details: [
@@ -338,7 +338,7 @@ const certifications = [
   },
   {
     name: 'Halal Certification',
-    image: '/images/certifications/halal.jpg',
+    image: '/images/certifications/halal.webp',
     alt: 'Halal certificate of Organic Aprico',
     description: 'Halal certified by a recognized authority, confirming the product complies with Islamic dietary laws and is permissible for consumption.',
     details: [
@@ -354,7 +354,7 @@ const labReports = [
   {
     name: 'Fulvic Acid &amp; Humic Extract',
     lab: 'Eurofins',
-    image: '/images/lab-reports/eurofins-fulvic-acid.jpg',
+    image: '/images/lab-reports/eurofins-fulvic-acid.webp',
     alt: 'Eurofins lab report showing 71.8% fulvic acid and 73.3% total humic extract',
     description: 'Independent verification of fulvic acid and humic extract concentration — the primary active compounds in shilajit that drive its health benefits.',
     result: '71.8% fulvic acid, 73.3% total humic extract',
@@ -362,7 +362,7 @@ const labReports = [
   {
     name: 'Fulvic Acid — California',
     lab: 'Micro Quality Lab',
-    image: '/images/lab-reports/micro-quality-fulvic-acid.jpg',
+    image: '/images/lab-reports/micro-quality-fulvic-acid.webp',
     alt: 'Micro Quality Labs California report showing 73% fulvic acid',
     description: 'Second independent confirmation from a US-based laboratory, ensuring the fulvic acid content is consistent across tests.',
     result: '73% fulvic acid',
