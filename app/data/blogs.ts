@@ -1255,5 +1255,6 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 }
 
 export function getRecentPosts(count: number): BlogPost[] {
-  return BLOG_POSTS.slice(0, count)
+  // Newest first so freshly added posts surface on the homepage preview.
+  return [...BLOG_POSTS].sort((a, b) => b.dateISO.localeCompare(a.dateISO)).slice(0, count)
 }

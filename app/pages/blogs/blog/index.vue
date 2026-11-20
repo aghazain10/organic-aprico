@@ -33,7 +33,8 @@
 import { BLOG_POSTS } from '~/data/blogs'
 import { buildBreadcrumbJsonLd, absoluteUrl, SITE_URL } from '~/utils/seo'
 
-const posts = BLOG_POSTS
+// Newest first so freshly added posts surface at the top of the listing.
+const posts = [...BLOG_POSTS].sort((a, b) => b.dateISO.localeCompare(a.dateISO))
 const { count: cartCount, openDrawer: openCart } = useCart()
 
 // JSON-LD titles are rendered as plain text, so decode the entities used in the data.
