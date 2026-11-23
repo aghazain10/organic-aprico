@@ -63,7 +63,7 @@
             </NuxtLink>
             <NuxtLink to="/certifications" class="contact-quicklink">
               <strong>Lab reports &amp; certifications</strong>
-              <span>Eurofins, PCSIR and Micro Quality Lab results, batch OA-2025-0307.</span>
+              <span>Eurofins and PCSIR results, batch OA-26-0408.</span>
             </NuxtLink>
             <NuxtLink to="/policies/refund-policy" class="contact-quicklink">
               <strong>Refund &amp; return policy</strong>
@@ -71,7 +71,7 @@
             </NuxtLink>
             <NuxtLink to="/policies/shipping-policy" class="contact-quicklink">
               <strong>Shipping &amp; delivery</strong>
-              <span>TCS in Pakistan (3&ndash;5 days), DHL worldwide (10&ndash;14 days).</span>
+              <span>Postex in Pakistan (3&ndash;5 days), DHL worldwide (10&ndash;14 days).</span>
             </NuxtLink>
           </div>
           <p class="contact-note">Need a batch lab report for a jar you already have? WhatsApp us the batch code printed on the box and we will send the matching report.</p>

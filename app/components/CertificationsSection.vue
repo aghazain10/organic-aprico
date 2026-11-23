@@ -149,18 +149,11 @@ type Lab = { name: string; location: string; long: string; images: string[] }
 
 const labs: Lab[] = [
   {
-    name: 'Micro Quality Lab',
-    location: 'California, USA',
-    long: 'US-based independent laboratory that verifies the fulvic acid concentration of our shilajit. Their analysis confirmed a 73% fulvic acid content, the primary active compound behind shilajit\'s benefits.',
-    images: ['/images/lab-reports/micro-quality-fulvic-acid.webp'],
-  },
-  {
     name: 'PCSIR Laboratories Complex',
     location: 'Lahore, Pakistan',
     long: 'Government laboratories complex testing every batch for heavy metals, microbiological safety and aflatoxins. All results come back clean — no lead, mercury, arsenic, cadmium or microbial contamination detected.',
     images: [
-      '/images/lab-reports/pcsir-heavy-metals.jpg',
-      '/images/lab-reports/pcsir-microbiological.jpg',
+      '/images/lab-reports/pcsir-heavy-metals-microbiological.jpg',
       '/images/lab-reports/pcsir-aflatoxin.jpg',
     ],
   },

@@ -3,7 +3,7 @@
     <div class="wrap purify-grid">
       <div class="purify-side">
         <h2>Eight stages from rock to jar</h2>
-        <p>Every batch passes eight stages before export. No chemicals at any point.</p>
+        <p>Every batch passes eight stages of 100% organic cold purification before export. No UV, no ozone, no chemicals.</p>
         <div class="stage-indicator" aria-hidden="true">
           <span class="stage-current">{{ activeStage }}</span>
           <span class="stage-of">of 8</span>
@@ -31,14 +31,14 @@
 
 <script setup lang="ts">
 const stages = [
-  { title: 'Extraction', desc: 'Hand-harvested above 17,000 feet in Gilgit Baltistan.' },
-  { title: 'Triphala soaking', desc: 'Soaked 3 to 7 days in RO water with Triphala to draw out heavy metals.' },
-  { title: 'Primary filtration', desc: 'Repeated filtering with glacier water removes sand and sediment.' },
-  { title: 'Purification', desc: 'Ion exchange, UV and ozonation remove metals, bacteria and fungus.' },
-  { title: 'Quality verification', desc: 'Mid-process testing against internal standards.' },
-  { title: 'Sun dehydration', desc: '40+ days in stainless steel under direct sun.' },
-  { title: 'Independent lab testing', desc: 'Micro Quality Lab, California confirms 73% fulvic acid and zero toxins.' },
-  { title: 'Batch coding and export clearance', desc: 'A unique batch number on every pack for full traceability.' },
+  { title: 'Ethical high-altitude extraction', desc: 'Hand-harvested above 17,000 feet in Gilgit-Baltistan by local mountain experts.' },
+  { title: 'Hand sorting & crushing', desc: 'Only pure Gold Grade rocks are selected and gently hand-crushed.' },
+  { title: 'Sun & organic Triphala cleansing', desc: 'Crushed rocks coated in Certified Organic Triphala paste under direct sunlight.' },
+  { title: 'Cool water dissolution & settling', desc: 'Dissolved in cool lab-tested RO water and settled 24 hours. Never boiled.' },
+  { title: 'Fine bag filtration', desc: 'The clean upper liquid is drawn off through food-grade filter bags.' },
+  { title: 'Natural heavy-metal ion-exchange', desc: 'Organic-compliant media locks heavy metals while preserving minerals and fulvic acid.' },
+  { title: 'Cold membrane ultra-filtration', desc: '5 → 1 → 0.2 → 0.1 micron membranes. No UV, ozone or chemicals.' },
+  { title: 'Sealed-chamber sun dehydration', desc: '40+ days in a sealed glass & stainless steel chamber under direct sunlight.' },
 ]
 
 const activeStage = ref(1)

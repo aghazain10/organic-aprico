@@ -14,7 +14,7 @@
           <h1>Shilajit Products &amp; Prices in Pakistan</h1>
           <p class="hub-lede">Three ways to buy Organic Aprico shilajit: gold-grade resin in jars, liquid drops for daily use, and bulk resin with private label for retailers and brands. Every product is the same 8-stage purified resin from our own extraction facility above 17,000 ft in Skardu, with batch-level lab reports.</p>
           <ul class="hub-facts">
-            <li><strong>73% fulvic acid</strong> &mdash; Micro Quality Lab, California</li>
+            <li><strong>73% fulvic acid</strong> &mdash; PCSIR and Eurofins</li>
             <li><strong>Batch code on every pack</strong> &mdash; lab report on request</li>
             <li><strong>Cash on delivery</strong> in Pakistan</li>
             <li><strong>3-day returns</strong> on retail orders</li>
@@ -128,7 +128,7 @@ const products = [
     bestFor: 'Best value per gram, and the format most buyers start with',
     summary: 'Gold-grade raw resin in 10 g, 20 g, 30 g, 50 g and 100 g glass jars. Label serving size 0.7 g, so 100 g gives about 142 servings.',
     trust: [
-      '73% fulvic acid — Micro Quality Lab, California',
+      '73% fulvic acid — PCSIR and Eurofins',
       'PCSIR heavy metals: non-detect',
       '8-stage purification, sun-dried 40+ days',
       'Batch code and lab report on every jar',

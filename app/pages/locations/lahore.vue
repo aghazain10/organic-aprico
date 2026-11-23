@@ -34,13 +34,13 @@
               <li><strong>Email:</strong> organicapricoskardu@gmail.com</li>
             </ul>
             <h2>What you can buy at the counter</h2>
-            <p>Everything on our website is available in store: shilajit resin in 10g, 20g, 30g, 50g and 100g jars, Shilajit Drops in 30ml and 60ml bottles, and bulk orders arranged on request. Each box carries its batch code, and we can print out or show the matching Eurofins, PCSIR and Micro Quality Lab results before you buy.</p>
+            <p>Everything on our website is available in store: shilajit resin in 10g, 20g, 30g, 50g and 100g jars, Shilajit Drops in 30ml and 60ml bottles, and bulk orders arranged on request. Each box carries its batch code, and we can print out or show the matching Eurofins and PCSIR results before you buy.</p>
           </div>
           <div>
             <h2>Order pickup</h2>
-            <p>Orders placed online with delivery inside Lahore can be collected from the outlet instead of shipping via TCS. Choose COD or pay in advance, WhatsApp us your order number when you are on the way, and we will have the parcel ready.</p>
+            <p>Orders placed online with delivery inside Lahore can be collected from the outlet instead of shipping via Postex. Choose COD or pay in advance, WhatsApp us your order number when you are on the way, and we will have the parcel ready.</p>
             <h2>Cash on delivery, online or in person</h2>
-            <p>Paying at the counter works exactly like COD online: inspect the sealed jar, check the batch code and tamper seal, then pay by cash, card, JazzCash or EasyPaisa. Nationwide COD orders placed online are dispatched from this address via TCS.</p>
+            <p>Paying at the counter works exactly like COD online: inspect the sealed jar, check the batch code and tamper seal, then pay by cash, card, JazzCash or EasyPaisa. Nationwide COD orders placed online are dispatched from this address via Postex.</p>
           </div>
         </div>
       </section>
@@ -49,7 +49,7 @@
         <div class="wrap">
           <h2>Finding us in DHA Phase 1</h2>
           <p>The outlet sits on D.H.A. Main Blvd, near Adil Hospital &mdash; the same junction known to anyone who drives DHA regularly. If you are coming from the Ring Road, take the phase exits toward Main Blvd and look for Lahore Organic Village on the main strip. On-street parking is available along Main Blvd, and the shops opposite Adil Hospital have additional paid parking.</p>
-          <p>Nearby areas we serve same-day: DHA Phases 1&ndash;6, Cantt, Gulberg, Model Town, Johar Town and Bahria Town. Outside these, your parcel rides TCS like any other COD order.</p>
+          <p>Nearby areas we serve same-day: DHA Phases 1&ndash;6, Cantt, Gulberg, Model Town, Johar Town and Bahria Town. Outside these, your parcel rides Postex like any other COD order.</p>
           <h2>Wholesale buyers</h2>
           <p>Retailers, resellers and private-label brands can visit the outlet to see the resin, the packaging options and the full lab and export documentation. Bulk quotes start at 1kg Rs 95,000, so <NuxtLink to="/products/pure-himalayan-shilajit-resin-wholesale">wholesale pricing</NuxtLink> is arranged in advance &mdash; WhatsApp us before travelling if you want samples or specific batch documentation ready for your meeting.</p>
         </div>
@@ -73,7 +73,7 @@
       <section class="lahore-section lahore-tint">
         <div class="wrap lahore-cta">
           <h2>Not near Lahore?</h2>
-          <p>We deliver nationwide with cash on delivery, usually within 3 to 5 working days via TCS.</p>
+          <p>We deliver nationwide with cash on delivery, usually within 3 to 5 working days via Postex.</p>
           <NuxtLink to="/products/shilajit" class="btn btn-gold">Order shilajit online from Rs 1,500</NuxtLink>
         </div>
       </section>
@@ -97,12 +97,12 @@ const faqs = [
     a: 'Yes. There is on-street parking along D.H.A. Main Blvd, and paid parking at the plazas opposite Adil Hospital. We are on the main strip, a short walk from both.',
   },
   {
-    q: 'Can I collect my online order at the shop instead of waiting for TCS?',
+    q: 'Can I collect my online order at the shop instead of waiting for Postex?',
     a: 'Yes. Place your order online, then WhatsApp us at +92 331 1116915 with your order number. We will hold the parcel at the counter for pickup during opening hours (11 AM–12 AM daily).',
   },
   {
     q: 'Is cash on delivery available?',
-    a: 'Yes, both ways: pay cash at the counter after inspecting your jar, or order online and pay cash to the TCS rider anywhere in Pakistan. Bank transfer, card, JazzCash and EasyPaisa are also accepted in store.',
+    a: 'Yes, both ways: pay cash at the counter after inspecting your jar, or order online and pay cash to the Postex rider anywhere in Pakistan. Bank transfer, card, JazzCash and EasyPaisa are also accepted in store.',
   },
   {
     q: 'Are all products in stock in Lahore?',

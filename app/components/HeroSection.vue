@@ -34,7 +34,7 @@
       <dl class="spec-row">
         <div><dt>Extraction altitude</dt><dd>Above 17,000 ft</dd></div>
         <div><dt>Fulvic acid, lab verified</dt><dd>73%</dd></div>
-        <div><dt>Natural minerals</dt><dd>84+</dd></div>
+        <div><dt>Natural minerals</dt><dd>85+</dd></div>
         <div><dt>Sun dehydration</dt><dd>40+ days</dd></div>
       </dl>
     </div>

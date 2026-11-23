@@ -26,7 +26,7 @@ Before choosing a brand, it is important to understand what makes Shilajit high-
 
 ## What Makes High-Quality Shilajit? The Science Behind It
 
-Real Shilajit contains more than 84 trace minerals and many active compounds. But three things are most important. These are the Origin, Fulvic Acid ratio, and Dibenzo alpha pyrones.
+Real Shilajit contains more than 85 trace minerals and many active compounds. But three things are most important. These are the Origin, Fulvic Acid ratio, and Dibenzo alpha pyrones.
 
 These compounds help boost energy, support cells, and improve how your body absorbs nutrients.
 
@@ -67,7 +67,7 @@ If you want the best results, resin is the top choice. Just make sure it comes f
 
 **Form: **Pure resin
 **Fulvic Acid:** 73 percent high quality Himalayan Shilajit
-**Third party tested:** Yes, by PCSIR, Eurofins, Micro Quality Lab, California
+**Third party tested:** Yes, by PCSIR and Eurofins
 **Certifications:** ISO 9001, ISO 22000, GMP, Halal, HACCP
 **Price range:** Justified
 
@@ -81,75 +81,75 @@ The Shilajit is collected by hand from the mountains of Gilgit Baltistan at heig
 
 ## Their 8 Stage Purification Process
 
-Organic Aprico follows a detailed Filtration and purification process to ensure purity and safety. Nothing is added; only remove heavy metals and microbes.
+Organic Aprico follows an 8-stage, 100% organic cold purification process inside an ISO 22000, HACCP, and GMP-certified facility to ensure purity and safety. Nothing is added; only heavy metals and microbes are removed.
 
-### Step 1 Extraction Above 17000 Feet
-
-**How**
-Raw Shilajit is carefully hand-harvested from the Himalayan mountains of Gilgit Baltistan at altitudes above 18000 feet.
-
-**Why**
-Altitude plays a critical role in Shilajit quality. At extreme heights, the natural geological pressure and mineral-rich environment help form resin with higher fulvic acid and mineral content. These remote areas are also free from industrial pollution and agricultural chemicals, ensuring a cleaner and more authentic source of Shilajit.
-
-### Step 2: Initial Natural Cleaning
+### Step 1 Ethical High-Altitude Extraction by Local Experts
 
 **How**
-After collection, the raw Shilajit is carefully cleaned to remove visible stones, sand, and surface debris before further processing.
+Raw Shilajit is ethically and sustainably hand-harvested above 17,000 feet in the untouched Himalayan mountains of Gilgit-Baltistan by experienced local mountain experts.
 
 **Why**
-This step ensures that large impurities are removed at the earliest stage. By separating natural debris first, the following purification stages can focus on refining the resin without damaging its natural composition.
+Altitude plays a critical role in Shilajit quality. At extreme heights, the natural geological pressure and mineral-rich environment help form resin with higher fulvic acid and mineral content. Only rare, authentic Gold Grade rocks naturally rich in dense resin are selected, and these remote areas are free from modern pollution, ensuring a cleaner and more authentic source of Shilajit.
 
-### Step 3 Filtration Using RO Water and Glacier Water
+### Step 2: Hand Sorting & Crushing
 
 **How**
-The raw resin is slowly filtered using a combination of Reverse Osmosis purified water and natural glacier water through repeated filtration cycles.
+Every rock is inspected by hand so only pure, high-concentration Gold Grade pieces are selected, then gently hand-crushed into small pieces.
 
 **Why**
-RO water prevents external contaminants from entering the process, while glacier water supports the natural mineral balance of the resin. This combination gently cleans the Shilajit while preserving its natural nutrients and active compounds.
+Hand sorting removes stones, sand, and surface debris at the earliest stage, and gentle crushing lets the rocks dissolve naturally without releasing excess grit. The following purification stages can then focus on refining the resin without damaging its natural composition.
 
-### Step 4 Triphala Soaking for Natural Heavy Metal Removal
+### Step 3 Sun Exposure & Organic Triphala Cleansing
 
 **How**
-The filtered Shilajit is soaked in RO-purified water mixed with Triphala for several days before the next stage of purification.
+Following classical Ayurvedic tradition, the crushed rocks are spread under direct sunlight and coated in a paste of 100% Certified Organic Triphala.
 
 **Why**
-Triphala is a traditional Ayurvedic blend of three powerful herbs known for its natural detoxifying ability. It helps bind and draw out heavy metals such as lead, arsenic, and mercury from the resin without the use of chemicals, while protecting the natural fulvic acid content.
+Triphala is a traditional Ayurvedic blend of three powerful herbs known for its natural detoxifying ability. This herbal blend works with solar energy to eliminate surface bacteria and bind heavy metals such as lead, arsenic, and mercury before extraction begins, without the use of chemicals, while protecting the natural fulvic acid content.
 
-### Step 5 Ultra Filtration and Purification
+### Step 4 Cool Lab-Tested Water Dissolution & 24-Hour Settling
 
 **How**
-The resin is processed through our advanced ultra-filtration and purification system to remove microscopic particles and remaining impurities.
+The rocks are never boiled or heat-cooked. They slowly dissolve in cool, lab-tested RO water and rest undisturbed a full 24 hours.
 
 **Why**
-This step refines the resin to a higher level of purity by separating unwanted particles that cannot be removed through simple filtration. It prepares the Shilajit for the final purification stages while maintaining its natural potency.
+High heat destroys bioactives, so cold dissolution protects them. Lab-tested RO water prevents external contaminants from entering the process, and the full 24-hour rest lets heavy stones, sand, and sediment settle naturally to the bottom.
+
+### Step 5 Fine Bag Filtration
+
+**How**
+Only the clean upper liquid is drawn off and passed through ultra-fine, food-grade filter bags.
+
+**Why**
+This captures every trace of herbal fiber and fine silt, refining the resin to a higher level of purity while maintaining its natural potency and preparing it for the final purification stages.
 
 ![Shilajit Purification Plant by Organic Aprico](https://cdn.shopify.com/s/files/1/0874/2092/8164/files/3_600x600.jpg?v=1774576265)
 
-### Step 6 UV Treatment and Ozonation
+### Step 6 Natural Heavy-Metal Purification (Selective Ion-Exchange & Bonding)
 
 **How**
-The purified Shilajit undergoes ultraviolet light treatment followed by controlled ozonation at our purification facility.
+The liquid flows through a vessel of natural, organic-compliant filtration media that selectively locks onto unwanted heavy-metal ions via natural ion-exchange and molecular bonding.
 
 **Why**
-UV treatment destroys harmful microbes such as bacteria and fungi without the use of chemicals or heat. Ozonation then helps neutralize remaining contaminants and trace impurities at a molecular level, ensuring deep purification while protecting the natural compounds of Shilajit.
+Purified Shilajit with its essential trace minerals and high fulvic acid passes through untouched — no synthetic chemicals are used, so the natural mineral balance of the resin is fully preserved.
 
-### Step 7: Natural Sun Drying for 40 Days
+### Step 7: Multi-Stage Membrane & Ultra-Filtration (5 µm → 1 µm → 0.2 µm → 0.1 µm)
 
 **How**
-The purified resin is placed in stainless steel containers and naturally dried under sunlight for more than 40 days.
+The solution passes through progressively finer physical membranes — 5, 1, 0.2, and 0.1 micron — in a fully cold process.
 
 **Why**
-Natural sun drying allows the resin to slowly reach its ideal moisture level while preserving its full mineral profile. Artificial heating can damage fulvic acid and reduce potency, but slow sun drying protects the bioavailability and strength of the final Shilajit resin.
+This cold sterilization guarantees microbiological safety without UV radiation, ozone, or chemical solvents. It blocks 99.99% of bacteria and micro-impurities while keeping every heat-sensitive nutrient intact.
 
-### Step 8: Independent Lab Testing and Batch Certification
+### Step 8: Direct Sunlight Dehydration in a Sealed Glass & Stainless Steel Chamber
 
 **How**
-Each finished batch is sent to trusted laboratories for independent testing and is assigned a unique batch number printed on every jar.
+The sterile purified liquid is poured into shallow food-grade trays inside a sealed, ventilated glass chamber framed in food-grade stainless steel and naturally dried under direct sunlight for more than 40 days.
 
 **Why**
-Third-party testing verifies that the Shilajit is free from heavy metals, microbes, and harmful impurities. The batch number ensures complete traceability, allowing every jar to be linked back to its exact production cycle and laboratory report. This guarantees transparency, safety, and authenticity for customers around the world.
+Filtered airflow carries away evaporating moisture while keeping dust, insects, and airborne contaminants out, letting natural sunlight slowly thicken the extract into glossy, potent, raw Gold Grade Shilajit resin. Artificial heating can damage fulvic acid and reduce potency, but slow sun drying protects the full mineral profile, bioavailability, and strength of the final resin.
 
-The final product contains 73 percent fulvic acid and is free from heavy metals, toxins, microbes, and chemicals. This is confirmed by trusted laboratories.
+The final product contains 73 percent fulvic acid and is free from heavy metals, toxins, microbes, and chemicals. Every batch is independently third-party lab tested and assigned a unique batch number printed on every jar, linking it back to its exact production cycle and laboratory report. This is confirmed by trusted laboratories.
 
 ![](https://cdn.shopify.com/s/files/1/0874/2092/8164/files/Shilajit_Purification.png?v=1773663964)
 
@@ -221,7 +221,7 @@ A good option for beginners or buyers who want decent quality at a more affordab
 
 | ***Brand*** | ***Form*** | ***Fulvic Acid*** | ***Own Extraction*** | ***3rd Party Tested*** | ***Certifications*** | ***Price*** |
 | --- | --- | --- | --- | --- | --- | --- |
-| ***Organic Aprico*** | ***Resin*** | ***73% Gold Grade*** | ***Yes — Direct*** | ***PCSIR, Eurofins, MQL California*** | ***ISO, GMP, Halal, HACCP*** | ***$$$*** |
+| ***Organic Aprico*** | ***Resin*** | ***73% Gold Grade*** | ***Yes — Direct*** | ***PCSIR, Eurofins*** | ***ISO, GMP, Halal, HACCP*** | ***$$$*** |
 | ***PurBlack*** | ***Resin/Caps*** | ***Standardised*** | ***No*** | ***Yes*** | ***GMP*** | ***$$$$*** |
 | ***Black Lotus Shilajit*** | ***Resin*** | ***Stated*** | ***No*** | ***Yes*** | ***Limited*** | ***$$$$*** |
 
@@ -277,7 +277,7 @@ New forms like capsules and advanced formulas will continue to grow. But the mos
 
 Choosing the best Shilajit comes down to one simple question. Do you really know what you are taking and where it comes from? Organic Aprico gives a clear and honest answer with open production, verified lab testing, and full traceability. It is the only native extractor and exporter of Himalayan Shilajit, offering 73 percent fulvic acid gold grade quality. 
 
-The product goes through an advanced filtration and purification method with no chemicals and is sun-dried for over 40 days to keep its natural strength. It is tested by trusted labs, including PCSIR, Eurofins, and Micro Quality Lab California, and certified with ISO, GMP, Halal, and HACCP standards. 
+The product goes through an advanced filtration and purification method with no chemicals and is sun-dried for over 40 days to keep its natural strength. It is tested by trusted labs, including PCSIR and Eurofins, and certified with ISO, GMP, Halal, and HACCP standards. 
 
 > 
 The production facility is open for visits, which builds trust and transparency. Organic Aprico is trusted by customers in the UK, USA, and many other countries. Organic Aprico stands as the best Shilajit brand in the world, the source, and the standard.
@@ -387,7 +387,7 @@ In Pakistan, PCSIR: Pakistan Council of Scientific and Industrial Research is a 
 
 **Purity and authenticity: **Confirm that the Shilajit is genuine and rich in natural minerals. Pure Shilajit contains more than 85 essential minerals along with a high level of fulvic acid.
 
-For example, Organic Aprico Shilajit contains up to 73% fulvic acid, tested by third-party laboratories such as Eurofins and Micro Quality Lab in California, USA. This high fulvic acid content is a strong sign of quality and effectiveness.
+For example, Organic Aprico Shilajit contains up to 73% fulvic acid, tested by third-party laboratories such as Eurofins. This high fulvic acid content is a strong sign of quality and effectiveness.
 
 > 
 Lab testing is not just a formality. It is your safety guarantee. Always choose Shilajit that comes with clear and authentic lab reports.
@@ -425,7 +425,7 @@ One trusted name is Organic Aprico, recognized as one of the best Shilajit brand
 
 **Licensed and Transparent Processing:** Organic Aprico is the only licensed producer from Skardu. They use ultra-filtration and advanced purification units in both Skardu and Lahore. Customers can even visit their facilities to see the purification process firsthand, ensuring complete transparency and safety.
 
-**Third-Party Lab Tested: **Every batch of Organic Aprico Shilajit is tested by Micro Quality Labs, California, and certified by PCSIR (Pakistan Council of Scientific and Industrial Research). The results show:
+**Third-Party Lab Tested: **Every batch of Organic Aprico Shilajit is tested by Eurofins and certified by PCSIR (Pakistan Council of Scientific and Industrial Research). The results show:
 
 - ***No heavy metals detected***
 - ***85+ essential minerals***
@@ -581,7 +581,7 @@ Organic Aprico stands out as the [best Shilajit in Pakistan](https://organicapri
 Follows** ****8-stage purification**** process** combining traditional and scientific methods.
 Operates **Pakistan’s first dedicated Shilajit purification unit**.
 Certified by **ISO 9001, GMP, Halal, and HACCP**.**
-****Lab tested** Shilajit by **PCSIR, Pakistan**, and internationally recognized labs like **Eurofins and Micro Quality Lab, California.**
+****Lab tested** Shilajit by **PCSIR, Pakistan**, and internationally recognized labs like **Eurofins.**
 Ensures unmatched **authentic Shilajit**** **quality, purity, and excellence.
 Trusted by **millions of customers worldwide** with positive reviews.
 Exports globally, ensuring **safe and [high-quality Shilajit](https://organicaprico.com/blogs/blog/best-shilajit-in-norway-2026-discover-pure-himalayan-energy-with-organic-aprico)** for both National and International buyers.
@@ -655,11 +655,11 @@ When it comes to buying authentic Shilajit in Norway, purity, quality, and trust
 
 **Pure Himalayan Resin:** Each batch contains only genuine Shilajit without fillers or additives, ensuring maximum potency and 85+ mineral content.
 
-**Lab-Tested and Certified:** Every jar undergoes rigorous testing at the Pakistan Council of Scientific and Industrial Research (PCSIR) and trusted international labs such as Eurofins and Micro Quality Lab, California, USA. These tests confirm that the resin is free from heavy metals, harmful microbes, impurities and, high in fulvic acid content meeting Norwegian and global safety standards.
+**Lab-Tested and Certified:** Every jar undergoes rigorous testing at the Pakistan Council of Scientific and Industrial Research (PCSIR) and trusted international labs such as Eurofins. These tests confirm that the resin is free from heavy metals, harmful microbes, impurities and, high in fulvic acid content meeting Norwegian and global safety standards.
 
 **High-Altitude Harvesting:**** **Organic Aprico gold-grade Shilajit rocks are handpicked from altitudes of 17,000 to 18,000 feet, producing resin with the highest concentration of active minerals and up to 73% fulvic acid, according to lab reports.
 
-**Traditional and Modern Purification:** Using a four-step ultra-filtration and purification process, the Shilajit is purified without chemicals, relying on advanced methods like UV treatment and ozonation. After purification, it is sun-dried for over 40 days to preserve effectiveness, purity, and natural potency.
+**Traditional and Modern Purification:** Using an 8-stage, 100% organic cold ultra-filtration and purification process, the Shilajit is purified without chemicals, UV or ozone, relying on Organic Triphala paste cleansing, natural heavy-metal ion-exchange and cold membrane ultra-filtration. After purification, it is sun-dried for over 40 days to preserve effectiveness, purity, and natural potency.
 
 **Transparency and Traceability:** Each batch is assigned a unique batch number, ensuring authenticity and full traceability. The purification facility is open for inspection, reflecting Organic Aprico’s commitment to honesty and quality.
 
@@ -878,7 +878,7 @@ The best shilajit for women is Organic Aprico Himalayan Shilajit. **
 
 Shilajit prices vary widely across the UK and USA due to differences in quality, origin, and purification methods. Cheap Shilajit found online is often fake or chemically treated, lacking real minerals and fulvic acid. These low-cost imitations may look similar but provide no genuine health benefits.
 
-Trusted shilajit producer like Organic Aprico, based in Skardu, Gilgit-Baltistan, follow a scientific six-step purification system that ensures purity, safety, and natural potency. This advanced process makes Organic Aprico’s Pure Himalayan Shilajit one of the most authentic and high-quality resins available worldwide. Below, we’ll see what affects the cost of different types of Shilajit.
+Trusted shilajit producer like Organic Aprico, based in Skardu, Gilgit-Baltistan, follow an 8-stage, 100% organic cold purification process that ensures purity, safety, and natural potency. This advanced process makes Organic Aprico’s Pure Himalayan Shilajit one of the most authentic and high-quality resins available worldwide. Below, we’ll see what affects the cost of different types of Shilajit.
 
 ## The 6 Main Types of Shilajit in the Market
 
@@ -894,7 +894,7 @@ Not all Shilajit is the same. Its origin, mineral content, and purification meth
 
 **Indian Shilajit: **Some Indian producers claim to purify Shilajit using chemical or traditional methods (such as Cow Urine) that are not scientifically safe. These practices often destroy essential minerals and nutrients. Though the final product may appear glossy or rich, it lacks purity and authenticity. Most of these products are over processed and unhygienically handled, making them ineffective.
 
-**Pure Himalayan Shilajit (Organic Aprico): **The Pure Himalayan Shilajit from the mountains of Gilgit-Baltistan, Pakistan, is considered the gold standard worldwide. It is sourced from high-altitude Himalayan rocks and contains 85+ minerals, high levels of fulvic acid, and powerful trace elements that nourish the body naturally. Organic Aprico produces one of the best Shilajit brands in the world, following a scientific, ultra-filtration purification process and a 40+ day sunlight dehydration method. This careful process preserves all natural compounds, ensuring authentic, potent, and lab-tested Himalayan Shilajit — trusted in both the UK and USA markets.
+**Pure Himalayan Shilajit (Organic Aprico): **The Pure Himalayan Shilajit from the mountains of Gilgit-Baltistan, Pakistan, is considered the gold standard worldwide. It is sourced from high-altitude Himalayan rocks and contains 85+ minerals, high levels of fulvic acid, and powerful trace elements that nourish the body naturally. Organic Aprico produces one of the best Shilajit brands in the world, following an 8-stage, 100% organic cold ultra-filtration purification process and a 40+ day sunlight dehydration method. This careful process preserves all natural compounds, ensuring authentic, potent, and lab-tested Himalayan Shilajit — trusted in both the UK and USA markets.
 
 ## Comparison that affects the cost of Shilajit 
 
@@ -912,37 +912,41 @@ Not all Shilajit is the same. Its origin, mineral content, and purification meth
 ## 
 **
 
-## The 8-Step Purification Process That Defines Quality
+## The 8-Stage Purification Process That Defines Quality
 
-The secret behind Organic Aprico’s excellence lies in its scientific purification method, which makes its pure Himalayan Shilajit one of the finest in the UK and USA markets. Each batch goes through a detailed six-step process to ensure purity, safety, and maximum potency.
+The secret behind Organic Aprico’s excellence lies in its scientific purification method, which makes its pure Himalayan Shilajit one of the finest in the UK and USA markets. Each batch goes through a detailed 8-stage, 100% organic cold process to ensure purity, safety, and maximum potency.
 
-### Step 1: Soaking
+### Step 1: Ethical High-Altitude Extraction by Local Experts
 
-Raw Shilajit rocks are soaked in pure RO water for several weeks. This gentle process allows the natural release of fulvic acid while heavy particles and sediments settle at the bottom. The Shilajit resin then separates naturally from the rocks, ensuring that only active compounds are extracted.
+Raw Shilajit is ethically and sustainably harvested above 17,000 feet in the untouched Himalayan mountains of Gilgit-Baltistan by experienced local mountain experts. Only rare, authentic Gold Grade rocks naturally rich in dense resin and free from modern pollution are selected.
 
-### Step 2: Traditional Filtration
+### Step 2: Hand Sorting & Crushing
 
-The soaked shilajit rocks are carefully filtered to remove soil, dust, and all visible or hidden impurities. Organic Aprico combines both traditional Himalayan wisdom and modern scientific techniques to achieve crystal-clear filtration.
+Every rock is inspected by hand so only pure, high-concentration Gold Grade pieces are selected, then gently hand-crushed into small pieces so they dissolve naturally without releasing excess grit.
 
-### Step 3: Modern Filtration
+### Step 3: Sun Exposure & Organic Triphala Cleansing
 
-The solution then undergoes advanced filtration, allowing the tiniest particles to be absorbed and leaving no trace of residue.
+Following classical Ayurvedic tradition, the crushed rocks are spread under direct sunlight and coated in a paste of 100% Certified Organic Triphala. This herbal blend works with solar energy to eliminate surface bacteria and bind heavy metals before extraction begins.
 
-### Step 4: Ultra Purification
+### Step 4: Cool Lab-Tested Water Dissolution & 24-Hour Settling
 
-In this stage, the Shilajit passes through a specialized purification unit designed to absorb and remove heavy metals without adding any chemicals. 
+The rocks are never boiled or heat-cooked, because high heat destroys bioactives. They slowly dissolve in cool, lab-tested RO water and rest undisturbed a full 24 hours so heavy stones, sand, and sediment settle naturally to the bottom. The Shilajit resin then separates naturally from the rocks, ensuring that only active compounds are extracted.
 
-### Step 5: Ultraviolet Treatment
+### Step 5: Fine Bag Filtration
 
-Once purified, it undergoes ultraviolet light treatment to safely eliminate bacteria and other microorganisms, ensuring a clean and safe shilajit. 
+Only the clean upper liquid is drawn off and passed through ultra-fine, food-grade filter bags to capture every trace of herbal fiber and fine silt, leaving no trace of residue.
 
-### Step 6: Ozone Treatment 
+### Step 6: Natural Heavy-Metal Purification (Selective Ion-Exchange & Bonding)
 
-Finally, the Shilajit is treated with ozone (O₃) to neutralize any remaining microbes by removing oxygen from the tank for a short duration. 
+The liquid flows through a vessel of natural, organic-compliant filtration media that selectively locks onto unwanted heavy-metal ions via natural ion-exchange and molecular bonding, letting purified Shilajit with its essential trace minerals and high fulvic acid pass through untouched — no synthetic chemicals.
 
-## Sunlight Dehydration
+### Step 7: Multi-Stage Membrane & Ultra-Filtration (5 µm → 1 µm → 0.2 µm → 0.1 µm)
 
-It is then slowly dehydrated under direct sunlight for more than 40 days until it returns to its original form — pure Shilajit resin. This natural drying method preserves essential minerals, gives high fulvic acid content, and the resin’s natural potency.
+To guarantee microbiological safety without UV radiation, ozone, or chemical solvents, the solution passes through progressively finer physical membranes (5 → 1 → 0.2 → 0.1 micron). This cold sterilization blocks 99.99% of bacteria and micro-impurities while keeping every heat-sensitive nutrient intact.
+
+## Step 8: Sunlight Dehydration in a Sealed Glass & Stainless Steel Chamber
+
+The sterile purified liquid is poured into shallow food-grade trays inside a sealed, ventilated glass chamber framed in food-grade stainless steel. Filtered airflow carries away evaporating moisture while keeping dust, insects, and airborne contaminants out, and the extract is slowly dehydrated under direct sunlight for more than 40 days until it returns to its original form — pure Shilajit resin. This natural drying method preserves essential minerals, gives high fulvic acid content, and the resin’s natural potency.
 
 This long, sun-based dehydration gives Organic Aprico’s Pure Himalayan Shilajit its deep aroma, rich color, and powerful results, making it the best shilajit brand in the world.
 
@@ -1058,7 +1062,7 @@ When it comes to choosing a reliable source, Organic Aprico Himalayan Shilajit s
 
 **Legacy of Trust:** Established in 1972, Organic Aprico has a long-standing history of delivering pure products.
 
-**Strict Lab Testing: **Every batch is tested by PCSIR and MicroQuality Labs, California, confirming 73% fulvic acid content with no heavy metals.
+**Strict Lab Testing: **Every batch is tested by PCSIR and Eurofins, confirming 73% fulvic acid content with no heavy metals.
 
 **Advanced Purification: **Processed in Pakistan’s first ultra-filtration and purification unit for maximum purity and safety.
 
@@ -1165,7 +1169,7 @@ When it comes to boosting testosterone and supporting men’s hormone health, Or
 - **Licensed Producer**
 - **High-Altitude Source (above 17,000 ft, extracting Gold-Grade Shilajit from the Himalayan mountains of Skardu, Gilgit-Baltistan)**
 - **Legacy of Trust (established in 1972)**
-- **Strict Lab Testing (tested by PCSIR and MicroQuality Labs, California — 73% fulvic acid, no heavy metals)**
+- **Strict Lab Testing (tested by PCSIR and Eurofins — 73% fulvic acid, no heavy metals)**
 - **Advanced Purification (Pakistan’s first ultra-filtration and purification unit)**
 - **Sun-Dried (over 40 days for maximum potency)**
 - **Transparency & Authenticity (open production facility for visitors)**
@@ -1300,7 +1304,7 @@ Always check the Shilajit import VAT, coordinate with the sender, and stay updat
 - **Licensed Producer from the Himalayan Region**
 - **High-Altitude Source (above 17,000 ft, extracting Gold-Grade Shilajit from the Himalayan mountains of Skardu, Gilgit-Baltistan)**
 - **Legacy of Trust (established in 1972)**
-- **Strict Lab Testing (tested by PCSIR and Certified Laboratories (Micro Quality Labs, California) — 73% fulvic acid, no heavy metals)**
+- **Strict Lab Testing (tested by PCSIR and Certified Laboratories (Eurofins) — 73% fulvic acid, no heavy metals)**
 - **Advanced Purification (Pakistan’s first Shilajit ultra-filtration and purification unit)**
 - **Sun-Dried (over 40 days for maximum potency)**
 - **Transparency & Authenticity (open production facility for visitors)**
@@ -1402,7 +1406,7 @@ Once you know the features of authentic Shilajit, the next step is choosing a br
 
 **Lab Tested:** Only 2–3 carefully prepared batches are produced each year. Every batch is lab-tested by PCSIR (Pakistan Council of Scientific and Industrial Research) and certified by trusted third-party labs. 
 
-**Purification Process:** Their world-class production facility, centres in Skardu and Lahore, follow a 8-step ultra-filtration and purification process, combining traditional and modern methods. No chemicals are used, as they rely only on advanced techniques like UV treatment and ozonation.
+**Purification Process:** Their world-class production facility, centres in Skardu and Lahore, follow an 8-stage, 100% organic cold ultra-filtration and purification process, combining traditional and modern methods. No chemicals, UV or ozone are used — only Organic Triphala cleansing, natural heavy-metal ion-exchange and cold membrane ultra-filtration.
 
 **Sun-Dried for Potency:** After purification, the Shilajit resin is sun-dried for over 40 days to maintain purity, safety, and effectiveness.
 
@@ -1510,7 +1514,7 @@ When it comes to bulk Shilajit supply, quality and authenticity matter most. Who
 
 ### **Form:**** **Offered in its purest resin form, not in powder or capsule form.
 
-**Testing:** Each batch of Organic Aprico Shilajit is lab tested by PCSIR, and COA by third-party labs in Pakistan and the Micro Quality Lab USA.
+**Testing:** Each batch of Organic Aprico Shilajit is lab tested by PCSIR, and COA by third-party labs in Pakistan and Eurofins.
 
 **Purity:** Free from heavy metals, microbes, and impurities, while retaining over 85+ minerals and 73% fulvic acid.
 
@@ -1585,7 +1589,7 @@ German consumers are especially cautious when it comes to supplements, and they 
 
 ### Third-Party Lab Tested for German Standards: 
 
-Every batch is tested by Micro Quality Labs, California, and certified by PCSIR (Pakistan Council of Scientific and Industrial Research). Test results confirm:
+Every batch is tested by Eurofins and certified by PCSIR (Pakistan Council of Scientific and Industrial Research). Test results confirm:
 
 - **No heavy metals detected**
 - **85+ essential minerals**
@@ -1764,17 +1768,17 @@ Shilajit resin is the purest and most recommended form of Shilajit. It appears b
 Authentic Himalayan Shilajit is extracted from the high-altitude Himalayan Mountains of Skardu, Gilgit Baltistan, at elevations above 17,000 feet. The production involves:
 
 - 
-Soaking Himalayan rocks in water for a week until Shilajit completely dissolves in water.**
+Hand sorting and gentle crushing of Gold Grade rocks, followed by sun exposure and Organic Triphala paste cleansing.**
 
 - 
-Manually removing impurities using strainers.
+Slow dissolution in cool, lab-tested RO water with a full 24-hour settling period, then fine bag filtration to remove every trace of herbal fiber and silt.
 
 - 
-The Solution passes through Ultra-filtration and Purification, and it removes heavy metals, microbes, fungus, and bacteria.
+The solution passes through natural heavy-metal ion-exchange and cold multi-stage ultra-filtration (5 µm → 1 µm → 0.2 µm → 0.1 µm), removing heavy metals, microbes, fungus, and bacteria without UV, ozone or chemicals.
 
 - No additives, No Short Cuts
 - 
-Sun-drying for 40 days to achieve resin form.
+Sun-drying for 40 days in a sealed glass and food-grade stainless steel chamber to achieve resin form.
 
 - 
 Lab testing to ensure purity and potency.
@@ -1951,9 +1955,7 @@ Third-Party Verified
 
 ✔ **PCSIR** — Pakistan Council of Scientific & Industrial Research
 
-✔ **Eurofins** — International Testing Authority
-
-✔ **Micro Quality Lab, California, USA**
+✔ **Eurofins** — International Testing Authority
 
  
 
@@ -1995,7 +1997,7 @@ But trust doesn't come from packaging alone; it depends on the transparency of t
 
 At Organic Aprico, transparency is at the heart of everything we do. From offering Shilajit in glass jars with tamper-proof seals to maintaining open communication with every client, we make sure our customers know exactly what they're getting.
 
-Organic Aprico proudly holds all the necessary certifications, including an official extraction license, lab reports from PCSIR and [Micro Quality Lab California USA, ](https://organicaprico.com/products/shilajit)confirming 64%–74% fulvic acid, and the presence of essential minerals and humic substances. Every batch is tested to ensure it's free from heavy metals, harmful bacteria, and toxins. 
+Organic Aprico proudly holds all the necessary certifications, including an official extraction license, lab reports from PCSIR and [Eurofins, ](https://organicaprico.com/products/shilajit)confirming 64%–74% fulvic acid, and the presence of essential minerals and humic substances. Every batch is tested to ensure it's free from heavy metals, harmful bacteria, and toxins. 
 
 We also hold an export license, which enables smooth customs clearance worldwide, making it easy for our customers across the globe to receive pure, and the Best Shilajit to buy without hassle.
 
@@ -2503,15 +2505,23 @@ Gilgit-Baltistan is famous for its high-quality Shilajit. The purest form comes 
 
 Shilajit has been used in traditional medicine for centuries. Today, more people choose it over artificial energy supplements. Its natural strength makes it a trusted source of vitality and wellness.
 
-# **Authentic Shilajit: 4 Key Steps of Shilajit Purification**
+# **Authentic Shilajit: 8 Key Steps of Shilajit Purification**
 
-Shilajit is a powerful natural supplement. But not all brands sell it in pure form. Some are contaminated, diluted, or processed with chemicals. To get authentic and safe Shilajit, check if the brand follows these **four purification steps:**
+Shilajit is a powerful natural supplement. But not all brands sell it in pure form. Some are contaminated, diluted, or processed with chemicals. To get authentic and safe Shilajit, check if the brand follows these **eight purification steps:**
 
 ✔ **Extraction**
 
-✔ **Filtration**
+✔ **Hand Sorting & Crushing**
 
-✔ **Purification**
+✔ **Sun Exposure & Organic Triphala Cleansing**
+
+✔ **Cool Water Dissolution & 24-Hour Settling**
+
+✔ **Fine Bag Filtration**
+
+✔ **Natural Heavy-Metal Purification**
+
+✔ **Multi-Stage Ultra-Filtration**
 
 ✔ **Dehydration**
 
@@ -2519,19 +2529,35 @@ If a brand follows this process, its Shilajit is safe, potent, and 100% natural.
 
 Each step is crucial in refining raw Shilajit into a pure, potent, and safe product. Let’s explore each phase in detail.
 
-## **Step 1: Extraction from the Himalayas**
+## **Step 1: Ethical High-Altitude Extraction**
 
 Pure Shilajit comes from the Himalayan mountains at an altitude of 17,000 feet or higher. This high-altitude environment ensures the resin is packed with high fulvic acid and more essential minerals.
 
-Organic Apricot sources Gold-Grade Shilajit from Gilgit-Baltistan, a region known for its mineral-rich environment. If a brand does not disclose its source, its quality is questionable.
+Organic Aprico sources Gold-Grade Shilajit from Gilgit-Baltistan, a region known for its mineral-rich environment, where experienced local mountain experts ethically and sustainably harvest only rare, authentic rocks naturally rich in dense resin and free from modern pollution. If a brand does not disclose its source, its quality is questionable.
 
 ✅ **Look for** High-altitude ranges like the Himalayan Mountains Shilajit.
 
  ❌ **Avoid:** Low-altitude or lab-processed Shilajit.
 
-## **Step 2: Filtration for Maximum Purity**
+## **Step 2: Hand Sorting & Crushing**
 
-Raw Shilajit contains sand, dirt, and other impurities. A trusted brand filters it using glacier water to remove unwanted particles. This process is repeated over several weeks to ensure the highest purity level.
+Every rock is inspected by hand so only pure, high-concentration Gold Grade pieces are selected, then gently hand-crushed into small pieces so they dissolve naturally without releasing excess grit.
+
+✅ **Look for** Brands that hand-select and gently crush their rocks.
+
+ ❌ **Avoid:** Unsorted or machine-ground raw material.
+
+## **Step 3: Sun Exposure & Organic Triphala Cleansing**
+
+Following classical Ayurvedic tradition, the crushed rocks are spread under direct sunlight and coated in a paste of 100% Certified Organic Triphala. This herbal blend works with solar energy to eliminate surface bacteria and bind heavy metals before extraction begins.
+
+✅ **Look for** Traditional Ayurvedic Triphala paste cleansing.
+
+ ❌ **Avoid:** Chemical washes or solvent cleaning.
+
+## **Step 4: Cool Lab-Tested Water Dissolution & 24-Hour Settling**
+
+Raw Shilajit contains sand, dirt, and other impurities. A trusted brand never boils or heat-cooks the rocks, because high heat destroys bioactives. Instead, the rocks slowly dissolve in cool, lab-tested RO water and rest undisturbed a full 24 hours so heavy stones, sand and sediment settle naturally to the bottom.
 
 Organic Aprico also uses Ultra Filtration and Purification (8 Stages), a scientific method that separates pure minerals from impurities without harsh chemicals. This preserves Shilajit's nutritional value and potency.
 
@@ -2539,7 +2565,11 @@ Organic Aprico also uses Ultra Filtration and Purification (8 Stages), a scienti
 
  ❌ **Avoid:** Products that do not mention their filtration process.
 
-## **Step 3: Purification for Safety**
+## **Step 5: Fine Bag Filtration**
+
+Only the clean upper liquid is drawn off and passed through ultra-fine, food-grade filter bags to capture every trace of herbal fiber and fine silt.
+
+## **Step 6: Natural Heavy-Metal Purification**
 
 Shilajit must be free from heavy metals, bacteria, and toxins. A reliable brand removes harmful substances like:
 
@@ -2549,15 +2579,19 @@ Shilajit must be free from heavy metals, bacteria, and toxins. A reliable brand 
 
  ❌ Bacteria and fungi
 
-Organic Aprico follows strict purification methods that combine ancient techniques with modern refinement. This ensures a safe, potent, and effective product. You can visit our [Ultra Filtration and Purification unit of Shilajit](https://g.co/kgs/FcqZbYN) in Lahore and experience live Shilajit Purification. 
+The liquid flows through a vessel of natural, organic-compliant filtration media that selectively locks onto unwanted heavy-metal ions via natural ion-exchange and molecular bonding, letting purified Shilajit with its essential trace minerals and high fulvic acid pass through untouched — no synthetic chemicals. You can visit our [Ultra Filtration and Purification unit of Shilajit](https://g.co/kgs/FcqZbYN) in Lahore and experience live Shilajit Purification.
 
 ✅ **Look for** Lab-tested, toxin-free Shilajit
 
  ❌ **Avoid** Brands that do not provide safety reports.
 
-## **Step 4: Natural Sunlight Dehydration**
+## **Step 7: Multi-Stage Membrane & Ultra-Filtration**
 
-The final step in authentic Shilajit production is Dehydration. The resin is placed in stainless steel containers and exposed to natural sunlight for 40-50 days. This preserves the minerals, fulvic acid, and potency without artificial drying.
+To guarantee microbiological safety without UV radiation, ozone, or chemical solvents, the solution passes through progressively finer physical membranes (5 µm → 1 µm → 0.2 µm → 0.1 µm). This cold sterilization blocks 99.99% of bacteria and micro-impurities while keeping every heat-sensitive nutrient intact.
+
+## **Step 8: Direct Sunlight Dehydration in a Sealed Glass & Stainless Steel Chamber**
+
+The final step in authentic Shilajit production is Dehydration. The sterile purified liquid is poured into shallow food-grade trays inside a sealed, ventilated glass chamber framed in food-grade stainless steel and exposed to natural sunlight for 40-50 days. Filtered airflow carries away evaporating moisture while keeping dust, insects and airborne contaminants out. This preserves the minerals, fulvic acid, and potency without artificial drying.
 
 ✅ **Look for** Sun-dried, traditionally processed Shilajit
 
@@ -2627,7 +2661,7 @@ The increasing demand for Purely Natural Shilajit presents both opportunities an
 
 ## **Organic Aprico Shilajit in UK Market:**
 
-Organic Aprico is a trusted name in the UK for authentic Himalayan Shilajit. We follow a strict four-stage process to ensure purity and potency. First, we extract Salajeet from 17,000 feet above sea level. Next, we use scientific and traditional filtration methods, including centrifugal force, to refine it. The purification stage removes impurities, sediments, heavy metals, and harmful substances. Finally, we sun-dried it over 40 days to enhance the mineral richness, fulvic acid, and humic acid content. Every batch undergoes rigorous lab testing to confirm its purity. Organic Aprico guarantees high-quality Shilajit, offering smooth worldwide delivery, especially in the UK. We supply Shilajit Bulk quantities at wholesale prices and have earned the trust of millions seeking Purely Natural Shilajit. Our commitment to authenticity makes us an in the UK Shilajit market. 
+Organic Aprico is a trusted name in the UK for authentic Himalayan Shilajit. We follow a strict 8-stage, 100% organic cold process to ensure purity and potency. First, we ethically extract Salajeet from 17,000 feet above sea level in Gilgit-Baltistan. The rocks are hand sorted, gently crushed, and cleansed under sunlight with an Organic Triphala paste, then slowly dissolved in cool, lab-tested RO water with a full 24-hour settling period. Fine bag filtration and natural heavy-metal ion-exchange remove impurities, sediments, and harmful substances without synthetic chemicals, and cold multi-stage membrane ultra-filtration (5 µm → 1 µm → 0.2 µm → 0.1 µm) blocks 99.99% of bacteria without UV, ozone, or solvents. Finally, we sun-dried it over 40 days in a sealed glass and food-grade stainless steel chamber to enhance the mineral richness, fulvic acid, and humic acid content. Every batch undergoes rigorous lab testing to confirm its purity. Organic Aprico guarantees high-quality Shilajit, offering smooth worldwide delivery, especially in the UK. We supply Shilajit Bulk quantities at wholesale prices and have earned the trust of millions seeking Purely Natural Shilajit. Our commitment to authenticity makes us an in the UK Shilajit market. 
 
 ![Shilajit Purification Unit - Organic Aprico](https://cdn.shopify.com/s/files/1/0874/2092/8164/files/Shilajit_Purification_unit-min.png?v=1748530927)
 

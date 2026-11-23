@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: 'What makes Organic Aprico shilajit different?',
-    a: 'We extract, purify and test our own shilajit rather than reselling it. Every batch is hand-harvested above 17,000 feet in Gilgit-Baltistan, put through an 8-stage chemical-free purification, sun-dried for 40+ days, and independently tested for fulvic acid content and heavy metals. The batch number on your box links to that batch&rsquo;s lab report.',
+    a: 'We extract, purify and test our own shilajit rather than reselling it. Every batch is hand-harvested above 17,000 feet in Gilgit-Baltistan, put through an 8-stage 100% organic cold purification, sun-dried for 40+ days, and independently tested for fulvic acid content and heavy metals. The batch number on your box links to that batch&rsquo;s lab report.',
   },
   {
     q: 'How should I take Shilajit?',
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: 'What testing does your shilajit undergo?',
-    a: 'Every batch is tested by PCSIR Lahore and independently by Micro Quality Lab in California and Eurofins. Reports cover fulvic acid percentage, heavy metals (lead, mercury, arsenic, cadmium), aflatoxins and a full microbiological panel. You can view the reports on our certifications page.',
+    a: 'Every batch is tested by PCSIR Lahore and independently by Eurofins. Reports cover fulvic acid percentage, heavy metals (lead, mercury, arsenic, cadmium), aflatoxins and a full microbiological panel. You can view the reports on our certifications page.',
   },
   {
     q: 'Is shilajit right for me?',

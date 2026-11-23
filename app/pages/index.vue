@@ -40,7 +40,7 @@ function onAddToCart(product: string, size: string, qty: number) {
 
 useSeoMeta({
   title: 'Organic Aprico | Pure Himalayan Shilajit from Skardu',
-  description: 'Licensed extractor of gold-grade Himalayan shilajit from Skardu, Gilgit Baltistan. 73% fulvic acid, 8-stage purification, lab tested in California and Lahore. Resin, drops and wholesale.',
+  description: 'Licensed extractor of gold-grade Himalayan shilajit from Skardu, Gilgit Baltistan. 73% fulvic acid, 8-stage purification, lab tested by PCSIR and Eurofins. Resin, drops and wholesale.',
   ogTitle: 'Organic Aprico | Pure Himalayan Shilajit',
   ogDescription: 'Gold-grade Himalayan shilajit from 17,000 feet. 73% fulvic acid, 8-stage purification, lab tested. Resin, drops and wholesale.',
   ogSiteName: 'Organic Aprico',

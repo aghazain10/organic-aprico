@@ -12,15 +12,15 @@ export const SITE_PAGES: SitePage[] = [
     description: 'Organic Aprico is a licensed Himalayan shilajit extractor from Skardu, Gilgit Baltistan, trusted by 10+ international brands and over 10,000 customers worldwide.',
     content: `<p>About Organic Aprico Shilajit: Pioneering Excellence</p>
 <p>Organic Aprico is a licensed Himalayan shilajit extractor based in Skardu, Gilgit Baltistan. From our production house we supply retail customers and wholesale clients in Pakistan and internationally, and we are trusted by 10+ international brands and over 10,000 customers worldwide. Every batch is put through 8 stages of filtration and purification, and orders are dispatched to destinations worldwide.</p>
-<p>Organic Aprico stands for purity and traceability. Certified by ISO 9001, GMP, Halal, and HACCP, we meet recognised quality standards. Our shilajit is lab-tested by PCSIR and verified by independent laboratories including <a href="/certifications">Eurofins and Micro Quality Lab in California</a>, and every jar carries a batch code that links back to its lab report. You can read the results on our <a href="/certifications">certifications and lab reports page</a>.</p>
+<p>Organic Aprico stands for purity and traceability. Certified by ISO 9001, GMP, Halal, and HACCP, we meet recognised quality standards. Our shilajit is lab-tested by PCSIR and verified by independent laboratories including <a href="/certifications">Eurofins</a>, and every jar carries a batch code that links back to its lab report. You can read the results on our <a href="/certifications">certifications and lab reports page</a>.</p>
 <p>We source shilajit from the high-altitude rock seams of the Gilgit-Baltistan region, above 17,000 feet. Rock is collected, cleaned, dissolved and filtered at our LASU House of Production in Skardu, then sun-dried for over 40 days before it is packed. Working directly with local collectors keeps the supply chain short and traceable, from seam to jar. See <a href="/purification">our purification process</a> for the full eight stages.</p>`,
   },
   {
     path: '/pages/track-your-order',
     title: 'Track Your Order',
-    description: 'Check the status of your Organic Aprico shipment by entering your tracking or reference number on the TCS tracking website.',
-    content: `<p>If you want to check the status of your shipment Please enter your tracking number or reference number on the TCS tracking website.</p>
-<p><a href="https://www.tcsexpress.com/track/"><strong>Click here to track your shipment.</strong></a></p>
+    description: 'Check the status of your Organic Aprico shipment by entering your tracking or reference number on the Postex tracking website.',
+    content: `<p>If you want to check the status of your shipment Please enter your tracking number or reference number on the Postex tracking website.</p>
+<p><a href="https://postex.pk/tracking"><strong>Click here to track your shipment.</strong></a></p>
 <p></p>`,
   },
   {
@@ -28,7 +28,7 @@ export const SITE_PAGES: SitePage[] = [
     title: 'Payment Method',
     description: 'Pay cash on delivery anywhere in Pakistan, or pre-pay by direct bank transfer, JazzCash, EasyPaisa or credit and debit card. International orders are pre-paid.',
     content: `<h3>Cash on delivery (Pakistan)</h3>
-<p>Most orders inside Pakistan are paid in cash when the TCS courier hands over your parcel. We ship COD to every city in the country, and you can inspect the parcel at the door before paying.</p>
+<p>Most orders inside Pakistan are paid in cash when the Postex courier hands over your parcel. We ship COD to every city in the country, and you can inspect the parcel at the door before paying.</p>
 <h3>Pre-paid orders</h3>
 <p>You can also pay in advance through <strong>direct bank transfer</strong>, <strong>JazzCash</strong>, <strong>EasyPaisa</strong> or a <strong>credit / debit card</strong>. Once payment is confirmed, we dispatch the order — usually the same working day if payment clears before noon.</p>
 <h3>International orders</h3>
@@ -46,7 +46,7 @@ export const SITE_PAGES: SitePage[] = [
 <h3>2. Purified, not diluted</h3>
 <p>Rock is dissolved in water and filtered through our <a href="/purification">8-stage purification process</a>, with no added fillers, sugars, colours or bulking agents. It is sun-dried for over 40 days, then packed as resin, drops or bulk material.</p>
 <h3>3. Independently tested</h3>
-<p>Every batch is tested for fulvic acid content, heavy metals (lead, mercury, arsenic, cadmium), microbiological safety and aflatoxins. Reports come from independent laboratories in Lahore (PCSIR) and California (Micro Quality Lab), with fulvic acid content also verified by Eurofins. You can <a href="/certifications">download the lab reports</a> and compare them with your own jar.</p>
+<p>Every batch is tested for fulvic acid content, heavy metals (lead, mercury, arsenic, cadmium), microbiological safety and aflatoxins. Reports come from PCSIR in Lahore, with fulvic acid content verified by Eurofins. You can <a href="/certifications">download the lab reports</a> and compare them with your own jar.</p>
 <h3>4. Traceable batch code</h3>
 <p>Each jar carries a batch code and packaging date. Every box is batch-coded — request the lab report for your batch by WhatsApp or email. If a code cannot be matched to a report, we do not ship the batch.</p>
 <h3>5. Certified manufacturing</h3>
@@ -64,12 +64,12 @@ export const SITE_PAGES: SitePage[] = [
   {
     path: '/policies/shipping-policy',
     title: 'Shipping policy',
-    description: 'Domestic orders ship via TCS in 3 to 5 working days. International orders ship via DHL and arrive in 10 to 14 business days after dispatch.',
+    description: 'Domestic orders ship via Postex in 3 to 5 working days. International orders ship via DHL and arrive in 10 to 14 business days after dispatch.',
     content: `<p>Thank you for taking interest in our products at organicaprico.com. We acknowledge that success in the e-commerce business is dependent on customers’ trust and satisfaction.</p>
-<p>We ship domestically as well as internationally. Locally, most of our orders ship via TCS. However, we have a business agreement with all the registered courier services in Pakistan. We can ship via any courier upon the request of our buyer. Usually, for larger shipments, we request our client to choose the courier company in order to facilitate them.</p>
+<p>We ship domestically as well as internationally. Locally, most of our orders ship via Postex. However, we have a business agreement with all the registered courier services in Pakistan. We can ship via any courier upon the request of our buyer. Usually, for larger shipments, we request our client to choose the courier company in order to facilitate them.</p>
 <p>We have a production House in Skardu and we ship parcels from Skardu. In the winter season due to heavy rain and snow falling, blockage happens on Karakorum Highway. Delivery time may affect due to unexpected blockage landslides or heavy snow falling.</p>
 <h3>Domestic Shipping Policy</h3>
-<ul><li>We Ship COD parcels via<a href="/pages/track-your-order">TCS</a><a href="/pages/track-your-order">.</a></li><li>We provide pre-paid orders facility through Direct Bank Transfer, JazzCash, EasyPaisa, or Credit / Debit Cards.</li><li>Orders received before noon will be shipped the same day via TCS for COD.</li><li>Orders received after noon will be shipped the next day.</li><li>We do not dispatch orders on Sundays & holidays.</li><li>Orders received on Sundays or National Holidays will be processed and shipped on the next business day.</li><li>Delivery time is between 3 to 5 working days (No delivery on Sundays).</li></ul>
+<ul><li>We Ship COD parcels via<a href="/pages/track-your-order">Postex</a><a href="/pages/track-your-order">.</a></li><li>We provide pre-paid orders facility through Direct Bank Transfer, JazzCash, EasyPaisa, or Credit / Debit Cards.</li><li>Orders received before noon will be shipped the same day via Postex for COD.</li><li>Orders received after noon will be shipped the next day.</li><li>We do not dispatch orders on Sundays & holidays.</li><li>Orders received on Sundays or National Holidays will be processed and shipped on the next business day.</li><li>Delivery time is between 3 to 5 working days (No delivery on Sundays).</li></ul>
 <h3>International Shipping Policy</h3>
 <ul><li>After your payment is confirmed, it can take us up to 2 days to process your order and ship the package via DHL.</li><li>All international orders ship through<a href="https://www.dhl.com/pk-en/home.html?locale=true">DHL</a>and are delivered in 10-14 business days after the order has shipped out.</li><li>We will provide you tracking number when the parcel will dispatch from Pakistan.</li><li>For international shipments, the charges depend on the rates provided by the e courier for the particular country, therefore, we can not share the estimated cost of shipment before booking.</li><li>Our client will be informed of the charges when we receive a confirmation of charge by the representative of the courier.</li><li>We share the receipt of shipment with our clients.</li></ul>
 <h4><em>Important Note</em></h4><blockquote><em>Before shipping the items we confirm from our clients that the parcels we ship from Pakistan may have chances of misplaced, may face custom issues or struck on borders due to change in governmental policies.</em></blockquote><blockquote><em>Although, we have been working in international shipping domain with complete documentation and all other necessary things are included in the parcel in order to make the shipping worry free.</em></blockquote><blockquote><br><em>Regarding that due to the nature of product and COVID aftermath restrictions on international shipping, we are dispatching parcels with a risk factor. If, for any reason, the parcel may not delivered at the destination (although it is very unlikely to happen). Then, according to our business we are obliged to provide you another parcel.</em></blockquote><blockquote><em>Our business core rest with the satisfaction of our client. Despite the loss of item we will provide you alternative/same parcel (same amount) without any sort of charges.</em></blockquote><h3>Need help?</h3>

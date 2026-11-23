@@ -103,15 +103,15 @@
             <p><strong>Shilajit Drop</strong> is produced by dissolving Pure Himalayan Shilajit Resin in mineral-rich glacier water, ensuring its maximum potency. The process involves filtration and purification to preserve Pure Shilajit's minerals, vitamins, and fulvic acid. The result is a semi-thick, dark, and shiny oil- and alcohol-free Shilajit liquid.</p>
 
             <h2>Liquid Shilajit: The original shilajit in Pakistan</h2>
-            <p>Organic Aprico's Liquid Shilajit is naturally rich in <strong>85 essential minerals</strong>, <strong>64% fulvic acid</strong>, and humic acid, as confirmed by lab tests at Micro Quality Lab, California. It is free from heavy metals, chemicals, and toxins, ensuring safety, high potency, and effectiveness.</p>
+            <p>Organic Aprico's Liquid Shilajit is naturally rich in <strong>85+ trace minerals</strong>, <strong>64% fulvic acid</strong>, and humic acid, as confirmed by lab tests at PCSIR and Eurofins. It is free from heavy metals, chemicals, and toxins, ensuring safety, high potency, and effectiveness.</p>
             <p>Organic Aprico provides the best Shilajit Online. This convenient Shilajit liquid is best for gym lovers, travelers, and busy professionals who prefer an easy-to-use natural supplement without the hassle of dissolving thick Shilajit.</p>
 
             <h2>Shilajit Price: A Market Overview of Shilajit Liquid</h2>
-            <p>Shilajit Price in Pakistan depends on three factors. The Origin, purification, and dehydration. Firstly, shilajit must be extracted from 17000 above sea level as Organic aprico from the Himalayan mountains of Gilgit Baltistan. Secondly, complete purification as organic aprico purifies it with traditional and scientific methods, using centrifugal force and four key strategies to purify it and free 100 percent toxin from harmful substances. Then, 40 days of sun dehydration from direct sunlight is essential to retain its maximum potency. Organic aprico is the best option for buying the best Shilajit in Pakistan.</p>
+            <p>Shilajit Price in Pakistan depends on three factors. The Origin, purification, and dehydration. Firstly, shilajit must be extracted from 17000 above sea level as Organic aprico from the Himalayan mountains of Gilgit Baltistan. Secondly, complete purification: Organic Aprico purifies it with an 8-stage, 100% organic cold process &mdash; Organic Triphala cleansing, cool RO water dissolution, natural ion-exchange and 0.1&ndash;0.2 micron cold ultra-filtration &mdash; to remove heavy metals and toxins without chemicals, UV or ozone. Then, 40+ days of sun dehydration in a sealed glass and food-grade stainless steel chamber is essential to retain its maximum potency. Organic aprico is the best option for buying the best Shilajit in Pakistan.</p>
 
             <h2>Packaging and Safety: Best Shilajit Supplier from Gilgit Baltistan</h2>
             <p>Organic Aprico's Shilajit Drop is thoughtfully packaged in an eco-friendly glass container immediately after preparation. The process involves dissolving Himalayan shilajit resin in glacier water, followed by an advanced purification facility to ensure a pure shilajit solution. It is hygienically packed to meet the expectations of valued customers.</p>
-            <p>Each bottle includes a dropper for precise measurement. Shilajit Liquid undergoes independent safety testing by US laboratories and is minimally processed to maintain its rich minerals, Vitamins, and Fulvic Acid.</p>
+            <p>Each bottle includes a dropper for precise measurement. Shilajit Liquid undergoes independent safety testing by PCSIR and Eurofins and is minimally processed to maintain its rich minerals, Vitamins, and Fulvic Acid.</p>
 
             <h2>How to use Shilajit Drop</h2>
             <p>Measure three half pipettes (9 drops) with the added dropper. It is recommended to take this amount twice daily. Mix the drops with your preferred beverage—milk, coffee, shakes, or juice—or take it directly. For best results, stir the Shilajit drops into half a glass of water; the liquid Shilajit dissolves instantly.</p>
@@ -119,8 +119,8 @@
             <h2>What you get in every bottle of Shilajit Drops</h2>
             <ul>
               <li>Himalayan shilajit resin dissolved in mineral-rich glacier water</li>
-              <li>64% fulvic acid, independently lab verified by Micro Quality Lab, California</li>
-              <li>84+ naturally occurring trace minerals</li>
+              <li>64% fulvic acid, independently lab verified by PCSIR and Eurofins</li>
+              <li>85+ naturally occurring trace minerals</li>
               <li>Oil-free and alcohol-free liquid</li>
               <li>Graduated dropper for accurate measuring</li>
               <li>Eco-friendly glass bottle, hygienically filled and sealed after preparation</li>
@@ -157,16 +157,12 @@
             <h2>Third-Party Lab Reports</h2>
             <p>Every batch of Shilajit Drops is tested by independent laboratories. Below are the latest reports.</p>
             <div class="lab-grid">
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.webp', 'Micro Quality Lab fulvic acid test')">
-                <img src="/images/lab-reports/micro-quality-fulvic-acid.webp" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/eurofins-fulvic-acid.webp', 'Eurofins fulvic acid verification')">
+                <img src="/images/lab-reports/eurofins-fulvic-acid.webp" alt="Eurofins fulvic acid verification" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals.jpg', 'PCSIR heavy metals analysis')">
-                <img src="/images/lab-reports/pcsir-heavy-metals.jpg" alt="PCSIR heavy metals analysis" loading="lazy" />
-                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-              </div>
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-microbiological.jpg', 'PCSIR microbiological test')">
-                <img src="/images/lab-reports/pcsir-microbiological.jpg" alt="PCSIR microbiological test" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals-microbiological.jpg', 'PCSIR heavy metals & microbiological report')">
+                <img src="/images/lab-reports/pcsir-heavy-metals-microbiological.jpg" alt="PCSIR heavy metals & microbiological report" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
               <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-aflatoxin.jpg', 'PCSIR aflatoxin test')">

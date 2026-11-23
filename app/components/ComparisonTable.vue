@@ -41,7 +41,7 @@ const rows = [
   { label: 'Altitude', us: 'Above 17,000 ft, Skardu.', them: 'Often below 16,000 ft.' },
   { label: 'Fulvic acid', us: '73%, lab verified.', them: 'Not disclosed.' },
   { label: 'Purification', us: '8 stages, 40 days sun-dried, no chemicals.', them: 'Boiling or none.' },
-  { label: 'Testing', us: 'PCSIR, Eurofins, Micro Quality Lab. ISO, GMP, HACCP, Halal.', them: 'No reports.' },
+  { label: 'Testing', us: 'PCSIR, Eurofins. ISO, GMP, HACCP, Halal.', them: 'No reports.' },
   { label: 'Traceability', us: 'Batch number on every pack.', them: 'None.' },
   { label: 'Guarantee', us: '3-day returns, worldwide.', them: 'Rarely.' },
   { label: 'Shipping', us: '3 to 5 working days in Pakistan, 10 to 14 days worldwide, customs papers included.', them: 'Customs holds.' },

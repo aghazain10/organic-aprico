@@ -13,18 +13,18 @@
         </div>
         <div class="benefit">
           <h3>73% fulvic acid</h3>
-          <p>Independently verified by Micro Quality Lab, California.</p>
+          <p>Independently verified by PCSIR and Eurofins.</p>
         </div>
         <div class="benefit">
           <h3>8-stage purification</h3>
-          <p>Triphala soak, RO filtration, ion exchange, UV and ozone. No chemicals.</p>
+          <p>Organic Triphala cleansing, cool RO dissolution, ion exchange and 0.1&ndash;0.2 micron cold ultra-filtration. No UV, no ozone, no chemicals.</p>
         </div>
         <div class="benefit">
           <h3>Sun-dried 40+ days</h3>
-          <p>Slow dehydration in stainless steel under direct sunlight.</p>
+          <p>Slow dehydration in a sealed glass &amp; food-grade stainless steel chamber under direct sunlight.</p>
         </div>
         <div class="benefit">
-          <h3>84+ trace minerals</h3>
+          <h3>85+ trace minerals</h3>
           <p>Naturally occurring minerals plus humic acid, as found in the raw resin.</p>
         </div>
         <div class="benefit">

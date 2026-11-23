@@ -53,7 +53,7 @@
 
               <ul class="product-facts">
                 <li><strong>MOQ 1 kg</strong> &mdash; 1 kg Rs 95,000, 5 kg Rs 475,000, 10 kg+ on request</li>
-                <li><strong>73% fulvic acid</strong> &mdash; Gold Grade, Micro Quality Lab, California</li>
+                <li><strong>73% fulvic acid</strong> &mdash; Gold Grade, PCSIR and Eurofins</li>
                 <li><strong>Lead time</strong> &mdash; dispatched within 24 hours of confirmation, 10&ndash;14 working days to the UK, EU and USA</li>
                 <li><strong>Private label</strong> &mdash; your brand, our resin, export packaging</li>
                 <li><strong>Export documents</strong> &mdash; customs declaration, health certificate, lab reports and certificates included</li>
@@ -193,7 +193,7 @@
             <p>Our Shilajit is Gold Grade because it consistently delivers 73% fulvic acid, independently lab tested with every single batch. The high fulvic acid content is responsible for enhancing Shilajit's health benefits and improving its bioavailability in the body.</p>
             <p>Gold Grade Shilajit refers to high-potency Shilajit extracted from high-altitude gold-grade rocks in the Himalayan region. Each batch is carefully processed and tested to ensure purity, strength, and authenticity, allowing every customer to experience genuine and reliable results.</p>
 
-            <h3>84+ Natural Minerals</h3>
+            <h3>85+ Natural Minerals</h3>
             <p>Our Shilajit is extracted from high altitudes above 17,000 feet in the Himalayas. It contains a naturally rich profile of more than 84 essential trace minerals that the human body needs for daily functioning.</p>
             <p>Modern diets often lack sufficient minerals due to soil depletion and processed foods. Consuming Himalayan Shilajit can help restore these vital minerals and support overall health.</p>
 
@@ -204,14 +204,14 @@
             <p>At every stage of our purification process, we use Reverse Osmosis purified water to maintain the highest level of purity. This ensures that no external contaminants enter the Shilajit during processing.</p>
 
             <h3>Third-Party Lab Tested</h3>
-            <p>Every batch of Shilajit undergoes strict laboratory testing to ensure purity, safety, and quality. The resin is tested at the Pakistan Council of Scientific and Industrial Research (PCSIR) as well as trusted international laboratories such as Eurofins and Micro Quality Lab in California, USA.</p>
+            <p>Every batch of Shilajit undergoes strict laboratory testing to ensure purity, safety, and quality. The resin is tested at the Pakistan Council of Scientific and Industrial Research (PCSIR) as well as trusted international laboratories such as Eurofins.</p>
 
             <h3>Transparency and Traceability</h3>
             <p>Each batch of Shilajit is assigned a unique batch number to ensure authenticity and complete traceability. This batch number is clearly imprinted on every jar, allowing customers to track the origin and quality of the product.</p>
             <p>Every box is batch-coded. Request the lab report for your batch by WhatsApp or email.</p>
 
             <h3>Pakistan's Exclusive Ultra Filtration and Purification Plant</h3>
-            <p>Organic Aprico operates Pakistan's only dedicated Shilajit ultra-filtration and purification plant, giving us complete control over quality, consistency, and supply. Our Shilajit undergoes an advanced 8-step ultra-filtration, sun-drying, and purification process. The resin is purified without the use of chemicals, relying instead on modern techniques such as UV treatment and ozonation to remove impurities while protecting its natural composition.</p>
+            <p>Organic Aprico operates Pakistan's only dedicated Shilajit ultra-filtration and purification plant, giving us complete control over quality, consistency, and supply. Our Shilajit undergoes an advanced 8-stage, 100% organic cold purification process. The resin is purified without the use of chemicals, UV or ozone, relying instead on Organic Triphala cleansing, natural ion-exchange and 0.1&ndash;0.2 micron cold membrane ultra-filtration to remove impurities while protecting its natural composition.</p>
             <p>After purification, the Shilajit is naturally sun dried for more than 40 days. This slow and careful process helps preserve its effectiveness, purity, and natural potency.</p>
 
             <h3>Consistent and Reliable Global Supply</h3>
@@ -262,7 +262,7 @@
                 <tr><td>Composition</td><td>Total Humic Extract</td><td class="highlight">73.3</td><td>% DM</td></tr>
               </tbody>
             </table>
-            <p class="caption">Brand: Organic Aprico, Laboratory: Eurofins Food Testing UK Ltd, BATCH NO: OA-0307-25, Analysis Date: September 2025</p>
+            <p class="caption">Brand: Organic Aprico, Laboratory: Eurofins Food Testing UK Ltd, BATCH NO: OA-26-0408, Analysis Date: September 2025</p>
 
             <h3>PCSIR Microbiological Test Report Summary</h3>
             <table class="wholesale-table">
@@ -310,16 +310,8 @@
 
             <h3>Lab Reports</h3>
             <div class="lab-grid">
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/micro-quality-fulvic-acid.webp', 'Micro Quality Lab fulvic acid test')">
-                <img src="/images/lab-reports/micro-quality-fulvic-acid.webp" alt="Micro Quality Lab fulvic acid test" loading="lazy" />
-                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-              </div>
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals.jpg', 'PCSIR heavy metals analysis')">
-                <img src="/images/lab-reports/pcsir-heavy-metals.jpg" alt="PCSIR heavy metals analysis" loading="lazy" />
-                <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-              </div>
-              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-microbiological.jpg', 'PCSIR microbiological test')">
-                <img src="/images/lab-reports/pcsir-microbiological.jpg" alt="PCSIR microbiological test" loading="lazy" />
+              <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-heavy-metals-microbiological.jpg', 'PCSIR heavy metals & microbiological report')">
+                <img src="/images/lab-reports/pcsir-heavy-metals-microbiological.jpg" alt="PCSIR heavy metals & microbiological report" loading="lazy" />
                 <span class="zoom-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
               </div>
               <div class="lab-img-item clickable" @click="openLightbox('/images/lab-reports/pcsir-aflatoxin.jpg', 'PCSIR aflatoxin test')">
@@ -345,8 +337,7 @@
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 1rem;">
               <img src="/images/products/wholesale-eurofins.png" alt="Eurofins certification" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
-              <img src="/images/products/wholesale-pcsir-micro.png" alt="PCSIR microbiological" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
-              <img src="/images/products/wholesale-pcsir-heavy.webp" alt="PCSIR heavy metals" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
+              <img src="/images/lab-reports/pcsir-heavy-metals-microbiological.jpg" alt="PCSIR heavy metals & microbiological report" style="width: 100%; border: 1px solid var(--line);" loading="lazy" />
             </div>
 
             <h3>Purification Plant</h3>
@@ -356,37 +347,37 @@
 
             <h2>Our Purification Process: The How and Why Behind Every Step</h2>
 
-            <h3>Step 1: Extraction Above 18000 Feet</h3>
-            <p><strong>How:</strong> Raw Shilajit is carefully hand-harvested from the Himalayan mountains of Gilgit Baltistan at altitudes above 18000 feet.</p>
-            <p><strong>Why:</strong> Altitude plays a critical role in Shilajit quality. At extreme heights, the natural geological pressure and mineral-rich environment help form resin with higher fulvic acid and mineral content. These remote areas are also free from industrial pollution and agricultural chemicals.</p>
+            <h3>Step 1: Ethical High-Altitude Extraction by Local Experts</h3>
+            <p><strong>How:</strong> Raw Gold Grade Shilajit is ethically and sustainably hand-harvested by experienced local mountain experts from the Himalayan mountains of Gilgit Baltistan at altitudes above 17,000 feet.</p>
+            <p><strong>Why:</strong> At extreme heights the resin forms naturally rich in fulvic acid and minerals, far from industrial pollution and agricultural chemicals. Harvesting ethically with local experts protects both the mountain environment and the authenticity of every batch.</p>
 
-            <h3>Step 2: Initial Natural Cleaning</h3>
-            <p><strong>How:</strong> After collection, the raw Shilajit is carefully cleaned to remove visible stones, sand, and surface debris before further processing.</p>
-            <p><strong>Why:</strong> This step ensures that large impurities are removed at the earliest stage.</p>
+            <h3>Step 2: Hand Sorting &amp; Crushing</h3>
+            <p><strong>How:</strong> Every rock is carefully inspected by hand so only pure, high-concentration Gold Grade pieces make the cut, then gently hand-crushed into small pieces.</p>
+            <p><strong>Why:</strong> Hand selection keeps out low-grade rock and debris, and gentle crushing lets the resin dissolve naturally without releasing excess grit.</p>
 
-            <h3>Step 3: Filtration Using RO Water and Glacier Water</h3>
-            <p><strong>How:</strong> The raw resin is slowly filtered using a combination of Reverse Osmosis purified water and natural glacier water through repeated filtration cycles.</p>
-            <p><strong>Why:</strong> RO water prevents external contaminants from entering the process, while glacier water supports the natural mineral balance of the resin.</p>
+            <h3>Step 3: Sun Exposure &amp; Organic Triphala Cleansing</h3>
+            <p><strong>How:</strong> Following classical Ayurvedic tradition, the crushed rocks are spread under direct sunlight and coated in a paste made from 100% Certified Organic Triphala.</p>
+            <p><strong>Why:</strong> This natural herbal blend works alongside solar energy to eliminate surface bacteria and bind heavy metals before extraction even begins &mdash; no synthetic chemicals.</p>
 
-            <h3>Step 4: Triphala Soaking for Natural Heavy Metal Removal</h3>
-            <p><strong>How:</strong> The filtered Shilajit is soaked in RO-purified water mixed with Triphala for several days before the next stage of purification.</p>
-            <p><strong>Why:</strong> Triphala is a traditional Ayurvedic blend of three powerful herbs known for its natural detoxifying ability. It helps bind and draw out heavy metals such as lead, arsenic, and mercury from the resin without the use of chemicals.</p>
+            <h3>Step 4: Cool Lab-Tested Water Dissolution &amp; 24-Hour Settling</h3>
+            <p><strong>How:</strong> We never boil or heat-cook our Shilajit. The rocks slowly dissolve in cool, lab-tested RO water and the mixture rests undisturbed for a full 24 hours.</p>
+            <p><strong>Why:</strong> High temperatures destroy delicate bioactives. Cool dissolution protects them, while the 24-hour rest lets heavy stones, sand and sediment settle naturally to the bottom.</p>
 
-            <h3>Step 5: Ultra Filtration and Deep Purification</h3>
-            <p><strong>How:</strong> The resin is processed through our advanced ultra-filtration and purification system to remove microscopic particles and remaining impurities.</p>
-            <p><strong>Why:</strong> This step refines the resin to a higher level of purity by separating unwanted particles that cannot be removed through simple filtration.</p>
+            <h3>Step 5: Fine Bag Filtration</h3>
+            <p><strong>How:</strong> Once settled, we carefully draw off only the clean upper liquid and pass it through ultra-fine, food-grade filter bags.</p>
+            <p><strong>Why:</strong> This captures every trace of herbal fiber and fine silt, leaving a clean solution ready for deep purification.</p>
 
-            <h3>Step 6: UV Treatment and Ozonation</h3>
-            <p><strong>How:</strong> The purified Shilajit undergoes ultraviolet light treatment followed by controlled ozonation at our purification facility.</p>
-            <p><strong>Why:</strong> UV treatment destroys harmful microbes such as bacteria and fungi without the use of chemicals or heat. Ozonation then helps neutralize remaining contaminants and trace impurities at a molecular level.</p>
+            <h3>Step 6: Natural Heavy-Metal Purification (Selective Ion-Exchange &amp; Bonding)</h3>
+            <p><strong>How:</strong> The liquid flows through a vessel containing natural, organic-compliant filtration media.</p>
+            <p><strong>Why:</strong> Through natural ion-exchange and molecular bonding, the media selectively locks onto unwanted heavy-metal ions while the purified Shilajit &mdash; with its essential trace minerals and high fulvic acid &mdash; passes through untouched, without synthetic chemicals.</p>
 
-            <h3>Step 7: Natural Sun Drying for 40 Days</h3>
-            <p><strong>How:</strong> The purified resin is placed in stainless steel containers and naturally dried under sunlight for more than 40 days.</p>
-            <p><strong>Why:</strong> Natural sun drying allows the resin to slowly reach its ideal moisture level while preserving its full mineral profile. Artificial heating can damage fulvic acid and reduce potency.</p>
+            <h3>Step 7: Multi-Stage Membrane &amp; Ultra-Filtration (5 &micro;m &rarr; 1 &micro;m &rarr; 0.2 &micro;m &rarr; 0.1 &micro;m)</h3>
+            <p><strong>How:</strong> The solution passes through progressively finer physical membranes, stepping down from 5 microns to 1 micron and finishing at a microscopic 0.2 to 0.1-micron ultra-filtration barrier.</p>
+            <p><strong>Why:</strong> This cold sterilization guarantees microbiological safety without UV radiation, ozone or chemical solvents, blocking 99.99% of bacteria and micro-impurities while keeping every heat-sensitive nutrient intact.</p>
 
-            <h3>Step 8: Independent Lab Testing and Batch Certification</h3>
-            <p><strong>How:</strong> Each finished batch is sent to trusted laboratories for independent testing and is assigned a unique batch number printed on every jar.</p>
-            <p><strong>Why:</strong> Third-party testing verifies that the Shilajit is free from heavy metals, microbes, and harmful impurities. The batch number ensures complete traceability.</p>
+            <h3>Step 8: Direct Sunlight Dehydration in a Sealed Glass &amp; Stainless Steel Chamber</h3>
+            <p><strong>How:</strong> The sterile purified liquid is poured into shallow food-grade trays inside a sealed, ventilated glass chamber framed in food-grade stainless steel, where it sun-dries for 40+ days.</p>
+            <p><strong>Why:</strong> Filtered airflow gently carries away evaporating moisture while keeping dust, insects and airborne contaminants locked out, letting pure natural sunlight slowly thicken the extract into glossy, potent, raw Gold Grade Shilajit resin without artificial heat.</p>
 
             <h3>Purification Process Visual</h3>
             <div style="margin-top: 1.5rem;">
@@ -587,9 +578,8 @@ const faqs = [
   { q: 'Do you ship to the USA and other countries?', a: 'Yes. We ship to the USA, Europe, the Middle East, Australia, Canada, and many other countries worldwide.' },
   { q: 'Who handles customs and export documentation?', a: 'Organic Aprico manages the entire export documentation process. We prepare all required documents, including customs declarations, export certificates, health certificates, lab reports, and international certifications.' },
   { q: 'What payment methods do you accept for wholesale orders?', a: 'We accept direct bank transfer, Payoneer, Wise, and Western Union for wholesale orders. Full payment is required in advance once the order is confirmed.' },
-  { q: 'How do I verify the purity of the Shilajit I receive?', a: 'Every batch comes with nationally and internationally tested reports, including analysis from PCSIR and independent third-party laboratories such as Micro Quality Lab in California and Eurofins.' },
-  { q: 'Why do you use RO water throughout your purification process?', a: 'Reverse Osmosis water is highly purified and free from dissolved minerals, chemicals, and contaminants found in ordinary water. Using RO water ensures that no impurities from the water affect the quality of the resin.' },
-  { q: 'Why does Organic Aprico use Triphala in the purification process?', a: 'Triphala is a traditional Ayurvedic blend known for its natural ability to bind and remove heavy metals. Using Triphala during the soaking stage helps draw out contaminants without the use of synthetic chemicals.' },
+  { q: 'How do I verify the purity of the Shilajit I receive?', a: 'Every batch comes with nationally and internationally tested reports, including analysis from PCSIR and independent third-party laboratories such as Eurofins.' },
+  { q: 'Why do you use RO water throughout your purification process?', a: 'Reverse Osmosis water is highly purified and free from dissolved minerals, chemicals, and contaminants found in ordinary water. Using cool, lab-tested RO water ensures that no impurities from the water affect the quality of the resin, and that heat-sensitive bioactives are never destroyed.' },
   { q: 'Is your Shilajit safe for long-term daily use?', a: 'Yes. Organic Aprico Shilajit is independently tested and verified to be free from heavy metals, aflatoxins, bacteria, fungus, and other contaminants. It is produced under internationally recognized standards, including ISO 9001, ISO 22000, GMP, Halal, and HACCP.' },
   { q: 'Has your Shilajit been tested for aflatoxins?', a: 'Yes. Every batch is tested for aflatoxins as part of our standard laboratory analysis, and the results confirm zero aflatoxin presence.' },
   { q: 'What certifications does Organic Aprico hold?', a: 'ISO 9001, ISO 22000, GMP, Halal, and HACCP certifications.' },

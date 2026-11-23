@@ -7,7 +7,7 @@
           <NuxtLink to="/" class="back-link">&larr; Back to home</NuxtLink>
           <h1>Lab Reports &amp; Certifications</h1>
           <p class="lede">Every batch is tested by independent labs and certified to international standards. Full transparency, no exceptions.</p>
-          <p class="cert-meta">Last updated: <time datetime="2026-10-21">21 October 2026</time> &middot; Current batch code: <strong>OA-2025-0307</strong></p>
+          <p class="cert-meta">Last updated: <time datetime="2026-10-21">21 October 2026</time> &middot; Current batch code: <strong>OA-26-0408</strong></p>
           <div class="hero-actions">
             <a
               href="/images/gmp-haccp-halal-certificates.pdf"
@@ -66,15 +66,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>OA-2025-0307</td>
-                  <td>Micro Quality Lab, California</td>
-                  <td>Fulvic acid content</td>
-                  <td class="result">73% fulvic acid</td>
-                  <td>September 2025</td>
-                  <td><a href="/images/lab-reports/micro-quality-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
-                </tr>
-                <tr>
-                  <td>OA-2025-0307</td>
+                  <td>OA-26-0408</td>
                   <td>Eurofins Food Testing UK Ltd</td>
                   <td>Fulvic acid / total humic extract</td>
                   <td class="result">71.8% fulvic acid, 73.3% total humic extract</td>
@@ -82,23 +74,15 @@
                   <td><a href="/images/lab-reports/eurofins-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
                 </tr>
                 <tr>
-                  <td>OA-2025-0307</td>
+                  <td>OA-26-0408</td>
                   <td>PCSIR, Lahore</td>
-                  <td>Heavy metals: lead, cadmium, arsenic, mercury</td>
-                  <td class="result">Non-detect</td>
-                  <td>September 2025</td>
-                  <td><a href="/images/lab-reports/pcsir-heavy-metals.jpg" target="_blank" rel="noopener">View report</a></td>
+                  <td>Heavy metals (lead, cadmium, arsenic, mercury) &amp; microbiological panel</td>
+                  <td class="result">Heavy metals non-detect; microbiological within safe limits</td>
+                  <td>August 2026</td>
+                  <td><a href="/images/lab-reports/pcsir-heavy-metals-microbiological.jpg" target="_blank" rel="noopener">View report</a></td>
                 </tr>
                 <tr>
-                  <td>OA-2025-0307</td>
-                  <td>PCSIR, Lahore</td>
-                  <td>Microbiological panel</td>
-                  <td class="result">Within safe limits</td>
-                  <td>September 2025</td>
-                  <td><a href="/images/lab-reports/pcsir-microbiological.jpg" target="_blank" rel="noopener">View report</a></td>
-                </tr>
-                <tr>
-                  <td>OA-2025-0307</td>
+                  <td>OA-26-0408</td>
                   <td>PCSIR, Lahore</td>
                   <td>Aflatoxin B1, B2, G1, G2</td>
                   <td class="result">Not detected</td>
@@ -181,7 +165,7 @@
         <div class="wrap">
           <div class="section-head">
             <h2>Independent Lab Reports</h2>
-            <p>Tested by Micro Quality Lab (California), PCSIR (Lahore) and Eurofins (International). Every result is independently verified.</p>
+            <p>Tested by PCSIR (Lahore) and Eurofins (International). Every result is independently verified.</p>
           </div>
           <div class="lab-grid">
             <div v-for="report in labReports" :key="report.name" class="lab-card">
@@ -360,28 +344,12 @@ const labReports = [
     result: '71.8% fulvic acid, 73.3% total humic extract',
   },
   {
-    name: 'Fulvic Acid — California',
-    lab: 'Micro Quality Lab',
-    image: '/images/lab-reports/micro-quality-fulvic-acid.webp',
-    alt: 'Micro Quality Labs California report showing 73% fulvic acid',
-    description: 'Second independent confirmation from a US-based laboratory, ensuring the fulvic acid content is consistent across tests.',
-    result: '73% fulvic acid',
-  },
-  {
-    name: 'Heavy Metals Test',
+    name: 'Heavy Metals &amp; Microbiological Panel',
     lab: 'PCSIR Lahore',
-    image: '/images/lab-reports/pcsir-heavy-metals.jpg',
-    alt: 'PCSIR lab report showing no heavy metals detected',
-    description: 'Tests for lead, mercury, arsenic and cadmium. Our shilajit is free from dangerous heavy metals — a common problem with unprocessed alternatives.',
-    result: 'Not detected',
-  },
-  {
-    name: 'Microbiological Test',
-    lab: 'PCSIR Lahore',
-    image: '/images/lab-reports/pcsir-microbiological.jpg',
-    alt: 'PCSIR lab report showing microbiological test passed',
-    description: 'Tests for total plate count, yeast, mould and pathogenic bacteria. Confirms our product is clean and safe for consumption.',
-    result: 'Within safe limits',
+    image: '/images/lab-reports/pcsir-heavy-metals-microbiological.jpg',
+    alt: 'PCSIR lab report covering heavy metals and microbiological panel',
+    description: 'Tests for lead, mercury, arsenic and cadmium alongside a full microbiological panel (total plate count, yeast, mould, pathogens). Confirms our product is clean and safe for consumption.',
+    result: 'Heavy metals non-detect; microbiology within safe limits',
   },
   {
     name: 'Aflatoxin Test',
@@ -401,7 +369,7 @@ const summary = [
   },
   {
     title: 'Multiple labs',
-    desc: 'Results verified by labs in California, Lahore and internationally.',
+    desc: 'Results verified by labs in Lahore and internationally.',
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E9CD84" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
   },
   {
@@ -411,7 +379,7 @@ const summary = [
   },
   {
     title: 'Certified standards',
-    desc: 'ISO 9001, ISO 22000, GMP, HACCP and Halal — with batch lab reports from three independent labs.',
+    desc: 'ISO 9001, ISO 22000, GMP, HACCP and Halal — with batch lab reports from two independent labs.',
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E9CD84" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>',
   },
 ]
@@ -430,9 +398,9 @@ useHead({
 
 useSeoMeta({
   title: 'Lab Reports & Certifications | Organic Aprico',
-  description: 'PCSIR heavy metals, Eurofins fulvic acid, Micro Quality Lab results in text, plus ISO 9001, ISO 22000, GMP, HACCP and Halal certifications. Batch OA-2025-0307, updated October 2026.',
+  description: 'PCSIR heavy metals and Eurofins fulvic acid results in text, plus ISO 9001, ISO 22000, GMP, HACCP and Halal certifications. Batch OA-26-0408, updated October 2026.',
   ogTitle: 'Lab Reports & Certifications — Organic Aprico',
-  ogDescription: 'ISO 9001, ISO 22000, GMP, HACCP, Halal certified. Lab tested by Micro Quality Lab, PCSIR and Eurofins. Batch OA-2025-0307 results published in text and as scans.',
+  ogDescription: 'ISO 9001, ISO 22000, GMP, HACCP, Halal certified. Lab tested by PCSIR and Eurofins. Batch OA-26-0408 results published in text and as scans.',
 })
 </script>
 
