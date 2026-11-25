@@ -219,7 +219,7 @@
 
             <h2>Ready to Partner With Us?</h2>
             <p>Whether you are a UK retailer, US distributor, European wellness brand, Middle Eastern importer, or global reseller, Organic Aprico is your trusted source for the best Shilajit in the world at wholesale prices.</p>
-            <p>Contact our wholesale and export team today for samples, pricing, lab reports, and partnership inquiries.<br /><strong>CALL OR WHATSAPP: +92 331 11116915</strong><br />info@organicaprico.com</p>
+            <p>Contact our wholesale and export team today for samples, pricing, lab reports, and partnership inquiries.<br /><strong>CALL OR WHATSAPP: +92 331 1116915</strong><br />info@organicaprico.com</p>
           </div>
 
           <div class="tabs-nav">
