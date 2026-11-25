@@ -29,6 +29,11 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: 'Invalid payment method' })
   }
 
+  const isPakistanOrder = ['pakistan', 'pk'].includes(body.country.trim().toLowerCase())
+  if (body.paymentMethod === 'cod' && !isPakistanOrder) {
+    throw createError({ statusCode: 400, statusMessage: 'Cash on delivery is only available in Pakistan. International orders must be pre-paid by bank transfer.' })
+  }
+
   const subtotal = body.items.reduce((sum, item) => sum + item.price * item.qty, 0)
   const total = subtotal + shippingFor(body.country)
 

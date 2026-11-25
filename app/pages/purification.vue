@@ -199,7 +199,7 @@ useSeoMeta({
   title: 'Purification Process | Organic Aprico',
   description: 'See how Organic Aprico purifies Himalayan shilajit through an 8-stage, 100% organic cold process — from ethical extraction at 17,000 feet to 0.1–0.2 micron cold ultra-filtration and sealed-chamber sun drying. No UV, ozone or chemicals.',
   ogTitle: 'Our 8-Stage 100% Organic Purification Process',
-  ogDescription: 'From rock to jar — eight stages of 100% organic cold purification without UV, ozone or chemicals. 73% fulvic acid, lab verified.',
+  ogDescription: 'From rock to jar — eight stages of 100% organic cold purification without UV, ozone or chemicals. 73% fulvic acid + humic acid, lab verified.',
 })
 </script>
 

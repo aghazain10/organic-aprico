@@ -31,7 +31,7 @@
         <p>It carries over 85 minerals plus fulvic and humic acid. A pea-sized portion in warm milk or water is all you need.</p>
         <ul class="facts">
           <li><strong>Gold grade</strong><span>Sun-dried, never heat processed</span></li>
-          <li><strong>Clean</strong><span>No heavy metals, chemicals or microbes</span></li>
+          <li><strong>Clean</strong><span>Heavy metals way under safe limits, no chemicals or microbes</span></li>
           <li><strong>One ingredient</strong><span>Shilajit resin. Nothing else.</span></li>
         </ul>
       </div>

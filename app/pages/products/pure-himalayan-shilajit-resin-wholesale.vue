@@ -53,7 +53,7 @@
 
               <ul class="product-facts">
                 <li><strong>MOQ 1 kg</strong> &mdash; 1 kg Rs 95,000, 5 kg Rs 475,000, 10 kg+ on request</li>
-                <li><strong>73% fulvic acid</strong> &mdash; Gold Grade, PCSIR and Eurofins</li>
+                <li><strong>73% fulvic acid + humic acid</strong> &mdash; Gold Grade, PCSIR and Eurofins</li>
                 <li><strong>Lead time</strong> &mdash; dispatched within 24 hours of confirmation, 10&ndash;14 working days to the UK, EU and USA</li>
                 <li><strong>Private label</strong> &mdash; your brand, our resin, export packaging</li>
                 <li><strong>Export documents</strong> &mdash; customs declaration, health certificate, lab reports and certificates included</li>
@@ -190,11 +190,11 @@
             <h2>Why Retailers and Distributors Choose Organic Aprico?</h2>
 
             <h3>Gold Grade: 73% High Fulvic Acid</h3>
-            <p>Our Shilajit is Gold Grade because it consistently delivers 73% fulvic acid, independently lab tested with every single batch. The high fulvic acid content is responsible for enhancing Shilajit's health benefits and improving its bioavailability in the body.</p>
+            <p>Our Shilajit is Gold Grade because it consistently delivers 73% fulvic acid + humic acid, independently lab tested with every single batch. The high fulvic acid content is responsible for enhancing Shilajit's health benefits and improving its bioavailability in the body.</p>
             <p>Gold Grade Shilajit refers to high-potency Shilajit extracted from high-altitude gold-grade rocks in the Himalayan region. Each batch is carefully processed and tested to ensure purity, strength, and authenticity, allowing every customer to experience genuine and reliable results.</p>
 
             <h3>85+ Natural Minerals</h3>
-            <p>Our Shilajit is extracted from high altitudes above 17,000 feet in the Himalayas. It contains a naturally rich profile of more than 84 essential trace minerals that the human body needs for daily functioning.</p>
+            <p>Our Shilajit is extracted from high altitudes above 17,000 feet in the Himalayas. It contains a naturally rich profile of 85+ essential trace minerals that the human body needs for daily functioning.</p>
             <p>Modern diets often lack sufficient minerals due to soil depletion and processed foods. Consuming Himalayan Shilajit can help restore these vital minerals and support overall health.</p>
 
             <h3>Free from Heavy Metals, Toxins, and Microbes</h3>
@@ -262,7 +262,7 @@
                 <tr><td>Composition</td><td>Total Humic Extract</td><td class="highlight">73.3</td><td>% DM</td></tr>
               </tbody>
             </table>
-            <p class="caption">Brand: Organic Aprico, Laboratory: Eurofins Food Testing UK Ltd, BATCH NO: OA-26-0408, Analysis Date: September 2025</p>
+            <p class="caption">Brand: Organic Aprico, Laboratory: Eurofins Food Testing UK Ltd, BATCH NO: W25-AAAB-042, Analysis Date: 06 October 2025</p>
 
             <h3>PCSIR Microbiological Test Report Summary</h3>
             <table class="wholesale-table">
@@ -386,7 +386,7 @@
 
             <h2>Global Recognition and Certifications</h2>
             <p>Organic Aprico proudly holds internationally recognized certifications, including HACCP, GMP, ISO 9001, ISO 22000, and Halal certification. These certifications reflect our strong commitment to quality, safety, hygiene, and world-class production standards.</p>
-            <p>With a legacy that traces back to 1972, Organic Aprico has built a reputation of trust and reliability in the natural wellness industry. Today the brand serves over 10,000 customers and supplies premium shilajit to more than 10 international brands across the world.</p>
+            <p>Local family business since 1972; SECP registered in 2020, exporting shilajit directly since 2020. Organic Aprico has built a reputation of trust and reliability in the natural wellness industry. Today the brand serves over 10,000 customers and supplies premium shilajit to more than 40 international brands across the world.</p>
             <p><strong>Organic Aprico is an extraction and export licence holder registered in Pakistan.</strong></p>
             <p>For complete transparency, full lab reports, certification documents, and company registration papers are provided to all wholesale and export clients.</p>
           </div>
@@ -455,7 +455,7 @@
               </div>
               <div class="related-card-body">
                 <h3>Shilajit Resin</h3>
-                <p>Gold-grade raw resin. 73% fulvic acid, sun-dried 40+ days.</p>
+                <p>Gold-grade raw resin. 73% fulvic acid + humic acid, sun-dried 40+ days.</p>
                 <span class="related-card-price">From Rs 1,500</span>
               </div>
             </NuxtLink>
@@ -567,7 +567,7 @@ const currentVariant = computed(() =>
 const faqs = [
   { q: 'What is Shilajit, and why is it so popular?', a: 'Shilajit is a natural resin that forms over centuries in the rocks of the Himalayan mountains. It is created from the slow decomposition of plants and organic matter under intense geological pressure. Rich in fulvic acid, humic acid, and over 84 essential minerals, Shilajit is one of the most nutrient-dense natural substances on Earth.' },
   { q: 'Why is Himalayan Shilajit better than other sources?', a: 'Shilajit from the Himalayas, especially Gilgit Baltistan in Pakistan, is unique. The high altitude, pure environment, and centuries of natural freezing and melting create Shilajit with higher fulvic acid and a richer mineral profile than Shilajit from other regions.' },
-  { q: 'What is Fulvic Acid and why does it matter?', a: 'Fulvic acid is the key active compound in authentic Shilajit that makes it so effective. It helps transport minerals and nutrients directly into your cells, making them easier for your body to absorb. Organic Aprico Shilajit contains 73% fulvic acid, known as Gold Grade.' },
+  { q: 'What is Fulvic Acid and why does it matter?', a: 'Fulvic acid is the key active compound in authentic Shilajit that makes it so effective. It helps transport minerals and nutrients directly into your cells, making them easier for your body to absorb. Organic Aprico Shilajit contains 73% fulvic acid + humic acid, known as Gold Grade.' },
   { q: 'What is the difference between raw Shilajit and purified Shilajit?', a: 'Raw Shilajit is collected directly from the mountains and contains impurities such as heavy metals, dirt, bacteria, and fungi, making it unsafe to consume. Purified Shilajit is carefully processed to remove all contaminants while preserving its natural beneficial compounds.' },
   { q: 'Why should I source Shilajit wholesale from Organic Aprico?', a: 'We are the producer and the authentic source of purified Shilajit, not a reseller. We extract Shilajit directly from the Himalayan mountains, purify it in our own dedicated facility, and export it straight to global clients. This ensures better pricing, consistent quality, full traceability, and complete documentation without any middlemen.' },
   { q: 'Can I request a sample before placing a wholesale order?', a: 'Yes, we encourage all new wholesale and export partners to request a sample before placing a full order. You can contact our wholesale team to arrange the sample, which comes with full lab reports and certification documents.' },
@@ -580,7 +580,7 @@ const faqs = [
   { q: 'What payment methods do you accept for wholesale orders?', a: 'We accept direct bank transfer, Payoneer, Wise, and Western Union for wholesale orders. Full payment is required in advance once the order is confirmed.' },
   { q: 'How do I verify the purity of the Shilajit I receive?', a: 'Every batch comes with nationally and internationally tested reports, including analysis from PCSIR and independent third-party laboratories such as Eurofins.' },
   { q: 'Why do you use RO water throughout your purification process?', a: 'Reverse Osmosis water is highly purified and free from dissolved minerals, chemicals, and contaminants found in ordinary water. Using cool, lab-tested RO water ensures that no impurities from the water affect the quality of the resin, and that heat-sensitive bioactives are never destroyed.' },
-  { q: 'Is your Shilajit safe for long-term daily use?', a: 'Yes. Organic Aprico Shilajit is independently tested and verified to be free from heavy metals, aflatoxins, bacteria, fungus, and other contaminants. It is produced under internationally recognized standards, including ISO 9001, ISO 22000, GMP, Halal, and HACCP.' },
+  { q: 'Is your Shilajit safe for long-term daily use?', a: 'Yes. Organic Aprico Shilajit is independently tested and verified to be heavy metals way under safe limits, aflatoxins, bacteria, fungus, and other contaminants. It is produced under internationally recognized standards, including ISO 9001, ISO 22000, GMP, Halal, and HACCP.' },
   { q: 'Has your Shilajit been tested for aflatoxins?', a: 'Yes. Every batch is tested for aflatoxins as part of our standard laboratory analysis, and the results confirm zero aflatoxin presence.' },
   { q: 'What certifications does Organic Aprico hold?', a: 'ISO 9001, ISO 22000, GMP, Halal, and HACCP certifications.' },
   { q: 'Is Shilajit a good product to sell as a retailer?', a: 'Yes, Shilajit in 2026 is a good product for retailers. The demand for natural health supplements is growing around the world, and lab-tested Shilajit is becoming very popular in markets such as the UK, USA, and the Middle East.' },
@@ -597,9 +597,9 @@ function onAdd() {
 
 useSeoMeta({
   title: 'Shilajit Wholesale Pakistan 2026 — MOQ 1kg, Rs 95,000',
-  description: 'Bulk Himalayan shilajit direct from our Skardu extractor. MOQ 1kg, 73% fulvic acid, PCSIR/Eurofins reports, private label and export documents.',
+  description: 'Bulk Himalayan shilajit direct from our Skardu extractor. MOQ 1kg, 73% fulvic acid + humic acid, PCSIR/Eurofins reports, private label and export documents.',
   ogTitle: 'Shilajit Wholesale Pakistan 2026 — MOQ 1kg, Rs 95,000',
-  ogDescription: 'Bulk shilajit resin for retailers and brands, direct from our Skardu extractor. MOQ 1 kg at Rs 95,000, 73% fulvic acid, lab reports, private label, export documents.',
+  ogDescription: 'Bulk shilajit resin for retailers and brands, direct from our Skardu extractor. MOQ 1 kg at Rs 95,000, 73% fulvic acid + humic acid, lab reports, private label, export documents.',
   ogImage: '/images/products/wholesale-hero.jpg',
   ogType: 'product',
 })
@@ -615,7 +615,7 @@ useHead({
         // Matches the "4.8/5 from 40 Google reviews" badge rendered on this page.
         aggregateRating: { ratingValue: 4.8, reviewCount: 40 },
         name: 'Pure Himalayan Shilajit Resin — Wholesale',
-        description: 'Wholesale pure Himalayan shilajit resin for retailers and brands. 73% fulvic acid, 8-stage purification, lab tested. Direct from extractor in Gilgit-Baltistan.',
+        description: 'Wholesale pure Himalayan shilajit resin for retailers and brands. 73% fulvic acid + humic acid, 8-stage purification, lab tested. Direct from extractor in Gilgit-Baltistan.',
         category: 'Dietary Supplement > Herbal Supplement',
         additionalProperties: [
           { name: 'Minimum order quantity', value: '1 kg' },

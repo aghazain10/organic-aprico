@@ -48,7 +48,7 @@
                 <span class="product-price-now">{{ formatPrice(currentVariant.price) }}</span>
                 <span v-if="currentVariant.was" class="product-price-was">{{ formatPrice(currentVariant.was) }}</span>
               </div>
-              <p class="product-short-desc">Shilajit Drop is produced by dissolving Pure Himalayan Shilajit Resin in mineral-rich glacier water. 64% fulvic acid, 85+ minerals. Oil- and alcohol-free. Lab tested.</p>
+              <p class="product-short-desc">Shilajit Drop is produced by dissolving Pure Himalayan Shilajit Resin in mineral-rich glacier water. 73% fulvic acid + humic acid, 85+ minerals. Oil- and alcohol-free. Lab tested.</p>
 
               <div class="variant-selector">
                 <span class="variant-label">Size</span>
@@ -103,7 +103,7 @@
             <p><strong>Shilajit Drop</strong> is produced by dissolving Pure Himalayan Shilajit Resin in mineral-rich glacier water, ensuring its maximum potency. The process involves filtration and purification to preserve Pure Shilajit's minerals, vitamins, and fulvic acid. The result is a semi-thick, dark, and shiny oil- and alcohol-free Shilajit liquid.</p>
 
             <h2>Liquid Shilajit: The original shilajit in Pakistan</h2>
-            <p>Organic Aprico's Liquid Shilajit is naturally rich in <strong>85+ trace minerals</strong>, <strong>64% fulvic acid</strong>, and humic acid, as confirmed by lab tests at PCSIR and Eurofins. It is free from heavy metals, chemicals, and toxins, ensuring safety, high potency, and effectiveness.</p>
+            <p>Organic Aprico's Liquid Shilajit is naturally rich in <strong>85+ trace minerals</strong>, <strong>73% fulvic acid + humic acid</strong>, and humic acid, as confirmed by lab tests at PCSIR and Eurofins. It is heavy metals way under safe limits, chemicals, and toxins, ensuring safety, high potency, and effectiveness.</p>
             <p>Organic Aprico provides the best Shilajit Online. This convenient Shilajit liquid is best for gym lovers, travelers, and busy professionals who prefer an easy-to-use natural supplement without the hassle of dissolving thick Shilajit.</p>
 
             <h2>Shilajit Price: A Market Overview of Shilajit Liquid</h2>
@@ -119,7 +119,7 @@
             <h2>What you get in every bottle of Shilajit Drops</h2>
             <ul>
               <li>Himalayan shilajit resin dissolved in mineral-rich glacier water</li>
-              <li>64% fulvic acid, independently lab verified by PCSIR and Eurofins</li>
+              <li>73% fulvic acid + humic acid, independently lab verified by PCSIR and Eurofins</li>
               <li>85+ naturally occurring trace minerals</li>
               <li>Oil-free and alcohol-free liquid</li>
               <li>Graduated dropper for accurate measuring</li>
@@ -135,17 +135,17 @@
 
             <h2>Why choose Organic Aprico?</h2>
             <p>Original Shilajit is found exclusively in the Himalayan mountains of Gilgit-Baltistan, at elevations of over 17,000 feet. This is why a global demand exists for Gilgit Shilajit in Pakistan and abroad. However, Shilajit extraction requires a government license, which the Organic Aprico team possesses.</p>
-            <p>We are committed to providing you with gold-grade authentic Himalayan Shilajit and Shilajit Drop, accompanied by certified analysis to verify their authenticity. Our dedication to quality has earned us over 10,000 satisfied clients who have improved their health by incorporating Organic Aprico's Shilajit dosage into their daily routine.</p>
+            <p>We are committed to providing you with gold-grade authentic Himalayan Shilajit and Shilajit Drop, accompanied by certified analysis to verify their authenticity. Our dedication to quality has earned us over 1 M satisfied customers who have improved their health by incorporating Organic Aprico's Shilajit dosage into their daily routine.</p>
 
             <h2>Can Liquid Shilajit be Exported from Pakistan?</h2>
             <p>Yes, Organic Aprico holds both an extraction and export license. Our international lab reports certify the quality of our Himalayan Shilajit, allowing for the smooth export of all Shilajit forms from Pakistan.</p>
 
             <h2>Returns and exchanges</h2>
-            <p>At Organic Aprico, client satisfaction is our top priority. Since 1972, we have consistently met our client's expectations. If there is any issue with your bottle of Shilajit Drops, or a mistake on our part, contact us within <strong>3 days of delivery</strong> for an exchange or return — for national and international clients alike. See our refund policy for the conditions.</p>
+            <p>At Organic Aprico, client satisfaction is our top priority. Local family business since 1972; SECP registered in 2020, exporting shilajit directly since 2020. We have consistently met our client's expectations. If there is any issue with your bottle of Shilajit Drops, or a mistake on our part, contact us within <strong>3 days of delivery</strong> for an exchange or return — for national and international clients alike. See our refund policy for the conditions.</p>
 
             <h2>Ordering Information</h2>
             <p>You can order Shilajit Drop on the website, through WhatsApp, or by phone for national clients.</p>
-            <p>We offer Shilajit Price per kg for international customers searching for Himalayan Shilajit in bulk. Please get in touch with us via the provided phone number, WhatsApp, or email for further details. We have over 10,000 customers worldwide.</p>
+            <p>We offer Shilajit Price per kg for international customers searching for Himalayan Shilajit in bulk. Please get in touch with us via the provided phone number, WhatsApp, or email for further details. We have over 1 M satisfied customers worldwide.</p>
             <p>We are proud to say that organic Aprico never compromises on the quality of Shilajit and always delivers parcels on time because we have export licenses that help us serve clients worldwide.</p>
           </div>
 
@@ -235,7 +235,7 @@
             </table>
 
             <h3>Storage</h3>
-            <p>Store in a cool, dry place away from direct sunlight. Shelf life is <strong>18 months</strong> from the date of packaging. Keep the cap tightly closed after each use.</p>
+            <p>Store in a cool, dry place away from direct sunlight. Shelf life is <strong>3 years</strong> from the date of packaging. Keep the cap tightly closed after each use.</p>
 
             <h3>Tips</h3>
             <ul>
@@ -293,7 +293,7 @@
               </div>
               <div class="related-card-body">
                 <h3>Shilajit Resin</h3>
-                <p>Gold-grade raw resin. 73% fulvic acid, sun-dried 40+ days.</p>
+                <p>Gold-grade raw resin. 73% fulvic acid + humic acid, sun-dried 40+ days.</p>
                 <span class="related-card-price">From Rs 1,500</span>
               </div>
             </NuxtLink>
@@ -408,9 +408,9 @@ function onAdd() {
 
 useSeoMeta({
   title: 'Shilajit Drops Price in Pakistan (30ml & 60ml) — Lab-Tested | Organic Aprico',
-  description: 'Liquid Himalayan shilajit drops: 30ml Rs 2,000 · 60ml Rs 4,000. 64% fulvic acid, 85+ minerals, oil- and alcohol-free. Take 9 drops twice daily. Lab-tested, COD nationwide, worldwide shipping.',
+  description: 'Liquid Himalayan shilajit drops: 30ml Rs 2,000 · 60ml Rs 4,000. 73% fulvic acid + humic acid, 85+ minerals, oil- and alcohol-free. Take 9 drops twice daily. Lab-tested, COD nationwide, worldwide shipping.',
   ogTitle: 'Shilajit Drops Price in Pakistan (30ml & 60ml)',
-  ogDescription: 'Liquid shilajit dissolved in glacier water. 64% fulvic acid, 85+ minerals. 30ml Rs 2,000 · 60ml Rs 4,000.',
+  ogDescription: 'Liquid shilajit dissolved in glacier water. 73% fulvic acid + humic acid, 85+ minerals. 30ml Rs 2,000 · 60ml Rs 4,000.',
   ogImage: '/images/products/shilajit-drops-hero.webp',
   ogType: 'product',
 })
@@ -426,7 +426,7 @@ useHead({
         // Matches the "4.8/5 from 40 Google reviews" badge rendered on this page.
         aggregateRating: { ratingValue: 4.8, reviewCount: 40 },
         name: 'Shilajit Drops — Liquid Himalayan Shilajit',
-        description: 'Liquid shilajit produced by dissolving pure Himalayan shilajit resin in mineral-rich glacier water. 64% fulvic acid, 85+ trace minerals. Oil-free and alcohol-free.',
+        description: 'Liquid shilajit produced by dissolving pure Himalayan shilajit resin in mineral-rich glacier water. 73% fulvic acid + humic acid, 85+ trace minerals. Oil-free and alcohol-free.',
       })),
     },
     {

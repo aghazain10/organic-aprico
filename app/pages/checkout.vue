@@ -82,21 +82,22 @@
               <h2>Payment method</h2>
 
               <div class="payment-options">
-                <label class="payment-option" :class="{ active: form.paymentMethod === 'cod' }">
+                <label v-if="isPakistanCountry" class="payment-option" :class="{ active: form.paymentMethod === 'cod' }">
                   <input v-model="form.paymentMethod" type="radio" name="payment" value="cod">
                   <span class="payment-label">
                     <strong>Cash on delivery</strong>
-                    <span>Pay when your order arrives</span>
+                    <span>Pay when your order arrives (Pakistan only)</span>
                   </span>
                 </label>
                 <label class="payment-option" :class="{ active: form.paymentMethod === 'bank_transfer' }">
                   <input v-model="form.paymentMethod" type="radio" name="payment" value="bank_transfer">
                   <span class="payment-label">
                     <strong>Bank transfer</strong>
-                    <span>Transfer to our bank account</span>
+                    <span>Transfer to our bank account (required outside Pakistan)</span>
                   </span>
                 </label>
               </div>
+              <p v-if="!isPakistanCountry" class="muted small">Cash on delivery is available in Pakistan only. International orders are pre-paid by bank transfer.</p>
 
               <div class="field">
                 <label for="notes">Order notes (optional)</label>
@@ -149,7 +150,7 @@
 </template>
 
 <script setup lang="ts">
-import { deliveryEstimateFor, shippingFor } from '#shared/utils/shipping'
+import { deliveryEstimateFor, shippingFor, isPakistan } from '#shared/utils/shipping'
 import { trackBeginCheckout, trackPurchase } from '~/utils/analytics'
 
 const { items, total, clear, getItemName, getVariantLabel, getVariantPrice, formatPrice } = useCart()
@@ -176,9 +177,11 @@ const error = ref('')
 const orderPlaced = ref(false)
 const orderId = ref<number | null>(null)
 
+const isPakistanCountry = computed(() => isPakistan(form.country))
 const shipping = computed(() => shippingFor(form.country))
 const deliveryEstimate = computed(() => deliveryEstimateFor(form.country))
 const grandTotal = computed(() => total.value + shipping.value)
+watch(isPakistanCountry, (pk) => { if (!pk) form.paymentMethod = 'bank_transfer' })
 
 const whatsappMessage = ref('')
 

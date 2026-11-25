@@ -42,7 +42,7 @@
       <div class="footer-col">
         <h4>Talk to us</h4>
         <a href="tel:+923311116915">+92 331 111 6915</a>
-        <a href="mailto:organicapricoskardu@gmail.com">organicapricoskardu@gmail.com</a>
+        <a href="mailto:info@organicaprico.com">info@organicaprico.com</a>
         <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp</a>
         <NuxtLink to="/contact">Contact page</NuxtLink>
         <h4>Follow</h4>

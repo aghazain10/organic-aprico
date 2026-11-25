@@ -70,13 +70,13 @@ const isWholesale = slug.includes('wholesale') || WHOLESALE_SLUGS.has(slug)
 const cta = isWholesale
   ? {
       heading: 'Source shilajit wholesale from the extractor',
-      copy: 'Bulk Himalayan resin with 73% fulvic acid, full lab reports and private label — direct from our Skardu production facility. MOQ 1 kg from Rs 95,000/kg.',
+      copy: 'Bulk Himalayan resin with 73% fulvic acid + humic acid, full lab reports and private label — direct from our Skardu production facility. MOQ 1 kg from Rs 95,000/kg.',
       path: '/products/pure-himalayan-shilajit-resin-wholesale',
       label: 'See wholesale pricing',
     }
   : {
       heading: 'Buy lab-tested Himalayan shilajit',
-      copy: 'Gold-grade resin from 17,000 ft in Skardu — 73% fulvic acid, 8-stage purification, COD across Pakistan and worldwide shipping. From Rs 1,500.',
+      copy: 'Gold-grade resin from 17,000 ft in Skardu — 73% fulvic acid + humic acid, 8-stage purification, COD across Pakistan and worldwide shipping. From Rs 1,500.',
       path: '/products/shilajit',
       label: 'Shop shilajit resin',
     }

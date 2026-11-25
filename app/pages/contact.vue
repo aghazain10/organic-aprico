@@ -26,7 +26,7 @@
           <div class="contact-card">
             <h2>Email</h2>
             <p>For batch lab reports, export documents, wholesale quotes or anything you want in writing.</p>
-            <a class="contact-link" href="mailto:organicapricoskardu@gmail.com">organicapricoskardu@gmail.com</a>
+            <a class="contact-link" href="mailto:info@organicaprico.com">info@organicaprico.com</a>
           </div>
 
           <div class="contact-card">
@@ -103,7 +103,7 @@ useHead({
 
 useSeoMeta({
   title: 'Contact Organic Aprico | Phone, WhatsApp, Email, Lahore Hours',
-  description: 'Reach Organic Aprico by phone or WhatsApp at +92 331 1116915, or email organicapricoskardu@gmail.com. Lahore outlet: D.H.A. Main Blvd, near Adil Hospital, DHA Phase 1. Open daily 11 AM–12 AM.',
+  description: 'Reach Organic Aprico by phone or WhatsApp at +92 331 1116915, or email info@organicaprico.com. Lahore outlet: D.H.A. Main Blvd, near Adil Hospital, DHA Phase 1. Open daily 11 AM–12 AM.',
   ogTitle: 'Contact Organic Aprico',
   ogDescription: 'Call or WhatsApp +92 331 1116915, or visit our Lahore outlet in DHA Phase 1. Open daily 11 AM–12 AM.',
 })

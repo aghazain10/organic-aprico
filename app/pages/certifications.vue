@@ -66,11 +66,19 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>OA-26-0408</td>
+                  <td>W25-AAAB-042</td>
                   <td>Eurofins Food Testing UK Ltd</td>
                   <td>Fulvic acid / total humic extract</td>
-                  <td class="result">71.8% fulvic acid, 73.3% total humic extract</td>
-                  <td>September 2025</td>
+                  <td class="result">71.8% fulvic acid and 73% humic extract verified by Eurofins</td>
+                  <td>06 October 2025</td>
+                  <td><a href="/images/lab-reports/eurofins-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
+                </tr>
+                <tr>
+                  <td>W25-AAAB-042</td>
+                  <td>Eurofins Food Testing UK Ltd</td>
+                  <td>Heavy metals (lead, cadmium, arsenic, mercury)</td>
+                  <td class="result">Way under safe limits (lead 0.260, cadmium 0.009, arsenic 0.132, mercury &lt;0.005 mg/kg)</td>
+                  <td>06 October 2025</td>
                   <td><a href="/images/lab-reports/eurofins-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
                 </tr>
                 <tr>
@@ -86,13 +94,13 @@
                   <td>PCSIR, Lahore</td>
                   <td>Aflatoxin B1, B2, G1, G2</td>
                   <td class="result">Not detected</td>
-                  <td>September 2025</td>
+                  <td>August 2026</td>
                   <td><a href="/images/lab-reports/pcsir-aflatoxin.jpg" target="_blank" rel="noopener">View report</a></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p class="cert-meta">Every jar carries its own batch code. Send us the code on the box and we will send the matching report for that batch &mdash; <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp +92 331 1116915</a> or <a href="mailto:organicapricoskardu@gmail.com">organicapricoskardu@gmail.com</a>.</p>
+          <p class="cert-meta">Every jar carries its own batch code. Send us the code on the box and we will send the matching report for that batch &mdash; <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp +92 331 1116915</a> or <a href="mailto:info@organicaprico.com">info@organicaprico.com</a>.</p>
         </div>
       </section>
 
@@ -341,7 +349,7 @@ const labReports = [
     image: '/images/lab-reports/eurofins-fulvic-acid.webp',
     alt: 'Eurofins lab report showing 71.8% fulvic acid and 73.3% total humic extract',
     description: 'Independent verification of fulvic acid and humic extract concentration — the primary active compounds in shilajit that drive its health benefits.',
-    result: '71.8% fulvic acid, 73.3% total humic extract',
+    result: '71.8% fulvic acid and 73% humic extract verified by Eurofins',
   },
   {
     name: 'Heavy Metals &amp; Microbiological Panel',

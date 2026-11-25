@@ -2,7 +2,7 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="hero-origin">Skardu, Gilgit Baltistan. Since 1972.</p>
+        <p class="hero-origin">Skardu, Gilgit Baltistan. Local family business since 1972; SECP registered in 2020.</p>
         <h1>Pure Himalayan shilajit from 17,000 feet.</h1>
         <p class="lede">Licensed extractor. Purified in eight stages, lab tested, shipped worldwide.</p>
         <div class="hero-actions">
@@ -26,7 +26,7 @@
           <rect x="50" y="281" width="200" height="1" fill="#C9A24A" opacity=".8"/>
           <text x="150" y="240" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="600" font-size="17" fill="#E9CD84" letter-spacing=".5">Organic Aprico</text>
           <text x="150" y="262" text-anchor="middle" font-family="Manrope, sans-serif" font-size="9.5" fill="#C9A24A">Pure Himalayan Shilajit</text>
-          <text x="150" y="275" text-anchor="middle" font-family="Manrope, sans-serif" font-size="8" fill="#9A9080">73% fulvic acid</text>
+          <text x="150" y="275" text-anchor="middle" font-family="Manrope, sans-serif" font-size="8" fill="#9A9080">73% fulvic acid + humic acid</text>
         </svg>
       </div>
     </div>

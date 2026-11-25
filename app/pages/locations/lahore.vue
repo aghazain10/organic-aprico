@@ -31,7 +31,7 @@
             <ul class="lahore-facts">
               <li><strong>Hours:</strong> 11 AM&ndash;12 AM, daily</li>
               <li><strong>Phone / WhatsApp:</strong> +92 331 1116915</li>
-              <li><strong>Email:</strong> organicapricoskardu@gmail.com</li>
+              <li><strong>Email:</strong> info@organicaprico.com</li>
             </ul>
             <h2>What you can buy at the counter</h2>
             <p>Everything on our website is available in store: shilajit resin in 10g, 20g, 30g, 50g and 100g jars, Shilajit Drops in 30ml and 60ml bottles, and bulk orders arranged on request. Each box carries its batch code, and we can print out or show the matching Eurofins and PCSIR results before you buy.</p>
@@ -127,10 +127,10 @@ const localBusinessSchema = {
   image: `${SITE_URL}/images/logo.png`,
   url: `${SITE_URL}/locations/lahore`,
   telephone: '+92 331 1116915',
-  email: 'organicapricoskardu@gmail.com',
+  email: 'info@organicaprico.com',
   priceRange: 'Rs 1,500 – Rs 95,000/kg',
   currenciesAccepted: 'PKR',
-  paymentAccepted: 'Cash on Delivery, Bank Transfer, JazzCash, EasyPaisa, Credit Card',
+  paymentAccepted: 'Cash on Delivery, Bank Transfer, JazzCash, EasyPaisa',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Lahore Organic Village, D.H.A. Main Blvd, near Adil Hospital',

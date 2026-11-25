@@ -12,7 +12,7 @@
           <p>Hand-harvested from the rocks of Gilgit-Baltistan, Skardu.</p>
         </div>
         <div class="benefit">
-          <h3>73% fulvic acid</h3>
+          <h3>73% fulvic acid + humic acid</h3>
           <p>Independently verified by PCSIR and Eurofins.</p>
         </div>
         <div class="benefit">
@@ -41,7 +41,7 @@
         </div>
         <div class="benefit">
           <h3>Licensed extractor</h3>
-          <p>Government extraction and export licences, SECP registered since 1972.</p>
+          <p>Government extraction and export licences, SECP registered in 2020.</p>
         </div>
       </div>
     </div>
