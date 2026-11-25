@@ -356,7 +356,7 @@
             <p><strong>Why:</strong> Hand selection keeps out low-grade rock and debris, and gentle crushing lets the resin dissolve naturally without releasing excess grit.</p>
 
             <h3>Step 3: Sun Exposure &amp; Organic Triphala Cleansing</h3>
-            <p><strong>How:</strong> Following classical Ayurvedic tradition, the crushed rocks are spread under direct sunlight and coated in a paste made from 100% Certified Organic Triphala.</p>
+            <p><strong>How:</strong> Following classical Ayurvedic tradition, the crushed rocks are spread under direct sunlight and coated in a paste made from 100% Certified Organic Triphala. The Triphala is a processing aid and is washed away; the final product contains only shilajit.</p>
             <p><strong>Why:</strong> This natural herbal blend works alongside solar energy to eliminate surface bacteria and bind heavy metals before extraction even begins &mdash; no synthetic chemicals.</p>
 
             <h3>Step 4: Cool Lab-Tested Water Dissolution &amp; 24-Hour Settling</h3>

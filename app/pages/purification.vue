@@ -97,7 +97,7 @@ const steps = [
   {
     title: 'Sun exposure & organic Triphala cleansing',
     description: 'Crushed rocks coated in Certified Organic Triphala paste under direct sunlight.',
-    detail: 'Following classical Ayurvedic tradition, we spread the crushed rocks under direct sunlight and coat them in a paste made from 100% Certified Organic Triphala. This natural herbal blend works alongside solar energy to eliminate surface bacteria and bind heavy metals before extraction even begins.',
+    detail: 'Following classical Ayurvedic tradition, we spread the crushed rocks under direct sunlight and coat them in a paste made from 100% Certified Organic Triphala. This natural herbal blend works alongside solar energy to eliminate surface bacteria and bind heavy metals before extraction even begins. The Triphala is a processing aid and is washed away; the final product contains only shilajit.',
     facts: [
       { label: 'Herb', value: 'Organic Triphala' },
       { label: 'Energy', value: 'Direct sunlight' },
