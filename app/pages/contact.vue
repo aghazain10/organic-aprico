@@ -39,8 +39,8 @@
 
           <div class="contact-card">
             <h2>Production house</h2>
-            <p>Organic Aprico, Lasu House of Production, Sukamaidan, Skardu, Gilgit-Baltistan.</p>
-            <p class="contact-hours">Production and dispatch (not a retail outlet)</p>
+            <p>Organic Aprico, Lasu House of Production, Sukamaidan, Skardu, Gilgit-Baltistan. Raw shilajit is collected here and shipped to our Lahore purification facility.</p>
+            <p class="contact-hours">Raw material collection hub (not a retail outlet)</p>
           </div>
         </div>
       </section>
@@ -63,7 +63,7 @@
             </NuxtLink>
             <NuxtLink to="/certifications" class="contact-quicklink">
               <strong>Lab reports &amp; certifications</strong>
-              <span>Eurofins and PCSIR results, batch OA-26-0408.</span>
+              <span>Eurofins batch W25-AAAB-042 and PCSIR batch OA-26-0408.</span>
             </NuxtLink>
             <NuxtLink to="/policies/refund-policy" class="contact-quicklink">
               <strong>Refund &amp; return policy</strong>
@@ -103,7 +103,7 @@ useHead({
 
 useSeoMeta({
   title: 'Contact Organic Aprico | Phone, WhatsApp, Email, Lahore Hours',
-  description: 'Reach Organic Aprico by phone or WhatsApp at +92 331 1116915, or email info@organicaprico.com. Lahore outlet: D.H.A. Main Blvd, near Adil Hospital, DHA Phase 1. Open daily 11 AM–12 AM.',
+  description: 'Contact Organic Aprico by phone or WhatsApp at +92 331 1116915, or email info@organicaprico.com. Visit our Lahore outlet in DHA Phase 1, open daily 11 AM–12 AM.',
   ogTitle: 'Contact Organic Aprico',
   ogDescription: 'Call or WhatsApp +92 331 1116915, or visit our Lahore outlet in DHA Phase 1. Open daily 11 AM–12 AM.',
 })

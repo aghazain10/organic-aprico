@@ -6,7 +6,7 @@
         <div class="wrap">
           <NuxtLink to="/#purification" class="back-link">&larr; Back to home</NuxtLink>
           <h1>Eight stages from rock to jar</h1>
-          <p class="lede">Our pure Himalayan Shilajit resin is ethically harvested above 17,000 feet in Gilgit-Baltistan and purified inside an ISO 22000, HACCP and GMP-certified facility using an 8-stage, 100% organic cold process &mdash; no UV, no ozone, no chemicals.</p>
+          <p class="lede">Our pure Himalayan Shilajit resin is ethically harvested above 17,000 feet in Gilgit-Baltistan and purified at our Lahore facility, certified to ISO 9001, ISO 22000, GMP, HACCP and Halal standards, using an 8-stage, 100% organic cold process &mdash; no UV, no ozone, no chemicals.</p>
         </div>
       </section>
 
@@ -173,7 +173,7 @@ const faqs = [
   },
   {
     q: 'Where is your Gold Grade Shilajit sourced and how is its safety verified?',
-    a: 'Our raw Gold Grade rocks are ethically harvested above 17,000 feet in the Himalayan mountains of Gilgit-Baltistan by experienced local mountain experts. Every batch is processed inside an ISO 22000, HACCP, and GMP-certified facility using 0.1–0.2 micron cold ultra-filtration and is verified by independent third-party laboratory testing for heavy metals, microbiology, and fulvic acid potency.',
+    a: 'Our raw Gold Grade rocks are ethically harvested above 17,000 feet in the Himalayan mountains of Gilgit-Baltistan by experienced local mountain experts, then shipped to our Lahore facility for purification. Every batch is processed inside an ISO 9001, ISO 22000, GMP, HACCP and Halal certified facility using 0.1–0.2 micron cold ultra-filtration and is verified by independent third-party laboratory testing for heavy metals, microbiology, and fulvic acid potency.',
   },
 ]
 
@@ -199,7 +199,7 @@ useSeoMeta({
   title: 'Purification Process | Organic Aprico',
   description: 'See how Organic Aprico purifies Himalayan shilajit through an 8-stage, 100% organic cold process — from ethical extraction at 17,000 feet to 0.1–0.2 micron cold ultra-filtration and sealed-chamber sun drying. No UV, ozone or chemicals.',
   ogTitle: 'Our 8-Stage 100% Organic Purification Process',
-  ogDescription: 'From rock to jar — eight stages of 100% organic cold purification without UV, ozone or chemicals. 73% fulvic acid + humic acid, lab verified.',
+  ogDescription: 'From rock to jar — eight stages of 100% organic cold purification without UV, ozone or chemicals. 73.3% total humic extract (71.8% fulvic acid), lab verified.',
 })
 </script>
 

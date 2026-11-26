@@ -14,7 +14,7 @@
           <h1>Shilajit Products &amp; Prices in Pakistan</h1>
           <p class="hub-lede">Three ways to buy Organic Aprico shilajit: gold-grade resin in jars, liquid drops for daily use, and bulk resin with private label for retailers and brands. Every product is the same 8-stage purified resin from our own extraction facility above 17,000 ft in Skardu, with batch-level lab reports.</p>
           <ul class="hub-facts">
-            <li><strong>73% fulvic acid + humic acid</strong> &mdash; PCSIR and Eurofins</li>
+            <li><strong>71.8% fulvic acid and 73.3% total humic extract</strong> &mdash; Eurofins (heavy metals by PCSIR)</li>
             <li><strong>Batch code on every pack</strong> &mdash; lab report on request</li>
             <li><strong>Cash on delivery</strong> in Pakistan</li>
             <li><strong>3-day returns</strong> on retail orders</li>
@@ -128,7 +128,7 @@ const products = [
     bestFor: 'Best value per gram, and the format most buyers start with',
     summary: 'Gold-grade raw resin in 10 g, 20 g, 30 g, 50 g and 100 g glass jars. Label serving size 0.7 g, so 100 g gives about 142 servings.',
     trust: [
-      '73% fulvic acid + humic acid — PCSIR and Eurofins',
+      '71.8% fulvic acid and 73.3% total humic extract — Eurofins',
       'PCSIR heavy metals: non-detect',
       '8-stage purification, sun-dried 40+ days',
       'Batch code and lab report on every jar',
@@ -161,7 +161,7 @@ const products = [
     summary: 'Bulk resin direct from our Skardu extraction and purification facility. MOQ 1 kg, private label packaging, and the full export document set included.',
     trust: [
       'MOQ 1 kg, dispatched within 24 hours',
-      '73% fulvic acid + humic acid, lab reports for every batch',
+      '73.3% total humic extract (71.8% fulvic acid), lab reports for every batch',
       'Private label and custom packaging',
       'Customs, health certificate and export documents',
     ],
@@ -181,9 +181,9 @@ const priceRows = [
 
 useSeoMeta({
   title: 'Shilajit Products: Resin, Drops & Wholesale | Organic Aprico',
-  description: 'Shilajit resin from Rs 1,500, drops from Rs 2,000 and wholesale from Rs 95,000/kg. 73% fulvic acid + humic acid, 8-stage purification, batch lab reports, COD in Pakistan.',
+  description: 'Shilajit resin from Rs 1,500, drops from Rs 2,000 and wholesale from Rs 95,000/kg. 73.3% total humic extract (71.8% fulvic acid), 8-stage purification, batch lab reports, COD in Pakistan.',
   ogTitle: 'Shilajit Products & Prices in Pakistan 2026 — Organic Aprico',
-  ogDescription: 'Resin, drops and wholesale. 73% fulvic acid + humic acid, lab reports with every batch, cash on delivery in Pakistan.',
+  ogDescription: 'Resin, drops and wholesale. 73.3% total humic extract (71.8% fulvic acid), lab reports with every batch, cash on delivery in Pakistan.',
   ogImage: '/images/products/shilajit-resin-hero.webp',
 })
 

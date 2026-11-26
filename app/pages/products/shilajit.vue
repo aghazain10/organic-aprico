@@ -52,10 +52,10 @@
                 {{ formatPrice(pricePerGram) }} per gram &middot; about {{ servingsCount }} servings per jar
                 (0.7 g serving)
               </p>
-              <p class="product-short-desc">Pure Himalayan shilajit resin from the mountains of Gilgit-Baltistan. 73% fulvic acid + humic acid, lab verified from PCSIR and Eurofins. 8-stage purification, sun-dried 40+ days.</p>
+              <p class="product-short-desc">Pure Himalayan shilajit resin from the mountains of Gilgit-Baltistan. 73.3% total humic extract (71.8% fulvic acid), lab verified from PCSIR and Eurofins. 8-stage purification, sun-dried 40+ days.</p>
 
               <ul class="product-facts">
-                <li><strong>73% fulvic acid + humic acid</strong></li>
+                <li><strong>73.3% total humic extract (71.8% fulvic acid)</strong></li>
                 <li><strong>PCSIR heavy metals: non-detect</strong></li>
                 <li><strong>In stock</strong> &mdash; dispatched within 24 hours</li>
                 <li><strong>Cash on delivery</strong> in Pakistan</li>
@@ -115,7 +115,7 @@
       <section class="buy-section">
         <div class="wrap">
           <h2>Buy Shilajit Online in Pakistan (COD &amp; Delivery)</h2>
-          <p>Ordering takes a couple of minutes. Pick your size above, choose <strong>cash on delivery</strong> or pay in advance by bank transfer, JazzCash, EasyPaisa, and we dispatch from the Organic Aprico Outlet, Lahore within 24 hours. Delivery inside Pakistan runs 3 to 5 working days by Postex; international orders ship in 10 to 14 days with customs papers and the batch lab report included.</p>
+          <p>Ordering takes a couple of minutes. Pick your size above, choose <strong>cash on delivery</strong> or pay in advance by bank transfer, and we dispatch from the Organic Aprico Outlet, Lahore within 24 hours. Delivery inside Pakistan runs 3 to 5 working days by Postex; international orders ship in 10 to 14 days with customs papers and the batch lab report included.</p>
           <ul class="buy-list">
             <li><strong>Cash on delivery</strong> available in all major cities of Pakistan.</li>
             <li><strong>Dispatch in 24 hours</strong> &mdash; every parcel carries a batch number, scan bar and matching lab report reference.</li>
@@ -129,7 +129,7 @@
       <section class="price-section" id="price-table">
         <div class="wrap">
           <h2>Shilajit Price per Gram</h2>
-          <p>Every jar below is the same 73% fulvic acid + humic acid, 8-stage purified gold-grade resin &mdash; the price changes only with the jar size. The serving size on our label is 0.7 g.</p>
+          <p>Every jar below is the same 73.3% total humic extract (71.8% fulvic acid), 8-stage purified gold-grade resin &mdash; the price changes only with the jar size. The serving size on our label is 0.7 g.</p>
           <table class="price-table">
             <thead>
               <tr>
@@ -165,7 +165,7 @@
         <div class="wrap">
           <div class="product-description tab-content">
             <p>Organic Aprico offers <strong>Pure shilajit</strong> from the Himalayan mountains of Gilgit-Baltistan, extracted at altitudes above <strong>17,000 feet</strong>. With a starting shilajit price of just <strong>1,500 PKR</strong>, we provide original shilajit in Pakistan with lab testing from PCSIR Pakistan.</p>
-            <p>Our Shilajit undergoes an 8-stage filtration and purification process to ensure it is heavy metals way under safe limits and impurities while retaining <strong>73% fulvic acid + humic acid</strong>, as verified by the lab tests given below.</p>
+            <p>Our Shilajit undergoes an 8-stage filtration and purification process, with heavy metals within safe limits, while retaining <strong>73.3% total humic extract (71.8% fulvic acid)</strong>, as verified by the lab tests given below.</p>
             <p>Local family business since 1972; SECP registered in 2020, exporting shilajit directly since 2020. We specialize in Gold-grade Himalayan shilajit, providing purely natural shilajit for improved health and vitality. Free from microbiological contaminants.</p>
 
             <h2>Pure Shilajit: Origin and Potency</h2>
@@ -175,7 +175,7 @@
 
             <h2>Shilajit Price in Pakistan 2026: A Market Overview</h2>
             <p>The price of original Shilajit in Pakistan varies based on its quality and level of purification. Many sellers lack the necessary production facilities, equipment, and expertise to purify Shilajit properly. Extracted from depths below 14,000 feet, their products often contain harmful sediments and heavy metals that pose serious risks to human health. Such unrefined Shilajit price in Pakistan is sold below 60,000 PKR in 2026, making it a dangerous choice for consumers. For a size-by-size breakdown, see the <a href="#price-table">price-per-gram table above</a>.</p>
-            <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With over 1M satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
+            <p>Organic Aprico offers premium gold-grade Aftabi Salajeet with a starting shilajit price per kg of <strong>95,000 PKR</strong>, ensuring superior quality and purity. With 1M+ satisfied customers worldwide, Organic Aprico sets a benchmark for excellence.</p>
             <p>Globally, Himalayan Shilajit is witnessing increased demand as a natural health supplement known for its mineral richness and benefits like enhanced energy, improved immunity, and better cognitive function. As consumers prioritize organic and pure products, the market for premium-quality Shilajit has expanded, supported by online platforms that make it readily available to a global audience. Choose wisely!</p>
 
             <h3>Shilajit Price in Pakistan by Size (10 g to 100 g)</h3>
@@ -191,14 +191,14 @@
             <p>Our every jar carries the batch number that matches the PCSIR results on our <NuxtLink to="/certifications">lab reports and certifications page</NuxtLink>. If a seller cannot show a fulvic acid figure, a heavy-metals result and a batch code, the low price is the only thing you can verify.</p>
 
             <h2>How to get Himalayan Shilajit from Pakistan</h2>
-            <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, 73% fulvic acid + humic acid and full third-party lab testing, at an affordable price. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
-            <p>Our commitment to delivering original shilajit has earned the trust of over <strong>1 M customers worldwide</strong>. From anywhere in the world, you can buy pure shilajit online at organicaprico.com or contact us at 03311116915. Ordering shilajit online takes a couple of minutes, and every order ships with its batch number and lab report reference.</p>
+            <p>Organic Aprico offers the best shilajit price in Pakistan, consisting of grade A quality, 73.3% total humic extract (71.8% fulvic acid) and full third-party lab testing, at an affordable price. Dedicated to excellence, Organic Aprico provides Pure Himalayan shilajit backed by export and extraction license, company registration, and operational outlets in Skardu and Lahore. With an advanced ultra filtration and purification unit in Lahore Organic Village, we maintain strict quality and hygiene standards. You can conveniently buy shilajit by visiting our outlets. For international deliveries, certified shilajit analysis ensures authenticity, smooth customs clearance, and seamless worldwide shipping.</p>
+            <p>Our commitment to delivering original shilajit has earned the trust of <strong>1M+ satisfied customers worldwide</strong>. From anywhere in the world, you can buy pure shilajit online at organicaprico.com or contact us at 03311116915. Ordering shilajit online takes a couple of minutes, and every order ships with its batch number and lab report reference.</p>
 
             <h2>What you get in every jar of Organic Aprico shilajit</h2>
             <p>Instead of unproven promises, here are the specifications we can document for every batch we sell.</p>
             <ul>
               <li><strong>Origin</strong> — Hand-harvested above 17,000 feet in Gilgit-Baltistan, Skardu.</li>
-              <li><strong>Fulvic acid</strong> — 73% verified independently.</li>
+              <li><strong>Fulvic acid</strong> — 71.8% verified by Eurofins (73.3% total humic extract).</li>
               <li><strong>Minerals</strong> — 85+ naturally occurring trace minerals plus humic acid.</li>
               <li><strong>Purification</strong> — 8-stage 100% organic cold process: Triphala cleansing, cool RO dissolution, ion exchange and 0.1&ndash;0.2 micron ultra-filtration.</li>
               <li><strong>Dehydration</strong> — Sun-dried for more than 40 days in a sealed glass &amp; food-grade stainless steel chamber.</li>
@@ -238,7 +238,7 @@
             </ul>
 
             <h2>Salajeet and Its Quality Assurance by Organic Aprico</h2>
-            <p>Organic Aprico Shilajit undergoes rigorous testing at PCSIR and Eurofins, confirming 73 per cent fulvic + humic acid content and the absence of heavy metals, chemicals, or toxins. We also hold a Certificate of Incorporation and a certification from the Pakistan Council of Scientific &amp; Industrial Research Laboratories Complex in Lahore, confirming the absence of Aflatoxin B1, B2, G1, and G2. We provide certification for both national and international clients, ensuring trust and confidence in our product.</p>
+            <p>Organic Aprico Shilajit undergoes rigorous testing at PCSIR Lahore for heavy metals, microbiology and aflatoxins, and at Eurofins for fulvic acid and total humic extract, with heavy metals within safe limits. We also hold a Certificate of Incorporation and a certification from the Pakistan Council of Scientific &amp; Industrial Research Laboratories Complex in Lahore, confirming the absence of Aflatoxin B1, B2, G1, and G2. We provide certification for both national and international clients, ensuring trust and confidence in our product.</p>
 
             <h2>How to Take Shilajit Resin</h2>
             <p>Organic Aprico Shilajit can be included in your daily routine. Due to its high purity, only a minimal amount is needed. The label serving size is <strong>0.7 g</strong> (about a pea-sized portion). If you are new to shilajit, start with <strong>300&ndash;500 mg</strong> and build up to a full 0.7 g serving. Dissolve it in lukewarm water, milk, herbal tea, or coffee.</p>
@@ -260,7 +260,7 @@
             <button class="tab-btn" :class="{ active: activeTab === 'lab' }" @click="activeTab = 'lab'">Lab Reports</button>
             <button class="tab-btn" :class="{ active: activeTab === 'howto' }" @click="activeTab = 'howto'">How to Use</button>
           </div>
-          <div v-if="activeTab === 'lab'" class="tab-content">
+          <div v-show="activeTab === 'lab'" class="tab-content">
             <h2>Lab Reports &amp; Batch Traceability</h2>
             <p>Every batch of Organic Aprico shilajit is tested by independent laboratories. Below are the latest reports for our shilajit resin, and the batch code printed on every jar.</p>
             <table class="price-table batch-table">
@@ -292,14 +292,14 @@
                   <td>W25-AAAB-042</td>
                   <td>Eurofins</td>
                   <td>Total humic extract</td>
-                  <td>73% humic extract (71.8% fulvic acid)</td>
+                  <td>73.3% total humic extract (71.8% fulvic acid)</td>
                   <td><a href="/certifications">View result</a></td>
                 </tr>
                 <tr>
                   <td>W25-AAAB-042</td>
                   <td>Eurofins</td>
                   <td>Heavy metals (lead, cadmium, arsenic, mercury)</td>
-                  <td>Way under safe limits</td>
+                  <td>Within safe limits</td>
                   <td><a href="/certifications">View result</a></td>
                 </tr>
               </tbody>
@@ -347,7 +347,7 @@
               </div>
             </div>
           </div>
-          <div v-if="activeTab === 'howto'" class="tab-content">
+          <div v-show="activeTab === 'howto'" class="tab-content">
             <h2>How to Use Shilajit Resin</h2>
             <h3>Recommended Dosage</h3>
             <p>Dissolve a <strong>pea-sized portion (approximately 700 mg)</strong> in lukewarm water, milk, herbal tea, or coffee. Stir until fully dissolved. The water may turn a dark amber colour — this is normal and indicates the presence of fulvic acid and minerals.</p>
@@ -610,15 +610,15 @@ const faqs = [
   },
   {
     q: 'How do I know the shilajit is pure and not adulterated?',
-    a: 'Each jar carries a batch code, and the matching third-party lab report is available on request — 73% fulvic acid + humic acid verified by PCSIR and Eurofins, with heavy metals tested at PCSIR Lahore. Read the current results on our lab reports and certifications page.',
+    a: 'Each jar carries a batch code, and the matching third-party lab report is available on request — 71.8% fulvic acid and 73.3% total humic extract verified by Eurofins, with heavy metals tested at PCSIR Lahore. Read the current results on our lab reports and certifications page.',
   },
   {
     q: 'Is this original shilajit or an adulterated product?',
-    a: 'It is purified, single-origin resin from Gilgit-Baltistan, not a blended or reconstituted powder. Three things let you check: the batch code on the jar, the 73% fulvic acid + humic acid result verified by Eurofins, and the PCSIR heavy-metals panel showing lead, arsenic, cadmium and mercury as non-detect. Ask for the report for your exact batch before or after ordering.',
+    a: 'It is purified, single-origin resin from Gilgit-Baltistan, not a blended or reconstituted powder. Three things let you check: the batch code on the jar, the 73.3% total humic extract (71.8% fulvic acid) result verified by Eurofins, and the PCSIR heavy-metals panel showing lead, arsenic, cadmium and mercury as non-detect. Ask for the report for your exact batch before or after ordering.',
   },
   {
     q: 'What is the difference between the 10 g and 100 g jars?',
-    a: 'The resin is identical — same 73% fulvic acid + humic acid, same 8-stage purification. Only the jar size and the per-gram rate change: Rs 150/g at 10 g, Rs 145/g at 20 g, Rs 133/g at 30 g, Rs 142/g at 50 g and Rs 129/g at 100 g. The 100 g jar is the cheapest per gram and gives about 142 servings at the 0.7 g label serving.',
+    a: 'The resin is identical — same 73.3% total humic extract (71.8% fulvic acid), same 8-stage purification. Only the jar size and the per-gram rate change: Rs 150/g at 10 g, Rs 145/g at 20 g, Rs 133/g at 30 g, Rs 142/g at 50 g and Rs 129/g at 100 g. The 100 g jar is the cheapest per gram and gives about 142 servings at the 0.7 g label serving.',
   },
   {
     q: 'What is the 1 kg shilajit price in Pakistan?',
@@ -630,7 +630,7 @@ const faqs = [
   },
   {
     q: 'Do you offer cash on delivery in Pakistan?',
-    a: 'Yes. Cash on delivery is available in all major cities of Pakistan, with delivery in 3 to 5 working days by Postex. You can also pay in advance by bank transfer, JazzCash, EasyPaisa, and collect from our Lahore outlet if you prefer.',
+    a: 'Yes. Cash on delivery is available in all major cities of Pakistan, with delivery in 3 to 5 working days by Postex. You can also pay in advance by bank transfer, or collect from our Lahore outlet if you prefer.',
   },
   {
     q: 'What is the return policy?',
@@ -647,10 +647,10 @@ const faqs = [
 ]
 
 useSeoMeta({
-  title: 'Shilajit Resin Price in Pakistan 2026 | Buy Pure Himalayan',
-  description: 'Shilajit resin price in Pakistan from Rs 1,500 (10 g) to Rs 12,900 (100 g). Pure Himalayan resin, 73% fulvic acid + humic acid, PCSIR heavy-metal tested. COD, 3–5 days.',
-  ogTitle: 'Shilajit Resin Price in Pakistan 2026 — Pure Himalayan Resin from Rs 1,500',
-  ogDescription: 'Gold-grade Himalayan shilajit resin, 73% fulvic acid + humic acid, 8-stage purification, lab tested. 10g Rs 1,500 · 50g Rs 7,100 · 100g Rs 12,900.',
+  title: 'Pure Himalayan Shilajit Resin | 71.8% Fulvic Acid, Lab Tested',
+  description: 'Gold-grade Himalayan shilajit resin with 71.8% fulvic acid and 73.3% total humic extract. 8-stage purified, PCSIR and Eurofins tested, COD across Pakistan. From Rs 1,500 (10 g).',
+  ogTitle: 'Pure Himalayan Shilajit Resin — Lab Tested, COD Across Pakistan',
+  ogDescription: 'Gold-grade Himalayan shilajit resin with 71.8% fulvic acid, 73.3% total humic extract, 8-stage purification and PCSIR/Eurofins testing. COD across Pakistan.',
   ogImage: '/images/products/shilajit-resin-jar-spoon.webp',
   ogType: 'product',
 })
@@ -663,18 +663,16 @@ useHead({
         url: '/products/shilajit',
         images: galleryImages,
         skuPrefix: 'OA-SHILAJIT-RESIN',
-        // Matches the "4.8/5 from 40 Google reviews" badge rendered above the
-        // fold and in the Rated-on-Google section of this page.
-        aggregateRating: { ratingValue: 4.8, reviewCount: 40 },
-        name: 'Pure Himalayan Shilajit Resin',
-        description: 'Gold-grade Himalayan shilajit resin with 73% fulvic acid + humic acid. 8-stage purification, lab tested. From 17,000 feet in Gilgit-Baltistan.',
+                name: 'Pure Himalayan Shilajit Resin',
+        description: 'Gold-grade Himalayan shilajit resin with 73.3% total humic extract (71.8% fulvic acid). 8-stage purification, lab tested. From 17,000 feet in Gilgit-Baltistan.',
         category: 'Dietary Supplement > Herbal Supplement',
         additionalProperties: [
-          { name: 'Fulvic acid', value: '73%' },
+          { name: 'Fulvic acid', value: '71.8%' },
+          { name: 'Total humic extract', value: '73.3%' },
           { name: 'Source altitude', value: 'Above 17,000 ft' },
           { name: 'Purification', value: '8-stage organic cold process' },
           { name: 'Trace minerals', value: '85+' },
-          { name: 'Batch', value: 'OA-26-0408' },
+          { name: 'Batch', value: 'PCSIR OA-26-0408; Eurofins W25-AAAB-042' },
           { name: 'Serving size', value: '0.7 g' },
         ],
         returnWindowDays: 3,
@@ -682,7 +680,7 @@ useHead({
           shippingRate: 250,
           handlingTime: { minValue: 0, maxValue: 1 },
           transitTime: { minValue: 3, maxValue: 5 },
-          shippingDestination: { '@type': 'PostalAddress', addressCountry: 'PK' },
+          shippingCountries: ['PK', 'GB', 'US', 'CA', 'AU'],
         },
         sellerId: 'https://organicaprico.com/#organization',
       })),

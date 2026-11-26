@@ -26,14 +26,14 @@
           <rect x="50" y="281" width="200" height="1" fill="#C9A24A" opacity=".8"/>
           <text x="150" y="240" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="600" font-size="17" fill="#E9CD84" letter-spacing=".5">Organic Aprico</text>
           <text x="150" y="262" text-anchor="middle" font-family="Manrope, sans-serif" font-size="9.5" fill="#C9A24A">Pure Himalayan Shilajit</text>
-          <text x="150" y="275" text-anchor="middle" font-family="Manrope, sans-serif" font-size="8" fill="#9A9080">73% fulvic acid + humic acid</text>
+          <text x="150" y="275" text-anchor="middle" font-family="Manrope, sans-serif" font-size="8" fill="#9A9080">73.3% total humic extract (71.8% fulvic acid)</text>
         </svg>
       </div>
     </div>
     <div class="wrap">
       <dl class="spec-row">
         <div><dt>Extraction altitude</dt><dd>Above 17,000 ft</dd></div>
-        <div><dt>Fulvic acid, lab verified</dt><dd>73%</dd></div>
+        <div><dt>Fulvic acid, lab verified</dt><dd>71.8%</dd></div>
         <div><dt>Natural minerals</dt><dd>85+</dd></div>
         <div><dt>Sun dehydration</dt><dd>40+ days</dd></div>
       </dl>

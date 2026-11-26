@@ -5,20 +5,20 @@ const SITE_URL = 'https://organicaprico.com'
 
 // lastmod = date the page content was last changed (git history)
 const STATIC_LASTMOD: Record<string, string> = {
-  '/': '2026-09-18',
-  '/certifications': '2026-09-11',
-  '/purification': '2026-09-11',
-  '/blogs/blog': '2026-09-21',
-  '/products': '2026-10-21',
-  '/products/shilajit': '2026-10-26',
-  '/products/shilajit-drops': '2026-10-21',
-  '/products/pure-himalayan-shilajit-resin-wholesale': '2026-10-21',
-  '/contact': '2026-10-21',
-  '/locations/lahore': '2026-10-21',
+  '/': '2026-11-26',
+  '/certifications': '2026-11-26',
+  '/purification': '2026-11-26',
+  '/blogs/blog': '2026-11-26',
+  '/products': '2026-11-26',
+  '/products/shilajit': '2026-11-26',
+  '/products/shilajit-drops': '2026-11-26',
+  '/products/pure-himalayan-shilajit-resin-wholesale': '2026-11-26',
+  '/contact': '2026-11-26',
+  '/locations/lahore': '2026-11-26',
 }
 
 // static info/policy pages all come from app/data/pages.ts
-const PAGES_LASTMOD = '2026-09-25'
+const PAGES_LASTMOD = '2026-11-26'
 
 const STATIC_PATHS = [
   '/',

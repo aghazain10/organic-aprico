@@ -36,7 +36,7 @@
           <NuxtLink to="/locations/lahore">Shop open 11 AM&ndash;12 AM &rarr;</NuxtLink>
         </address>
         <address>
-          <strong>Lasu House of Production</strong><br>Skardu, Gilgit Baltistan
+          <strong>Lasu House of Production</strong><br>Raw material collection, Skardu, Gilgit-Baltistan
         </address>
       </div>
       <div class="footer-col">
@@ -70,7 +70,7 @@
     </div>
     <div class="wrap footer-bottom">
       <span>&copy; {{ year }} Organic Aprico. All rights reserved.</span>
-      <span>Cash on delivery across Pakistan, or pay by bank transfer, JazzCash, EasyPaisa or card.</span>
+      <span>Cash on delivery across Pakistan, or pay by bank transfer.</span>
     </div>
   </footer>
 </template>

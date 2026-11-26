@@ -39,7 +39,7 @@
 const rows = [
   { label: 'Who sells it', us: 'Licensed extractor. No middleman.', them: 'Resellers, unknown source.' },
   { label: 'Altitude', us: 'Above 17,000 ft, Skardu.', them: 'Often below 16,000 ft.' },
-  { label: 'Fulvic acid', us: '73%, lab verified.', them: 'Not disclosed.' },
+  { label: 'Fulvic acid', us: '71.8% (73.3% total humic extract), lab verified.', them: 'Not disclosed.' },
   { label: 'Purification', us: '8 stages, 40 days sun-dried, no chemicals.', them: 'Boiling or none.' },
   { label: 'Testing', us: 'PCSIR, Eurofins. ISO, GMP, HACCP, Halal.', them: 'No reports.' },
   { label: 'Traceability', us: 'Batch number on every pack.', them: 'None.' },

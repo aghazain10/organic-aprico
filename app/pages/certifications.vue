@@ -7,7 +7,7 @@
           <NuxtLink to="/" class="back-link">&larr; Back to home</NuxtLink>
           <h1>Lab Reports &amp; Certifications</h1>
           <p class="lede">Every batch is tested by independent labs and certified to international standards. Full transparency, no exceptions.</p>
-          <p class="cert-meta">Last updated: <time datetime="2026-10-21">21 October 2026</time> &middot; Current batch code: <strong>OA-26-0408</strong></p>
+          <p class="cert-meta">Last updated: <time datetime="2026-11-26">26 November 2026</time> &middot; Current batches: Eurofins <strong>W25-AAAB-042</strong> &middot; PCSIR <strong>OA-26-0408</strong></p>
           <div class="hero-actions">
             <a
               href="/images/gmp-haccp-halal-certificates.pdf"
@@ -69,7 +69,7 @@
                   <td>W25-AAAB-042</td>
                   <td>Eurofins Food Testing UK Ltd</td>
                   <td>Fulvic acid / total humic extract</td>
-                  <td class="result">71.8% fulvic acid and 73% humic extract verified by Eurofins</td>
+                  <td class="result">71.8% fulvic acid and 73.3% total humic extract verified by Eurofins</td>
                   <td>06 October 2025</td>
                   <td><a href="/images/lab-reports/eurofins-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
                 </tr>
@@ -77,7 +77,7 @@
                   <td>W25-AAAB-042</td>
                   <td>Eurofins Food Testing UK Ltd</td>
                   <td>Heavy metals (lead, cadmium, arsenic, mercury)</td>
-                  <td class="result">Way under safe limits (lead 0.260, cadmium 0.009, arsenic 0.132, mercury &lt;0.005 mg/kg)</td>
+                  <td class="result">Within safe limits (lead 0.260, cadmium 0.009, arsenic 0.132, mercury &lt;0.005 mg/kg)</td>
                   <td>06 October 2025</td>
                   <td><a href="/images/lab-reports/eurofins-fulvic-acid.webp" target="_blank" rel="noopener">View report</a></td>
                 </tr>
@@ -100,6 +100,7 @@
               </tbody>
             </table>
           </div>
+          <p class="cert-meta">The Eurofins certificate covers both the fulvic acid / total humic extract analysis and the heavy-metal results, so both Eurofins rows link to the same report.</p>
           <p class="cert-meta">Every jar carries its own batch code. Send us the code on the box and we will send the matching report for that batch &mdash; <a href="https://wa.me/923311116915" target="_blank" rel="noopener">WhatsApp +92 331 1116915</a> or <a href="mailto:info@organicaprico.com">info@organicaprico.com</a>.</p>
         </div>
       </section>
@@ -344,12 +345,12 @@ const certifications = [
 
 const labReports = [
   {
-    name: 'Fulvic Acid &amp; Humic Extract',
+    name: 'Fulvic Acid, Humic Extract &amp; Heavy Metals',
     lab: 'Eurofins',
     image: '/images/lab-reports/eurofins-fulvic-acid.webp',
-    alt: 'Eurofins lab report showing 71.8% fulvic acid and 73.3% total humic extract',
-    description: 'Independent verification of fulvic acid and humic extract concentration — the primary active compounds in shilajit that drive its health benefits.',
-    result: '71.8% fulvic acid and 73% humic extract verified by Eurofins',
+    alt: 'Eurofins lab report showing fulvic acid, total humic extract and heavy-metal results in one certificate',
+    description: 'One Eurofins certificate covering fulvic acid, total humic extract and heavy metals. It reports 71.8% fulvic acid and 73.3% total humic extract, with lead, cadmium, arsenic and mercury all within safe limits.',
+    result: '71.8% fulvic acid, 73.3% total humic extract; heavy metals within safe limits',
   },
   {
     name: 'Heavy Metals &amp; Microbiological Panel',
@@ -406,9 +407,9 @@ useHead({
 
 useSeoMeta({
   title: 'Lab Reports & Certifications | Organic Aprico',
-  description: 'PCSIR heavy metals and Eurofins fulvic acid results in text, plus ISO 9001, ISO 22000, GMP, HACCP and Halal certifications. Batch OA-26-0408, updated October 2026.',
+  description: 'Read PCSIR and Eurofins lab results for Organic Aprico shilajit: fulvic acid, heavy metals, microbiology and aflatoxins, plus ISO, GMP, HACCP and Halal certificates.',
   ogTitle: 'Lab Reports & Certifications — Organic Aprico',
-  ogDescription: 'ISO 9001, ISO 22000, GMP, HACCP, Halal certified. Lab tested by PCSIR and Eurofins. Batch OA-26-0408 results published in text and as scans.',
+  ogDescription: 'ISO 9001, ISO 22000, GMP, HACCP and Halal certified. PCSIR and Eurofins results published in text and as full lab scans.',
 })
 </script>
 

@@ -75,7 +75,7 @@ const products = [
   {
     path: '/products/shilajit',
     title: 'Shilajit Resin',
-    copy: 'Gold-grade Himalayan resin, 73% fulvic acid + humic acid, lab tested. From Rs 1,500.',
+    copy: 'Gold-grade Himalayan resin, 73.3% total humic extract (71.8% fulvic acid), lab tested. From Rs 1,500.',
     price: 'From Rs 1,500',
     image: '/images/products/shilajit-resin-jar-spoon.webp',
   },

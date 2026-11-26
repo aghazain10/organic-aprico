@@ -151,7 +151,7 @@ const labs: Lab[] = [
   {
     name: 'PCSIR Laboratories Complex',
     location: 'Lahore, Pakistan',
-    long: 'Government laboratories complex testing every batch for heavy metals, microbiological safety and aflatoxins. All results come back clean — no lead, mercury, arsenic, cadmium or microbial contamination detected.',
+    long: 'Government laboratories complex testing every batch for heavy metals, microbiological safety and aflatoxins. All results come back within safe limits — lead, mercury, arsenic and cadmium controlled, with a clear microbiological panel.',
     images: [
       '/images/lab-reports/pcsir-heavy-metals-microbiological.jpg',
       '/images/lab-reports/pcsir-aflatoxin.jpg',

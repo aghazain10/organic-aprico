@@ -17,7 +17,7 @@ export const PRODUCTS: Product[] = [
   {
     key: 'resin',
     name: 'Shilajit Resin',
-    description: 'Gold-grade resin, sun-dried 40 days. 73% fulvic acid + humic acid, lab verified.',
+    description: 'Gold-grade resin, sun-dried 40 days. 73.3% total humic extract (71.8% fulvic acid), lab verified.',
     defaultSize: '30g',
     sizes: [
       { id: '10g', label: '10 g', price: 1500, was: 1700 },

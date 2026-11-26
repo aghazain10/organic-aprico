@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: 'What testing does your shilajit undergo?',
-    a: 'Every batch is tested by PCSIR Lahore and independently by Eurofins. Reports cover fulvic acid percentage, heavy metals (lead, mercury, arsenic, cadmium), aflatoxins and a full microbiological panel. You can view the reports on our certifications page.',
+    a: 'Every batch is tested by PCSIR Lahore for heavy metals, microbiology and aflatoxins, and by Eurofins for fulvic acid and total humic extract (heavy metals also reported by Eurofins). Reports cover 71.8% fulvic acid, heavy metals within safe limits, aflatoxins and a full microbiological panel. You can view the reports on our certifications page.'
   },
   {
     q: 'Is shilajit right for me?',

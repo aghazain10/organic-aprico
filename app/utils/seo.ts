@@ -39,22 +39,24 @@ export interface ProductSchemaOptions {
   additionalProperties?: { name: string, value: string | number }[]
   /** Returns window in days. Emits hasMerchantReturnPolicy on the offer. */
   returnWindowDays?: number
+  /**
+   * ISO 3166-1 alpha-2 codes the return policy applies to. Defaults to
+   * Pakistan plus the export markets we actually ship to.
+   */
+  returnCountries?: string[]
   /** Shipping details for the offer. Omit values that are not verified. */
   shippingDetails?: {
     /** Shipping cost in PKR. Omit when the rate varies by order. */
     shippingRate?: number
     handlingTime?: ShippingDuration
     transitTime?: ShippingDuration
+    /** ISO 3166-1 alpha-2 codes we ship to. */
+    shippingCountries?: string[]
+    /** Single destination, used when only one country is served. */
     shippingDestination?: { '@type': 'PostalAddress', addressCountry: string }
   }
   /** @id of the seller Organization node, e.g. 'https://organicaprico.com/#organization'. */
   sellerId?: string
-  /**
-   * Average rating visible on the page (the Google Business Profile badge).
-   * Only pass this when the same numbers are rendered on the page — Google
-   * rejects markup that does not match visible content.
-   */
-  aggregateRating?: { ratingValue: number; reviewCount: number }
 }
 
 function quantitativeValue(duration: ShippingDuration) {
@@ -98,7 +100,7 @@ export function buildProductJsonLd(product: Product, options: ProductSchemaOptio
         ? {
             hasMerchantReturnPolicy: {
               '@type': 'MerchantReturnPolicy',
-              applicableCountry: 'PK',
+              applicableCountry: options.returnCountries ?? ['PK', 'GB', 'US', 'CA', 'AU'],
               returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
               merchantReturnDays: options.returnWindowDays,
               returnMethod: 'https://schema.org/ReturnByMail',
@@ -111,6 +113,14 @@ export function buildProductJsonLd(product: Product, options: ProductSchemaOptio
 
   if (options.shippingDetails) {
     const { shippingDetails } = options
+    const destinations = shippingDetails.shippingCountries?.length
+      ? shippingDetails.shippingCountries.map((country) => ({
+          '@type': 'PostalAddress',
+          addressCountry: country,
+        }))
+      : shippingDetails.shippingDestination
+      ? [shippingDetails.shippingDestination]
+      : []
     offers.shippingDetails = {
       '@type': 'OfferShippingDetails',
       ...(typeof shippingDetails.shippingRate === 'number'
@@ -122,8 +132,8 @@ export function buildProductJsonLd(product: Product, options: ProductSchemaOptio
             },
           }
         : {}),
-      ...(shippingDetails.shippingDestination
-        ? { shippingDestination: shippingDetails.shippingDestination }
+      ...(destinations.length
+        ? { shippingDestination: destinations.length === 1 ? destinations[0] : destinations }
         : {}),
       ...(shippingDetails.handlingTime
         ? { handlingTime: quantitativeValue(shippingDetails.handlingTime) }
@@ -152,17 +162,6 @@ export function buildProductJsonLd(product: Product, options: ProductSchemaOptio
         }
       : {}),
     itemCondition: 'https://schema.org/NewCondition',
-    ...(options.aggregateRating
-      ? {
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: options.aggregateRating.ratingValue,
-            reviewCount: options.aggregateRating.reviewCount,
-            bestRating: 5,
-            worstRating: 1,
-          },
-        }
-      : {}),
     offers,
   }
 }

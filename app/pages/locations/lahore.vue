@@ -40,7 +40,7 @@
             <h2>Order pickup</h2>
             <p>Orders placed online with delivery inside Lahore can be collected from the outlet instead of shipping via Postex. Choose COD or pay in advance, WhatsApp us your order number when you are on the way, and we will have the parcel ready.</p>
             <h2>Cash on delivery, online or in person</h2>
-            <p>Paying at the counter works exactly like COD online: inspect the sealed jar, check the batch code and tamper seal, then pay by cash, card, JazzCash or EasyPaisa. Nationwide COD orders placed online are dispatched from this address via Postex.</p>
+            <p>Paying at the counter works exactly like COD online: inspect the sealed jar, check the batch code and tamper seal, then pay by cash or bank transfer. Nationwide COD orders placed online are dispatched from this address via Postex.</p>
           </div>
         </div>
       </section>
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: 'Is cash on delivery available?',
-    a: 'Yes, both ways: pay cash at the counter after inspecting your jar, or order online and pay cash to the Postex rider anywhere in Pakistan. Bank transfer, card, JazzCash and EasyPaisa are also accepted in store.',
+    a: 'Yes, both ways: pay cash at the counter after inspecting your jar, or order online and pay cash to the Postex rider anywhere in Pakistan. Bank transfer is also accepted in store.',
   },
   {
     q: 'Are all products in stock in Lahore?',
@@ -123,14 +123,14 @@ const localBusinessSchema = {
   '@type': 'Store',
   '@id': `${SITE_URL}/#lahore`,
   name: 'Organic Aprico — Lahore Organic Village',
-  description: 'Organic Aprico retail outlet and order dispatch office in DHA Phase 1, Lahore — shilajit resin, drops and wholesale counter.',
+  description: 'Organic Aprico retail outlet, purification facility and order dispatch office in DHA Phase 1, Lahore — shilajit resin, drops and wholesale counter.',
   image: `${SITE_URL}/images/logo.png`,
   url: `${SITE_URL}/locations/lahore`,
   telephone: '+92 331 1116915',
   email: 'info@organicaprico.com',
   priceRange: 'Rs 1,500 – Rs 95,000/kg',
   currenciesAccepted: 'PKR',
-  paymentAccepted: 'Cash on Delivery, Bank Transfer, JazzCash, EasyPaisa',
+  paymentAccepted: 'Cash on Delivery, Bank Transfer',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Lahore Organic Village, D.H.A. Main Blvd, near Adil Hospital',
@@ -182,9 +182,9 @@ useHead({
 
 useSeoMeta({
   title: 'Shilajit Shop in Lahore | Organic Aprico',
-  description: 'Buy shilajit in Lahore: Organic Aprico, Lahore Organic Village, D.H.A. Main Blvd, near Adil Hospital, DHA Phase 1. Open 11 AM–12 AM daily. Batch lab reports, COD and same-day pickup.',
+  description: 'Visit Organic Aprico’s Lahore shilajit outlet in DHA Phase 1. Inspect batch lab reports, buy resin or drops, or collect an online order. Open daily 11 AM–12 AM.',
   ogTitle: 'Shilajit Shop in Lahore — Organic Aprico',
-  ogDescription: 'Visit our Lahore outlet in DHA Phase 1 for lab-tested shilajit resin and drops. Open 11 AM–12 AM daily, near Adil Hospital on D.H.A. Main Blvd.',
+  ogDescription: 'Visit our Lahore outlet in DHA Phase 1 to inspect batch lab reports, buy shilajit resin or drops, or collect an online order.',
 })
 </script>
 

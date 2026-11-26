@@ -12,8 +12,8 @@
           <p>Hand-harvested from the rocks of Gilgit-Baltistan, Skardu.</p>
         </div>
         <div class="benefit">
-          <h3>73% fulvic acid + humic acid</h3>
-          <p>Independently verified by PCSIR and Eurofins.</p>
+          <h3>73.3% total humic extract (71.8% fulvic acid)</h3>
+          <p>Independently verified by Eurofins.</p>
         </div>
         <div class="benefit">
           <h3>8-stage purification</h3>
