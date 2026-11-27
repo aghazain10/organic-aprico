@@ -582,7 +582,24 @@ const defaultGalleryAlts = [
 // Per-variant galleries. Add an entry for each size (10g, 20g, 30g, 50g, 100g)
 // with its own images/alts. Sizes without an entry fall back to the default above.
 const variantGalleries: Record<string, { images: string[]; alts: string[] }> = {
-  '10g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
+  '10g': {
+    images: [
+      '/images/products/shilajit-resin-10g-gift-box-jar-scoop.jpg',
+      '/images/products/shilajit-resin-10g-jar-gold-lid.jpg',
+      '/images/products/shilajit-resin-10g-box-front.jpg',
+      '/images/products/shilajit-resin-10g-box-interior.jpg',
+      '/images/products/shilajit-resin-10g-supplement-facts.jpg',
+      '/images/products/shilajit-resin-10g-jar-side-label.jpg',
+    ],
+    alts: [
+      'Organic Aprico Shilajit Resin 10 g gift box with jar and scoop',
+      'Pure Himalayan Shilajit Resin 10 g jar with gold lid',
+      'Shilajit Resin 10 g box front panel',
+      'Shilajit Resin 10 g box interior with brand story panels',
+      'Shilajit Resin 10 g supplement facts label, 700 mg serving',
+      'Shilajit Resin 10 g jar side label with sun-drying and origin',
+    ],
+  },
   '20g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
   '30g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
   '50g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
