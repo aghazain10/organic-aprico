@@ -285,7 +285,7 @@
           <div class="related-grid">
             <NuxtLink to="/products/shilajit" class="related-card">
               <div class="related-card-img">
-                <img src="/images/products/shilajit-resin-hero.webp" alt="Shilajit Resin" loading="lazy" />
+                <img src="/images/products/shilajit-resin-gift-set-jar-scoop.webp" alt="Shilajit Resin" loading="lazy" />
               </div>
               <div class="related-card-body">
                 <h3>Shilajit Resin</h3>

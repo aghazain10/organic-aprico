@@ -122,7 +122,7 @@ const products = [
   {
     href: '/products/shilajit',
     name: 'Shilajit Resin',
-    image: '/images/products/shilajit-resin-hero.webp',
+    image: '/images/products/shilajit-resin-gift-set-jar-scoop.webp',
     imageAlt: 'Organic Aprico gold-grade Himalayan shilajit resin jar',
     priceFrom: 'From Rs 1,500 (10 g) — Rs 12,900 (100 g)',
     bestFor: 'Best value per gram, and the format most buyers start with',

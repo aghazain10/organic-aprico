@@ -563,33 +563,19 @@ function nextImage() {
 }
 
 const galleryImages = [
-  '/images/products/shilajit-resin-jar-spoon.webp',
-  '/images/products/shilajit-resin-jar-pure.webp',
-  '/images/products/shilajit-resin-box-front.webp',
-  '/images/products/shilajit-resin-box-jar.webp',
-  '/images/products/shilajit-resin-box-back.webp',
-  '/images/products/shilajit-resin-box-summary.jpg',
-  '/images/products/shilajit-resin-purity-comparison.webp',
-  '/images/products/shilajit-resin-features.webp',
-  '/images/products/shilajit-resin-how-to-use.webp',
-  '/images/products/shilajit-resin-why-choose.webp',
-  '/images/products/shilajit-resin-side-benefits.webp',
-  '/images/products/shilajit-resin-packaging.webp',
+  '/images/products/shilajit-resin-gift-set-jar-scoop.webp',
+  '/images/products/shilajit-resin-jar-30g-gold-lid.webp',
+  '/images/products/shilajit-resin-supplement-facts-panel.webp',
+  '/images/products/shilajit-resin-box-back-claims.webp',
+  '/images/products/shilajit-resin-jar-supplement-facts.webp',
 ]
 
 const galleryAlts = [
-  'Organic Aprico Shilajit Resin jar with measuring spoon',
-  'Pure Himalayan Shilajit Resin in the glass jar',
-  'Shilajit Resin box, front panel',
-  'Shilajit Resin box and glass jar together',
-  'Shilajit Resin box, back panel',
-  'Shilajit Resin box, product summary panel',
-  'Shilajit Resin purity comparison',
-  'Shilajit Resin features panel',
-  'Shilajit Resin how to use guide',
-  'Shilajit Resin why choose panel',
-  'Shilajit Resin packaging side panel',
-  'Shilajit Resin packaging and jar',
+  'Organic Aprico Shilajit Resin gift set with jar and scoop in presentation box',
+  'Pure Himalayan Shilajit Resin 30 g jar with gold lid',
+  'Shilajit Resin supplement facts panel, 700 mg serving size',
+  'Shilajit Resin box back panel with product claims and ingredients',
+  'Shilajit Resin jar supplement facts label, 0.7 g per serving',
 ]
 
 function onAdd() {
@@ -651,7 +637,7 @@ useSeoMeta({
   description: 'Gold-grade Himalayan shilajit resin with 71.8% fulvic acid and 73.3% total humic extract. 8-stage purified, PCSIR and Eurofins tested, COD across Pakistan. From Rs 1,500 (10 g).',
   ogTitle: 'Pure Himalayan Shilajit Resin — Lab Tested, COD Across Pakistan',
   ogDescription: 'Gold-grade Himalayan shilajit resin with 71.8% fulvic acid, 73.3% total humic extract, 8-stage purification and PCSIR/Eurofins testing. COD across Pakistan.',
-  ogImage: '/images/products/shilajit-resin-jar-spoon.webp',
+  ogImage: '/images/products/shilajit-resin-jar-30g-gold-lid.webp',
   ogType: 'product',
 })
 
