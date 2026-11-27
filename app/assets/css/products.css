@@ -103,7 +103,7 @@
 }
 .product-thumb:hover { border-color: var(--gold); }
 .product-thumb.active { border-color: var(--gold); }
-.product-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.product-thumb img { width: 100%; height: 100%; object-fit: contain; background: var(--ink-2); }
 
 /* Product info */
 .product-info {

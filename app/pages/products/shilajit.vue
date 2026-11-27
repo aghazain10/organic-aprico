@@ -24,11 +24,11 @@
                     :class="{ active: activeImage === i }"
                     @click="activeImage = i"
                   >
-                    <img :src="img" :alt="galleryAlts[i] ?? productTitle" />
+                    <img :src="img" :alt="galleryAlts[i] ?? productTitle" loading="eager" decoding="async" />
                   </button>
                 </div>
                 <div class="product-main-img">
-                  <img :src="galleryImages[activeImage]" :alt="galleryAlts[activeImage] ?? productTitle" />
+                  <img :src="galleryImages[activeImage]" :alt="galleryAlts[activeImage] ?? productTitle" loading="eager" decoding="async" />
                   <button class="gallery-arrow gallery-arrow-left" aria-label="Previous image" @click="prevImage">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                   </button>
@@ -503,7 +503,15 @@ const activeTab = ref('lab')
 const activeImage = ref(0)
 const openFaq = ref<number | null>(0)
 
-onMounted(() => trackViewItem('resin', selectedSize.value))
+onMounted(() => {
+  trackViewItem('resin', selectedSize.value)
+  // Preload every variant gallery so switching sizes is instant.
+  const all = Object.values(variantGalleries).flatMap((g) => g.images)
+  all.forEach((src) => {
+    const img = new Image()
+    img.src = src
+  })
+})
 
 const GRAMS: Record<string, number> = { '10g': 10, '20g': 20, '30g': 30, '50g': 50, '100g': 100 }
 const SERVING_G = 0.7
@@ -584,12 +592,12 @@ const defaultGalleryAlts = [
 const variantGalleries: Record<string, { images: string[]; alts: string[] }> = {
   '10g': {
     images: [
-      '/images/products/shilajit-resin-10g-gift-box-jar-scoop.jpg',
-      '/images/products/shilajit-resin-10g-jar-gold-lid.jpg',
-      '/images/products/shilajit-resin-10g-box-front.jpg',
-      '/images/products/shilajit-resin-10g-box-interior.jpg',
-      '/images/products/shilajit-resin-10g-supplement-facts.jpg',
-      '/images/products/shilajit-resin-10g-jar-side-label.jpg',
+      '/images/products/shilajit-resin-10g-gift-box-jar-scoop.webp',
+      '/images/products/shilajit-resin-10g-jar-gold-lid.webp',
+      '/images/products/shilajit-resin-10g-box-front.webp',
+      '/images/products/shilajit-resin-10g-box-interior.webp',
+      '/images/products/shilajit-resin-10g-supplement-facts.webp',
+      '/images/products/shilajit-resin-10g-jar-side-label.webp',
     ],
     alts: [
       'Organic Aprico Shilajit Resin 10 g gift box with jar and scoop',
