@@ -50,6 +50,7 @@
   place-items: center;
   overflow: hidden;
   position: relative;
+  max-height: 70vh;
 }
 .product-main-img img {
   width: 100%;

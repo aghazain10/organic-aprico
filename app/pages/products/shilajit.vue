@@ -505,11 +505,13 @@ const openFaq = ref<number | null>(0)
 
 onMounted(() => {
   trackViewItem('resin', selectedSize.value)
-  // Preload every variant gallery so switching sizes is instant.
-  const all = Object.values(variantGalleries).flatMap((g) => g.images)
-  all.forEach((src) => {
-    const img = new Image()
-    img.src = src
+  const preload = (srcs: string[]) => srcs.forEach((src) => { const img = new Image(); img.src = src })
+  // Preload only the currently selected variant first (keeps initial page load fast).
+  preload(variantGalleries[selectedSize.value]?.images ?? defaultGalleryImages)
+  // Preload the rest during idle time so variant switching stays instant later.
+  const idle = (window as any).requestIdleCallback || ((cb: () => void) => setTimeout(cb, 250))
+  idle(() => {
+    Object.values(variantGalleries).forEach((g) => preload(g.images))
   })
 })
 
@@ -592,17 +594,17 @@ const defaultGalleryAlts = [
 const variantGalleries: Record<string, { images: string[]; alts: string[] }> = {
   '10g': {
     images: [
+      '/images/products/shilajit-resin-10g-box-front.webp',
       '/images/products/shilajit-resin-10g-gift-box-jar-scoop.webp',
       '/images/products/shilajit-resin-10g-jar-gold-lid.webp',
-      '/images/products/shilajit-resin-10g-box-front.webp',
       '/images/products/shilajit-resin-10g-box-interior.webp',
       '/images/products/shilajit-resin-10g-supplement-facts.webp',
       '/images/products/shilajit-resin-10g-jar-side-label.webp',
     ],
     alts: [
+      'Shilajit Resin 10 g box front panel',
       'Organic Aprico Shilajit Resin 10 g gift box with jar and scoop',
       'Pure Himalayan Shilajit Resin 10 g jar with gold lid',
-      'Shilajit Resin 10 g box front panel',
       'Shilajit Resin 10 g box interior with brand story panels',
       'Shilajit Resin 10 g supplement facts label, 700 mg serving',
       'Shilajit Resin 10 g jar side label with sun-drying and origin',
