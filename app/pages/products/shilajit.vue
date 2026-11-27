@@ -562,7 +562,8 @@ function nextImage() {
   activeImage.value = (activeImage.value + 1) % galleryImages.length
 }
 
-const galleryImages = [
+// Default gallery (used until variant-specific images are added).
+const defaultGalleryImages = [
   '/images/products/shilajit-resin-gift-set-jar-scoop.webp',
   '/images/products/shilajit-resin-jar-30g-gold-lid.webp',
   '/images/products/shilajit-resin-supplement-facts-panel.webp',
@@ -570,13 +571,28 @@ const galleryImages = [
   '/images/products/shilajit-resin-jar-supplement-facts.webp',
 ]
 
-const galleryAlts = [
+const defaultGalleryAlts = [
   'Organic Aprico Shilajit Resin gift set with jar and scoop in presentation box',
   'Pure Himalayan Shilajit Resin 30 g jar with gold lid',
   'Shilajit Resin supplement facts panel, 700 mg serving size',
   'Shilajit Resin box back panel with product claims and ingredients',
   'Shilajit Resin jar supplement facts label, 0.7 g per serving',
 ]
+
+// Per-variant galleries. Add an entry for each size (10g, 20g, 30g, 50g, 100g)
+// with its own images/alts. Sizes without an entry fall back to the default above.
+const variantGalleries: Record<string, { images: string[]; alts: string[] }> = {
+  '10g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
+  '20g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
+  '30g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
+  '50g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
+  '100g': { images: defaultGalleryImages, alts: defaultGalleryAlts },
+}
+
+const galleryImages = computed(() => variantGalleries[selectedSize.value]?.images ?? defaultGalleryImages)
+const galleryAlts = computed(() => variantGalleries[selectedSize.value]?.alts ?? defaultGalleryAlts)
+
+watch(selectedSize, () => { activeImage.value = 0 })
 
 function onAdd() {
   addToCart('resin', selectedSize.value, qty.value)
@@ -647,7 +663,7 @@ useHead({
       type: 'application/ld+json',
       innerHTML: JSON.stringify(buildProductJsonLd(product, {
         url: '/products/shilajit',
-        images: galleryImages,
+        images: galleryImages.value,
         skuPrefix: 'OA-SHILAJIT-RESIN',
                 name: 'Pure Himalayan Shilajit Resin',
         description: 'Gold-grade Himalayan shilajit resin with 73.3% total humic extract (71.8% fulvic acid). 8-stage purification, lab tested. From 17,000 feet in Gilgit-Baltistan.',
