@@ -564,10 +564,10 @@ if (import.meta.client) {
 }
 
 function prevImage() {
-  activeImage.value = (activeImage.value - 1 + galleryImages.length) % galleryImages.length
+  activeImage.value = (activeImage.value - 1 + galleryImages.value.length) % galleryImages.value.length
 }
 function nextImage() {
-  activeImage.value = (activeImage.value + 1) % galleryImages.length
+  activeImage.value = (activeImage.value + 1) % galleryImages.value.length
 }
 
 // Default gallery (used until variant-specific images are added).
